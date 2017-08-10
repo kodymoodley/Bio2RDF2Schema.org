@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00059",
+  "type" : "Drug",
+  "alternateName" : "Putative L-asparaginase precursor",
+  "description" : "Pegylated L-asparagine amidohydrolase from E. coli. Pegylation substantially (by a factor of 4) extends the protein half life.",
+  "doseSchedule" : "750 [iU]/mL Injection, solution form with intramuscular; intravenous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Pegaspargase, more effective than asparaginase, converts asparagine to aspartic acid and ammonia. It facilitates production of oxaloacetate which is needed for general cellular metabolism. Some malignant cells lose the ability to produce asparagine and so the loss of exogenous sources of asparagine leads to cell death.",
+  "name" : "Pegaspargase",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00059",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00059"
+}

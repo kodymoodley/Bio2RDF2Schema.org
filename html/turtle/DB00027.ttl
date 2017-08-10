@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00027> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Gramicidin D" ;
+	<http://schema.org/description> "Gramcidin D is a heterogeneous mixture of three antibiotic compounds, gramicidins A, B and C, making up 80%, 6%, and 14% respectively all of which are obtained from the soil bacterial species Bacillus brevis and called collectively gramicidin D.  Gramcidins are 15 residue peptides with alternating D and L amino acids.  The peptides assemble inside of the hydrophobic interior of the cellular lipid bilayer to form a β-helix. The helix itself is not long enough to span the membrane but it dimerizes to form the elongated channel needed to span the whole membrane. Gramicidin D is used primarily as a topical antibiotic and is one of the three constituents of consumer antibiotic polysporin ophthalmic solution." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00027" ;
+	<http://schema.org/doseSchedule> ".025; 1.75; 10000 mg/mL; mg/mL; [iU]/mL Solution form with ophthalmic route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Gramicidin D binds to and inserts itself into bacterial membranes (with a strong preference to gram-positive cell membranes). This results in membrane disruption and permeabilization (it acts as a channel). This leads to (i) loss of intracellular solutes (e.g., K+ and amino acids); (ii) dissipation of the transmembrane potential; (iii) inhibition of respiration; (iv) a reduction in ATP pools; and (v) inhibition of DNA, RNA, and protein synthesis, which leads to cell death." ;
+	<http://schema.org/alternateName> "Gramicidin B" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00027" .

@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00080> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Daptomycin" ;
+	<http://schema.org/description> "Daptomycin is a lipopeptide antibiotic that kills susceptible gram positive bacteria by disrupting their membrane potential. It is a naturally-occurring compound found in the soil bacterium <i>Streptomyces roseosporus</i>. Antibiotics are used in the treatment of infections caused by bacteria. They work by killing bacteria or preventing their growth. Daptomycin will not work for colds, flu, or other virus infections. It was approved in September 2003 for the treatment of complicated skin and soft tissue infections. It has a safety profile similar to other agents commonly administered to treat gram-positive infections." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00080" ;
+	<http://schema.org/doseSchedule> "500 mg/10mL Injection, powder, lyophilized, for solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/manufacturer> "Cubist pharmaceuticals inc" ;
+	<http://schema.org/mechanismOfAction> """Daptomycin appears to bind or insert into the outer membrane of gram positive bacteria. The binding and integration of daptomycin into the cell membrane is calcium dependent. Calcium ions cause a conformational change in daptomycin, augmenting its amphipathicity (hydrophilic head group and hydrophobic tail group), leading to incorporation into the cell membrane.
+This binding causes rapid depolarisation, resulting in a loss of membrane potential leading to inhibition of protein, DNA and RNA synthesis, which results in bacterial cell death. The bactericidal activity of daptomycin is concentration-dependent. There is in vitro evidence of synergy with β-lactam antibiotics.""" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00080" .

@@ -1,0 +1,14 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00044",
+  "type" : "Drug",
+  "alternateName" : "ICSH",
+  "description" : "Lutropin alfa is a recombinant human luteinizing hormone produced in yeast with 2 subunits, alpha = 92 residues, beta = 121 residues. It is a heterodimeric glycoprotein. Each monomeric unit is a glycoprotein molecule. In females, an acute rise of LH (\"LH surge\") triggers ovulation and the development of the corpus luteum. In males, it stimulates Leydig cell production of testosterone. Lutropin alfa was the first and only recombinant human form of luteinizing hormone (LH) developed for use in the stimulation of follicular development.",
+  "doseSchedule" : "75 unit Powder for solution form with subcutaneous route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Emd serono inc",
+  "mechanismOfAction" : "Luteinizing hormone binds to a receptor shared with the human chorionic gonadotropin hormone (hCG) on the ovarian theca (and granulosa) cells and testicular Leydig cells. This LH/CG transmembrane receptor is a member of the super-family of G protein-coupled receptors. Adenylate cyclase then activates many other pathways leading to steroid hormone production and other follicle maturation processes.",
+  "name" : "Lutropin alfa",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00044",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00044"
+}

@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00075> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Muromonab" ;
+	<http://schema.org/description> "Murine monoclonal antibody specific to CD3 T-cell lymphocyte antigens. More specifically it is a purified murine (mouse) monoclonal antibody, directed against the CD3 (T3) receptor on the surface of human T-cells (T-lymphocytes) cultured using the murine ascites method. Muromonab is 93% monomeric immune globulin G type 2a (IgG2a)." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00075" ;
+	<http://schema.org/doseSchedule> "5 mg/5mL Injection, solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/mechanismOfAction> "Muromonab binds to the T-cell surface glycoprotein CD3 epsilon chain. It appears to kill CD-3 positive cells by inducing Fc mediated apoptosis, antibody mediated cytotoxicity and complement-dependent cytotoxicity." ;
+	<http://schema.org/alternateName> "Muromonab-CD3" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00075" .

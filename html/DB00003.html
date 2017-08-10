@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00003",
+  "type" : "Drug",
+  "alternateName" : "DNase I",
+  "description" : "Dornase alfa is a biosynthetic form of human deoxyribunuclease I (DNase I) enzyme. It is produced in genetically modified Chinese hamster ovary (CHO) cells using recombinant DNA technology. The 260-amino acid sequence of dornase alfa is identical to the endogenous human enzyme. Dornase alfa cleaves extracellular DNA to 5´-phosphodinucleotide and 5´-phosphooligonucleotide end products without affecting intracellular DNA. In individuals with cystic fibrosis, extracellular DNA, which is an extremely viscous anion, is released by degenerating leukocytes that accumulate during inflammatory responses to infections. Enzymatic breakdown of this extracellular DNA appears to reduce sputum viscosity and viscoelasticity.",
+  "doseSchedule" : "1 mg/mL Solution form with respiratory (inhalation) route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Genentech, Inc",
+  "mechanismOfAction" : "Dornase alfa is a biosynthetic form of human DNase I. The enzyme is involved in endonucleolytic cleavage of extracellular DNA to 5´-phosphodinucleotide and 5´-phosphooligonucleotide end products. It has no effect on intracellular DNA. Optimal activity is dependent on the presence of divalent cations such as calcium and magnesium. Extracellular DNA is a viscous anionic polymer and its breakdown appears to improve the viscosity and viscoelasticity of purulent sputum of individuals with CF, thus reducing airflow obstruction. Dornase alfa does not seem to have any effect on non-purulent sputum.",
+  "name" : "Dornase alfa",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00003",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00003"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00003.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00067",
+  "type" : "Drug",
+  "alternateName" : "Argipressin",
+  "description" : "Antidiuretic hormone, also known as vasopressin, is a nine amino acid peptide secreted from the posterior pituitary. Antidiuretic hormone binds to receptors in the distal or collecting tubules of the kidney and promotes reabsorbtion of water back into the circulation",
+  "doseSchedule" : "20 [USP&apos'U]/mL Injection form with intravenous route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Parke davis div warner lambert co",
+  "mechanismOfAction" : "Vasopressin acts on three different receptors, vasopressin receptor V1a (which initiates vasoconstriction, liver gluconeogenesis, platelet aggregation and release of factor VIII), vasopressin receptor V1b (which mediates corticotrophin secretion from the pituitary) and vasopressin receptor V2 which controls free water reabsorption in the renal medullar. The binding of vasopressin to the V2 receptor activates adenylate cyclase which causes the release of aquaporin 2 channels into the cells lining the renal medullar duct. This allows water to be reabsorbed down an osmotic gradient so the urine is more concentrated.",
+  "name" : "Vasopressin",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00067",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00067"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00067.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

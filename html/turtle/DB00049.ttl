@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00049> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Rasburicase" ;
+	<http://schema.org/description> "Rasburicase is a recombinant urate-oxidase enzyme produced by a genetically modified <i>Saccharomyces cerevisiae</i> strain. The cDNA coding for rasburicase was cloned from a strain of <i>Aspergillus flavus</i>." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00049" ;
+	<http://schema.org/doseSchedule> "Kit form with  route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/mechanismOfAction> "Rasburicase catalyzes enzymatic oxidation of uric acid into an inactive and soluble metabolite (allantoin)." ;
+	<http://schema.org/alternateName> "Uricase" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00049" .

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00008",
+  "type" : "Drug",
+  "description" : "Human interferon 2a, is a covalent conjugate of recombinant alfa-2a interferon with a single branched bis-monomethoxy polyethylene glycol (PEG) chain. The PEG moiety is linked at a single site to the interferon alfa moiety via a stable amide bond to lysine. Peginterferon alfa-2a has an approximate molecular weight of 60,000 daltons. Interferon alfa-2a is produced using recombinant DNA technology in which a cloned human leukocyte interferon gene is inserted into and expressed in Escherichia coli. The resultant protein is 165 amino acids. The PEG strand protects the molecule in vivo from proteolytic breakdown, substantially increases its in vivo half-life, and reduces immunogenicity by wrapping around and physically hindering access to the protein portion of the molecule.",
+  "doseSchedule" : "180 ug/mL Injection, solution form with subcutaneous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Interferon alpha binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription) which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon alpha binds less stably to type I interferon receptors than interferon beta.",
+  "name" : "Peginterferon alfa-2a",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00008",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00008"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00008.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00011",
+  "type" : "Drug",
+  "alternateName" : "Interferon alpha-A",
+  "description" : "Purified, natural (n is for natural) glycosylated human interferon alpha proteins 166 residues",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Interferon alpha binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription)which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon alpha binds less stably to type I interferon receptors than interferon beta.",
+  "name" : "Interferon alfa-n1",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00011",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00011"
+}

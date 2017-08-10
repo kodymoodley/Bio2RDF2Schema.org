@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00019",
+  "type" : "Drug",
+  "alternateName" : "Granulocyte colony-stimulating factor precursor",
+  "description" : "PEGylated (at N terminus) form of human G-CSF (Granulocyte colony stimulating factor), 175 residues, produced from E. coli via bacterial fermentation.",
+  "doseSchedule" : "10 mg Solution form with subcutaneous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Pegfilgrastim binds to the G-CSF receptor. As a G-CSF analog, it controls proliferation of committed progenitor cells and influences their maturation into mature neutrophils. Pegfilgrastim also stimulates the release of neutrophils from bone marrow storage pools and reduces their maturation time. Pegfilgrastim acts to increase the phagocytic activity of mature neutrophils. In patients receiving cytotoxic chemotherapy, pegfilgrastim can accelerate neutrophil recovery, leading to a reduction in duration of the neutropenic phase",
+  "name" : "Pegfilgrastim",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00019",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00019"
+}

@@ -1,0 +1,14 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00012",
+  "type" : "Drug",
+  "alternateName" : "Epoetin",
+  "description" : "Human erythropoietin with 2 aa substitutions to enhance glycosylation (5 N-linked chains), 165 residues (MW=37 kD). Produced in Chinese hamster ovary (CHO) cells by recombinant DNA technology.",
+  "doseSchedule" : "150 ug/.3mL Injection, solution form with intravenous; subcutaneous route",
+  "legalStatus" : "investigational",
+  "manufacturer" : "Amgen Inc.",
+  "mechanismOfAction" : "Darbepoetin alfa stimulates erythropoiesis by the same mechanism as endogenous erythropoietin. Erythropoietin interacts with\nprogenitor stem cells to increase red cell production. Binding of erythropoietin to the erythropoietin receptor leads to receptor dimerization, which facilitates activation of JAK-STAT signaling pathways within the cytosol. Activated STAT (signal transducers and activators of transcription) proteins are then translocated to the nucleus where they serve as transcription factors which regulate the activation of specific genes involved in cell division or differentiation.",
+  "name" : "Darbepoetin alfa",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00012",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00012"
+}

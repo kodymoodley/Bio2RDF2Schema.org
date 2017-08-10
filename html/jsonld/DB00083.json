@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00083",
+  "type" : "Drug",
+  "alternateName" : "BTX-A",
+  "description" : "Purified botulinum toxin from Clostridium botulinum, purified from culture via dialysis and acid precipitation.",
+  "doseSchedule" : "50 [USP'U] Injection, powder, lyophilized, for solution form with intramuscular route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Botulinum Toxin Type A blocks neuromuscular transmission by binding to acceptor sites on motor or sympathetic nerve terminals, entering the nerve terminals, and inhibiting the release of acetylcholine. This inhibition occurs as the neurotoxin cleaves SNAP-25, a protein integral to the successful docking and release of acetylcholine from vesicles situated within nerve endings.",
+  "name" : "Botulinum Toxin Type A",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00083",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00083"
+}

@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00061> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Pegademase bovine" ;
+	<http://schema.org/description> "Bovine adenosine deaminase derived from bovine intestine that has been extensively pegylated for extended serum half life." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00061" ;
+	<http://schema.org/doseSchedule> "250 [iU]/mL Injection, solution form with intramuscular route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Sigma tau pharmaceuticals inc" ;
+	<http://schema.org/mechanismOfAction> "Pegademase converts adenosine (toxic) to inosine (less toxic) by deamination. It also converts 2'-deoxyadenosine to 2'-deoxyinosine via deamination." ;
+	<http://schema.org/alternateName> "Adenosine deaminase" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00061" .

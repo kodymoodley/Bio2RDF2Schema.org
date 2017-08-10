@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00060> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Interferon beta-1a" ;
+	<http://schema.org/description> "Human interferon beta (166 residues), glycosylated, MW=22.5kD. It is produced by mammalian cells (Chinese Hamster Ovary cells) into which the human interferon beta gene has been introduced. The amino acid sequence of Avonex is identical to that of natural human interferon beta." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00060" ;
+	<http://schema.org/doseSchedule> "30 ug/mL Injection, powder, lyophilized, for solution form with intramuscular route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/manufacturer> "Biogen Idec" ;
+	<http://schema.org/mechanismOfAction> "Interferon beta binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription) which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon beta binds more stably to type I interferon receptors than interferon alpha." ;
+	<http://schema.org/alternateName> "Interferon beta precursor" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00060" .

@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00006",
+  "type" : "Drug",
+  "description" : "Bivalirudin is a synthetic 20 residue peptide (thrombin inhibitor) which reversibly inhibits thrombin. Once bound to the active site, thrombin cannot activate fibrinogen into fibrin, the crucial step in the formation of thrombus. It is administered intravenously. Because it can cause blood stagnation, it is important to monitor changes in hematocrit, activated partial thromboplastin time, international normalized ratio and blood pressure.",
+  "doseSchedule" : "250 mg Injection, powder, lyophilized, for solution form with intravenous route",
+  "legalStatus" : "investigational",
+  "manufacturer" : "The medicines co",
+  "mechanismOfAction" : "Inhibits the action of thrombin by binding both to its catalytic site and to its anion-binding exosite. Thrombin is a serine proteinase that plays a central role in the thrombotic process, acting to cleave fibrinogen into fibrin monomers and to activate Factor XIII to Factor XIIIa, allowing fibrin to develop a covalently cross-linked framework which stabilizes the thrombus; thrombin also activates Factors V and VIII, promoting further thrombin generation, and activates platelets, stimulating aggregation and granule release.",
+  "name" : "Bivalirudin",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00006",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00006"
+}

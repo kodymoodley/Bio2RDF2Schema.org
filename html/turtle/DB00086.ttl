@@ -1,0 +1,9 @@
+
+<http://bio2rdf.org/drugbank:DB00086> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Streptokinase" ;
+	<http://schema.org/description> "Streptokinase, is a sterile, purified preparation of a bacterial protein elaborated by group C (beta) -hemolytic streptococci." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00086" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Plasminogen is an inactive molecule that becomes activated to plasmin when the Arg/Val bond is cleaved. Plasmin breaks down fibrin clots created by the blood clotting cascade. Streptokinase forms a highly specific 1:1 enzymatic complex with plasminogen which converts inactive plasminogen molecules into active plasmin. Plasmin degrades fibrin clots as well as fibrinogen and other plasma proteins. This in turn leads to the degradation of blood clots." ;
+	<http://schema.org/alternateName> "Streptokinase C precursor" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00086" .

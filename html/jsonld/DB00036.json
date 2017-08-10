@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00036",
+  "type" : "Drug",
+  "alternateName" : "Coagulation factor VII precursor",
+  "description" : "Recombinant human coagulation Factor VIIa (rFVIIa), intended for promoting hemostasis by activating the extrinsic pathway of the coagulation cascade.1 NovoSeven is a vitamin K-dependent glycoprotein consisting of 406 amino acid residues. Cloned and expressed in hamster kidney cells, the protein is catalytically active in a two-chain form.",
+  "doseSchedule" : "Kit form with  route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "NovoSeven activates the coagulation or clotting cascade by cleaving Factor IX and Factor X, which activates them and then leads to activation of thrombin and fibrin.",
+  "name" : "Coagulation factor VIIa",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00036",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00036"
+}

@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00014> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Goserelin" ;
+	<http://schema.org/description> "Goserelin is a synthetic hormone. In men, it stops the production of the hormone testosterone, which may stimulate the growth of cancer cells. In women, goserelin decreases the production of the hormone estradiol (which may stimulate the growth of cancer cells) to levels similar to a postmenopausal state. When the medication is stopped, hormone levels return to normal." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00014" ;
+	<http://schema.org/doseSchedule> "10.8 mg Implant form with subcutaneous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Astrazeneca uk ltd" ;
+	<http://schema.org/mechanismOfAction> "Goserelin is a synthetic decapeptide analogue of LHRH. Goserelin acts as a potent inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. The result is sustained suppression of LH and serum testosterone levels." ;
+	<http://schema.org/alternateName> "Goserelin acetate" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00014" .

@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00058> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Alpha-1-proteinase inhibitor" ;
+	<http://schema.org/description> "Human alpha-1 proteinase inhibitor or alpha-1-antitrypsin, prepared from human plasma via Cohn alcohol fractionation followed by PEG and zinc chloride fractionation." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00058" ;
+	<http://schema.org/doseSchedule> "Kit form with  route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Alpha-1 proteinase inhibitor is a serine protease inhibitor (Serpin). Its primary mechanism is inhibiting the action of the serine protease called elastase (also plasmin and thrombin) in the lungs. The reactive center loop (RCL) of alpha-1 proteinase inhibitor extends out from the body of the protein and directs binding to the target protease. The protease cleaves the serpin at the reactive site, establishing a covalent linkage between the carboxyl group of the serpin reactive site and the serine hydroxyl of the protease. The resulting inactive serpin-protease complex is highly stable." ;
+	<http://schema.org/alternateName> "Alpha-1-antiproteinase" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00058" .

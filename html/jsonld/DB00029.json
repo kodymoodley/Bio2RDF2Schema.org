@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00029",
+  "type" : "Drug",
+  "alternateName" : "Tissue-type plasminogen activator precursor",
+  "description" : "Human tissue plasminogen activator, purified, glycosylated, 527 residues purified from CHO cells. Eminase is a lyophilized (freeze-dried) formulation of anistreplase, the p-anisoyl derivative of the primary Lys-plasminogen-streptokinase activator complex (a complex of Lys-plasminogen and streptokinase). A p-anisoyl group is chemically conjugated to a complex of bacterial-derived streptokinase and human Plasma-derived Lys-plasminogen proteins.",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Anistreplase cleaves the Arg/Val bond in plasminogen to form plasmin. This in turn leads to the degradation of blood clots.",
+  "name" : "Anistreplase",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00029",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00029"
+}

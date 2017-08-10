@@ -1,0 +1,193 @@
+/* HTML element (SMACSS base) rules */
+@import "layouts/normalize.css";
+
+/* Layout rules */
+@import "layouts/responsive.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+  margin:0;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4 {
+  clear: both;
+  color: #2f5467;
+  margin: 0;
+  font-weight: normal;
+}
+p {
+  margin: .8em 0;
+}
+a:link {
+  color: #357ea0;
+  text-decoration: none;
+}
+a:hover {
+  color: #357ea0;
+  text-decoration: underline;
+}
+a:visited {
+  color: #357ea0; 
+}
+ul {
+  margin-top: 10px;
+}
+.feed-icon {
+  display: none;
+}
+
+/**** HEADER SECTION ****/
+#header-first {
+  background: #cfe1de; /* Old browsers */
+  background: -moz-linear-gradient(top,  #cfe1de 1%, #ffffff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%,#cfe1de), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #cfe1de 1%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #cfe1de 1%,#ffffff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #cfe1de 1%,#ffffff 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #cfe1de 1%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe1de', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+  min-height: 85px;
+}
+#header {
+  margin: 0 auto;
+  width:70%;
+}
+@media screen and (max-width: 693px) {
+  .header__logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }  
+}
+
+/** CONTEXT SECTION **/
+#highlight-first {
+  border-top: #2e5365 10px solid;
+  background: #93A8AE url(https://metadatacenter.org/sites/default/files/hero-bkg-3.jpg) no-repeat center top;  
+  border-bottom: #2e5365 10px solid;
+  min-height: 100px;
+}
+#block-block-9 {    
+  height: 100px;
+  width:70%;
+  margin: 0 auto;
+}
+#block-block-9 p {
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0;
+  padding: 55px 0 0 45px;
+}
+#hero-inner-1 {
+  float: left;
+  width: 100%;
+}
+.front #hero-inner-1 {
+  float: left;
+  width: 50%;
+}
+
+/** MAIN CONTENT SECTION **/
+#content-first {
+  width:100%;
+}
+div.content {
+  width:70%;
+  margin:0 auto;
+  margin-top:50px;
+}
+table.dataframe {
+  width:98%;
+  border-top:1px solid #e5eff8;
+  border-right:1px solid #e5eff8;
+  margin:3em auto;
+  border-collapse:collapse;
+  font:90%/160% "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+}
+td {
+  border-bottom:1px solid #F2F2F2;
+  border-left:1px solid #F2F2F2;
+  padding:.3em 1em;
+  text-align:left;
+  vertical-align: text-top;
+  color:#000;
+}
+td.dataframeKey {
+  background:#FEE2FF;
+  width: 200px;
+  font-weight:bold;
+}
+td.dataframeValue {
+  background:#FFFFFF;
+}
+th {
+  font-weight:normal;
+  background:#92A8AE;
+  text-align:center;
+  border-bottom: 1px solid #F2F2F2;
+  border-left:1px solid #F2F2F2;
+  padding:.3em 1em;
+}
+
+/** FOOTER SECTION **/
+#footer-first {
+  margin-top: 80px;
+  background-color: #93a8ae;
+}
+#footer {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+#footer .block {
+  border-top: #ffffff 1px solid;
+  float: left;
+  margin: 0 1em;
+  margin-top: 30px; 
+  width: 14%;
+}
+#footer .block ul {
+  list-style-type: none;
+  margin: 10px 0; 
+  padding-left: 0;
+}
+#footer .block ul li a {
+  color: #ffffff;   
+  text-decoration: none;
+}
+#footer .block ul li a:hover {    
+  text-decoration: underline;
+}
+.first-li {
+  margin-bottom: 8px; 
+}
+#footer .block ul li.first-li a { 
+  font-weight: 400;
+}
+#footer .block.block-block.last.odd {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footer #block-block-7 {
+  border: none;
+  clear: both;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+#footer #block-block-7 p {
+  margin: 5px 0;
+}
+#footer #block-block-7 a {
+  color: #ffffff;   
+  text-decoration: none;
+}
+#footer #block-block-7 a:hover {    
+  text-decoration: underline;
+}

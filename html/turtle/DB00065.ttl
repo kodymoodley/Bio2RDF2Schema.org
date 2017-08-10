@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00065> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Infliximab" ;
+	<http://schema.org/description> "Tumor necrosis factor (TNF-alpha) binding antibody (chimeric IgG1). It is composed of human constant and murine variable regions. Infliximab is produced by a recombinant cell line cultured by continuous perfusion" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00065" ;
+	<http://schema.org/doseSchedule> "100 mg/10mL Injection, powder, lyophilized, for solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "J&J and Mitsubisi Tanabe" ;
+	<http://schema.org/mechanismOfAction> "Infliximab neutralizes the biological activity of TNFa by binding with high affinity to the soluble and transmembrane forms of TNFa and inhibits binding of TNFa with its receptors. Infliximab does not neutralize TNFb (lymphotoxin a), a related cytokine that utilizes the same receptors as TNFa. TNFa activation normally induces the release of proinflammatory cytokines, the enhancement of leukocyte migration and activation of neutrophils among others. Neutralization of the biological activity of TNFa leads to an overall reduction in inflammation." ;
+	<http://schema.org/alternateName> "Ig gamma-1 chain C region" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00065" .

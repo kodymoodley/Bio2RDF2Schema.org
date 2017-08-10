@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00026> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Anakinra" ;
+	<http://schema.org/description> "Anakinra is a recombinant, nonglycosylated human interleukin-1 receptor antagonist (IL-1Ra). The difference  between anakinra and the native human IL-1Ra is that anakinra has an extra methionine residue at the amino terminus. It is manufactured by using the E. coli expression system. Anakinra is composed of 153 amino acid residues. FDA approved on November 14, 2001." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00026" ;
+	<http://schema.org/doseSchedule> "150 mg Solution form with subcutaneous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Anakinra binds competitively to the Interleukin-1 type I receptor (IL-1RI), thereby inhibiting the action of elevated levels IL-1 which normally can lead to cartilage degradation and bone resorption." ;
+	<http://schema.org/alternateName> "Interleukin-1 receptor antagonist protein precursor" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00026" .

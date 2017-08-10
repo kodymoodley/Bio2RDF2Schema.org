@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00041",
+  "type" : "Drug",
+  "alternateName" : "Interleukin-2 precursor",
+  "description" : "Aldesleukin, a lymphokine, is produced by recombinant DNA technology using a genetically engineered E. coli strain containing an analog of the human interleukin-2 gene. Genetic engineering techniques were used to modify the human IL-2 gene, and the resulting expression clone encodes a modified human interleukin-2. This recombinant form differs from native interleukin-2 in the following ways: a) Aldesleukin is not glycosylated because it is derived from E. coli; b) the molecule has no N-terminal alanine; the codon for this amino acid was deleted during the genetic engineering procedure; c) the molecule has serine substituted for cysteine at amino acid position 125.",
+  "doseSchedule" : "1.1 mg/mL Injection form with intravenous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Aldesleukin binds to the IL-2 receptor which leads to heterodimerization of the cytoplasmic domains of the IL-2R beta and gamma(c) chains, activation of the tyrosine kinase Jak3, and phosphorylation of tyrosine residues on the IL-2R beta chain. These events led to the creation of an activated receptor complex, to which various cytoplasmic signaling molecules are recruited and become substrates for regulatory enzymes (especially tyrosine kinases) that are associated with the receptor. These events stimulate growth and differentiation of T cells.",
+  "name" : "Aldesleukin",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00041",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00041"
+}

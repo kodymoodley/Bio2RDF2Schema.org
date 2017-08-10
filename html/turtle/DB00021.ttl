@@ -1,0 +1,9 @@
+
+<http://bio2rdf.org/drugbank:DB00021> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Secretin" ;
+	<http://schema.org/description> "This drug is the synthetic form of natural secretin.  It is prepared using solid phase peptide synthesis.  Secretin is a peptide hormone produced in the S cells of the duodenum. Its main effect is to regulate the pH of the small  intestine’s contents through the control of gastric acid secretion and buffering with bicarbonate. It was the first hormone to be discovered." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00021" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/manufacturer> "Ferring pharmaceuticals inc" ;
+	<http://schema.org/mechanismOfAction> "Secretin binds to the secretin receptor found on the lining of S cells in the duodenum and G cells in the stomach. Binding leads to the secrection of bicarbonate or the reduction of the secretion of gastrin. Properly functioning organs (duodenum, pancreas and stomach) should be responsive to this hormone" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00021" .

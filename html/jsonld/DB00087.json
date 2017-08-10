@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00087",
+  "type" : "Drug",
+  "description" : "Humanized monoclonal antibody specific to lymphocyte antigens. It is a recombinant DNA-derived humanized monoclonal antibody (Campath-1H) that is directed against the 21-28 kD cell surface glycoprotein,CD52. The Campath-1H antibody is an IgG1 kappa with human variable framework and constant regions, and complementarity-determining regions from a murine (rat) monoclonal antibody (Campath-1G). Campath is produced in mammalian cell (Chinese hamster ovary) suspension culture in a medium containing neomycin.",
+  "doseSchedule" : "12 mg/1.2mL Injection, solution, concentrate form with intravenous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Campath binds to the CD52 antigen present on most B and T lymphocytes. This binding leads to antibody-dependent lysis of leukemic cells.",
+  "name" : "Alemtuzumab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00087",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00087"
+}

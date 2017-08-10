@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00027",
+  "type" : "Drug",
+  "alternateName" : "Gramicidin B",
+  "description" : "Gramcidin D is a heterogeneous mixture of three antibiotic compounds, gramicidins A, B and C, making up 80%, 6%, and 14% respectively all of which are obtained from the soil bacterial species Bacillus brevis and called collectively gramicidin D.  Gramcidins are 15 residue peptides with alternating D and L amino acids.  The peptides assemble inside of the hydrophobic interior of the cellular lipid bilayer to form a ?-helix. The helix itself is not long enough to span the membrane but it dimerizes to form the elongated channel needed to span the whole membrane. Gramicidin D is used primarily as a topical antibiotic and is one of the three constituents of consumer antibiotic polysporin ophthalmic solution.",
+  "doseSchedule" : ".025; 1.75; 10000 mg/mL; mg/mL; [iU]/mL Solution form with ophthalmic route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Gramicidin D binds to and inserts itself into bacterial membranes (with a strong preference to gram-positive cell membranes). This results in membrane disruption and permeabilization (it acts as a channel). This leads to (i) loss of intracellular solutes (e.g., K+ and amino acids); (ii) dissipation of the transmembrane potential; (iii) inhibition of respiration; (iv) a reduction in ATP pools; and (v) inhibition of DNA, RNA, and protein synthesis, which leads to cell death.",
+  "name" : "Gramicidin D",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00027",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00027"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00027.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

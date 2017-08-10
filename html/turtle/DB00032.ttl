@@ -1,0 +1,9 @@
+
+<http://bio2rdf.org/drugbank:DB00032> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Menotropins" ;
+	<http://schema.org/description> "Menotropins contains follicle stimulating hormone (FSH) and luteinizing hormone (LH) purified from the urine of postmenopausal women.  It is used as a fertility medication that is injected either subcutaneously or intramuscularly. It is composed of LH with 2 subunits, alpha = 92 residues, beta = 121 residues and FSH with 2 subunits, alpha = 92 residues, beta=111 residues." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00032" ;
+	<http://schema.org/doseSchedule> "75 unit Powder for solution form with subcutaneous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Being a combination drug, Menotropins bind to the Follicle stimulating hormone receptor (which results in ovulation in the absence of sufficient endogenous Luteinizing hormone)and It also binds to the LH receptor, thereby stimulating proper hormone release. The drug contains both FSH and LH,therefore, it induces ovarian follicular growth and development as well as gonadal steroid production in women who do not have ovarian failure.FSH is the primary driver of follicular recruitment and growth in early folliculogenesis, while LH is important for ovarian steroidogenesis and is involved in the physiological events leading to development of a competent pre-ovulatory follicle" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00032" .

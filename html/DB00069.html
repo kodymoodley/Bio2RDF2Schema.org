@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00069",
+  "type" : "Drug",
+  "alternateName" : "consensus interferon",
+  "description" : "Interferon alfacon-1 is a recombinant non-naturally occurring type-I interferon. The 166-amino acid sequence of Interferon alfacon-1 was derived by scanning the sequences of several natural interferon alpha subtypes and assigning the most frequently observed amino acid in each corresponding position. Four additional amino acid changes were made to facilitate the molecular construction, and a corresponding synthetic DNA sequence was constructed using chemical synthesis methodology. Interferon alfacon-1 differs from interferon alfa-2b at 20/166 amino acids (88% homology), and comparison with interferon-beta shows identity at over 30% of the amino acid positions. Interferon alfacon-1 is produced in Escherichia coli (E. coli) cells that have been genetically altered by insertion of a synthetically constructed sequence that codes for Interferon alfacon-1. Prior to final purification, Interferon alfacon-1 is allowed to oxidize to its native state, and its final purity is achieved by sequential passage over a series of chromatography columns. This protein has a molecular weight of 19,434 daltons.",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Interferon alpha binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription) which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon alpha binds less stably to type I interferon receptors than interferon beta. The resulting actions include gene transcription, inhibition of cellular growth, alteration of the state of cellular differentiation, interference with oncogene expression, alteration of cell surface antigen expression, increasing phagocytic activity of macrophages, and augmentation of the cytotoxicity of lymphocytes for target cells.",
+  "name" : "Interferon alfacon-1",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00069",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00069"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00069.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

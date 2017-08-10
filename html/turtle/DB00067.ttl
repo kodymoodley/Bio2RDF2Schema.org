@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00067> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Vasopressin" ;
+	<http://schema.org/description> "Antidiuretic hormone, also known as vasopressin, is a nine amino acid peptide secreted from the posterior pituitary. Antidiuretic hormone binds to receptors in the distal or collecting tubules of the kidney and promotes reabsorbtion of water back into the circulation" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00067" ;
+	<http://schema.org/doseSchedule> "20 [USP&apos'U]/mL Injection form with intravenous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Parke davis div warner lambert co" ;
+	<http://schema.org/mechanismOfAction> "Vasopressin acts on three different receptors, vasopressin receptor V1a (which initiates vasoconstriction, liver gluconeogenesis, platelet aggregation and release of factor VIII), vasopressin receptor V1b (which mediates corticotrophin secretion from the pituitary) and vasopressin receptor V2 which controls free water reabsorption in the renal medullar. The binding of vasopressin to the V2 receptor activates adenylate cyclase which causes the release of aquaporin 2 channels into the cells lining the renal medullar duct. This allows water to be reabsorbed down an osmotic gradient so the urine is more concentrated." ;
+	<http://schema.org/alternateName> "Argipressin" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00067" .

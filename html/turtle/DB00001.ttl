@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00001> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Lepirudin" ;
+	<http://schema.org/description> "Lepirudin is identical to natural hirudin except for substitution of leucine for isoleucine at the N-terminal end of the molecule and the absence of a sulfate group on the tyrosine at position 63. It is produced via yeast cells. Bayer ceased the production of lepirudin (Refludan) effective May 31, 2012." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00001" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Bayer healthcare pharmaceuticals inc" ;
+	<http://schema.org/mechanismOfAction> "Lepirudin forms a stable non-covalent complex with alpha-thrombin, thereby abolishing its ability to cleave fibrinogen and initiate the clotting cascade. The inhibition of thrombin prevents the blood clotting cascade." ;
+	<http://schema.org/alternateName> "Hirudin variant-1" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00001" .

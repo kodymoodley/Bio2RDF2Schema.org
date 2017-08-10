@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00020",
+  "type" : "Drug",
+  "alternateName" : "GM-CSF",
+  "description" : "Sargramostim is a human recombinant granulocyte macrophage colony-stimulating factor (GM-CSF) expressed in yeast. It is a glycoprotein that is 127 residues. Substitution of Leu23 leads to a difference from native protein.",
+  "doseSchedule" : "250 ug/mL Injection, powder, for solution form with intravenous; subcutaneous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Sargramostim binds to the Granulocyte-macrophage colony stimulating factor receptor (GM-CSF-R-alpha or CSF2R) which stimulates a JAK2 STAT1/STAT3 signal transduction pathway. This leads to the production of hemopoietic cells and neutrophils",
+  "name" : "Sargramostim",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00020",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00020"
+}

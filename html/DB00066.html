@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00066",
+  "type" : "Drug",
+  "alternateName" : "Follicle stimulating hormone beta",
+  "description" : "Follitropin beta is a human follicle stimulating hormone (FSH) preparation of recombinant DNA origin, which consists of two non-covalently linked, non-identical glycoproteins designated as the alpha- and beta- subunits. The alpha- and beta- subunits have 92 and 111 amino acids. The alpha subunit is glycosylated at Asn 51 and Asn 78 while the beta subunit is glycosylated at Asn 7 and Asn 24. Follitropin beta is produced in genetically engineered Chinese hamster cell lines (CHO). The nomenclature “beta” differentiates it from another recombinant human FSH product that was marketed earlier as follitropin alpha. Follitropin is important in the development of follicles produced by the ovaries. Given by subcutaneous injection, it is used in combination with human chorionic gonadotropin (hCG) to assist in ovulation and fertility. Follitropin may also be used to cause the ovary to produce several follicles, which can then be harvested for use in gamete intrafallopian transfer (GIFT) or in vitro fertilization (IVF).  Numerous physio-chemical tests and bioassays indicate that follitropin beta and follitropin alpha are indistinguishable. However, a more recent study showed there is may be a slight clinical difference, with the alpha form tending towards a higher pregnancy rate and the beta form tending towards a lower pregnancy rate, but with significantly higher estradiol (E2) levels.  Structural analysis shows that the amino acid sequence of follitropin beta is identical to that of natural human follicle stimulating hormone (FSH). Further, the ogliosaccharide side chains are very similar, but not completely identical to that of natural FSH. However, these small differences do not affect the bioactivity compared to natural FSH.",
+  "doseSchedule" : "100 unit Solution form with intramuscular route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Organon usa inc",
+  "mechanismOfAction" : "Follitropin alpha is a recombinant form of endogenous follicle stimulating hormone (FSH). FSH binds to the follicle stimulating hormone receptor which is a G-coupled transmembrane receptor. Binding of the FSH to its receptor seems to induce phosphorylation and activation of the PI3K (Phosphatidylinositol-3-kinase) and Akt signaling pathway, which is known to regulate many other metabolic and related survival/maturation functions in cells.",
+  "name" : "Follitropin beta",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00066",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00066"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00066.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

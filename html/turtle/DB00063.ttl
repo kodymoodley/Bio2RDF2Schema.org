@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00063> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Eptifibatide" ;
+	<http://schema.org/description> "Synthetic cyclic hexapeptide that binds to platelet receptor glycoprotein and inhibits platelet aggregation." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00063" ;
+	<http://schema.org/doseSchedule> "2 mg/mL Injection, solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/manufacturer> "Schering corp" ;
+	<http://schema.org/mechanismOfAction> "Eptifibatide inhibits platelet aggregation by reversibly binding to the platelet receptor glycoprotein (GP) IIb/IIIa of human platelets, thus preventing the binding of fibrinogen, von Willebrand factor, and other adhesive ligands. Inhibition of platelet aggregation occurs in a dose- and concentration-dependent manner." ;
+	<http://schema.org/alternateName> "Intrifiban" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00063" .

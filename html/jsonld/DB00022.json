@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00022",
+  "type" : "Drug",
+  "description" : "Peginterferon alfa-2b is a covalent conjugate of recombinant alfa-2b interferon with monomethoxy polyethylene glycol (PEG). The average molecular weight of the PEG portion of the molecule is 12,000 daltons. The average molecular weight of the PEG-Intron molecule is approximately 31,000 daltons. The specific activity of peginterferon alfa-2b is approximately 0.7 x 108 IU/mg protein. Interferon alfa-2b is a water-soluble protein with a molecular weight of 19,271 daltons produced by recombinant DNA techniques. It is obtained from the bacterial fermentation of a strain of <i>Escherichia coli</i> bearing a genetically engineered plasmid containing an interferon gene from human leukocytes. The PEG strand protects the molecule in vivo from proteolytic breakdown, substantially increases its in vivo half-life, and reduces immunogenicity by wrapping around and physically hindering access to the protein portion of the molecule.",
+  "doseSchedule" : "120 ug/.5mL Injection, powder, lyophilized, for solution form with subcutaneous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Interferon alpha binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription)which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon alpha binds less stably to type I interferon receptors than interferon beta.",
+  "name" : "Peginterferon alfa-2b",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00022",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00022"
+}

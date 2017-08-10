@@ -1,0 +1,9 @@
+
+<http://bio2rdf.org/drugbank:DB00095> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Efalizumab" ;
+	<http://schema.org/description> "Humanized IgG1 kappa isotype monoclonal antibody that binds to human CD11a. Efalizumab has a molecular weight of approximately 150 kilodaltons and is produced in a Chinese hamster ovary mammalian cell expression system in a nutrient medium containing the antibiotic gentamicin." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00095" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Efalizumab binds to CD11a, a subunit of leukocyte function antigen-1 (LFA-1), which is expressed on all leukocytes. As a result efalizumab decreases cell surface expression of CD11a." ;
+	<http://schema.org/alternateName> "antiCD11 alpha" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00095" .

@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00002",
+  "type" : "Drug",
+  "alternateName" : "Anti EGFR",
+  "description" : "Epidermal growth factor receptor binding FAB. Cetuximab is composed of the Fv (variable; antigen-binding) regions of the 225 murine EGFr monoclonal antibody specific for the N-terminal portion of human EGFr with human IgG1 heavy and kappa light chain constant (framework) regions.",
+  "doseSchedule" : "2 mg/mL Solution form with intravenous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Cetuximab binds to the epidermal growth factor receptor (EGFr) on both normal and tumor cells. EGFr is over-expressed in many colorectal cancers. Cetuximab competitively inhibits the binding of epidermal growth factor (EGF) and TGF alpha, thereby reducing their effects on cell growth and metastatic spread.",
+  "name" : "Cetuximab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00002",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00002"
+}

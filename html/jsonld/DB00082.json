@@ -1,0 +1,14 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00082",
+  "type" : "Drug",
+  "alternateName" : "GH",
+  "description" : "Pegvisomant is a highly selective growth hormone (GH) receptor antagonist.  It is used to treat acromegaly.  Unlike dopamine or somatostatin analogs (which inhibit growth hormone secretion), this drug actually blocks the hepatic (GH-mediated) production of insulin like growth factor (IGF-1), which is the main mediator of growth hormone activity.",
+  "doseSchedule" : "20 mg Powder for solution form with subcutaneous route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Pharmacia and upjohn co",
+  "mechanismOfAction" : "Somavert selectively binds to growth hormone (GH) receptors on cell surfaces, where it blocks the binding of endogenous GH. This leads to the normalization of serum IGF-1 levels.",
+  "name" : "Pegvisomant",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00082",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00082"
+}

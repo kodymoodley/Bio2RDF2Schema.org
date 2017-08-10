@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00055",
+  "type" : "Drug",
+  "alternateName" : "Blood coagulation factor XIV",
+  "description" : "Drotrecogin alfa is activated human protein C that is synthesized by recombinant DNA technology. It is a glycoprotein of approximately 55 kilodalton molecular weight, consisting of a heavy chain and a light chain linked by a disulfide bond. Drotrecogin alfa was withdrawn from the market after a major study indicated that it was not effective in improving outcomes in patients with sepsis.",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Activated protein C combines with protein S on platelet surfaces and then degrades factor Va and factor VIIIa, thereby reducing blood coagulability.",
+  "name" : "Drotrecogin alfa",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00055",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00055"
+}

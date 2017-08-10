@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00015> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Reteplase" ;
+	<http://schema.org/description> "Human tissue plasminogen activator, purified, glycosylated, 355 residues purified from CHO cells. Retavase is considered a \"third-generation\" thrombolytic agent, genetically engineered to retain and delete certain portions of human tPA. Retavase is a deletion mutein of human tPA formed by deleting various amino acids present in endogenous human tPA. Retavase contains 355 of the 527 amino acids of native human tPA (amino acids 1-3 and 176-527), and retains the activity-related kringle-2 and serine protease domains of human tPA. Three domains are deleted from retavase - kringle-1, finger, and epidermal growth factor (EGF)." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00015" ;
+	<http://schema.org/doseSchedule> "Kit form with  route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Reteplase binds to fibrin rich clots via the fibronectin finger-like domain and the Kringle 2 domain. The protease domain then cleaves the Arg/Val bond in plasminogen to form plasmin. Plasmin in turn degrades the fibrin matrix of the thrombus, thereby exerting its thrombolytic action." ;
+	<http://schema.org/alternateName> "tPA" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00015" .

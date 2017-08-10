@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00038",
+  "type" : "Drug",
+  "alternateName" : "Adipogenesis inhibitory factor",
+  "description" : "Oprelvekin, the active ingredient in Neumega® is recombinant Interleukin eleven, which is produced in Escherichia coli (E. coli) by recombinant DNA technology. The protein has a molecular mass of approximately 19,000 daltons, and is non-glycosylated. The polypeptide is 177 amino acids in length (the natural IL-11 has 178). This alteration has not resulted in measurable differences in bioactivity either in vitro or in vivo.\r\n\r\nThe primary hematopoietic activity of Neumega® is stimulation of megakaryocytopoiesis and thrombopoiesis. In mice and nonhuman primate studies Neumega® has shown potent thrombopoietic activity in compromised hematopoiesis, including moderately to severely myelosuppressed animals. In these studies, Neumega® improved platelet nadirs and accelerated platelet recoveries compared to controls.\r\n\r\nIn animal studies Oprelvekin also has non-hematopoetic activities. This includes the regulation of intestinal epithelium growth (enhanced healing of gastrointestinal lesions), the inhibition of adipogenesis, the induction of acute phase protein synthesis (e.g., fibrinogen), and inhibition of macrophageal released pro-inflammatory cytokines.",
+  "doseSchedule" : "Kit form with  route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Oprelvekin binds to the interleukin 11 receptor which leads to a cascade of signal transduction events. IL-11 is a thrombopoietic growth factor that directly stimulates the proliferation of hematopoietic stem cells and megakaryocyte progenitor cells and induces megakaryocyte maturation resulting in increased platelet production.",
+  "name" : "Oprelvekin",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00038",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00038"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00038.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

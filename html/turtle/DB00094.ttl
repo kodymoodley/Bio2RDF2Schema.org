@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00094> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Urofollitropin" ;
+	<http://schema.org/description> "Urofollitropin is a purified form of follicle-stimulating hormone (FSH) that is manufactured by extraction from human urine and then purified. It consists of two non-covalently linked, non-identical glycoproteins designated as the alpha- and beta- subunits. The alpha- and beta- subunits have 92 and 111 amino acids. The alpha subunit is glycosylated at Asn 51 and Asn 78 while the beta subunit is glycosylated at Asn 7 and Asn 24. Urofollitropin is important in the development of follicles produced by the ovaries. Given by subcutaneous injection, it is used in combination with human chorionic gonadotropin (hCG) to assist in ovulation and fertility. Urofollitropin may also be used to cause the ovary to produce several follicles, which can then be harvested for use in gamete intrafallopian transfer (GIFT) or in vitro fertilization (IVF)." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00094" ;
+	<http://schema.org/doseSchedule> "Kit form with subcutaneous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Serono laboratories inc" ;
+	<http://schema.org/mechanismOfAction> "FSH binds to the follicle stimulating hormone receptor which is a G-coupled transmembrane receptor. Binding of the FSH to its receptor seems to induce phosphorylation and activation of the PI3K (Phosphatidylinositol-3-kinase) and Akt signaling pathway, which is known to regulate many other metabolic and related survival/maturation functions in cells." ;
+	<http://schema.org/alternateName> "FSH" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00094" .

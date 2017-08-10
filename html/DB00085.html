@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00085",
+  "type" : "Drug",
+  "alternateName" : "PA",
+  "description" : "Pancrelipase is an enzyme mixture isolated from porcine or bovine pancreas, sometimes called pancreatin. It contains 3 enzymes: amylase, lipase, and a protease (chymotrypsin). Pancrelipase is marketed under several brand names such as Ultresa™ and Viokace™.",
+  "doseSchedule" : "17500; 4200; 10000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "The lipase, protease and amylase components of pancrelipase break down fat, protein, and starches, respectively, in the small intestine. Lipase hydrolyzes fats into glycerol and fatty acids. Protease converts proteins into proteoses and derived substances, while amylase converts starches into dextrins and sugars.",
+  "name" : "Pancrelipase",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00085",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00085"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00085.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

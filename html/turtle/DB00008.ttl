@@ -1,0 +1,9 @@
+
+<http://bio2rdf.org/drugbank:DB00008> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Peginterferon alfa-2a" ;
+	<http://schema.org/description> "Human interferon 2a, is a covalent conjugate of recombinant alfa-2a interferon with a single branched bis-monomethoxy polyethylene glycol (PEG) chain. The PEG moiety is linked at a single site to the interferon alfa moiety via a stable amide bond to lysine. Peginterferon alfa-2a has an approximate molecular weight of 60,000 daltons. Interferon alfa-2a is produced using recombinant DNA technology in which a cloned human leukocyte interferon gene is inserted into and expressed in Escherichia coli. The resultant protein is 165 amino acids. The PEG strand protects the molecule in vivo from proteolytic breakdown, substantially increases its in vivo half-life, and reduces immunogenicity by wrapping around and physically hindering access to the protein portion of the molecule." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00008" ;
+	<http://schema.org/doseSchedule> "180 ug/mL Injection, solution form with subcutaneous route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/mechanismOfAction> "Interferon alpha binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription) which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon alpha binds less stably to type I interferon receptors than interferon beta." ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00008" .

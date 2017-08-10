@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00062",
+  "type" : "Drug",
+  "alternateName" : "Serum albumin precursor",
+  "description" : "Human serum albumin isolated from expired blood plasma",
+  "doseSchedule" : "12.5 g/250mL Injection, solution form with intravenous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Acts as a high molecular weight, very soluble osmolyte",
+  "name" : "Human Serum Albumin",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00062",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00062"
+}

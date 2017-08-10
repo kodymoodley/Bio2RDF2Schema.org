@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00074",
+  "type" : "Drug",
+  "alternateName" : "chimeric mouse-human antiCD25",
+  "description" : "A recombinant chimeric (murine/human) monoclonal antibody (IgG1k) that functions as an immunosuppressive agent, specifically binding to and blocking the interleukin-2 receptor a-chain (IL-2R alpha, also known as CD25 antigen) on the surface of activated T-lymphocytes. It is a 144 kDa glycoprotein obtained from fermentation of an established mouse myeloma cell line genetically engineered to express plasmids containing the human heavy and light chain constant region genes and mouse heavy and light chain variable region genes encoding the RFT5 antibody that binds selectively to the IL-2R alpha.",
+  "doseSchedule" : "20 mg/5mL Injection, powder, for solution form with intravenous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Basiliximab binds with high-affinity to the alpha-subunit (CD25) of the high-affinity IL-2 receptor. This inhibits IL-2 binding, which inhibits T-cell activation and prevents the body from mounting an immune response against the foreign kidney.",
+  "name" : "Basiliximab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00074",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00074"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00074.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00042",
+  "type" : "Drug",
+  "alternateName" : "BTX-B",
+  "description" : "Neurotoxin produced by fermentation of clostridium botulinum type B. The protein exists in noncovalent association with hemagglutinin and nonhemagglutinin proteins as a neurotoxin complex. The neurotoxin complex is recovered from the fermentation process and purified through a series of precipitation and chromatography steps.",
+  "doseSchedule" : "10000 [USP'U]/2mL Injection, solution form with intramuscular route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Botulinum Toxin Type B binds to and cleaves the synaptic Vesicle Associated Membrane Protein (VAMP, also known as synaptobrevin) which is a component of the protein complex responsible for docking and fusion of the synaptic vesicle to the presynaptic membrane, a necessary step to neurotransmitter release.",
+  "name" : "Botulinum Toxin Type B",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00042",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00042"
+}

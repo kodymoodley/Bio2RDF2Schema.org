@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00033",
+  "type" : "Drug",
+  "alternateName" : "Immune interferon",
+  "description" : "Human Interferon gamma-1b (140 residues), produced from E. coli. Production of Actimmune is achieved by fermentation of a genetically engineered Escherichia coli bacterium containing the DNA which encodes for the human protein. Purification of the product is achieved by conventional column chromatography. \r\nThe sequence displayed is a cDNA sequence which codes for human interferon gamma, as described by Gray et. al. and not specifically interferon gamma 1b.",
+  "doseSchedule" : "100 ug/.5mL Injection, solution form with subcutaneous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Binds directly to the type II interferon gamma receptor IFNGR1, leading to a complex of IFNGR1 and IFNGR2. This activates JAK1 and JAK2 kinases which form a STAT1 docking site. This leads to STAT1 phosphorylation, nuclear translocation and initiation of gene transcription of multiple immune-related genes.",
+  "name" : "Interferon gamma-1b",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00033",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00033"
+}

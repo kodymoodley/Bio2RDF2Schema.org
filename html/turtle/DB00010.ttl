@@ -1,0 +1,9 @@
+
+<http://bio2rdf.org/drugbank:DB00010> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Sermorelin" ;
+	<http://schema.org/description> "Sermorelin acetate is the acetate salt of an amidated synthetic 29-amino acid peptide (GRF 1-29 NH 2 ) that corresponds to the amino-terminal segment of the naturally occurring human growth hormone-releasing hormone (GHRH or GRF) consisting of 44 amino acid residues" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00010" ;
+	<http://schema.org/legalStatus> "withdrawn" ;
+	<http://schema.org/manufacturer> "Emd serono inc" ;
+	<http://schema.org/mechanismOfAction> "Sermorelin binds to the growth hormone releasing hormone receptor and mimics native GRF in its ability to stimulate growth hormone secretion." ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00010" .

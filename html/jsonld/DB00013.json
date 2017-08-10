@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00013",
+  "type" : "Drug",
+  "alternateName" : "uPA",
+  "description" : "Low molecular weight form of human urokinase, that consists of an A chain of 2,000 daltons linked by a sulfhydryl bond to a B chain of 30,400 daltons. Recombinant urokinase plasminogen activator",
+  "legalStatus" : "approved",
+  "manufacturer" : "Microbix biosystems inc",
+  "mechanismOfAction" : "Urokinase acts on the endogenous fibrinolytic system. It cleaves the Arg-Val bond in plasminogen to produce active plasmin. Plasmin degrades fibrin clots as well as fibrinogen and other plasma proteins.",
+  "name" : "Urokinase",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00013",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00013"
+}

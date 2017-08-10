@@ -1,0 +1,9 @@
+
+<http://bio2rdf.org/drugbank:DB00089> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Capromab" ;
+	<http://schema.org/description> "Capromab is a Murine IgG1 monoclonal 7E11-C5.3 antibody that recognizes prostate specific membrane antigen (PSMA – also known as glutamate carboxypeptidase 2) from prostate cancer cells and normal prostate tissue. It is linked to pendetide, a derivative of DTPA. Pendetide acts as a chelating agent for the radionuclide indium-111. Capromab is used to image the extent of prostate cancer." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00089" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Binds selectively to cell-surface prostate-specific membrane antigen (PSMA) expressed on prostate tissues and tumors." ;
+	<http://schema.org/alternateName> "In 111 Capromab pendetide" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00089" .

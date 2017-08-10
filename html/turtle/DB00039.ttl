@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00039> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Palifermin" ;
+	<http://schema.org/description> "Palifermin is a recombinant human keratinocyte growth factor (KGF). It is 140 residues long, and is produced using E. coli." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00039" ;
+	<http://schema.org/doseSchedule> "6.25 mg Powder for solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Kepivance binds to the human keratinocyte growth factor (KGF) receptor found on buccal cell surfaces. The binding activates a Ras-MapK (Map kinase) signaling pathway which leads to the transcriptional activation of many proteins important for cell growth and survival." ;
+	<http://schema.org/alternateName> "KGF" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00039" .

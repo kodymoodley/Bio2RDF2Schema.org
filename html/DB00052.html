@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00052",
+  "type" : "Drug",
+  "alternateName" : "Growth hormone 1",
+  "description" : "Recombinant human growth hormone (somatotropin) 191 residues, MW 22.1 kD, synthesized in E. coli",
+  "doseSchedule" : "5.0 mg Solution form with subcutaneous route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Genentech inc",
+  "mechanismOfAction" : "hGH binds to the human growth hormone receptor (GHR). Upon binding, hGH causes dimerization of GHR, activation of the GHR-associated JAK2 tyrosine kinase, and tyrosyl phosphorylation of both JAK2 and GHR. These events recruit and/or activate a variety of signaling molecules, including MAP kinases, insulin receptor substrates, phosphatidylinositol 3' phosphate kinase, diacylglycerol, protein kinase C, intracellular calcium, and Stat transcription factors. These signaling molecules contribute to the GH-induced changes in enzymatic activity, transport function, and gene expression that ultimately culminate in changes in growth and metabolism.",
+  "name" : "Somatropin recombinant",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00052",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00052"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00052.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

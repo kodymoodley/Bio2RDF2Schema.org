@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00043",
+  "type" : "Drug",
+  "alternateName" : "Ig gamma-1 chain C region",
+  "description" : "A recombinant DNA-derived humanized IgG1k monoclonal antibody that selectively binds to human immunoglobulin E (IgE). Xolair is produced by a Chinese hamster ovary cell suspension culture in a nutrient medium containing the antibiotic gentamicin.",
+  "doseSchedule" : "202.5 mg/1.4mL Injection, solution form with subcutaneous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Xolair binds to IgE (a class of antibodies normally secreted in allergic responses), which prevents their binding to mast cells and basophils.",
+  "name" : "Omalizumab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00043",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00043"
+}

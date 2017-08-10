@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00056",
+  "type" : "Drug",
+  "description" : "Recombinant humanized IgG4, kappa antibody conjugated with a cytotoxic antitumor antibiotic, calicheamicin, isolated from fermentation of a bacterium, Micromonospora echinospora ssp. calichensis. The antibody portion of Mylotarg binds specifically to the CD33 antigen, The anti-CD33 hP67.6 antibody is produced by mammalian cell suspension culture using a myeloma NS0 cell line. Gemtuzumab ozogamicin (trade name Mylotarg) was withdrawn in 2010 when a clinical trial showed the drug increased patient death and exhibited no advantages over traditional cancer therapies.",
+  "legalStatus" : "approved",
+  "manufacturer" : "Wyeth pharmaceuticals inc",
+  "mechanismOfAction" : "Mylotarg is directed against the CD33 antigen expressed by hematopoietic cells. Binding of the anti-CD33 antibody portion of Mylotarg with the CD33 antigen results in the formation of a complex that is internalized. Upon internalization, the calicheamicin derivative is released inside the lysosomes of the myeloid cell. The released calicheamicin derivative binds to DNA in the minor groove resulting in DNA double strand breaks and cell death.",
+  "name" : "Gemtuzumab ozogamicin",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00056",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00056"
+}

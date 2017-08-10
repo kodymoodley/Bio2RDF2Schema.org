@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00004> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Denileukin diftitox" ;
+	<http://schema.org/description> "A recombinant DNA-derived cytotoxic protein composed of the amino acid sequences for diphtheria toxin fragments A and B (Met 1-Thr 387)-His followed by the sequences for interleukin-2 (IL-2; Ala 1-Thr 133). It is produced in an E. coli expression system." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00004" ;
+	<http://schema.org/doseSchedule> "150 ug/mL Injection, solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/mechanismOfAction> "Denileukin diftitox binds to the high-affinity IL-2 receptor complex. The IL-2 receptor (Tac) subunit is expressed on activated but not resting lymphocytes. The diphtheria toxin associated with Ontak then selectively kills the IL-2 bearing cells." ;
+	<http://schema.org/alternateName> "Diphtheria toxin precursor" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00004" .

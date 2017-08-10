@@ -1,0 +1,12 @@
+
+<http://bio2rdf.org/drugbank:DB00030> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Insulin Regular" ;
+	<http://schema.org/description> "Insulin regular is a 51 residue peptide hormone, composed of two amino acid chains covalently linked by disulfide bonds. The structure is identical to native human insulin. Recombinant insulin is synthesized by recombinant DNA techncology. Inserting the human insulin gene into the Escherichia coli bacteria or Saccharomyces cerevisiae produces insulin for human use." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00030" ;
+	<http://schema.org/doseSchedule> "4 1 Powder, metered form with respiratory (inhalation) route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Novo nordisk inc" ;
+	<http://schema.org/mechanismOfAction> """The primary activity of insulin is the regulation of glucose metabolism. Insulin promotes glucose and amino acid uptake into muscle and adipose tissues, and other tissues except brain and liver. It also has an anabolic role in stimulating glycogen, fatty acid, and protein synthesis. Insulin inhibits gluconeogenesis in the liver.
+Insulin binds to the insulin receptor (IR), a heterotetrameric protein consisting of two extracellular alpha units and two transmembrane beta units. The binding of insulin to the alpha subunit of IR stimulates the tyrosine kinase activity intrinsic to the beta subunit of the receptor. The bound receptor is able to autophosphorylate and phosphorylate numerous intracellular substrates such as insulin receptor substrates (IRS) proteins, Cbl, APS, Shc and Gab 1. These activated proteins, in turn, lead to the activation of downstream signaling molecules including PI3 kinase and Akt. Akt regulates the activity of glucose transporter 4 (GLUT4) and protein kinase C (PKC) which play a critical role in metabolism and catabolism.""" ;
+	<http://schema.org/alternateName> "Insulin human" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00030" .

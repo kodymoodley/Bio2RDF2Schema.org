@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00025> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Antihemophilic Factor" ;
+	<http://schema.org/description> "Human recombinant antihemophilic factor (AHF) or Factor VIII, 2332 residues, glycosylated, produced by CHO cells" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00025" ;
+	<http://schema.org/doseSchedule> "Kit form with intravenous route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/mechanismOfAction> "Antihemophilic factor (AHF) is a protein found in normal plasma which is necessary for clot formation. The administration of AHF provides an increase in plasma levels of AHF and can temporarily correct the coagulation defect of patients with hemophilia A (classical hemophilia)." ;
+	<http://schema.org/alternateName> "Factor VIII" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00025" .

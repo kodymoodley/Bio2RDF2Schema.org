@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00019",
+  "type" : "Drug",
+  "alternateName" : "Granulocyte colony-stimulating factor precursor",
+  "description" : "PEGylated (at N terminus) form of human G-CSF (Granulocyte colony stimulating factor), 175 residues, produced from E. coli via bacterial fermentation.",
+  "doseSchedule" : "10 mg Solution form with subcutaneous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Pegfilgrastim binds to the G-CSF receptor. As a G-CSF analog, it controls proliferation of committed progenitor cells and influences their maturation into mature neutrophils. Pegfilgrastim also stimulates the release of neutrophils from bone marrow storage pools and reduces their maturation time. Pegfilgrastim acts to increase the phagocytic activity of mature neutrophils. In patients receiving cytotoxic chemotherapy, pegfilgrastim can accelerate neutrophil recovery, leading to a reduction in duration of the neutropenic phase",
+  "name" : "Pegfilgrastim",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00019",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00019"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00019.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

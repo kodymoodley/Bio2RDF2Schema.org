@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00071",
+  "type" : "Drug",
+  "description" : "Insulin isolated from pig pancreas. Composed of alpha and beta chains, processed from pro-insulin. Forms a hexameric structure.",
+  "legalStatus" : "approved",
+  "manufacturer" : "Eli lilly and co",
+  "mechanismOfAction" : "Insulin binds to the insulin receptor (IR), a heterotetrameric protein consisting of two extracellular alpha units and two transmembrane beta units. The binding of insulin to the alpha subunit of IR stimulates the tyrosine kinase activity intrinsic to the beta subunit of the receptor. The bound receptor is able to autophosphorylate and phosphorylate numerous intracellular substrates such as insulin receptor substrates (IRS) proteins, Cbl, APS, Shc and Gab 1. These activated proteins, in turn, lead to the activation of downstream signaling molecules including PI3 kinase and Akt. Akt regulates the activity of glucose transporter 4 (GLUT4) and protein kinase C (PKC) which play a critical role in metabolism.",
+  "name" : "Insulin, porcine",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00071",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00071"
+}

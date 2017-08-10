@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00024",
+  "type" : "Drug",
+  "alternateName" : "Thytrophin",
+  "description" : "Thyrotropin alfa is a recombinant form of thyroid stimulating hormone used in performing certain tests in patients who have or have had thyroid cancer. It is also used along with a radioactive agent to destroy remaining thyroid tissue in certain patients who have had their thyroid gland removed because of thyroid cancer. It is a heterodimeric glycoprotein comprised of two non-covalently linked subunits, an alpha subunit of 92 amino acid residues containing two N-linked glycosylation sites and a beta subunit of 112 residues containing one N-linked glycosylation site. The alpha subunit is nearly identical to that of human chorionic gonadotropin (hCG), luteinizing hormone (LH), and follicle-stimulating hormone (FSH). The alpha subunit is thought to be the effector region responsible for stimulation of adenylate cyclase (involved the generation of cAMP). The beta subunit (TSHB) is unique to TSH, and therefore determines its receptor specificity. The amino acid sequence of thyrotropin alfa is identical to that of human pituitary thyroid stimulating hormone.",
+  "doseSchedule" : "0.9 mg Powder for solution form with intramuscular route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Sanofi aventis us llc",
+  "mechanismOfAction" : "Thyrotropin Alfa binds to the thyrotropin receptors found on any residual thyroid cells or tissues. This stimulates radioactive iodine uptake for better radiodiagnostic imaging.",
+  "name" : "Thyrotropin Alfa",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00024",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00024"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00024.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

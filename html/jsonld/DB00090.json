@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00090",
+  "type" : "Drug",
+  "alternateName" : "Alpha-L-iduronidase precursor",
+  "description" : "Human recombinant alpha-L-iduronidase, 628 residues (mature form), produced by recombinant DNAtechnology in a Chinese hamster ovary cell line. Laronidase is a glycoprotein with a molecular weight of approximately 83 kD. The predicted amino acid sequence of the recombinant form, as well as the nucleotide sequence that encodes it, are identical to a polymorphic form of human a-L-iduronidase. It contains 6 N-linked oligosaccharide modification sites.",
+  "doseSchedule" : "2.9 mg/5mL Injection, solution, concentrate form with intravenous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Laronidase catalyses the hydrolysis of terminal alpha-L-iduronic acid residues of dermatan sulfate and heparin sulfate.",
+  "name" : "Laronidase",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00090",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00090"
+}

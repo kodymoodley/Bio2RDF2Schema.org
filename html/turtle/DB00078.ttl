@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00078> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Ibritumomab" ;
+	<http://schema.org/description> "Indium conjugated murine IgG1 kappa monoclonal antibody directed against the CD20 antigen, which is found on the surface of normal and malignant B lymphocytes. Ibritumomab is produced in Chinese hamster ovary cells and is composed of two murine gamma 1 heavy chains of 445 amino acids each and two kappa light chains of 213 amino acids each." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00078" ;
+	<http://schema.org/doseSchedule> "Kit form with  route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "The Fab segment of the antibody targets the CD20 epitope on B-cells, allowing the radioactive yttrium to destroy the cell via production of beta particles." ;
+	<http://schema.org/alternateName> "Ig gamma-2A chain C region, membrane-bound form" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00078" .

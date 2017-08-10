@@ -1,0 +1,14 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00064",
+  "type" : "Drug",
+  "alternateName" : "Serum albumin precursor",
+  "description" : "A diagnostic radiopharmaceutical containing iodinated I 131 albumin for intravenous imaging. Following intravenous injection, radioiodinated albumin human is uniformly distributed throughout the intravascular pool within 10 minutes; extravascular distribution takes place more slowly (2 days). Indicated for use in determinations of total blood and plasma volumes, cardiac output, cardiac and pulmonary blood volumes and circulation times",
+  "doseSchedule" : "1 mCi/mL Injection, solution form with intravenous route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Iso tex diagnostics inc",
+  "mechanismOfAction" : "Serum albumin acts as a high molecular weight, very soluble osmolyte",
+  "name" : "Serum albumin iodonated",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00064",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00064"
+}

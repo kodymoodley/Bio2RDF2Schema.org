@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00052> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Somatropin recombinant" ;
+	<http://schema.org/description> "Recombinant human growth hormone (somatotropin) 191 residues, MW 22.1 kD, synthesized in E. coli" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00052" ;
+	<http://schema.org/doseSchedule> "5.0 mg Solution form with subcutaneous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Genentech inc" ;
+	<http://schema.org/mechanismOfAction> "hGH binds to the human growth hormone receptor (GHR). Upon binding, hGH causes dimerization of GHR, activation of the GHR-associated JAK2 tyrosine kinase, and tyrosyl phosphorylation of both JAK2 and GHR. These events recruit and/or activate a variety of signaling molecules, including MAP kinases, insulin receptor substrates, phosphatidylinositol 3' phosphate kinase, diacylglycerol, protein kinase C, intracellular calcium, and Stat transcription factors. These signaling molecules contribute to the GH-induced changes in enzymatic activity, transport function, and gene expression that ultimately culminate in changes in growth and metabolism." ;
+	<http://schema.org/alternateName> "Growth hormone 1" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00052" .

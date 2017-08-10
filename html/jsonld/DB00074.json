@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00074",
+  "type" : "Drug",
+  "alternateName" : "chimeric mouse-human antiCD25",
+  "description" : "A recombinant chimeric (murine/human) monoclonal antibody (IgG1k) that functions as an immunosuppressive agent, specifically binding to and blocking the interleukin-2 receptor a-chain (IL-2R alpha, also known as CD25 antigen) on the surface of activated T-lymphocytes. It is a 144 kDa glycoprotein obtained from fermentation of an established mouse myeloma cell line genetically engineered to express plasmids containing the human heavy and light chain constant region genes and mouse heavy and light chain variable region genes encoding the RFT5 antibody that binds selectively to the IL-2R alpha.",
+  "doseSchedule" : "20 mg/5mL Injection, powder, for solution form with intravenous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Basiliximab binds with high-affinity to the alpha-subunit (CD25) of the high-affinity IL-2 receptor. This inhibits IL-2 binding, which inhibits T-cell activation and prevents the body from mounting an immune response against the foreign kidney.",
+  "name" : "Basiliximab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00074",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00074"
+}

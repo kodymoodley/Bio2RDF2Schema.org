@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00091> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Cyclosporine" ;
+	<http://schema.org/description> "A cyclic undecapeptide from an extract of soil fungi. It is a powerful immunosupressant with a specific action on T-lymphocytes. It is used for the prophylaxis of graft rejection in organ and tissue transplantation. Cyclosporine is produced as a metabolite by the fungus species Cordyceps militaris. (From Martindale, The Extra Pharmacopoeia, 30th ed)." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00091" ;
+	<http://schema.org/doseSchedule> "100 mg/mL Solution form with oral route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/manufacturer> "Apotex inc" ;
+	<http://schema.org/mechanismOfAction> "Cyclosporine binds to cyclophilin. The complex then inhibits calcineurin which is normally responsible for activating transcription of interleukin 2. Cyclosporine also inhibits lymphokine production and interleukin release. In ophthalmic applications, the precise mechanism of action is not known. Cyclosporine emulsion is thought to act as a partial immunomodulator in patients whose tear production is presumed to be suppressed due to ocular inflammation associated with keratoconjunctivitis sicca." ;
+	<http://schema.org/alternateName> "CsA" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00091" .

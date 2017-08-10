@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00023> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Asparaginase" ;
+	<http://schema.org/description> "L-asparagine amidohydrolase from E. coli" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00023" ;
+	<http://schema.org/doseSchedule> "10000 unit Powder for solution form with intramuscular route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Asparaginase converts asparagine to aspartic acid and ammonia. It facilitates production of oxaloacetate which is needed for general cellular metabolism. Some malignant cells lose the ability to produce asparagine and so the loss of exogenous sources of asparagine leads to cell death." ;
+	<http://schema.org/alternateName> "Putative L-asparaginase precursor" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00023" .

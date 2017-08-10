@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00024> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Thyrotropin Alfa" ;
+	<http://schema.org/description> "Thyrotropin alfa is a recombinant form of thyroid stimulating hormone used in performing certain tests in patients who have or have had thyroid cancer. It is also used along with a radioactive agent to destroy remaining thyroid tissue in certain patients who have had their thyroid gland removed because of thyroid cancer. It is a heterodimeric glycoprotein comprised of two non-covalently linked subunits, an alpha subunit of 92 amino acid residues containing two N-linked glycosylation sites and a beta subunit of 112 residues containing one N-linked glycosylation site. The alpha subunit is nearly identical to that of human chorionic gonadotropin (hCG), luteinizing hormone (LH), and follicle-stimulating hormone (FSH). The alpha subunit is thought to be the effector region responsible for stimulation of adenylate cyclase (involved the generation of cAMP). The beta subunit (TSHB) is unique to TSH, and therefore determines its receptor specificity. The amino acid sequence of thyrotropin alfa is identical to that of human pituitary thyroid stimulating hormone." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00024" ;
+	<http://schema.org/doseSchedule> "0.9 mg Powder for solution form with intramuscular route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Sanofi aventis us llc" ;
+	<http://schema.org/mechanismOfAction> "Thyrotropin Alfa binds to the thyrotropin receptors found on any residual thyroid cells or tissues. This stimulates radioactive iodine uptake for better radiodiagnostic imaging." ;
+	<http://schema.org/alternateName> "Thytrophin" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00024" .

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00054",
+  "type" : "Drug",
+  "alternateName" : "antiGPIIBIIIa",
+  "description" : "Abciximab is a Fab fragment of the chimeric human-murine monoclonal antibody 7E3. Abciximab binds to the glycoprotein (GP) IIb/IIIa receptor of human platelets and inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive molecules. It also binds to vitronectin (?v?3) receptor found on platelets and vessel wall endothelial and smooth muscle cells.",
+  "doseSchedule" : "2 mg/mL Injection, solution form with intravenous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Abciximab binds to the intact platelet GPIIb/IIIa receptor, which is a member of the integrin family of adhesion receptors and the major platelet surface receptor involved in platelet aggregation. This binding is thought to involve steric hindrance and/or conformational alterations which block access of large molecules to the receptor rather than direct interaction with the RGD (arginine-glycine-aspartic acid) binding site of GPIIb/IIIa. By binding to the vitronectin receptor (also known as the ?v?3 integrin), abciximab blocks effects mediated by this integrin which include cell adhesion. Furthermore, abciximab blocks Mac-1 receptor on monocytes and neutrophils thus inhibiting monocyte adhesion.",
+  "name" : "Abciximab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00054",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00054"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00054.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

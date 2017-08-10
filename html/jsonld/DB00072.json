@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00072",
+  "type" : "Drug",
+  "alternateName" : "Anti HER2",
+  "description" : "A recombinant IgG1 kappa, humanized monoclonal antibody that selectively binds with high affinity in a cell-based assay (Kd = 5 nM) to the extracellular domain of the human epidermal growth factor receptor protein. Produced in CHO cell culture.*",
+  "doseSchedule" : "440 mg Powder for solution form with intravenous route",
+  "legalStatus" : "investigational",
+  "mechanismOfAction" : "Trastuzumab binds to the HER2 (or c-erbB2) proto-oncogene, an EGF receptor-like protein found on 20-30% of breast cancer cells. The binding leads to antibody mediated (complement mediated) killing of the HER2 positive cells.",
+  "name" : "Trastuzumab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00072",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00072"
+}

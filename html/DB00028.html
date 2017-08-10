@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00028",
+  "type" : "Drug",
+  "alternateName" : "Immunoglobulin G",
+  "description" : "Intravenous immunoglobulin (IVIg) is a mixture of IgG1 and other antibodies derived from healthy human plasma via Cohn fractionation. The purification process includes cold alcohol fractionation, polyethylene glycol precipitation, and ion exchange chromatography. IVIg contains the same distribution of IgG antibody subclasses as is found in the general human population. IgG subclasses are fully represented in the following proportions: 70.3% IgG1, 24.7% IgG2, 3.1% IgG3, and 1.9% IgG4. IVIg is used in the treatment of immunodeficiencies, as well as autoimmune and inflammatory disorders.",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "IVIg interacts with a number of different components of the immune system, including cytokines, complement, Fc receptors and several cell surface immunocompetent molecules. IVIg also impacts different effector cells of the immune system (B and T lymphocytes, dendritic cells, etc.) and regulates a wide range of genes. Its main mechanism of actions are believed to be Fc-dependent and F(ab')2-dependent. IVIg competitively blocks gamma Fc receptors, preventing the binding and ingestion of phagocytes and suppressing platelet depletion. IVIg contains a number of different antobodies, which prevent infection by attaching to the surface of invading pathogens and aiding in their disposal before they can infect cells. Antibodies remove pathogens via complement activation, agglutination or precipitation, pathogen receptor blocking, macrophage “tagging” or neutralization (via binding) of pathogen toxins. Intact IVIg and F(ab?)2 fragments of IVIg can also neutralize the activity of various autoantibodies. By triggering the production of interleukin-1 receptor antagonist, IVIg modulates of the production of cytokines and cytokine antagonists. It also prevents the generation of the C5b-9 membrane attack complex and subsequent complement-mediated tissue damage by binding active complement components.",
+  "name" : "Intravenous Immunoglobulin",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00028",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00028"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00028.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

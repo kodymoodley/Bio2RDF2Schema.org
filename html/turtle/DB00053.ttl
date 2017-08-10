@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00053> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Imiglucerase" ;
+	<http://schema.org/description> "Human Beta-glucocerebrosidase or Beta-D-glucosyl-N-acylsphingosine glucohydrolase E.C. 3.2.1.45. 497 residue protein with N-linked carbohydrates, MW=59.3 kD. Alglucerase is prepared by modification of the oligosaccharide chains of human Beta-glucocerebrosidase. The modification alters the sugar residues at the non-reducing ends of the oligosaccharide chains of the glycoprotein so that they are predominantly terminated with mannose residues" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00053" ;
+	<http://schema.org/doseSchedule> "40 U/mL Injection, powder, lyophilized, for solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Genzyme corp" ;
+	<http://schema.org/mechanismOfAction> "Imiglucerase catalyzes the hydrolysis of the glycolipid, glucocerebroside, to glucose and ceramide as part of the normal degradation pathway for membrane lipids." ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00053" .

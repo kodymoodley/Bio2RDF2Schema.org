@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00093> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Felypressin" ;
+	<http://schema.org/description> "A synthetic nonapeptide comprising cysteinyl, phenylalanyl, phenylalanyl, glutaminyl, asparaginyl, cysteinyl, prolyl, lysyl, and glycinamide residues in sequence, with a disulfide bridge joining the two cysteine residues. Its antidiuretic effects are less than those of vasopressin. It is used as a vasoconstrictor in local anaesthetic injections for dental use, and is an ingredient of preparations that have been used for treatment of pain and inflammation of the mouth. [ChEBI]" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00093" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Novartis pharmaceuticals corp" ;
+	<http://schema.org/mechanismOfAction> "Felypressin binds to the vasopressin receptor V1a. This causes contraction of the smooth muscle in the vascular bed, especially capillaries, small arterioles and venules." ;
+	<http://schema.org/alternateName> "Felypressinum" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00093" .

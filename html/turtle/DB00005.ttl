@@ -1,0 +1,11 @@
+
+<http://bio2rdf.org/drugbank:DB00005> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Etanercept" ;
+	<http://schema.org/description> "Dimeric fusion protein consisting of the extracellular ligand-binding portion of the human 75 kilodalton (p75) tumor necrosis factor receptor (TNFR) linked to the Fc portion of human IgG1. The Fc component of etanercept contains the CH2 domain, the CH3 domain and hinge region, but not the CH1 domain of IgG1. Etanercept is produced by recombinant DNA technology in a Chinese hamster ovary (CHO) mammalian cell expression system. It consists of 934 amino acids" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00005" ;
+	<http://schema.org/doseSchedule> "50 mg/mL Solution form with subcutaneous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/manufacturer> "Amgen Inc. + Wyeth + Takeda" ;
+	<http://schema.org/mechanismOfAction> "There are two distinct receptors for TNF (TNFRs), a 55 kilodalton protein (p55) and a 75 kilodalton protein (p75). The biological activity of TNF is dependent upon binding to either cell surface receptor (p75 or p55). Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind to two TNF molecules, thereby effectively removing them from circulation." ;
+	<http://schema.org/alternateName> "p75" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00005" .

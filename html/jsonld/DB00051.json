@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00051",
+  "type" : "Drug",
+  "alternateName" : "Ig gamma-1 chain C region",
+  "description" : "Adalimumab is a human monoclonal antibody against TNF-alpha. It is produced by recombinant DNA technology using a mammalian cell expression system. It consists of 1330 amino acids and has a molecular weight of approximately 148 kilodaltons.",
+  "doseSchedule" : "40 mg/.8mL Injection, solution form with subcutaneous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Adalimumab binds to TNF-alpha and blocks its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab also lyses surface TNF expressing cells in vitro in the presence of complement.",
+  "name" : "Adalimumab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00051",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00051"
+}

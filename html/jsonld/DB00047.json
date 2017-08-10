@@ -1,0 +1,14 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00047",
+  "type" : "Drug",
+  "alternateName" : "Insulin Glargine (rDNA origin)",
+  "description" : "Insulin glargine is produced by recombinant DNA technology using a non-pathogenic laboratory strain of Escherichia coli (K12) as the production organism. It is an analogue of human insulin made by replacing the asparagine residue at position A21 of the A-chain with glycine and adding two arginines to the C-terminus (positions B31 and 32) of the B-chain. The resulting protein is soluble at pH 4 and forms microprecipitates at physiological pH 7.4. Small amounts of insulin glargine are slowly released from microprecipitates giving the drug a long duration of action (up to 24 hours) and no pronounced peak concentration.",
+  "doseSchedule" : "100 [iU]/mL Injection, solution form with subcutaneous route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Sanofi aventis us llc",
+  "mechanismOfAction" : "Insulin glargine binds to the insulin receptor (IR), a heterotetrameric protein consisting of two extracellular alpha units and two transmembrane beta units. The binding of insulin to the alpha subunit of IR stimulates the tyrosine kinase activity intrinsic to the beta subunit of the receptor. The bound receptor autophosphorylates and phosphorylates numerous intracellular substrates such as insulin receptor substrates (IRS) proteins, Cbl, APS, Shc and Gab 1. Activation of these proteins leads to the activation of downstream signaling molecules including PI3 kinase and Akt. Akt regulates the activity of glucose transporter 4 (GLUT4) and protein kinase C (PKC), both of which play critical roles in metabolism. Insulin glargine is completely soluble at pH 4, the pH of administered solution, and has low solubility at physiological pH 7.4. Upon subcuteous injection, the solution is neutralized resulting in the formation of microprecipitates. Small amounts of insulin glargine are released from microprecipitates giving the drug a relatively constant concentration over time profile over 24 hours with no pronounced peak. This release mechanism allows the drug to mimic basal insulin levels within the body.",
+  "name" : "Insulin Glargine",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00047",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00047"
+}

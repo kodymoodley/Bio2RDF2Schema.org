@@ -1,0 +1,13 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00007",
+  "type" : "Drug",
+  "alternateName" : "(D-Leu(6),des-gly-NH2(10),pro-ethylamide(9))-gonadotropin-releasing hormone",
+  "description" : "Leuprolide belongs to the general class of drugs known as hormones or hormone antagonists. It is a synthetic 9 residue peptide analog of gonadotropin releasing hormone. Leuprolide is used to treat advanced prostate cancer. It is also used to treat uterine fibroids and endometriosis. Leuprolide is also under investigation for possible use in the treatment of mild to moderate Alzheimer's disease.",
+  "doseSchedule" : "Kit form with subcutaneous route",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Leuprolide binds to the gonadotropin releasing hormone receptor and acts as a potent inhibitor of gonadotropin secretion.",
+  "name" : "Leuprolide",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00007",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00007"
+}

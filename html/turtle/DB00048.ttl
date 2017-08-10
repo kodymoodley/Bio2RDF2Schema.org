@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00048> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Collagenase" ;
+	<http://schema.org/description> "The enzyme collagenase is derived from fermentation of Clostridium histolyticum" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00048" ;
+	<http://schema.org/doseSchedule> "Kit form with  route" ;
+	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/mechanismOfAction> "Collagenase is a protease that is specific to collagen. The triple helical region of interstitial collagens is highly resistant to most cell proteinases. However, during remodeling of the connective tissue in such processes as wound healing and metastasis, collagen becomes susceptible to cleavage by collagenases. Collagenase cleaves all 3 alpha helical chains of native Types I, II and III collagens at a single locus by hydrolyzing the peptide bond following the Gly residue of the sequence: Gly 775-(Ile or Leu) 776-(Ala or Leu) 777 located approximately three-fourths of the chain length from each N-terminus" ;
+	<http://schema.org/alternateName> "AA4500" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00048" .

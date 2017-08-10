@@ -1,0 +1,10 @@
+
+<http://bio2rdf.org/drugbank:DB00009> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Alteplase" ;
+	<http://schema.org/description> "Human tissue plasminogen activator, purified, glycosylated, 527 residues purified from CHO cells" ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00009" ;
+	<http://schema.org/doseSchedule> "2.2 mg/2mL Injection, powder, lyophilized, for solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Alteplase binds to fibrin rich clots via the fibronectin finger-like domain and the Kringle 2 domain. The protease domain then cleaves the Arg/Val bond in plasminogen to form plasmin. Plasmin in turn degrades the fibrin matrix of the thrombus, thereby exerting its thrombolytic action." ;
+	<http://schema.org/alternateName> "t-PA" ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00009" .

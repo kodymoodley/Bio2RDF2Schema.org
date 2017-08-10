@@ -1,0 +1,14 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00017",
+  "type" : "Drug",
+  "alternateName" : "Calcitonin-salmon",
+  "description" : "Synthetic peptide, 32 residues long formulated as a nasal spray.",
+  "doseSchedule" : "200 [iU] Spray, metered form with nasal route",
+  "legalStatus" : "approved",
+  "manufacturer" : "Sanofi aventis us llc",
+  "mechanismOfAction" : "Calcitonin binds to the calcitonin receptor (found primarily in osteoclasts) which then enhances the production of vitamin D producing enzymes (25-hydroxyvitamine D-24-hydroxylase), leading to greater calcium retention and enhanced bone density. Binding of calcitonin to its receptor also activates adenylyl cyclase and the phosphatidyl-inositol-calcium pathway.",
+  "name" : "Salmon Calcitonin",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00017",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00017"
+}

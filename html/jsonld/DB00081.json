@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00081",
+  "type" : "Drug",
+  "alternateName" : "Ig gamma-1 chain C region",
+  "description" : "Murine IgG2a lambda monoclonal antibody against CD20 antigen (2 heavy chains of 451 residues, 2 lambda chains of 220 residues). It is produced in an antibiotic-free culture of mammalian cells. It can be covalently linked to Iodine 131 (a radioactive isotope of iodine).",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Binds to the CD20 antigen which is found on mature B lymphocytes. The antibody binding appears to induce apoptosis, complement-dependent cytotoxicity and cell death through ionizing radiation.",
+  "name" : "Tositumomab",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00081",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00081"
+}

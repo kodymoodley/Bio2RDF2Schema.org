@@ -1,0 +1,9 @@
+
+<http://bio2rdf.org/drugbank:DB00076> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Digoxin Immune Fab (Ovine)" ;
+	<http://schema.org/description> "Digoxin Immune Fab is a sheep antibody (26-10) FAB fragment from sheep immunized with the digoxin derivative Digoxindicarboxymethylamine. It is used as an antidote for overdose of digoxin." ;
+	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00076" ;
+	<http://schema.org/doseSchedule> "38 mg Injection, powder, lyophilized, for solution form with intravenous route" ;
+	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/mechanismOfAction> "Binds excess digoxin or digitoxin molecules circulating in the blood." ;
+	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00076" .

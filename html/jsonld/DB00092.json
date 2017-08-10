@@ -1,0 +1,12 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00092",
+  "type" : "Drug",
+  "alternateName" : "ASP0485",
+  "description" : "Immunosuppressive dimeric fusion protein that consists of the extracellular CD2-binding portion of the human leukocyte function antigen-3 (LFA-3) linked to the Fc (hinge, CH2 and CH3 domains) portion of human IgG1. Produced by CHO cells, mW is 91.4 kD.",
+  "legalStatus" : "approved",
+  "mechanismOfAction" : "Inhibits T-lymphocyte activation and production by binding to the CD2 lymphocyte antigen.",
+  "name" : "Alefacept",
+  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00092",
+  "schema:url" : "https://www.drugbank.ca/drugs/DB00092"
+}
