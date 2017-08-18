@@ -13,14 +13,45 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00074",
   "type" : "Drug",
-  "alternateName" : "chimeric mouse-human antiCD25",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:94e7be7cb30d44dfaa409965e8cf7633",
+    "type" : "DrugStrength",
+    "description" : "20 mg Powder for solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2575012209df02f6d7caa5ca789c14d6",
+    "type" : "DrugStrength",
+    "description" : "20 mg/5mL Injection, powder, for solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3f80ce78e430e976973b5df97916b3e2",
+    "type" : "DrugStrength",
+    "description" : "10 mg/2.5mL Injection, powder, for solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Basiliximab functions as an IL-2 receptor antagonist. Specifically it inhibits IL-2-mediated activation of lymphocytes, a critical pathway in the cellular immune response involved in allograft rejection.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:c5a75219039d6217a3ecdd4560613b10",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2471.60009765625",
+    "drugUnit" : "Simulect 20 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:42b0ec955bc79c41c0d68296cde163a5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1883.1099853515625",
+    "drugUnit" : "Simulect 10 mg vial"
+  } ],
   "description" : "A recombinant chimeric (murine/human) monoclonal antibody (IgG1k) that functions as an immunosuppressive agent, specifically binding to and blocking the interleukin-2 receptor a-chain (IL-2R alpha, also known as CD25 antigen) on the surface of activated T-lymphocytes. It is a 144 kDa glycoprotein obtained from fermentation of an established mouse myeloma cell line genetically engineered to express plasmids containing the human heavy and light chain constant region genes and mouse heavy and light chain variable region genes encoding the RFT5 antibody that binds selectively to the IL-2R alpha.",
-  "doseSchedule" : "20 mg/5mL Injection, powder, for solution form with intravenous route",
-  "legalStatus" : "investigational",
+  "dosageForm" : [ "Powder for solution", "Injection, powder, for solution" ],
+  "drugClass" : "Immunosuppressive Agents",
+  "schema:identifier" : "drugbank:DB00074",
+  "interactingDrug" : [ "DDI between Trastuzumab and Basiliximab - May enhance the neutropenic effect of Immunosuppressants.", "DDI between Basiliximab and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Basiliximab and Tofacitinib - Immunosuppressants may enhance the immunosuppressive effect of Tofacitinib.", "DDI between Basiliximab and Belimumab - Monoclonal Antibodies may enhance the adverse/toxic effect of Belimumab.", "DDI between Basiliximab and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased.", "DDI between Basiliximab and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between Basiliximab and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased.", "DDI between Basiliximab and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between Basiliximab and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T." ],
+  "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Basiliximab binds with high-affinity to the alpha-subunit (CD25) of the high-affinity IL-2 receptor. This inhibits IL-2 binding, which inhibits T-cell activation and prevents the body from mounting an immune response against the foreign kidney.",
   "name" : "Basiliximab",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00074",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00074"
+  "nonProprietaryName" : [ "chimeric mouse-human antiCD25", "Ig gamma-1 chain C region" ],
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic2/basiliximab.htm", "http://www.drugbank.ca/drugs/DB00074", "http://www.drugs.com/cdi/basiliximab.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00074"
 }</script>
 	</head>
 
@@ -42,7 +73,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00074.json", function(data) {

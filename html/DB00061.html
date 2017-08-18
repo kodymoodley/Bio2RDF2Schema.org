@@ -13,15 +13,36 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00061",
   "type" : "Drug",
-  "alternateName" : "Adenosine deaminase",
+  "administrationRoute" : "intramuscular",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:d4c7a100dd9dac16dce453550375c347",
+    "type" : "DrugStrength",
+    "description" : "250 [iU]/mL Injection, solution form with intramuscular route"
+  },
+  "clinicalPharmacology" : "Used to replace deficient or inactive adenosine deaminase which leads to severe combined immunodeficiency disease (SCID). The enzyme is responsible for converting adenosine to inosine. In the absence of adenosine deaminase, the purine substrates adenosine, 2'-deoxyadenosine and their metabolites are actually toxic to lymphocytes thereby leading to diminished immune function.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:fe38491ea0c8f60781960e94e09c9fd5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "4375.0",
+    "drugUnit" : "Adagen 250 unit/ml vial"
+  },
   "description" : "Bovine adenosine deaminase derived from bovine intestine that has been extensively pegylated for extended serum half life.",
-  "doseSchedule" : "250 [iU]/mL Injection, solution form with intramuscular route",
-  "legalStatus" : "approved",
-  "manufacturer" : "Sigma tau pharmaceuticals inc",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : "Enzyme Replacement Agents",
+  "schema:identifier" : "drugbank:DB00061",
+  "interactingDrug" : "DDI between Pegademase bovine and Pentostatin - Pegademase Bovine may diminish the therapeutic effect of Pentostatin. Pentostatin may diminish the therapeutic effect of Pegademase Bovine.",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:43def0612a2d9ed1ab40977a8d7204f8",
+    "type" : "Organization",
+    "name" : "Sigma tau pharmaceuticals inc"
+  },
   "mechanismOfAction" : "Pegademase converts adenosine (toxic) to inosine (less toxic) by deamination. It also converts 2'-deoxyadenosine to 2'-deoxyinosine via deamination.",
   "name" : "Pegademase bovine",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00061",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00061"
+  "nonProprietaryName" : [ "Adenosine deaminase", "Adenosine aminohydrolase" ],
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic2/pegademase.htm", "http://www.drugs.com/cdi/pegademase-bovine.html", "http://www.drugbank.ca/drugs/DB00061" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00061"
 }</script>
 	</head>
 
@@ -43,7 +64,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00061.json", function(data) {

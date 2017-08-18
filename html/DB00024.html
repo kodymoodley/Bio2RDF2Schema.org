@@ -13,15 +13,39 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00024",
   "type" : "Drug",
-  "alternateName" : "Thytrophin",
+  "administrationRoute" : "intramuscular",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:673bcbaaa51b0be87afd9a2d0a7d0556",
+    "type" : "DrugStrength",
+    "description" : "0.9 mg Powder for solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e43f21031afbbbdffcbb956d3ad0967f",
+    "type" : "DrugStrength",
+    "description" : ".9 mg/mL Injection, powder, for solution form with intramuscular route"
+  } ],
+  "clinicalPharmacology" : "Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification. Thyrogen is an exogenous source of human TSH that offers an additional diagnostic tool in the follow-up of patients with a history of well-differentiated thyroid cancer.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:9ea7691d9797e25874b6961c9041c12d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1196.4000244140625",
+    "drugUnit" : "Thyrogen 1.1 mg vial"
+  },
   "description" : "Thyrotropin alfa is a recombinant form of thyroid stimulating hormone used in performing certain tests in patients who have or have had thyroid cancer. It is also used along with a radioactive agent to destroy remaining thyroid tissue in certain patients who have had their thyroid gland removed because of thyroid cancer. It is a heterodimeric glycoprotein comprised of two non-covalently linked subunits, an alpha subunit of 92 amino acid residues containing two N-linked glycosylation sites and a beta subunit of 112 residues containing one N-linked glycosylation site. The alpha subunit is nearly identical to that of human chorionic gonadotropin (hCG), luteinizing hormone (LH), and follicle-stimulating hormone (FSH). The alpha subunit is thought to be the effector region responsible for stimulation of adenylate cyclase (involved the generation of cAMP). The beta subunit (TSHB) is unique to TSH, and therefore determines its receptor specificity. The amino acid sequence of thyrotropin alfa is identical to that of human pituitary thyroid stimulating hormone.",
-  "doseSchedule" : "0.9 mg Powder for solution form with intramuscular route",
-  "legalStatus" : "approved",
-  "manufacturer" : "Sanofi aventis us llc",
+  "dosageForm" : [ "Powder for solution", "Injection, powder, for solution" ],
+  "drugClass" : "Diagnostic Agents",
+  "schema:identifier" : "drugbank:DB00024",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e095ac12f3e6af0e2acc663b51328fbe",
+    "type" : "Organization",
+    "name" : "Sanofi aventis us llc"
+  },
   "mechanismOfAction" : "Thyrotropin Alfa binds to the thyrotropin receptors found on any residual thyroid cells or tissues. This stimulates radioactive iodine uptake for better radiodiagnostic imaging.",
   "name" : "Thyrotropin Alfa",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00024",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00024"
+  "nonProprietaryName" : [ "Thyrotropin", "Thyrotropin-alpha", "Thyroid stimulating hormone", "Thytrophin", "TSH", "Thyrotropin-a", "Thyrotrophin-alpha", "rTSH", "Thyrotrophin-alfa" ],
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic2/thyrotropin.htm", "http://www.drugs.com/cdi/thyrotropin-alfa.html", "http://www.drugbank.ca/drugs/DB00024" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00024"
 }</script>
 	</head>
 
@@ -43,7 +67,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00024.json", function(data) {

@@ -2,12 +2,39 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00048",
   "type" : "Drug",
-  "alternateName" : "AA4500",
+  "clinicalPharmacology" : "Used in the treatment of skin ulcers and sever burns, collagenase is able to digest collagen in necrotic tissue at physiological pH by hydrolyzing the peptide bonds of undenatured and denatured collagen. Collagenase thus contributes towards the formation of granulation tissue and subsequent epithelization of dermal ulcers and severely burned areas. The action of collagenase may remove substrates necessary for bacterial proliferation or may permit antibodies, leukocytes, and antibiotics better access to the infected area.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:f0a1651d9d0160fc6c744b4febcfb459",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3900.0",
+    "drugUnit" : "Xiaflex 0.9 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ca4522960d059c09dd9c6b74985ed041",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "62.979999542236328125",
+    "drugUnit" : "Santyl 250 unit/gm Ointment 15 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e33a86226f8d3e427ea05d3cee52e694",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "4.1300001144409179688",
+    "drugUnit" : "Santyl ointment"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:86e1dc0499b0e662f0dca6c795e909e1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2432.699951171875",
+    "drugUnit" : "Collagenase powder"
+  } ],
   "description" : "The enzyme collagenase is derived from fermentation of Clostridium histolyticum",
-  "doseSchedule" : "Kit form with  route",
-  "legalStatus" : "investigational",
+  "schema:identifier" : "drugbank:DB00048",
+  "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Collagenase is a protease that is specific to collagen. The triple helical region of interstitial collagens is highly resistant to most cell proteinases. However, during remodeling of the connective tissue in such processes as wound healing and metastasis, collagen becomes susceptible to cleavage by collagenases. Collagenase cleaves all 3 alpha helical chains of native Types I, II and III collagens at a single locus by hydrolyzing the peptide bond following the Gly residue of the sequence: Gly 775-(Ile or Leu) 776-(Ala or Leu) 777 located approximately three-fourths of the chain length from each N-terminus",
   "name" : "Collagenase",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00048",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00048"
+  "nonProprietaryName" : "AA4500",
+  "proprietaryName" : "Cordase",
+  "sameAs" : [ "http://www.drugs.com/cdi/collagenase-ointment.html", "http://www.rxlist.com/cgi/generic3/collagenase.htm", "http://www.drugbank.ca/drugs/DB00048" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00048"
 }

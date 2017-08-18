@@ -1,0 +1,109 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00245",
+  "type" : "Drug",
+  "administrationRoute" : "intramuscular; intravenous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:bd04a075315d05eaac1867497d6aa69b",
+    "type" : "DrugStrength",
+    "description" : "1 mg/mL Injection form with intramuscular; intravenous route"
+  },
+  "clinicalPharmacology" : "Benztropine is an anticholinergic used in the symptomatic treatment of all etiologic groups of parkinsonism and drug-induced extrapyramidal reactions (except tardive dyskinesia). Benztropine possesses both anticholinergic and antihistaminic effects, although only the former has been established as therapeutically significant in the management of parkinsonism. Benztropine's anticholinergic activity is about equal to that of atropine. Benztropine also inhibits dopamine reuptake via the dopamine transporter at nerve terminals.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:f6b504a61cb64575c79c04d24f81733b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "26.379999160766601562",
+    "drugUnit" : "Benztropine mesylate powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a56e4eec29468a24215ac7503f2982ab",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.27000001072883605957",
+    "drugUnit" : "Benztropine Mesylate 0.5 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:41f1ea8ab61c28975d6528ada2f2dbe7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.34000000357627868652",
+    "drugUnit" : "Benztropine mes 0.5 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fa6470906ec46fb547c706ae2df6e8ed",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.25999999046325683594",
+    "drugUnit" : "Benztropine Mesylate 2 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:faff389e32ecef6661abac78e4b83266",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "37.5",
+    "drugUnit" : "Benztropine 2 mg/2 ml ampule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fc734e459db16e1a8a296709eabb6867",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.40999999642372131348",
+    "drugUnit" : "Benztropine mes 2 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0ea77e425f0f228353e93015e5d3df54",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.27000001072883605957",
+    "drugUnit" : "Benztropine Mesylate 1 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:da34afbd8dba91f48d0b06c05ed72b88",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "33.0",
+    "drugUnit" : "Benztropine 2 mg/2 ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9bb415dc6a4338152351ae2fdf569bc1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.059999998658895492554",
+    "drugUnit" : "Apo-Benztropine 2 mg Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9d2a4eb8b2caaacba1b703b209d7c3d7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.37999999523162841797",
+    "drugUnit" : "Benztropine mes 1 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6acd4562ad7e7bde500191ab2f191a5b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "70.089996337890625",
+    "drugUnit" : "Cogentin 2 mg/2 ml ampule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8d0468ca67c57b5247ca64d7df5b6977",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Pms-Benztropine 1 mg Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:04573e35f3b37c273adb1f93d7f8bbd6",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.050000000745058059692",
+    "drugUnit" : "Pms-Benztropine 2 mg Tablet"
+  } ],
+  "description" : "Benzotropine is a centrally-acting, antimuscarinic agent used as an adjunct in the treatment of Parkinson’s disease. It may also be used to treat extrapyramidal reactions, such as dystonia and Parkinsonism, caused by antipsychotics (e.g. phenothiazines). Symptoms of Parkinson’s disease and extrapyramidal reactions arise from decreases in dopaminergic activity which creates an imbalance between dopaminergic and cholinergic activity. Anticholinergic therapy is thought to aid in restoring this balance leading to relief of symptoms. In addition to its anticholinergic effects, benztropine also inhibits the reuptake of dopamine at nerve terminals via the dopamine transporter. Benzotropine also produces antagonistic effects at the histamine H1 receptor.",
+  "dosageForm" : "Injection",
+  "drugClass" : [ "Antidyskinetics", "Dopamine Uptake Inhibitors", "Parasympatholytics", "Antiparkinson Agents", "Muscarinic Antagonists" ],
+  "foodWarning" : "Avoid alcohol.",
+  "schema:identifier" : "drugbank:DB00245",
+  "interactingDrug" : [ "DDI between Benzatropine and Itopride - Anticholinergic Agents may diminish the therapeutic effect of Itopride.", "DDI between Benzatropine and Metoclopramide - Anticholinergic Agents may diminish the therapeutic effect of Metoclopramide.", "DDI between Benzatropine and Tiotropium - Anticholinergic Agents may enhance the anticholinergic effect of Tiotropium.", "DDI between Benzatropine and Mirabegron - Anticholinergic Agents may enhance the adverse/toxic effect of Mirabegron.", "DDI between Benzatropine and Topiramate - Anticholinergic Agents may enhance the adverse/toxic effect of Topiramate.", "DDI between Benzatropine and Ioflupane I 123 - Benztropine may diminish the diagnostic effect of Ioflupane I 123.", "DDI between Secretin and Benzatropine - Anticholinergic Agents may diminish the therapeutic effect of Secretin.", "DDI between Benzatropine and Aclidinium - May enhance the anticholinergic effect of Anticholinergic Agents.", "DDI between Benzatropine and Potassium Chloride - Anticholinergic Agents may enhance the ulcerogenic effect of Potassium Chloride.", "DDI between Benzatropine and Pramlintide - May enhance the anticholinergic effect of Anticholinergic Agents. These effects are specific to the GI tract.", "DDI between Benzatropine and Mianserin - May enhance the anticholinergic effect of Anticholinergic Agents." ],
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:2537480bd8a4de75c4868883aa5053ca",
+    "type" : "Organization",
+    "name" : "Hikma farmaceutica (portugal) sa"
+  },
+  "mechanismOfAction" : "Benztropine is a selective M1 muscarinic acetylcholine receptor antagonist. It is able to discriminate between the M1 (cortical or neuronal) and the peripheral muscarinic subtypes (cardiac and glandular). Benztropine partially blocks cholinergic activity in the CNS, which is responsible for the symptoms of Parkinson's disease. It is also thought to increase the availability of dopamine, a brain chemical that is critical in the initiation and smooth control of voluntary muscle movement.",
+  "name" : "Benzatropine",
+  "nonProprietaryName" : [ "Tropine Benzohydryl Ether", "3-alpha-(diphenylmethoxy)tropane", "Benzatropina", "3?-(diphenylmethoxy)-1?H,5?H-tropane", "3alpha-(Diphenylmethoxy)-1alphah,5alphah-tropane", "Benzatropinum", "Benztropine", "3endo-benzhydryloxytropane", "3alpha-Benzhydryloxy-8-methyl-8-azabicyclo[3.2.1]octane", "Benzhydryl 8-methyl-8-azabicyclo[3.2.1]oct-3-yl ether", "3?-(diphenylmethoxy)tropane", "3alpha-(Diphenylmethoxy)tropane", "3?-benzhydryloxy-8-methyl-8-azabicyclo[3.2.1]octane" ],
+  "proprietaryName" : "Apo-Benztropine",
+  "sameAs" : [ "http://www.drugs.com/cdi/benztropine.html", "http://www.drugbank.ca/drugs/DB00245", "http://www.rxlist.com/cgi/generic2/benztrop.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00245"
+}

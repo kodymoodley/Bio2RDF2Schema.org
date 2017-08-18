@@ -13,15 +13,46 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00065",
   "type" : "Drug",
-  "alternateName" : "Ig gamma-1 chain C region",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:c890bc141e7febfbe772830cc6ac8dff",
+    "type" : "DrugStrength",
+    "description" : "100 mg/10mL Injection, powder, lyophilized, for solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d827c9ae2ac52ee56950fc3b4d733975",
+    "type" : "DrugStrength",
+    "description" : "100 mg Powder for solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Infliximab is a chimeric human-murine anti-human tumor necrosis factor (TNF) monoclonal antibody. It binds to tumor necrosis factor alpha (TNFa) and inhibits binding of TNFa with its receptors. This reduces production of pro-inflammatory cytokines such as interleukins (IL) 1 and 6. This also limits leukocyte migration and expression of adhesion molecules by endothelial cells and leukocytes. Infliximab also limits the activation of neutrophil and eosinophil functional activity, reduces production of tissue degrading enzymes produced by synoviocytes and/or chondrocytes. Infliximab decreases synovitis and joint erosions in collagen-induced arthritis and allows eroded joints to heal.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:f9610d8bb8b606f59ba0da6647fa4ad2",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "821.02001953125",
+    "drugUnit" : "Remicade 100 mg Solution Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2cc5fd30fda8069181727a1516039dc4",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "789.44000244140625",
+    "drugUnit" : "Remicade 100 mg vial"
+  } ],
   "description" : "Tumor necrosis factor (TNF-alpha) binding antibody (chimeric IgG1). It is composed of human constant and murine variable regions. Infliximab is produced by a recombinant cell line cultured by continuous perfusion",
-  "doseSchedule" : "100 mg/10mL Injection, powder, lyophilized, for solution form with intravenous route",
-  "legalStatus" : "approved",
-  "manufacturer" : "J&J and Mitsubisi Tanabe",
+  "dosageForm" : [ "Injection, powder, lyophilized, for solution", "Powder for solution" ],
+  "drugClass" : [ "Immunosuppressive Agents", "Dermatologic Agents", "Antirheumatic Agents", "Anti-Inflammatory Agents, Non-Steroidal", "Gastrointestinal Agents" ],
+  "schema:identifier" : "drugbank:DB00065",
+  "interactingDrug" : [ "DDI between Infliximab and Vedolizumab - Anti-TNF Agents may enhance the adverse/toxic effect of Vedolizumab.", "DDI between Infliximab and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased.", "DDI between Infliximab and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Infliximab and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T.", "DDI between Anakinra and Infliximab - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Infliximab and golimumab - May enhance the immunosuppressive effect of InFLIXimab.", "DDI between Infliximab and Canakinumab - Anti-TNF Agents may enhance the adverse/toxic effect of Canakinumab. Specifically, the risk for serious infections and/or neutropenia may be increased.", "DDI between Etanercept and Infliximab - Etanercept may enhance the immunosuppressive effect of InFLIXimab.", "DDI between Infliximab and Abatacept - Anti-TNF Agents may enhance the adverse/toxic effect of Abatacept. An increased risk of serious infection during concomitant use has been reported.", "DDI between Infliximab and Tocilizumab - May enhance the immunosuppressive effect of Anti-TNF Agents.", "DDI between Infliximab and Belimumab - Monoclonal Antibodies may enhance the adverse/toxic effect of Belimumab.", "DDI between Infliximab and Trastuzumab - May enhance the neutropenic effect of Immunosuppressants.", "DDI between Infliximab and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between Infliximab and Rilonacept - Anti-TNF Agents may enhance the adverse/toxic effect of Rilonacept.", "DDI between Infliximab and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased.", "DDI between Infliximab and Certolizumab pegol - Anti-TNF Agents may enhance the immunosuppressive effect of Certolizumab Pegol.", "DDI between Adalimumab and Infliximab - Adalimumab may enhance the immunosuppressive effect of InFLIXimab.", "DDI between Infliximab and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between Infliximab and Tofacitinib - Anti-TNF Agents may enhance the adverse/toxic effect of Tofacitinib." ],
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:5d1aa311345cac691d441b6a3cde2593",
+    "type" : "Organization",
+    "name" : "J&J and Mitsubisi Tanabe"
+  },
   "mechanismOfAction" : "Infliximab neutralizes the biological activity of TNFa by binding with high affinity to the soluble and transmembrane forms of TNFa and inhibits binding of TNFa with its receptors. Infliximab does not neutralize TNFb (lymphotoxin a), a related cytokine that utilizes the same receptors as TNFa. TNFa activation normally induces the release of proinflammatory cytokines, the enhancement of leukocyte migration and activation of neutrophils among others. Neutralization of the biological activity of TNFa leads to an overall reduction in inflammation.",
   "name" : "Infliximab",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00065",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00065"
+  "nonProprietaryName" : "Ig gamma-1 chain C region",
+  "sameAs" : [ "http://www.drugs.com/cdi/infliximab.html", "http://www.drugbank.ca/drugs/DB00065", "http://www.rxlist.com/cgi/generic3/infliximab.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00065"
 }</script>
 	</head>
 
@@ -43,7 +74,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00065.json", function(data) {

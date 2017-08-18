@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00152",
+  "type" : "Drug",
+  "administrationRoute" : "intramuscular; intravenous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:53cb51f7843d8a47e92403f25c8fde11",
+    "type" : "DrugStrength",
+    "description" : "100 mg/mL Injection, solution form with intramuscular; intravenous route"
+  },
+  "clinicalPharmacology" : "Thiamine is a vitamin with antioxidant, erythropoietic, cognition-and mood-modulatory, antiatherosclerotic, putative ergogenic, and detoxification activities. Thiamine has been found to protect against lead-induced lipid peroxidation in rat liver and kidney. Thiamine deficiency results in selective neuronal death in animal models. The neuronal death is associated with increased free radical production, suggesting that oxidative stress may play an important early role in brain damage associated with thiamine deficiency. Thiamine plays a key role in intracellular glucose metabolism and it is thought that thiamine inhibits the effect of glucose and insulin on arterial smooth muscle cell proliferation. Inhibition of endothelial cell proliferation may also promote atherosclerosis. Endothelial cells in culture have been found to have a decreased proliferative rate and delayed migration in response to hyperglycemic conditions. Thiamine has been shown to inhibit this effect of glucose on endothelial cells.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:a58a5f2b5db153271de37c03dea27574",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.20999999344348907471",
+    "drugUnit" : "Thiamine 100 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5c7b2b96919ce5a899eebbc2e40d6b79",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Vitamin b-1 50 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:17cd50006059229279702c9405e4d307",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6399999856948852539",
+    "drugUnit" : "Vitamin B-1 100 mg/ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:57de7001430d9808c1acb67f6e38f0a2",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.18000000715255737305",
+    "drugUnit" : "Thiamine 500 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:de5aa521eade9be7eb36738681037b35",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Thiamine 250 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7c02efeb64bf88cbf0963973b98f4609",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.2400000095367431641",
+    "drugUnit" : "Thiamiject 100 mg/ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6ddca1d699b5c70a96b10ac22425a9c5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2.5799999237060546875",
+    "drugUnit" : "Infuvite pediatric vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7126048e5c5612079a94757086238452",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.0099999997764825820923",
+    "drugUnit" : "Thiamine hcl 50 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4b664a308a4773513d14571bb6b69ad9",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.050000000745058059692",
+    "drugUnit" : "Vitamin b-1 100 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6aa82fdaa65059bf6c39ac7a77cf7265",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.059999998658895492554",
+    "drugUnit" : "Vitamin b-1 250 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:67da9fc42c08b362ba5fda131766c284",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.73000001907348632812",
+    "drugUnit" : "Thiamine hcl powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c88f3e858cd00e6c718d5d40565945b1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "8.6099996566772460938",
+    "drugUnit" : "Thiamine 100 mg/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b8eacdf3e4de31654a849aef7e8c3895",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.2400000095367431641",
+    "drugUnit" : "Thiamine Hcl 100 mg/ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2d575d9f605f63da19a1f20b2d2933ef",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "CVS Pharmacy vitamin b-1 100 mg tablet"
+  } ],
+  "description" : "Thiamine or thiamin, also known as vitamin B1, is a colorless compound with the chemical formula C12H17N4OS. It is soluble in water and insoluble in alcohol. Thiamine decomposes if heated. Thiamine was first discovered by Umetaro Suzuki in Japan when researching how rice bran cured patients of Beriberi. Thiamine plays a key role in intracellular glucose metabolism and it is thought that thiamine inhibits the effect of glucose and insulin on arterial smooth muscle cell proliferation. Thiamine plays an important role in helping the body convert carbohydrates and fat into energy. It is essential for normal growth and development and helps to maintain proper functioning of the heart and the nervous and digestive systems. Thiamine cannot be stored in the body; however, once absorbed, the vitamin is concentrated in muscle tissue.",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : [ "Vitamins", "Vitamin B Complex" ],
+  "schema:identifier" : "drugbank:DB00152",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087",
+    "type" : "Organization",
+    "name" : "Eli lilly and co"
+  },
+  "mechanismOfAction" : "It is thought that the mechanism of action of thiamine on endothelial cells is related to a reduction in intracellular protein glycation by redirecting the glycolytic flux. Thiamine is mainly the transport form of the vitamin, while the active forms are phosphorylated thiamine derivatives. There are five known natural thiamine phosphate derivatives: thiamine monophosphate (ThMP), thiamine diphosphate (ThDP), also sometimes called thiamine pyrophosphate (TPP), thiamine triphosphate (ThTP), and the recently discovered adenosine thiamine triphosphate (AThTP), and adenosine thiamine diphosphate. Each derivative has unique functions, however, most are involved as coenzymes.",
+  "name" : "Thiamine",
+  "nonProprietaryName" : [ "Thiamine", "thiamine(1+)", "Antiberiberi factor", "Vitamin B1", "thiamine(1+) ion", "Thiamin", "3-(4-AMINO-2-methyl-pyrimidin-5-ylmethyl)-5-(2-hydroxy-ethyl)-4-methyl-thiazol-3-ium", "thiaminium", "Aneurin" ],
+  "proprietaryName" : "Betalin S",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00152", "http://www.drugs.com/cdi/thiamine.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00152"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00152.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

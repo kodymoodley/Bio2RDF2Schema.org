@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00150",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Tryptophan is critical for the production of the body's proteins, enzymes and muscle tissue. It is also essential for the production of niacin, the synthesis of the neurotransmitter serotonin and melatonin. Tryptophan supplements can be used as natural relaxants to help relieve insomnia. Tryptophan can also reduce anxiety and depression and has been shown to reduce the intensity of migraine headaches. Other promising indications include the relief of chronic pain, reduction of impulsivity or mania and the treatment of obsessive or compulsive disorders. Tryptophan also appears to help the immune system and can reduce the risk of cardiac spasms. Tryptophan deficiencies may lead to coronary artery spasms. Tryptophan is used as an essential nutrient in infant formulas and intravenous feeding. Tryptophan is marketed as a prescription drug (Tryptan) for those who do not seem to respond well to conventional antidepressants. It may also be used to treat those afflicted with seasonal affective disorder (a winter-onset depression). Tryptopan serves as the precursor for the synthesis of serotonin (5-hydroxytryptamine, 5-HT) and melatonin (N-acetyl-5-methoxytryptamine).",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:58523788e5eccf33ccb327cc725a16bb",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.72000002861022949219",
+    "drugUnit" : "L-tryptophan crystals"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:cc109849c0e3a62fde0c069370bb725a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.2000000476837158203",
+    "drugUnit" : "Tryptan 750 mg Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c811906a9074a0b0a2d728c050cf6425",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.89999997615814208984",
+    "drugUnit" : "Apo-Tryptophan 1 g Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3e3b6ee31edf2e400ea3075735335e5f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.80000001192092895508",
+    "drugUnit" : "Tryptan 500 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3f7582cb91b62e58631fc353f1eef8b3",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.33000001311302185059",
+    "drugUnit" : "L-tryptophan 500 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:847e61d079849fd41303d5ec690676d5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.44999998807907104492",
+    "drugUnit" : "Pms-Tryptophan 500 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fd2b2a89a944912976797697a709ea71",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.44999998807907104492",
+    "drugUnit" : "Ratio-Tryptophan 500 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:84e6d3818c46601d9387e07833dfda2d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.44999998807907104492",
+    "drugUnit" : "Ratio-Tryptophan 500 mg Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fe11f6e646226641518b7c07a53a4a7a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.80000001192092895508",
+    "drugUnit" : "Tryptan 500 mg Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:87d28ba59f701c14d41942b9620ccd3c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.40000000596046447754",
+    "drugUnit" : "Tryptan 250 mg Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:333755d774499967f4e035bbd159c3ac",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.89999997615814208984",
+    "drugUnit" : "Ratio-Tryptophan 1 g Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e7c75d36f67c8ae706a703135d57bea6",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.44999998807907104492",
+    "drugUnit" : "Pms-Tryptophan 500 mg Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b1826e3375bb29857f7cdf66bce095bf",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.44999998807907104492",
+    "drugUnit" : "Apo-Tryptophan 500 mg Tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7cd98bdc6bf35b58fc391acc8a4a713d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.44999998807907104492",
+    "drugUnit" : "Apo-Tryptophan 500 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1f35558694128f111ed55422eae0fc6a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6000000238418579102",
+    "drugUnit" : "Tryptan 1 g Tablet"
+  } ],
+  "description" : "An essential amino acid that is necessary for normal growth in infants and for nitrogen balance in adults. It is a precursor of indole alkaloids in plants. It is a precursor of serotonin (hence its use as an antidepressant and sleep aid). It can be a precursor to niacin, albeit inefficiently, in mammals. [PubChem]",
+  "drugClass" : [ "Dietary Supplements", "Micronutrients", "Amino Acids, Essential", "Antidepressive Agents, Second-Generation", "Supplements" ],
+  "schema:identifier" : "drugbank:DB00150",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "A number of important side reactions occur during the catabolism of tryptophan on the pathway to acetoacetate. The first enzyme of the catabolic pathway is an iron porphyrin oxygenase that opens the indole ring. The latter enzyme is highly inducible, its concentration rising almost 10-fold on a diet high in tryptophan. Kynurenine is the first key branch point intermediate in the pathway. Kynurenine undergoes deamniation in a standard transamination reaction yielding kynurenic acid. Kynurenic acid and metabolites have been shown to act as antiexcitotoxics and anticonvulsives. A second side branch reaction produces anthranilic acid plus alanine. Another equivalent of alanine is produced further along the main catabolic pathway, and it is the production of these alanine residues that allows tryptophan to be classified among the glucogenic and ketogenic amino acids. The second important branch point converts kynurenine into 2-amino-3-carboxymuconic semialdehyde, which has two fates. The main flow of carbon elements from this intermediate is to glutarate. An important side reaction in liver is a transamination and several rearrangements to produce limited amounts of nicotinic acid, which leads to production of a small amount of NAD<sup>+</sup> and NADP<sup>+</sup>.",
+  "name" : "L-Tryptophan",
+  "nonProprietaryName" : [ "L-(-)-Tryptophan", "(S)-alpha-amino-1H-indole-3-propanoic acid", "L-Tryptophan", "Trp", "Tryptophan", "L-(?)-tryptophan", "(S)-?-amino-1H-indole-3-propanoic acid", "L-?-3-indolylalanine", "(S)-alpha-Amino-beta-(3-indolyl)-propionic acid", "(2S)-2-amino-3-(1H-indol-3-yl)Propanoic acid", "(-)-Tryptophan", "W", "(S)-Tryptophan", "L-beta-3-Indolylalanine" ],
+  "proprietaryName" : "Alti-Tryptophan",
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00150",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00150"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00150.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

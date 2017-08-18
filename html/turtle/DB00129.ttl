@@ -1,0 +1,12 @@
+
+<http://bio2rdf.org/drugbank:DB00129> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "L-Ornithine" ;
+	<http://schema.org/description> "Ornithine is an amino acid produced in the urea cycle by the splitting off of urea from arginine. It is a central part of the urea cycle, which allows for the disposal of excess nitrogen. L-Ornithine is a precursor of citrulline and arginine." ;
+	<http://schema.org/drugClass> "Micronutrients" , "Supplements" , "Dietary Supplements" , "Non-Essential Amino Acids" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00129" ;
+	<http://schema.org/clinicalPharmacology> "A non-essential and nonprotein amino acid, ornithine is critical for the production of the body's proteins, enzymes and muscle tissue. Ornithine plays a central role in the urea cycle and is important for the disposal of excess nitrogen (ammonia). Ornithine is the starting point for the synthesis of many polyamines such as putrescine and spermine. Ornithine supplements are claimed to enhance the release of growth hormone and to burn excess body fat. Ornithine is necessary for proper immune function and good liver function." ;
+	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;
+	<http://schema.org/mechanismOfAction> "L-Ornithine is metabolised to L-arginine. L-arginine stimulates the pituitary release of growth hormone. Burns or other injuries affect the state of L-arginine in tissues throughout the body. As De novo synthesis of L-arginine during these conditions is usually not sufficient for normal immune function, nor for normal protein synthesis, L-ornithine may have immunomodulatory and wound-healing activities under these conditions (by virtue of its metabolism to L-arginine)." ;
+	<http://schema.org/nonProprietaryName> "L-Ornithine" , "(S)-ornithine" , "(S)-α,δ-diaminovaleric acid" , "(S)-2,5-Diaminopentanoic acid" , "(S)-2,5-Diaminopentanoate" , "(S)-alpha,delta-Diaminovaleric acid" , "(S)-2,5-diaminovaleric acid" ;
+	<http://schema.org/identifier> "drugbank:DB00129" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00129> , <http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lor_0190.shtml> .

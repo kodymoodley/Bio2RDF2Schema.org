@@ -1,0 +1,34 @@
+
+<http://bio2rdf.org/drugbank:DB00122> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Choline" ;
+	<http://schema.org/description> "A basic constituent of lecithin that is found in many plants and animal organs. It is important as a precursor of acetylcholine, as a methyl donor in various metabolic processes, and in lipid metabolism. [PubChem]" ;
+	<http://schema.org/drugClass> "Nootropic Agents" , "Lipotropic Agents" , "Dietary Supplements" , "Micronutrients" , "Supplements" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00122" ;
+	<http://schema.org/clinicalPharmacology> "This compound is needed for good nerve conduction throughout the CNS (central nervous system) as it is a precursor to acetylcholine (ACh). Choline is also needed for gallbladder regulation, liver function and lecithin (a key lipid) formation. Choline also aids in fat and cholesterol metabolism and prevents excessive fat build up in the liver. Choline has been used to mitigate the effects of Parkinsonism and tardive dyskinesia. Choline deficiencies may result in excessive build-up of fat in the liver, high blood pressure, gastric ulcers, kidney and liver dysfunction and stunted growth." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:9b64f26419fefcad3e6df5c179eeccd9> , <http://bio2rdf.org/drugbank_resource:b20235c1bac5e2b61c4b68e426fb8dc5> , <http://bio2rdf.org/drugbank_resource:57fc5c97769f909f7e8759e8eaf6d53b> , <http://bio2rdf.org/drugbank_resource:eeb2ec470f544bd926b3a1d24e721cda> ;
+	<http://schema.org/interactingDrug> "DDI between Choline and Warfarin - Fenofibrate and Derivatives may enhance the anticoagulant effect of Warfarin. Fenofibrate and Derivatives may increase the serum concentration of Warfarin." , "DDI between Choline and Ezetimibe - Fenofibrate and Derivatives may enhance the adverse/toxic effect of Ezetimibe. Specifically, the risk of myopathy and cholelithiasis may be increased." , "DDI between Choline and Colesevelam - May decrease the absorption of Fibric Acid Derivatives." , "DDI between Choline and Raltegravir - May enhance the myopathic (rhabdomyolysis) effect of Fibric Acid Derivatives." , "DDI between Choline and Colchicine - Fibric Acid Derivatives may enhance the myopathic (rhabdomyolysis) effect of Colchicine." ;
+	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;
+	<http://schema.org/mechanismOfAction> "Choline is a major part of the polar head group of phosphatidylcholine. Phosphatidylcholine's role in the maintenance of cell membrane integrity is vital to all of the basic biological processes: information flow, intracellular communication and bioenergetics. Inadequate choline intake would negatively affect all these processes. Choline is also a major part of another membrane phospholipid, sphingomyelin, also important for the maintenance of cell structure and function. It is noteworthy and not surprising that choline deficiency in cell culture causes apoptosis or programmed cell death. This appears to be due to abnormalities in cell membrane phosphatidylcholine content and an increase in ceramide, a precursor, as well as a metabolite, of sphingomyelin. Ceramide accumulation, which is caused by choline deficiency, appears to activate Caspase, a type of enzyme that mediates apoptosis. Betaine or trimethylglycine is derived from choline via an oxidation reaction. Betaine is one of the factors that maintains low levels of homocysteine by resynthesizing L-methionine from homocysteine. Elevated homocysteine levels are a significant risk factor for atherosclerosis, as well as other cardiovascular and neurological disorders. Acetylcholine is one of the major neurotransmitters and requires choline for its synthesis. Adequate acetylcholine levels in the brain are believed to be protective against certain types of dementia, including Alzheimer's disease." ;
+	<http://schema.org/nonProprietaryName> "N-trimethylethanolamine" , "Bilineurine" , "N,N,N-trimethylethanol-ammonium" , "Choline ion" , "trimethylethanolamine" , "Choline" ;
+	<http://schema.org/identifier> "drugbank:DB00122" ;
+	<http://schema.org/sameAs> <http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/cho_0283.shtml> , <http://www.drugbank.ca/drugs/DB00122> .
+
+<http://bio2rdf.org/drugbank_resource:57fc5c97769f909f7e8759e8eaf6d53b> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.059999998658895492554" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Choline-10 tablet" .
+
+<http://bio2rdf.org/drugbank_resource:9b64f26419fefcad3e6df5c179eeccd9> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.029999999329447746277" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Choline bitartrate crystals" .
+
+<http://bio2rdf.org/drugbank_resource:b20235c1bac5e2b61c4b68e426fb8dc5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "4.3800001144409179688" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Trilipix dr 135 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:eeb2ec470f544bd926b3a1d24e721cda> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.4600000381469726562" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Trilipix dr 45 mg capsule" .

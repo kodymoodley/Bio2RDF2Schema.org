@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00119",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Pyruvic acid or pyruvate is a key intermediate in the glycolytic and pyruvate dehydrogenase pathways, which are involved in biological energy production. Pyruvate is widely found in living organisms. It is not an essential nutrient since it can be synthesized in the cells of the body. Certain fruits and vegetables are rich in pyruvate. For example, an average-size red apple contains approximately 450 milligrams. Dark beer and red wine are also rich sources of pyruvate. Recent research suggests that pyruvate in high concentrations may have a role in cardiovascular therapy, as an inotropic agent. Supplements of this dietary substance may also have bariatric and ergogenic applications.",
+  "description" : "An intermediate compound in the metabolism of carbohydrates, proteins, and fats. In thiamine deficiency, its oxidation is retarded and it accumulates in the tissues, especially in nervous structures. (From Stedman, 26th ed)",
+  "drugClass" : [ "Micronutrients", "Supplements", "Dietary Supplements" ],
+  "schema:identifier" : "drugbank:DB00119",
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "mechanismOfAction" : "Pyruvate serves as a biological fuel by being converted to acetyl coenzyme A, which enters the tricarboxylic acid or Krebs cycle where it is metabolized to produce ATP aerobically. Energy can also be obtained anaerobically from pyruvate via its conversion to lactate. Pyruvate injections or perfusions increase contractile function of hearts when metabolizing glucose or fatty acids. This inotropic effect is striking in hearts stunned by ischemia/reperfusion. The inotropic effect of pyruvate requires intracoronary infusion. Among possible mechanisms for this effect are increased generation of ATP and an increase in ATP phosphorylation potential. Another is activation of pyruvate dehydrogenase, promoting its own oxidation by inhibiting pyruvate dehydrogenase kinase. Pyruvate dehydrogenase is inactivated in ischemia myocardium. Yet another is reduction of cytosolic inorganic phosphate concentration. Pyruvate, as an antioxidant, is known to scavenge such reactive oxygen species as hydrogen peroxide and lipid peroxides. Indirectly, supraphysiological levels of pyruvate may increase cellular reduced glutathione.",
+  "name" : "Pyruvic acid",
+  "nonProprietaryName" : [ "Pyroracemic acid", "Acetylformic acid", "a-Ketopropionic acid", "2-ketopropionic acid", "Pyruvic acid", "alpha-Ketopropionic acid", "alpha-Oxopropionsaeure", "Acide pyruvique", "?-ketopropionic acid", "2-Oxopropanoic acid", "Brenztraubensaeure", "2-Oxopropionsaeure", "2-Oxopropansaeure", "CH3COCOOH", "BTS" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00119", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/pyr_0218.shtml" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00119"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00119.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

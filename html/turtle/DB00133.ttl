@@ -1,0 +1,18 @@
+
+<http://bio2rdf.org/drugbank:DB00133> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "L-Serine" ;
+	<http://schema.org/description> "A non-essential amino acid occurring in natural form as the L-isomer. It is synthesized from glycine or threonine. It is involved in the biosynthesis of purines; pyrimidines; and other amino acids. [PubChem]" ;
+	<http://schema.org/drugClass> "Non-Essential Amino Acids" , "Micronutrients" , "Supplements" , "Dietary Supplements" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00133" ;
+	<http://schema.org/clinicalPharmacology> "Serine is classified as a nutritionally non-essential amino acid. Serine is critical for the production of the body's proteins, enzymes and muscle tissue. Serine is needed for the proper metabolism of fats and fatty acids. It also helps in the production of antibodies. Serine is used as a natural moisturizing agent in some cosmetics and skin care products. The main source of essential amino acids is from the diet, non-essential amino acids are normally synthesize by humans and other mammals from common intermediates." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:e05c3168919ed1187502a51015e8892c> ;
+	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;
+	<http://schema.org/mechanismOfAction> "L-Serine plays a role in cell growth and development (cellular proliferation). The conversion of L-serine to glycine by serine hydroxymethyltransferase results in the formation of the one-carbon units necessary for the synthesis of the purine bases, adenine and guanine. These bases when linked to the phosphate ester of pentose sugars are essential components of DNA and RNA and the end products of energy producing metabolic pathways, ATP and GTP. In addition, L-serine conversion to glycine via this same enzyme provides the one-carbon units necessary for production of the pyrimidine nucleotide, deoxythymidine monophosphate, also an essential component of DNA." ;
+	<http://schema.org/nonProprietaryName> "L-(-)-Serine" , "S" , "Ser" , "(S)-alpha-Amino-beta-hydroxypropionic acid" , "beta-Hydroxyalanine" , "L-Serin" , "beta-Hydroxy-L-alanine" , "L-Serine" , "L-Ser" , "(S)-Serine" , "L-(−)-serine" , "(2S)-2-amino-3-Hydroxypropanoic acid" , "(S)-2-Amino-3-hydroxypropanoic acid" , "L-2-Amino-3-hydroxypropionic acid" , "L-3-Hydroxy-alanine" , "L-3-Hydroxy-2-aminopropionic acid" , "(S)-(−)-serine" , "(S)-(-)-Serine" , "Serine" ;
+	<http://schema.org/identifier> "drugbank:DB00133" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00133> .
+
+<http://bio2rdf.org/drugbank_resource:e05c3168919ed1187502a51015e8892c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "3.8499999046325683594" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-serine powder" .

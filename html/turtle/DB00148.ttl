@@ -1,0 +1,28 @@
+
+<http://bio2rdf.org/drugbank:DB00148> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Creatine" ;
+	<http://schema.org/description> "An amino acid that occurs in vertebrate tissues and in urine.  In muscle tissue, creatine generally occurs as phosphocreatine.  Creatine is excreted as creatinine in the urine. [PubChem]" ;
+	<http://schema.org/drugClass> "Dietary Supplements" , "Supplements" , "Micronutrients" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00148" ;
+	<http://schema.org/clinicalPharmacology> "Creatine is a essential, non-proteinaceous amino acid found in all animals and, in some plants. Creatine is synthesized in the kidney, liver and pancreas from L-arginine, glycine and L-methionine. Following its biosynthesis, creatine is transported to the skeletal muscle, heart, brain and other tissues. Most of the creatine is metabolized in these tissues to phosphocreatine (creatine phosphate). Phosphocreatine is a major energy storage form in the body. Supplemental creatine may have an energy-generating action during anaerobic exercise and may also have neuroprotective and cardioprotective actions." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:c99bac6106694dc88a12c58fab27f12e> , <http://bio2rdf.org/drugbank_resource:80339c18f3c78a32e40e6dc482276708> , <http://bio2rdf.org/drugbank_resource:5854c9e39c1f4e1894f0ae4ed80fab9b> ;
+	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;
+	<http://schema.org/mechanismOfAction> "In the muscles, a fraction of the total creatine binds to phosphate - forming creatine phosphate. The reaction is catalysed by creatine kinase, and the result is phosphocreatine (PCr). Phosphocreatine binds with adenosine diphosphate to convert it back to ATP (adenosine triphosphate), an important cellular energy source for short term ATP needs prior to oxidative phosphorylation." ;
+	<http://schema.org/nonProprietaryName> "Kreatin" , "N-[(e)-AMINO(imino)methyl]-N-methylglycine" , "(N-methylcarbamimidamido)acetic acid" , "N-(aminoiminomethyl)-N-methylglycine" , "Methylglycocyamine" , "(alpha-Methylguanido)acetic acid" , "Creatine" , "(α-methylguanido)acetic acid" , "N-Amidinosarcosine" , "((amino(Imino)methyl)(methyl)amino)acetic acid" , "N-Carbamimidoyl-N-methylglycine" , "Creatin" , "alpha-Methylguanidino acetic acid" , "N-Methyl-N-guanylglycine" ;
+	<http://schema.org/identifier> "drugbank:DB00148" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/creatine.html> , <http://www.drugbank.ca/drugs/DB00148> , <http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/cre_0086.shtml> .
+
+<http://bio2rdf.org/drugbank_resource:5854c9e39c1f4e1894f0ae4ed80fab9b> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.070000000298023223877" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cytotine 1.5 g/15 ml liquid" .
+
+<http://bio2rdf.org/drugbank_resource:80339c18f3c78a32e40e6dc482276708> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.81000000238418579102" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Creatine monohydrate powder" .
+
+<http://bio2rdf.org/drugbank_resource:c99bac6106694dc88a12c58fab27f12e> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.0099999997764825820923" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Creatine powder" .

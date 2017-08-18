@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00112",
+  "type" : "Drug",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:285048a510ce36e96744886cc83cc631",
+    "type" : "DrugStrength",
+    "description" : "400 mg/16mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2ddeeca2fe9449969ab1519d768237c6",
+    "type" : "DrugStrength",
+    "description" : "100 mg/4mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fdb0a3b06aac9bbd85eeda7b1daf8545",
+    "type" : "DrugStrength",
+    "description" : "25 mg Solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Bevacizumab is an antineoplastic agent and prevents or reduces the formation of blood vessels (angiogenesis) thereby preventing or reducing metatstatic disease progressing. Bevacizumab binds VEGF and prevents vascular endothelial growth and endothelial cell proliferation.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:44f69c2f2cafbb8f91195a7c66dea66b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "696.70001220703125",
+    "drugUnit" : "Avastin 100 mg/4ml Solution 4ml Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:97ec1d8cd1e1a741b51a1151859ee3e7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2786.780029296875",
+    "drugUnit" : "Avastin 400 mg/16ml Solution 16ml Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e7c136f8ca90ace8343567c266d8218e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "167.4799957275390625",
+    "drugUnit" : "Avastin 100 mg/4 ml vial"
+  } ],
+  "description" : "A recombinant humanized monoclonal IgG1 antibody that binds to and inhibits the biologic activity of human vascular endothelial growth factor (VEGF). Bevacizumab contains human framework regions and the complementarity-determining regions of a murine antibody that binds to VEGF. Bevacizumab is produced in a Chinese Hamster Ovary mammalian cell expression system in a nutrient medium containing the antibiotic gentamicin and has a molecular weight of approximately 149 kilodaltons.",
+  "dosageForm" : [ "Solution", "Injection, solution" ],
+  "drugClass" : "Angiogenesis Inhibitors",
+  "schema:identifier" : "drugbank:DB00112",
+  "interactingDrug" : [ "DDI between Bevacizumab and Sorafenib - Bevacizumab may enhance the adverse/toxic effect of SORAfenib. Specifically, the risk for hand-foot skin reaction may be increased.", "DDI between Bevacizumab and Epirubicin - May enhance the cardiotoxic effect of Antineoplastic Agents (Anthracycline, Systemic).", "DDI between Bevacizumab and Belimumab - Monoclonal Antibodies may enhance the adverse/toxic effect of Belimumab.", "DDI between Bevacizumab and Irinotecan - Bevacizumab may enhance the adverse/toxic effect of Irinotecan.", "DDI between Bevacizumab and Daunorubicin - May enhance the cardiotoxic effect of Antineoplastic Agents (Anthracycline, Systemic).", "DDI between Bevacizumab and Sunitinib - May enhance the adverse/toxic effect of Bevacizumab. Specifically, the risk for a specific form of anemia, microangiopathic hemolytic anemia (MAHA), may be increased. Bevacizumab may enhance the hypertensive effect of SUNItinib.", "DDI between Bevacizumab and Clozapine - Myelosuppressive Agents may enhance the adverse/toxic effect of CloZAPine. Specifically, the risk for agranulocytosis may be increased.", "DDI between Bevacizumab and Idarubicin - May enhance the cardiotoxic effect of Antineoplastic Agents (Anthracycline, Systemic)." ],
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:14e62611474f52c8e22248963b84f59b",
+    "type" : "Organization",
+    "name" : "Roche Pharmaceuticals"
+  },
+  "mechanismOfAction" : "Bevacizumab contains human framework regions with antigen binding regions of a humanised murine antibody that binds to VEGF. Bevacizumab is produced by recombinant DNA technology in a Chinese hamster ovary mammalian cell expression system in a nutrient medium containing the antibiotic gentamicin and is purified by a process that includes specific viral inactivation and removal steps. Bevacizumab binds VEGF and prevents the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. This prevents blood vessel proliferation and in response retardation of metastatic tumor growth occurs.",
+  "name" : "Bevacizumab",
+  "nonProprietaryName" : [ "antiVEGF", "Avastin" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00112", "http://www.drugs.com/cdi/bevacizumab-solution.html", "http://www.rxlist.com/cgi/generic3/avastin.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00112"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00112.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

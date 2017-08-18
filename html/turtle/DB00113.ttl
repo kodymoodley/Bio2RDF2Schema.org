@@ -1,0 +1,13 @@
+
+<http://bio2rdf.org/drugbank:DB00113> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Arcitumomab" ;
+	<http://schema.org/description> "Reduced Fab fragment of the murine IgG1 monoclonal antibody IMMU-4 (also called NP-4) with specificity for carcinoembryonic antigen (CEA) covalently labeled with Technitium 99. The molecule has a molecular weight of ~54,000 Daltons." ;
+	<http://schema.org/drugClass> "Diagnostic Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00113" ;
+	<http://schema.org/clinicalPharmacology> "Binds to the carcinoembryonic antigen, which is a cell surface protein generally overexpressed in colon (and other) cancers. The radioactive Tc99, which is covalently attached to the antibody, allows radiodiagnostic detection of CEA expressing cells and tumors" ;
+	<http://schema.org/legalStatus> "Investigational" , "Approved" ;
+	<http://schema.org/mechanismOfAction> "Binds selectively to cell-surface carcinoembryonic antigen (CEA) expressed on colorectal tumors." ;
+	<http://schema.org/nonProprietaryName> "anti-Carcinoembryonic Antigen Monoclonal Antibody Fab' Fragment" , "IMMU-4" ;
+	<http://schema.org/proprietaryName> "CEA-Scan" ;
+	<http://schema.org/identifier> "drugbank:DB00113" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00113> .

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00133",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Serine is classified as a nutritionally non-essential amino acid. Serine is critical for the production of the body's proteins, enzymes and muscle tissue. Serine is needed for the proper metabolism of fats and fatty acids. It also helps in the production of antibodies. Serine is used as a natural moisturizing agent in some cosmetics and skin care products. The main source of essential amino acids is from the diet, non-essential amino acids are normally synthesize by humans and other mammals from common intermediates.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e05c3168919ed1187502a51015e8892c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3.8499999046325683594",
+    "drugUnit" : "L-serine powder"
+  },
+  "description" : "A non-essential amino acid occurring in natural form as the L-isomer. It is synthesized from glycine or threonine. It is involved in the biosynthesis of purines; pyrimidines; and other amino acids. [PubChem]",
+  "drugClass" : [ "Non-Essential Amino Acids", "Micronutrients", "Supplements", "Dietary Supplements" ],
+  "schema:identifier" : "drugbank:DB00133",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "L-Serine plays a role in cell growth and development (cellular proliferation). The conversion of L-serine to glycine by serine hydroxymethyltransferase results in the formation of the one-carbon units necessary for the synthesis of the purine bases, adenine and guanine. These bases when linked to the phosphate ester of pentose sugars are essential components of DNA and RNA and the end products of energy producing metabolic pathways, ATP and GTP. In addition, L-serine conversion to glycine via this same enzyme provides the one-carbon units necessary for production of the pyrimidine nucleotide, deoxythymidine monophosphate, also an essential component of DNA.",
+  "name" : "L-Serine",
+  "nonProprietaryName" : [ "L-(-)-Serine", "S", "Ser", "(S)-alpha-Amino-beta-hydroxypropionic acid", "beta-Hydroxyalanine", "L-Serin", "beta-Hydroxy-L-alanine", "L-Serine", "L-Ser", "(S)-Serine", "L-(?)-serine", "(2S)-2-amino-3-Hydroxypropanoic acid", "(S)-2-Amino-3-hydroxypropanoic acid", "L-2-Amino-3-hydroxypropionic acid", "L-3-Hydroxy-alanine", "L-3-Hydroxy-2-aminopropionic acid", "(S)-(?)-serine", "(S)-(-)-Serine", "Serine" ],
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00133",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00133"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00133.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

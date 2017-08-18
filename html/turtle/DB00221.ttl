@@ -1,0 +1,17 @@
+
+<http://bio2rdf.org/drugbank:DB00221> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Isoetarine" ;
+	<http://schema.org/description> "Isoetarine is a selective adrenergic beta-2 agonist used as fast acting bronchodilator for emphysema, bronchitis and asthma. [PubChem]" ;
+	<http://schema.org/drugClass> "Adrenergic beta-2 Receptor Agonists" , "Bronchodilator Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00221" ;
+	<http://schema.org/clinicalPharmacology> "Isoetharine is a relatively selective beta2-adrenergic bronchodilator. Isoetharine is indicated for the relief of bronchospasm associated with chronic obstructive pulmonary disease. Adrenergic bronchodilators are breathed in through the mouth to open up the bronchial tubes (air passages) of the lungs." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:d06c3c3ddb3b53af25ccf2849abf6154> ;
+	<http://schema.org/mechanismOfAction> "The pharmacologic effects of isoetharine are attributable to stimulation through beta-adrenergic receptors of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic AMP. Increased cyclic AMP levels are associated with relaxation of bronchial smooth muscle and inhibition of release of mediators of immediate hypersensitivity from cells, especially from mast cells." ;
+	<http://schema.org/nonProprietaryName> "Isoetharine" , "Isoetarinum" , "Isoetarina" , "Isoetarine" ;
+	<http://schema.org/proprietaryName> "Bronkometer" ;
+	<http://schema.org/identifier> "drugbank:DB00221" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/mtm/isoetharine-inhalation.html> , <http://www.drugbank.ca/drugs/DB00221> .
+
+<http://bio2rdf.org/drugbank_resource:d06c3c3ddb3b53af25ccf2849abf6154> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Nephron corp" .

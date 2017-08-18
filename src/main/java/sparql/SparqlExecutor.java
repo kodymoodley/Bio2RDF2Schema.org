@@ -34,7 +34,24 @@ import org.eclipse.rdf4j.rio.Rio;
 
 public class SparqlExecutor {
 	
-	public static final String HTML_template_prefix = "<!DOCTYPE html>\r\n" + 
+	private static final String tr_open = "<tr>";
+	private static final String tr_close = "</tr>";
+	
+	private static final String ul_open = "<ul>";
+	private static final String ul_close = "</ul>";
+	
+	private static final String li_open = "<li>";
+	private static final String li_close = "</li>";
+
+	private static final String td_open_value = "<td>";
+	private static final String td_open_key = "<td class=\'dataframeKey\'>";
+	private static final String td_close = "</td>";
+	
+	private static final String link_open1 = "<a href='";
+	private static final String link_open2 = "'>";
+	private static final String link_close = "</a>";
+	
+	private static final String HTML_template_prefix = "<!DOCTYPE html>\r\n" + 
 			"<html lang=\"en\">\r\n" + 
 			"	<head>\r\n" + 
 			"  		<meta charset=\"UTF-8\">\r\n" + 
@@ -47,7 +64,7 @@ public class SparqlExecutor {
 			"	\r\n" + 
 			"		<script type=\"application/ld+json\">";
 	
-	public static final String HTML_template_midfix = "</script>\r\n" + 
+	private static final String HTML_template_midfix1 = "</script>\r\n" + 
 			"	</head>\r\n" + 
 			"\r\n" + 
 			"	<body>\r\n" + 
@@ -68,12 +85,14 @@ public class SparqlExecutor {
 			"			<div id=\"contents\">\r\n" + 
 			"				<script type=\"text/javascript\">\r\n" + 
 			"\r\n" + 
-			"				var templateCode = \"<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>\";\r\n" + 
+			"				var templateCode = \"<table><tbody>"; 
+	
+	private static final String HTML_template_midfix2 = "</tbody></table>\";\r\n" + 
 			"				var template = Handlebars.compile(templateCode);\r\n" + 
 			"\r\n" + 
 			"				$.getJSON(\"jsonld/";
 	
-	public static final String HTML_template_suffix = "\", function(data) {\r\n" + 
+	private static final String HTML_template_suffix = "\", function(data) {\r\n" + 
 			"			    	document.getElementById(\"contents\").innerHTML += template(data);\r\n" + 
 			"				});\r\n" + 
 			"		\r\n" + 
@@ -106,6 +125,16 @@ public class SparqlExecutor {
 	 */
 	static boolean hasLanguageMarker(String str){		
 		return str.contains("@");
+	}
+	
+	/**
+	 * Check if a given object literal string has an irrelevant suffix in it
+	 * e.g. '^^<...'
+	 * @param str: string to search on
+	 * @return true if the given string contains the irritating suffix, false otherwise
+	 */
+	static boolean hasIrritatingSuffix(String str){		
+		return str.contains("^^");
 	}
 	
 	/**
@@ -200,7 +229,74 @@ public class SparqlExecutor {
 	}
 	
 	static void embedInHTMLFile(String jsonContent, String filename, String drugbankid){
-		String content = HTML_template_prefix + jsonContent + HTML_template_midfix + drugbankid + ".json" + HTML_template_suffix;
+		
+		/** Generate HTML Data Template
+		 *  CODE HERE:
+		 */
+		
+		//START
+		String dataRows = "";
+		//1. Drug name
+		dataRows += tr_open + td_open_key + "Drug Name" + td_close;
+		dataRows += td_open_value + "{{name}}" + td_close + tr_close;
+		//2. Drug description
+		dataRows += tr_open + td_open_key + "Description" + td_close;
+		dataRows += td_open_value + "{{description}}" + td_close + tr_close;
+		//3. Identifier
+		dataRows += tr_open + td_open_key + "Identifier" + td_close;
+		dataRows += td_open_value + "{{schema:identifier}}" + td_close + tr_close;
+		//4. Non-Proprietary name(s)
+		dataRows += tr_open + td_open_key + "Non-Proprietary Names" + td_close;
+		dataRows += td_open_value + ul_open + "{{#each nonProprietaryName}}" + li_open + "{{this}}" + li_close + "{{else}}" + "{{nonProprietaryName}}" + "{{/each}}" + ul_close + td_close + tr_close;
+		//5. Proprietary name
+		dataRows += tr_open + td_open_key + "Proprietary Name" + td_close;
+		dataRows += td_open_value + "{{proprietaryName}}" + td_close + tr_close;
+		//6. Drug Class
+		dataRows += tr_open + td_open_key + "Drug Classes" + td_close;
+		dataRows += td_open_value + ul_open + "{{#each drugClass}}" + li_open + "{{this}}" + li_close + "{{else}}" + "{{drugClass}}" + "{{/each}}" + ul_close + td_close + tr_close;
+		//7. Clinical Pharmacology
+		dataRows += tr_open + td_open_key + "Clinical Pharmacology" + td_close;
+		dataRows += td_open_value + "{{clinicalPharmacology}}" + td_close + tr_close;
+		//8. Manufacturer
+		dataRows += tr_open + td_open_key + "Manufacturer" + td_close;
+		dataRows += td_open_value + "{{#with manufacturer}}{{name}}{{/with}}" + td_close + tr_close;
+		//9. Mechanism of action
+		dataRows += tr_open + td_open_key + "Mechanism of Action" + td_close;
+		dataRows += td_open_value + "{{mechanismOfAction}}" + td_close + tr_close;
+		//10. Food Warning
+		dataRows += tr_open + td_open_key + "Food Warning" + td_close;
+		dataRows += td_open_value + "{{foodWarning}}" + td_close + tr_close;
+		//11. URL
+		dataRows += tr_open + td_open_key + "URL" + td_close;
+		dataRows += td_open_value + link_open1 + "{{schema:url}}" + link_open2 + "{{schema:url}}" + link_close + td_close + tr_close;
+		//12. Cost
+		dataRows += tr_open + td_open_key + "Costs" + td_close;
+		dataRows += td_open_value + "{{#if cost.length}}" + ul_open + "{{#each cost}}" + li_open + "{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}" + li_close + "{{/each}}" + ul_close + "{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}" + td_close + tr_close;
+		//13. Available Strengths
+		dataRows += tr_open + td_open_key + "Available Strength" + td_close;
+		dataRows += td_open_value + "{{#if availableStrength.length}}" + ul_open + "{{#each availableStrength}}" + li_open + "{{this.description}}" + li_close + "{{/each}}" + ul_close + "{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}" + td_close + tr_close;
+		//14. Dosage Forms
+		dataRows += tr_open + td_open_key + "Dosage Forms" + td_close;
+		dataRows += td_open_value + ul_open + "{{#each dosageForm}}" + li_open + "{{this}}" + li_close + "{{else}}" + "{{dosageForm}}" + "{{/each}}" + ul_close + td_close + tr_close;		
+		//15. Administration Routes
+		dataRows += tr_open + td_open_key + "Administration Route" + td_close;
+		dataRows += td_open_value + ul_open + "{{#each administrationRoute}}" + li_open + "{{this}}" + li_close + "{{else}}" + "{{administrationRoute}}" + "{{/each}}" + ul_close + td_close + tr_close;
+		//16. Interacting Drugs
+		dataRows += tr_open + td_open_key + "Interacting Drugs" + td_close;
+		dataRows += td_open_value + ul_open + "{{#each interactingDrug}}" + li_open + "{{this}}" + li_close + "{{else}}" + "{{interactingDrug}}" + "{{/each}}" + ul_close + td_close + tr_close;
+		//17. Legal Statuses
+		dataRows += tr_open + td_open_key + "Legal Statuses" + td_close;
+		dataRows += td_open_value + ul_open + "{{#each legalStatus}}" + li_open + "{{this}}" + li_close + "{{else}}" + "{{legalStatus}}" + "{{/each}}" + ul_close + td_close + tr_close;
+		//18. SameAs
+		dataRows += tr_open + td_open_key + "Same As" + td_close;
+		dataRows += td_open_value + ul_open + "{{#each sameAs}}" + li_open + link_open1 + "{{this}}" + link_open2 + "{{this}}" + link_close + li_close + "{{else}}" + link_open1 + "{{sameAs}}" + link_open2 + "{{sameAs}}" + link_close + "{{/each}}" + ul_close + td_close + tr_close;
+		//END
+		
+		/** ----------------------------------------------------------------------------------------------------------------------- **/
+		
+		/** WRITE TO FILE **/
+		
+		String content = HTML_template_prefix + jsonContent + HTML_template_midfix1 + dataRows + HTML_template_midfix2 + drugbankid + ".json" + HTML_template_suffix;
 		BufferedWriter bw = null;
 		FileWriter fw = null;
 
@@ -225,32 +321,115 @@ public class SparqlExecutor {
 		}
 	}
 	
-	public static void main(String[] args) {
-		//printJSONLD();		
+	public static void main(String[] args) {		
 		// File I/O
 		FileOutputStream fop = null;														 		
 		// Initialise connection to SPARQL endpoint
-		Repository repository = new SPARQLRepository("http://drugbank.bio2rdf.org/sparql");	
+		Repository repository = new SPARQLRepository("http://bio2rdf.org/sparql");	
 		repository.initialize();
 		RepositoryConnection connection = null;		
 		// Execute SPARQL construct for each drug in Drugbank
 		try {			
 			connection = repository.getConnection();
 			// Loop through drugs
-			for (int i = 95;i < 96;i++){
+			for (int i = 1;i < 251;i++){
 				// Get Drugbank id for this iteration
 				String drugid = getDrugbankID(i);
 				// Specify SPARQL construct query
-				String queryString = 
-						" PREFIX purl: <http://purl.org/dc/terms/> " + 
-								" PREFIX schema: <http://schema.org/> " + 					
-								" PREFIX db: <http://bio2rdf.org/drugbank_vocabulary:> " +  
-								" CONSTRUCT { ?s schema:name ?o13. ?s schema:activeIngredient ?o1. ?s schema:administrationRoute ?o2. ?s schema:availableStrength ?o3. ?s schema:cost ?o4. ?s schema:dosageForm ?o5. ?s schema:doseSchedule ?o6. ?s schema:drugUnit ?o7. ?s schema:foodWarning ?o8. ?s schema:interactingDrug ?o9. ?s schema:legalStatus ?o10. ?s schema:manufacturer ?o11. ?s schema:mechanismOfAction ?o12. ?s schema:alternateName ?o14. ?s schema:description ?o15. ?s schema:identifier ?o16. <http://bio2rdf.org/drugbank:"+drugid+"> schema:sameAs \"https://www.drugbank.ca/drugs/"+drugid+"\". <http://bio2rdf.org/drugbank:"+drugid+"> schema:url \"https://www.drugbank.ca/drugs/"+drugid+"\". ?s a schema:Drug. " +
-								" } " +
-								" { " +
-								" ?s a db:Resource. OPTIONAL {?s purl:title ?o13}. OPTIONAL {?s db:name ?o13}. OPTIONAL {?s db:ingredient ?o1}.  OPTIONAL {?s db:route ?o2}. OPTIONAL {?s db:strength ?o3}. OPTIONAL {?s db:price ?o4}. OPTIONAL {?s db:form ?o5}. OPTIONAL {?s db:dosage ?o6}. OPTIONAL {?s db:Unit ?o7}. OPTIONAL {?s db:Food-interaction ?o8}. OPTIONAL {?s db:Drug-Drug-Interaction ?o9}. OPTIONAL {?s db:group ?o10}. OPTIONAL {?s db:manufacturer ?o11}. OPTIONAL {?s db:mechanism-of-action ?o12}. OPTIONAL {?s db:synonym ?o14}. OPTIONAL {?s purl:description ?o15}. OPTIONAL {?s db:identifier ?o16}. OPTIONAL {?s db:url ?o17}. " + 
-								" filter (?s = <http://bio2rdf.org/drugbank:"+drugid+">). " +
-								" } limit 1";
+			
+				String queryString = "PREFIX purl: <http://purl.org/dc/terms/>\r\n" + 
+				"PREFIX schema: <http://schema.org/>\r\n" + 
+				"PREFIX db: <http://bio2rdf.org/drugbank_vocabulary:>\r\n" + 
+				"PREFIX bio2rdf: <http://bio2rdf.org/bio2rdf_vocabulary:>\r\n" + 
+				"\r\n" + 
+				"CONSTRUCT {\r\n" + 
+				"  ?s a schema:Drug.\r\n" + 
+				"  ?s schema:name ?drugName.\r\n" + 
+				"  ?s schema:description ?drugDescription.\r\n" + 
+				"  ?s schema:identifier ?drugIdentifier.\r\n" + 
+				"  ?s schema:url ?drugUrl.\r\n" + 
+				"  ?s schema:sameAs ?sameAs.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:proprietaryName ?proprietaryName.\r\n" + 
+				"  ?s schema:nonProprietaryName ?nonProprietaryName.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:clinicalPharmacology ?clinicalPharmacology.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:drugClass ?drugClass.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:cost ?drugCost.\r\n" + 
+				"  ?drugCost a schema:DrugCost.\r\n" + 
+				"  ?drugCost schema:costPerUnit ?costPerUnit.\r\n" + 								
+				"  ?drugCost schema:costCurrency 'USD'.\r\n" + 
+				"  ?drugCost schema:drugUnit ?drugUnit.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:administrationRoute ?administrationRoute.\r\n" + 
+				"  ?s schema:dosageForm ?dosageForm.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:mechanismOfAction ?mechanismOfAction.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:interactingDrug ?interactingDrug.\r\n" + 
+				"  ?s schema:foodWarning ?foodWarning.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:availableStrength ?strength.\r\n" + 
+				"  ?strength a schema:DrugStrength.\r\n" + 
+				"  ?strength schema:description ?strengthDescription.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:legalStatus ?legalStatus.\r\n" + 
+				"\r\n" + 
+				"  ?s schema:manufacturer ?organization.\r\n" + 
+				"  ?organization a schema:Organization.\r\n" + 
+				"  ?organization schema:name ?organizationName\r\n" + 
+				"}\r\n" + 
+				"WHERE {\r\n" + 
+				"  ?s a db:Drug;\r\n" + 
+				"     dcterms:title ?drugName;\r\n" + 
+				"     dcterms:description ?drugDescription;\r\n" + 
+				"     dcterms:identifier ?drugIdentifier;\r\n" + 
+				"     bio2rdf:uri ?drugUrl;\r\n" + 
+				"     rdfs:seeAlso ?sameAs.\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"     ?s db:brand [dcterms:title ?proprietaryName].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"     ?s db:synonym [dcterms:title ?nonProprietaryName].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"     ?s db:pharmacodynamics [dcterms:description ?clinicalPharmacology].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"     ?s db:category [dcterms:title ?drugClass].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"     ?s db:product ?drugCost.\r\n" + 
+				"     ?drugCost db:price ?costPerUnit.\r\n" + 
+				"     ?drugCost dcterms:title ?drugUnit.\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"    ?s db:dosage ?strength.\r\n" + 
+				"    ?strength dcterms:title ?strengthDescription.\r\n" + 
+				"    ?strength db:route [dcterms:title ?administrationRoute].\r\n" + 
+				"    ?strength db:form [dcterms:title ?dosageForm].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"    ?s db:mechanism-of-action [dcterms:description ?mechanismOfAction].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"    ?s db:food-interaction [rdf:value ?foodWarning].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"    ?s db:ddi-interactor-in [dcterms:title ?interactingDrug].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"    ?s db:group [bio2rdf:identifier ?legalStatus].\r\n" + 
+				"  }\r\n" + 
+				"  OPTIONAL {\r\n" + 
+				"    ?s db:manufacturer ?organization.\r\n" + 
+				"    ?organization rdf:value ?organizationName.\r\n" + 
+				"  }\r\n" + 
+				"  FILTER (?s = <http://bio2rdf.org/drugbank:" + drugid + ">).\r\n" + 
+				"} ";
+				
 				// Initialise SPARQL RDF graph query
 				GraphQuery query = connection.prepareGraphQuery(queryString);
 				// Process the resulting triples
@@ -261,37 +440,12 @@ public class SparqlExecutor {
 					while (result.hasNext()) {
 						Statement st = result.next();					
 						// Check for and remove @en language marker from the literal in this triple
-						if (hasLanguageMarker(st.getObject().toString())){
+						if (hasLanguageMarker(st.getObject().toString()) || hasIrritatingSuffix(st.getObject().toString())){
 							// Has language marker so we create a new triple removing the language marker
 							Value obj = SimpleValueFactory.getInstance().createLiteral(st.getObject().stringValue());
 							st = SimpleValueFactory.getInstance().createStatement(st.getSubject(), st.getPredicate(), obj);						
 						}
-						/* Modify triples we get back because some of them have objects 
-						 * which point to other properties which hold their ultimate values 
-						 */
-						// Get the object of the current triple
-						Value obj = st.getObject();
-						// If it is a literal then we don't need to modify it so we add it to the final list of triples
-						if (obj instanceof Literal || (obj.stringValue().contains("http://schema.org"))) {
-							statements.add(st);
-						}
-						else{ 
-							/* The object is not a literal so we need to resolve this identifier to a concrete literal value
-							 * Need to get property e.g. rdf:label, rdf:value, purl:title or purl:description for identifier
-							 * For different properties of a drug the predicate which points to the concrete value differs:
-							 * MechanismOfAction 	-> purl:description
-							 * doseSchedule 		-> purl:title
-							 * manufacturer 		-> rdf:value
-							 * legalStatus 			-> purl:title
-							 * alternateName 		-> purl:title
-							 */
-							// Get the concrete literal
-							Value leafLiteralObj = getLeafLiteralForIdentifier(connection, st.getPredicate().stringValue(), obj);					
-							// Generate new triple with this concrete literal as the object 
-							Statement newStatement = SimpleValueFactory.getInstance().createStatement(st.getSubject(), st.getPredicate(), leafLiteralObj);	
-							// Add to the final list (instead of the original triple)
-							statements.add(newStatement);
-						}
+						statements.add(st);
 					}
 
 					/*
@@ -335,6 +489,8 @@ public class SparqlExecutor {
 					}
 				}
 				catch(Exception e){
+					// Error performing SPARQL query
+					System.out.println("Error processing drug " + drugid + ".");
 					e.printStackTrace(System.err);
 				}
 			}

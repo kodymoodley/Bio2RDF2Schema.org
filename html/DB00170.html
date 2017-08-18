@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00170",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Menadione (Vitamin K3) is a fat-soluble vitamin precursor that is converted into menaquinone in the liver. Vitamin K1 and K2 are the naturally occurring types of vitamin K. The former, which is also known as phylloquinone, is synthesized by plants and can be found in such foods as spinach, broccoli, lettuce, and soybeans. The latter, sometimes alternatively referred to as menaquinone, is primarily produced by bacteria in the anterior part of the gut and the intestines. Vitamin K3, on the other hand, is one of the many manmade versions of vitamin K. Also called menadione, this yellowish, synthetic crystalline substance is converted into the active form of the K2 vitamin inside of the animal body. While a vitamin K deficiency can be dangerous, especially to infants that may easily suffer from extensive hemorrhaging, an overdose can be as equally detrimental. Newborns that are administered too great a dosage of vitamin K3 can suffer from kernicterus, a form of severe brain damage that may produce decreased movement, loss of appetite, seizures, deafness, mental retardation, and even death. This condition is associated with an abnormally high concentration of bilirubin, a bile pigment, in the tissues of the brain, which can be caused by the presence of K3. For this reason, K3 is less often utilized medically than it was in former times.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:0d3e4c7778c44b85fa03fbb0f56dd36a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "5.590000152587890625",
+    "drugUnit" : "Menadione powder"
+  },
+  "description" : "A synthetic naphthoquinone without the isoprenoid side chain and biological activity, but can be converted to active vitamin K2, menaquinone, after alkylation in vivo. [PubChem]",
+  "drugClass" : [ "Antifibrinolytic Agents", "Supplements", "Vitamins", "Dietary Supplements", "Micronutrients" ],
+  "schema:identifier" : "drugbank:DB00170",
+  "interactingDrug" : "DDI between Menadione and Tretinoin - Tretinoin (Systemic) may enhance the thrombogenic effect of Antifibrinolytic Agents.",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087",
+    "type" : "Organization",
+    "name" : "Eli lilly and co"
+  },
+  "mechanismOfAction" : "Menadione (vitamin K3) is involved as a cofactor in the posttranslational gamma-carboxylation of glutamic acid residues of certain proteins in the body. These proteins include the vitamin K-dependent coagulation factors II (prothrombin), VII (proconvertin), IX (Christmas factor), X (Stuart factor), protein C, protein S, protein Zv and a growth-arrest-specific factor (Gas6). In contrast to the other vitamin K-dependent proteins in the blood coagulation cascade, protein C and protein S serve anticoagulant roles. The two vitamin K-dependent proteins found in bone are osteocalcin, also known as bone G1a (gamma-carboxyglutamate) protein or BGP, and the matrix G1a protein or MGP. Gamma-carboxylation is catalyzed by the vitamin K-dependent gamma-carboxylases. The reduced form of vitamin K, vitamin K hydroquinone, is the actual cofactor for the gamma-carboxylases. Proteins containing gamma-carboxyglutamate are called G1a proteins.",
+  "name" : "Menadione",
+  "nonProprietaryName" : [ "2-Methyl-1,4-naphthoquinone", "Menadione", "2-Methyl-1,4-naphthochinon", "2-Methyl-1,4-Naphthalenedione", "Vitamin K3" ],
+  "proprietaryName" : "Synkavite",
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/vit_0267.shtml", "http://www.drugbank.ca/drugs/DB00170" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00170"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00170.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

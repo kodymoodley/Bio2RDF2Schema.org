@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00135",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Tyrosine is a nonessential amino acid synthesized in the body from phenylalanine. Tyrosine is critical for the production of the body's proteins, enzymes and muscle tissue. Tyrosine is a precursor to the neurotransmitters norepinephrine and dopamine. It can act as a mood elevator and an anti-depressant. It may improve memory and increase mental alertness. Tyrosine aids in the production of melanin and plays a critical role in the production of thyroxin (thyroid hormones). Tyrosine deficiencies are manifested by hypothyroidism, low blood pressure and low body temperature. Supplemental tyrosine has been used to reduce stress and combat narcolepsy and chronic fatigue.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:b7832f85e36d0ac604f27c59eb1b08ca",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.1599999666213989258",
+    "drugUnit" : "Tyrosine powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:08ee40761e23e0435c476ffa2540d57a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.93999999761581420898",
+    "drugUnit" : "L-tyrosine powder"
+  } ],
+  "description" : "A non-essential amino acid. In animals it is synthesized from phenylalanine. It is also the precursor of epinephrine; thyroid hormones; and melanin. [PubChem]",
+  "drugClass" : [ "Dietary Supplements", "Micronutrients", "Non-Essential Amino Acids", "Supplements" ],
+  "schema:identifier" : "drugbank:DB00135",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "Tyrosine is produced in cells by hydroxylating the essential amino acid phenylalanine. This relationship is much like that between cysteine and methionine. Half of the phenylalanine required goes into the production of tyrosine; if the diet is rich in tyrosine itself, the requirements for phenylalanine are reduced by about 50%. The mechanism of L-tyrosine's antidepressant activity can be accounted for by the precursor role of L-tyrosine in the synthesis of the neurotransmitters norepinephrine and dopamine. Elevated brain norepinephrine and dopamine levels are thought to be associated with antidepressant effects.",
+  "name" : "L-Tyrosine",
+  "nonProprietaryName" : [ "(S)-alpha-amino-4-Hydroxybenzenepropanoic acid", "L-Tyrosine", "(S)-Tyrosine", "4-hydroxy-L-phenylalanine", "TYROSINE", "(S)-?-amino-4-hydroxybenzenepropanoic acid", "Tyr", "(S)-2-Amino-3-(p-hydroxyphenyl)propionic acid", "(-)-alpha-amino-P-Hydroxyhydrocinnamic acid", "(S)-(-)-Tyrosine", "(S)-3-(p-Hydroxyphenyl)alanine", "(?)-?-amino-p-hydroxyhydrocinnamic acid", "L-Tyrosin", "Y", "(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid" ],
+  "proprietaryName" : "Rxosine",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00135", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lty_0256.shtml" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00135"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00135.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,16 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00113",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Binds to the carcinoembryonic antigen, which is a cell surface protein generally overexpressed in colon (and other) cancers. The radioactive Tc99, which is covalently attached to the antibody, allows radiodiagnostic detection of CEA expressing cells and tumors",
+  "description" : "Reduced Fab fragment of the murine IgG1 monoclonal antibody IMMU-4 (also called NP-4) with specificity for carcinoembryonic antigen (CEA) covalently labeled with Technitium 99. The molecule has a molecular weight of ~54,000 Daltons.",
+  "drugClass" : "Diagnostic Agents",
+  "schema:identifier" : "drugbank:DB00113",
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "mechanismOfAction" : "Binds selectively to cell-surface carcinoembryonic antigen (CEA) expressed on colorectal tumors.",
+  "name" : "Arcitumomab",
+  "nonProprietaryName" : [ "anti-Carcinoembryonic Antigen Monoclonal Antibody Fab' Fragment", "IMMU-4" ],
+  "proprietaryName" : "CEA-Scan",
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00113",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00113"
+}

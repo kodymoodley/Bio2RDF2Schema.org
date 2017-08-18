@@ -2,13 +2,33 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00044",
   "type" : "Drug",
-  "alternateName" : "ICSH",
+  "administrationRoute" : "subcutaneous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:0f22c200f1b0c2d7eba71208ac38fb8c",
+    "type" : "DrugStrength",
+    "description" : "75 unit Powder for solution form with subcutaneous route"
+  },
+  "clinicalPharmacology" : "Used to facilitate female conception, lutropin alfa performs the same actions as luteinizing hormone (LH), which is normally produced in the pituitary gland. Lutropin is usually given in combination with follitropin alfa. Together they stimulate the development of a follicle to prepare the reproductive tract for implementation and pregnancy. Lutropin alfa also stimulates the theca cells to produce androgens and the secretion of estradiol by the follicles. Lutropin alfa and follitropin alfa are discontinued once ultrasound assessment and serum estradiol concentrations show sufficient follicular maturation. hCG is then administered to complete follicular maturation and induce ovulation. In females, a LH surge about halfway through the menstrual cycle triggers the onset of ovulation. Lutropin alfa substitutes for endogenous LH and induces rupture of the preovulatory ovarian follicle and oocyte expulsion. Lutropin alfa induces and maintains the corpus luteum, which then secretes progesterone.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:475e42631ae033c0d30bfe4b1c4fa6a2",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "38.880001068115234375",
+    "drugUnit" : "Luveris 75 unit vial"
+  },
   "description" : "Lutropin alfa is a recombinant human luteinizing hormone produced in yeast with 2 subunits, alpha = 92 residues, beta = 121 residues. It is a heterodimeric glycoprotein. Each monomeric unit is a glycoprotein molecule. In females, an acute rise of LH (\"LH surge\") triggers ovulation and the development of the corpus luteum. In males, it stimulates Leydig cell production of testosterone. Lutropin alfa was the first and only recombinant human form of luteinizing hormone (LH) developed for use in the stimulation of follicular development.",
-  "doseSchedule" : "75 unit Powder for solution form with subcutaneous route",
-  "legalStatus" : "approved",
-  "manufacturer" : "Emd serono inc",
+  "dosageForm" : "Powder for solution",
+  "drugClass" : "Fertility Agents",
+  "schema:identifier" : "drugbank:DB00044",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:f3087679bd8c5d851ab3cf77469b58b9",
+    "type" : "Organization",
+    "name" : "Emd serono inc"
+  },
   "mechanismOfAction" : "Luteinizing hormone binds to a receptor shared with the human chorionic gonadotropin hormone (hCG) on the ovarian theca (and granulosa) cells and testicular Leydig cells. This LH/CG transmembrane receptor is a member of the super-family of G protein-coupled receptors. Adenylate cyclase then activates many other pathways leading to steroid hormone production and other follicle maturation processes.",
   "name" : "Lutropin alfa",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00044",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00044"
+  "nonProprietaryName" : [ "Lutropin alpha", "ICSH", "Luteinizing hormone", "LH-B", "Lutropin beta chain precursor", "Insterstiial cell-stimulating hormone", "Luteinizing hormone beta subunit", "Lutrophin", "LSH-B", "LSH- beta", "LH" ],
+  "sameAs" : [ "http://www.drugs.com/cdi/lutropin-alfa.html", "http://www.drugbank.ca/drugs/DB00044" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00044"
 }

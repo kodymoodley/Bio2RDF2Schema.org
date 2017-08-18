@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00102",
+  "type" : "Drug",
+  "administrationRoute" : "topical",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:76cc7a41e93863bcbab0bba32bc52311",
+    "type" : "DrugStrength",
+    "description" : "100 ug/g Gel form with topical route"
+  },
+  "clinicalPharmacology" : "Used for the topical treatment of skin ulcers, Regranex has a biological activity similar to that of endogenous platelet-derived growth factor, which includes promoting the chemotactic recruitment and proliferation of cells involved in wound repair and enhancing the formation of granulation tissue.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:297c109e257837216e45959f8f447a12",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "46.40000152587890625",
+    "drugUnit" : "Regranex 0.01% gel"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0e2df5f495acffe41bea5306f7ac822a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "723.82000732421875",
+    "drugUnit" : "Regranex 0.01% Gel 15 gm Tube"
+  } ],
+  "description" : "Becaplermin is produced by recombinant DNA technology by insertion of the gene for the B chain of platelet derived growth factor (PDGF) into the yeast, Saccharomyces cerevisiae. Becaplermin has a molecular weight of approximately 25 KD and is a homodimer composed of two identical polypeptide chains that are bound together by disulfide bonds",
+  "dosageForm" : "Gel",
+  "drugClass" : "Angiogenesis Inducing Agents",
+  "schema:identifier" : "drugbank:DB00102",
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "mechanismOfAction" : "Binds to the beta platelet-derived growth factor (PDGF) receptor, a tyrosine kinase receptor. PDGF is known to exist as a dimer, and activates its signaling pathway by a ligand induced receptor dimerization and autophosphorylation. PDGF receptors also contain many auto-phosphorylation sites, which serve to mediate binding of SH2 sites and subsequently signal corresponding pathways. There are five different isoforms of PDGF that activate through two different receptors (alpha and beta).",
+  "name" : "Becaplermin",
+  "nonProprietaryName" : [ "PDGF B-chain", "Platelet-derived growth factor B chain precursor", "c-sis", "Platelet-derived growth factor beta polypeptide", "PDGF-2" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00102", "http://www.rxlist.com/cgi/generic2/becapler.htm", "http://www.drugs.com/cdi/becaplermin.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00102"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00102.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

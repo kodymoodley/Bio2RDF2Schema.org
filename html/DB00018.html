@@ -13,12 +13,24 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00018",
   "type" : "Drug",
+  "clinicalPharmacology" : "Interferon alfa-n3 upregulates the expression of MHC I proteins, allowing for increased presentation of peptides derived from viral antigens. This enhances the activation of CD8+ T cells that are the precursors for cytotoxic T lymphocytes (CTLs) and makes the macrophage a better target for CTL-mediated killing. Interferon alpha also induce the synthesis of several key antiviral mediators, including 2'-5' oligoadenylate synthetase (2'-5' A synthetase), beta-2 microglobulin, neopterin and protein kinase R.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:23df6362f96a017848381620d7fc2fed",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "412.8699951171875",
+    "drugUnit" : "Alferon n 5 million unit vial"
+  },
   "description" : "Purified, natural (n is for natural) human interferon alpha proteins (consists of 3 forms or polymorphisms including 2a, 2b and 2c). 166 residues, some are glycosylated (MW range from 16 kD to 27 kD).",
-  "legalStatus" : "investigational",
+  "drugClass" : "Immunosuppressive Agents",
+  "schema:identifier" : "drugbank:DB00018",
+  "interactingDrug" : [ "DDI between Interferon alfa-n3 and Ribavirin - Interferons (Alfa) may enhance the adverse/toxic effect of Ribavirin. Hemolytic anemia has been observed.", "DDI between Interferon alfa-n3 and Clozapine - Myelosuppressive Agents may enhance the adverse/toxic effect of CloZAPine. Specifically, the risk for agranulocytosis may be increased.", "DDI between Interferon alfa-n3 and Methadone - Interferons (Alfa) may increase the serum concentration of Methadone.", "DDI between Interferon alfa-n3 and Zidovudine - Interferons may enhance the adverse/toxic effect of Zidovudine. Interferons may decrease the metabolism of Zidovudine.", "DDI between Interferon alfa-n3 and Aldesleukin - Interferons (Alfa) may enhance the adverse/toxic effect of Aldesleukin. In particular, risks of myocardial and renal toxicity may be increased by this combination." ],
+  "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Interferon alpha binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription) which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon alpha binds less stably to type I interferon receptors than interferon beta.",
   "name" : "Interferon alfa-n3",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00018",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00018"
+  "proprietaryName" : "Alferon",
+  "sameAs" : [ "http://www.drugs.com/cdi/interferon-alfa-n3-solution.html", "http://www.drugbank.ca/drugs/DB00018" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00018"
 }</script>
 	</head>
 
@@ -40,7 +52,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00018.json", function(data) {

@@ -1,0 +1,47 @@
+
+<http://bio2rdf.org/drugbank:DB00145> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Glycine" ;
+	<http://schema.org/description> "A non-essential amino acid. It is found primarily in gelatin and silk fibroin and used therapeutically as a nutrient. It is also a fast inhibitory neurotransmitter. [PubChem]" ;
+	<http://schema.org/drugClass> "Non-Essential Amino Acids" , "Supplements" , "Dietary Supplements" , "Micronutrients" , "Glycine Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00145" ;
+	<http://schema.org/administrationRoute> "irrigation" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:83a515b3f8ea980a4ac3c52dc4ea0659> , <http://bio2rdf.org/drugbank_resource:87ec5665ef708b12203886400452332d> ;
+	<http://schema.org/clinicalPharmacology> "Helps trigger the release of oxygen to the energy requiring cell-making process; Important in the manufacturing of hormones responsible for a strong immune system." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:6abc63e010ae61ac89a7f2faf0ed135a> , <http://bio2rdf.org/drugbank_resource:86c211e6f5b8157797ff0533730dd135> , <http://bio2rdf.org/drugbank_resource:c06a275d4e682c894a72cc8a528cd363> , <http://bio2rdf.org/drugbank_resource:1692e264c114bf67c65e16e52b4e80e8> ;
+	<http://schema.org/dosageForm> "Irrigant" , "Solution" ;
+	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:774741674c5c53ec1f8ee81551442864> ;
+	<http://schema.org/mechanismOfAction> "In the CNS, there exist strychnine-sensitive glycine binding sites as well as strychnine-insensitive glycine binding sites. The strychnine-insensitive glycine-binding site is located on the NMDA receptor complex. The strychnine-sensitive glycine receptor complex is comprised of a chloride channel and is a member of the ligand-gated ion channel superfamily. The putative antispastic activity of supplemental glycine could be mediated by glycine's binding to strychnine-sensitive binding sites in the spinal cord. This would result in increased chloride conductance and consequent enhancement of inhibitory neurotransmission. The ability of glycine to potentiate NMDA receptor-mediated neurotransmission raised the possibility of its use in the management of neuroleptic-resistant negative symptoms in schizophrenia. <br/>Animal studies indicate that supplemental glycine protects against endotoxin-induced lethality, hypoxia-reperfusion injury after liver transplantation, and D-galactosamine-mediated liver injury. Neutrophils are thought to participate in these pathologic processes via invasion of tissue and releasing such reactive oxygen species as superoxide. In vitro studies have shown that neutrophils contain a glycine-gated chloride channel that can attenuate increases in intracellular calcium and diminsh neutrophil oxidant production. This research is ealy-stage, but suggests that supplementary glycine may turn out to be useful in processes where neutrophil infiltration contributes to toxicity, such as ARDS." ;
+	<http://schema.org/nonProprietaryName> "Aminoessigsaeure" , "Glycin" , "Aminoethanoic acid" , "Glycocoll" , "Glykokoll" , "Leimzucker" , "G" , "Aminoacetic acid" , "Gly" , "H2N-CH2-COOH" , "Glyzin" , "Glycine" , "Hgly" ;
+	<http://schema.org/proprietaryName> "Gyn-Hydralin" ;
+	<http://schema.org/identifier> "drugbank:DB00145" ;
+	<http://schema.org/sameAs> <http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/gly_0127.shtml> , <http://www.drugbank.ca/drugs/DB00145> .
+
+<http://bio2rdf.org/drugbank_resource:1692e264c114bf67c65e16e52b4e80e8> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.029999999329447746277" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Amino acetic acid powder" .
+
+<http://bio2rdf.org/drugbank_resource:6abc63e010ae61ac89a7f2faf0ed135a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.029999999329447746277" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glycine powder" .
+
+<http://bio2rdf.org/drugbank_resource:774741674c5c53ec1f8ee81551442864> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Baxter healthcare corp" .
+
+<http://bio2rdf.org/drugbank_resource:83a515b3f8ea980a4ac3c52dc4ea0659> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1.5 g/100mL Solution form with irrigation route" .
+
+<http://bio2rdf.org/drugbank_resource:86c211e6f5b8157797ff0533730dd135> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.31000000238418579102" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Diluent for flolan vial" .
+
+<http://bio2rdf.org/drugbank_resource:87ec5665ef708b12203886400452332d> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1.5 g/100mL Irrigant form with irrigation route" .
+
+<http://bio2rdf.org/drugbank_resource:c06a275d4e682c894a72cc8a528cd363> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.019999999552965164185" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glycine 1.5% irrigation" .

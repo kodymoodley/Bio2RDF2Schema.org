@@ -1,0 +1,29 @@
+
+<http://bio2rdf.org/drugbank:DB00096> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Serum albumin" ;
+	<http://schema.org/description> "A sterile non-pyrogenic suspension of microspheres of human serum albumin with perflutren (a highly fluorinated small molecule) for contrast enhancement during indicated ultrasound imaging procedures." ;
+	<http://schema.org/drugClass> "Serum substitutes" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00096" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:5b47883807d5fa7a5b0b5ce2dc6e7939> ;
+	<http://schema.org/clinicalPharmacology> "Serum albumin is a soluble, monomeric protein necessary for maintaining and regulating the colloidal osmotic pressure of blood. It is used to increase the circulating plasma volume, thereby reducing hemoconcentration and blood viscosity. Also used as a transport protein that binds naturally occurring, therapeutic and toxic materials in circulation." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:4f83b20ea6a4e64f2cbf7c46fbd70b4e> ;
+	<http://schema.org/dosageForm> "Injection, solution" ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:328c87b1ad60e7356c52d11e15011e6f> ;
+	<http://schema.org/mechanismOfAction> "Serum albumin acts as a high molecular weight, very soluble osmolyte. Serum albumin also acts as a protein drug carrier in plasma, and transports hemin, steroids, thyroid hormones and fatty acids. It binds many other substances, such as unconjugated bilirubin, calcium ions, and other fat soluble hormones." ;
+	<http://schema.org/nonProprietaryName> "Serum albumin precursor" ;
+	<http://schema.org/proprietaryName> "Optison" ;
+	<http://schema.org/identifier> "drugbank:DB00096" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00096> .
+
+<http://bio2rdf.org/drugbank_resource:328c87b1ad60e7356c52d11e15011e6f> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Ge healthcare" .
+
+<http://bio2rdf.org/drugbank_resource:4f83b20ea6a4e64f2cbf7c46fbd70b4e> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "56.159999847412109375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Optison vial" .
+
+<http://bio2rdf.org/drugbank_resource:5b47883807d5fa7a5b0b5ce2dc6e7939> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "10; .22 mg/mL; mg/mL Injection, solution form with intravenous route" .

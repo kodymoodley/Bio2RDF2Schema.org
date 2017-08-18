@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00235",
+  "type" : "Drug",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:ef85dff6d8c515bc0bef9c220ab639c4",
+    "type" : "DrugStrength",
+    "description" : "10 mg/10mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:84076ec8739434f7f16a160d6c665d93",
+    "type" : "DrugStrength",
+    "description" : "1 mg/mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d38089a67b87421a3b838f693edb71ec",
+    "type" : "DrugStrength",
+    "description" : "200 ug/mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:08d75259494eae3cf601da5eae6dacc7",
+    "type" : "DrugStrength",
+    "description" : "1 mg/mL Injection form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6c6758378925279d62f6b3b00e3e8ebe",
+    "type" : "DrugStrength",
+    "description" : "50 mg/50mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1d38645f79eb07f78f1433c61e768e21",
+    "type" : "DrugStrength",
+    "description" : "20 mg/20mL Injection, solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Milrinone, a synthetic dimethylxanthine derivative structurally related to theophylline and caffeine, is used in the treatment of peripheral vascular diseases and in the management of cerebrovascular insufficiency, sickle cell disease, and diabetic neuropathy.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:8d7062c5a667554b0b3851ab360f65a8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.4400000572204589844",
+    "drugUnit" : "Milrinone lact 20 mg/20 ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5cd61a73ad50d9c090851ca9d123b8d0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6000000238418579102",
+    "drugUnit" : "Primacor 0.2 mg/ml-d5w 100 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f0b413ea8eb86c15f186b7d95d35f4bc",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.4500000476837158203",
+    "drugUnit" : "Milrinone-d5w 20 mg/100 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:86b94dc2a5332f9f3b3406f1caf31b4c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.3099999427795410156",
+    "drugUnit" : "Milrinone lact 10 mg/10 ml vial"
+  } ],
+  "description" : "A positive inotropic cardiotonic agent with vasodilator properties. It inhibits cAMP phosphodiesterase activity in myocardium and vascular smooth muscle. Milrinone is a derivative of amrinone and has 20-30 times the ionotropic potency of amrinone. [PubChem]",
+  "dosageForm" : [ "Injection, solution", "Injection" ],
+  "drugClass" : [ "Platelet Aggregation Inhibitors", "Cardiotonic Agents", "Phosphodiesterase 3 Inhibitors", "Vasodilator Agents" ],
+  "schema:identifier" : "drugbank:DB00235",
+  "interactingDrug" : "DDI between Milrinone and Riociguat - Milrinone may enhance the hypotensive effect of Riociguat.",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e91ecbd8702c2bd53755e648fa5c9435",
+    "type" : "Organization",
+    "name" : "App pharmaceuticals llc"
+  },
+  "mechanismOfAction" : "Milrinone inhibits erythrocyte phosphodiesterase, resulting in an increase in erythrocyte cAMP activity. Subsequently, the erythrocyte membrane becomes more resistant to deformity. Along with erythrocyte activity, Milrinone also decreases blood viscosity by reducing plasma fibrinogen concentrations and increasing fibrinolytic activity.",
+  "name" : "Milrinone",
+  "nonProprietaryName" : [ "1,6-Dihydro-2-methyl-6-oxo(3,4'-bipyridine)-5-carbonitrile", "Milrinone", "Milrinona", "Milrinonum" ],
+  "proprietaryName" : "Corotrop",
+  "sameAs" : [ "http://www.drugs.com/cdi/milrinone.html", "http://www.drugbank.ca/drugs/DB00235", "http://www.rxlist.com/cgi/generic3/milrin.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00235"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00235.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

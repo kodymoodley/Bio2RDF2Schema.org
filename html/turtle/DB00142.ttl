@@ -1,0 +1,18 @@
+
+<http://bio2rdf.org/drugbank:DB00142> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "L-Glutamic Acid" ;
+	<http://schema.org/description> "A peptide that is a homopolymer of glutamic acid. [PubChem]" ;
+	<http://schema.org/drugClass> "Supplements" , "Non-Essential Amino Acids" , "Dietary Supplements" , "Micronutrients" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00142" ;
+	<http://schema.org/clinicalPharmacology> "In addition to being one of the building blocks in protein synthesis, it is the most widespread neurotransmitter in brain function, as an excitatory neurotransmitter and as a precursor for the synthesis of GABA in GABAergic neurons." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:4b597e449e2b1b5c11c13e74b41295c4> ;
+	<http://schema.org/legalStatus> "Nutraceutical" ;
+	<http://schema.org/mechanismOfAction> "Glutamate activates both ionotropic and metabotropic glutamate receptors. The ionotropic ones being non-NMDA (AMPA and kainate) and NMDA receptors. Free glutamic acid cannot cross the blood-brain barrier in appreciable quantities; instead it is converted into L-glutamine, which the brain uses for fuel and protein synthesis. It is conjectured that glutamate is involved in cognitive functions like learning and memory in the brain, though excessive amounts may cause neuronal damage associated in diseases like amyotrophic lateral sclerosis, lathyrism, and Alzheimer's disease. Also, the drug phencyclidine (more commonly known as PCP) antagonizes glutamate at the NMDA receptor, causing behavior reminiscent of schizophrenia. Glutamate in action is extremely difficult to study due to its transient nature." ;
+	<http://schema.org/nonProprietaryName> "L-Glutamate" , "(2S)-2-Aminopentanedioic acid" , "(S)-2-Aminopentanedioic acid" , "Glutamic acid" , "Glu" , "(S)-Glutamic acid" , "L-Glutaminic acid" ;
+	<http://schema.org/identifier> "drugbank:DB00142" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00142> .
+
+<http://bio2rdf.org/drugbank_resource:4b597e449e2b1b5c11c13e74b41295c4> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.029999999329447746277" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-glutamic acid powder" .

@@ -2,8 +2,24 @@
 <http://bio2rdf.org/drugbank:DB00055> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Drotrecogin alfa" ;
 	<http://schema.org/description> "Drotrecogin alfa is activated human protein C that is synthesized by recombinant DNA technology. It is a glycoprotein of approximately 55 kilodalton molecular weight, consisting of a heavy chain and a light chain linked by a disulfide bond. Drotrecogin alfa was withdrawn from the market after a major study indicated that it was not effective in improving outcomes in patients with sepsis." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00055" ;
-	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/drugClass> "Antisepsis" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00055" ;
+	<http://schema.org/clinicalPharmacology> """Drotrecogin alfa is activated human protein C that is synthesized by recombinant DNA technology. It is a glycoprotein of approximately 55 kilodalton molecular weight, consisting of a heavy chain and a light chain linked by a disulfide bond.
+Drotrecogin alfa inhibits factor Va and VIIIa, thereby reducing the coagulability of blood.""" ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:13e77d7b98fbc2bf7a096844cb4ef44e> , <http://bio2rdf.org/drugbank_resource:9745eb276f567c5824be0c61c00be05c> ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" , "Withdrawn" ;
 	<http://schema.org/mechanismOfAction> "Activated protein C combines with protein S on platelet surfaces and then degrades factor Va and factor VIIIa, thereby reducing blood coagulability." ;
-	<http://schema.org/alternateName> "Blood coagulation factor XIV" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00055" .
+	<http://schema.org/nonProprietaryName> "Blood coagulation factor XIV" , "Anticoagulant protein C" , "Autoprothrombin IIA" , "Vitamin K-dependent protein C precursor" ;
+	<http://schema.org/proprietaryName> "Xigris" ;
+	<http://schema.org/identifier> "drugbank:DB00055" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic/drotrecogin.htm> , <http://www.drugbank.ca/drugs/DB00055> , <http://www.drugs.com/cdi/drotrecogin-alfa.html> .
+
+<http://bio2rdf.org/drugbank_resource:13e77d7b98fbc2bf7a096844cb4ef44e> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "370.420013427734375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Xigris 5 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:9745eb276f567c5824be0c61c00be05c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1481.6600341796875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Xigris 20 mg vial" .

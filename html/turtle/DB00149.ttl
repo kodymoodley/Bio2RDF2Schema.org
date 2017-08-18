@@ -1,0 +1,23 @@
+
+<http://bio2rdf.org/drugbank:DB00149> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "L-Leucine" ;
+	<http://schema.org/description> "An essential branched-chain amino acid important for hemoglobin formation. [PubChem]" ;
+	<http://schema.org/drugClass> "Supplements" , "Amino Acids, Essential" , "Dietary Supplements" , "Micronutrients" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00149" ;
+	<http://schema.org/clinicalPharmacology> "An essential amino acid. (Claim) Leucine helps with the regulation of blood-sugar levels, the growth and repair of muscle tissue (such as bones, skin and muscles), growth hormone production, wound healing as well as energy regulation. It can assist to prevent the breakdown of muscle proteins that sometimes occur after trauma or severe stress. It may also be beneficial for individuals with phenylketonuria - a condition in which the body cannot metabolize the amino acid phenylalanine" ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:5641fad31588864015f55abc6e3a4f47> , <http://bio2rdf.org/drugbank_resource:b65b864194b18fec1caf59648adc60ff> ;
+	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;
+	<http://schema.org/mechanismOfAction> "This group of essential amino acids are identified as the branched-chain amino acids, BCAAs. Because this arrangement of carbon atoms cannot be made by humans, these amino acids are an essential element in the diet. The catabolism of all three compounds initiates in muscle and yields NADH and FADH2 which can be utilized for ATP generation. The catabolism of all three of these amino acids uses the same enzymes in the first two steps. The first step in each case is a transamination using a single BCAA aminotransferase, with a-ketoglutarate as amine acceptor. As a result, three different a-keto acids are produced and are oxidized using a common branched-chain a-keto acid dehydrogenase, yielding the three different CoA derivatives. Subsequently the metabolic pathways diverge, producing many intermediates. The principal product from valine is propionylCoA, the glucogenic precursor of succinyl-CoA. Isoleucine catabolism terminates with production of acetylCoA and propionylCoA; thus isoleucine is both glucogenic and ketogenic. Leucine gives rise to acetylCoA and acetoacetylCoA, and is thus classified as strictly ketogenic. There are a number of genetic diseases associated with faulty catabolism of the BCAAs. The most common defect is in the branched-chain a-keto acid dehydrogenase. Since there is only one dehydrogenase enzyme for all three amino acids, all three a-keto acids accumulate and are excreted in the urine. The disease is known as Maple syrup urine disease because of the characteristic odor of the urine in afflicted individuals. Mental retardation in these cases is extensive. Unfortunately, since these are essential amino acids, they cannot be heavily restricted in the diet; ultimately, the life of afflicted individuals is short and development is abnormal The main neurological problems are due to poor formation of myelin in the CNS." ;
+	<http://schema.org/nonProprietaryName> "L-Leucine" , "L-Leucin" , "Leucine" , "(S)-(+)-Leucine" , "L" , "L-Leuzin" , "Leu" , "(2S)-2-Amino-4-methylpentanoic acid" , "(2S)-alpha-Leucine" , "(2S)-alpha-2-Amino-4-methylvaleric acid" , "(S)-Leucine" , "2-Amino-4-methylvaleric acid" ;
+	<http://schema.org/identifier> "drugbank:DB00149" ;
+	<http://schema.org/sameAs> <http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/bra_0042.shtml> , <http://www.drugbank.ca/drugs/DB00149> .
+
+<http://bio2rdf.org/drugbank_resource:5641fad31588864015f55abc6e3a4f47> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.620000004768371582" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Leucine powder" .
+
+<http://bio2rdf.org/drugbank_resource:b65b864194b18fec1caf59648adc60ff> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.28000000119209289551" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-leucine powder" .

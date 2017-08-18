@@ -13,14 +13,42 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00020",
   "type" : "Drug",
-  "alternateName" : "GM-CSF",
+  "administrationRoute" : "intravenous; subcutaneous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:160e9b045b741d536d7268b25c5c0a17",
+    "type" : "DrugStrength",
+    "description" : "250 ug/mL Injection, powder, for solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7e1dc2152a5d0a4aecccec7ca96179dc",
+    "type" : "DrugStrength",
+    "description" : "500 ug/mL Liquid form with intravenous; subcutaneous route"
+  } ],
+  "clinicalPharmacology" : "Sargramostim is used in the treatment of bone marrow transplant recipients or those exposed to chemotherapy an recovering from acut myelogenous leukemia, Leukine or GM-CSF is a hematopoietic growth factor which stimulates the survival, clonal expansion (proliferation) and differentiation of hematopoietic progenitor cells. GM-CSF is also capable of activating mature granulocytes and macrophages. After a bone marrow transplant or chemotherapy, patients have a reduced capacity to produce red and white blood cells. Supplementing them with external sources of GM-CSF helps bring the level of neutrophils back to normal so that they can better fight infections.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:56ca4f2a80724a127043df6e4fa0ded0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.41999998688697814941",
+    "drugUnit" : "Bio-immunex capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:73124cd4366d24e39216120daaa16ff0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "204.7899932861328125",
+    "drugUnit" : "Leukine 250 mcg vial"
+  } ],
   "description" : "Sargramostim is a human recombinant granulocyte macrophage colony-stimulating factor (GM-CSF) expressed in yeast. It is a glycoprotein that is 127 residues. Substitution of Leu23 leads to a difference from native protein.",
-  "doseSchedule" : "250 ug/mL Injection, powder, for solution form with intravenous; subcutaneous route",
-  "legalStatus" : "investigational",
+  "dosageForm" : [ "Injection, powder, for solution", "Liquid" ],
+  "drugClass" : "Immunosuppressive Agents",
+  "schema:identifier" : "drugbank:DB00020",
+  "interactingDrug" : [ "DDI between Sargramostim and Bleomycin - Sargramostim may enhance the adverse/toxic effect of Bleomycin. Specifically, the risk for pulmonary toxicity may be increased.", "DDI between Sargramostim and Cyclophosphamide - May enhance the adverse/toxic effect of Sargramostim. Specifically, the risk of pulmonary toxicity may be enhanced." ],
+  "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Sargramostim binds to the Granulocyte-macrophage colony stimulating factor receptor (GM-CSF-R-alpha or CSF2R) which stimulates a JAK2 STAT1/STAT3 signal transduction pathway. This leads to the production of hemopoietic cells and neutrophils",
   "name" : "Sargramostim",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00020",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00020"
+  "nonProprietaryName" : "GM-CSF",
+  "proprietaryName" : "Leucomax",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00020", "http://www.rxlist.com/cgi/generic/sargramostim.htm", "http://www.drugs.com/cdi/sargramostim.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00020"
 }</script>
 	</head>
 
@@ -42,7 +70,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00020.json", function(data) {

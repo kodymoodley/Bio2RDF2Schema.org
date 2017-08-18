@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00166",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Lipoic acid (or &alpha;-lipoic acid) is able to pass the blood-brain barrier and is putatively used for detoxification of mercury attached to the brain cells. It can mobilise bound mercury into the blood stream as it is a mercaptan (sulfur compound which readily binds to the mercury). In the blood stream, another chelator such as dimercaptosuccinic acid (DMSA) or methylsulfonylmethane (MSM) is used to transfer mercury safely into the urine for excretion. Neither DMSA nor MSM can cross the blood-brain barrier, which is why both lipoic acid and DMSA are used. It is hypothesized that this treatment-along with carnitine, dimethylglycine (DMG), Vitamin B6, folic acid, and magnesium&mdash;could be used to treat autism and amalgam poisoning. In this hypothesis, the reason why autism is difficult to treat is that mercury is attached to the brain cells and most medicines and vitamin supplements do not penetrate the blood-brain barrier. However, &alpha;-lipoic acid and perhaps vitamin B12 could making it possible for other chelators to remove mercury safely out of the body and could perhaps one day be used as a treatment for autism. Because lipoic acid is related to cellular uptake of glucose and it is both soluble in water and fat, it is being used for treatment in diabetes. It may be helpful for people with Alzheimer's disease or Parkinson's disease.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:d66ea85a9988337f1b29c74086626305",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "77.34999847412109375",
+    "drugUnit" : "Lipoic acid powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:92c924807327ea18d9340f31d434a659",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : [ "0.11999999731779098511", "0.15999999642372131348" ],
+    "drugUnit" : "Alpha-lipoic acid 50 mg caplet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d69f6fe9843b5527d2d3d1897b2cc6f3",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.25999999046325683594",
+    "drugUnit" : "Lipoic acid capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9c2daed585bfeef63170a1ed177867b0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.21999999880790710449",
+    "drugUnit" : "Alpha lipoic acid 200 mg tablet"
+  } ],
+  "description" : "A vitamin-like antioxidant. [PubChem]",
+  "drugClass" : [ "Vitamin B Complex", "Dietary Supplements", "Supplements", "Antioxidants", "Micronutrients" ],
+  "schema:identifier" : "drugbank:DB00166",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "Lipoic Acid is generally involved in oxidative decarboxylations of keto acids and is presented as a growth factor for some organisms. Lipoic acid exists as two enantiomers, the R-enantiomer and the S-enantiomer. Normally only the R-enantiomer of an amino acid is biologically active, but for lipoic acid the S-enantiomer assists in the reduction of the R-enantiomer when a racemic mixture is given. Some recent studies have suggested that the S-enantiomer in fact has an inhibiting effect on the R-enantiomer, reducing its biological activity substantially and actually adding to oxidative stress rather than reducing it. Furthermore, the S-enantiomer has been found to reduce the expression of GLUT-4s in cells, responsible for glucose uptake, and hence reduce insulin sensitivity.",
+  "name" : "Lipoic Acid",
+  "nonProprietaryName" : [ "5-(dithiolan-3-yl)valeric acid", "6,8-thiotic acid", "liponic acid", "?-lipoic acid", "1,2-dithiolane-3-pentanoic acid", "Biletan", "alpha-Lipoic acid", "1,2-dithiolane-3-valeric acid", "alpha-Liponsaeure", "Acetate-replacing factor", "6-thioctic acid", "Lipoic acid", "Thioctansaeure", "Thioctic acid", "6,8-thioctic acid", "6-thiotic acid", "Thioktsaeure", "Thioctsaeure", "5-(1,2-dithiolan-3-yl)valeric acid", "5-[3-(1,2-dithiolanyl)]pentanoic acid" ],
+  "proprietaryName" : "Biletan",
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00166",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00166"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00166.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

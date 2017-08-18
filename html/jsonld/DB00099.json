@@ -1,0 +1,91 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00099",
+  "type" : "Drug",
+  "administrationRoute" : [ "subcutaneous", "intravenous; subcutaneous", "intravenous" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:75aa077303c09d80af404a7a6c6ac735",
+    "type" : "DrugStrength",
+    "description" : "300 ug/.5mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a2615bbb5710b9b992785e63c058b3db",
+    "type" : "DrugStrength",
+    "description" : "480 ug/1.6mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7975713dad73e24fab2cbb6c89586ea4",
+    "type" : "DrugStrength",
+    "description" : "480 ug/.8mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8750c04d33b8546006e83e736eb80647",
+    "type" : "DrugStrength",
+    "description" : "300 ug/mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:787ef58546dc52c80027a1e3a2b925b9",
+    "type" : "DrugStrength",
+    "description" : "300 µg Solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e8fbddfaa9a4fe87d9328de7cf8cd326",
+    "type" : "DrugStrength",
+    "description" : "300 ug/mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fe02b6034f5c4d73f73a58815355abf5",
+    "type" : "DrugStrength",
+    "description" : "300 ug/.5mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:684d8812e411c70454900dc745e593c8",
+    "type" : "DrugStrength",
+    "description" : "480 ug/.8mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:451abb4a53a3d4bc5e17cc485a3899b3",
+    "type" : "DrugStrength",
+    "description" : "480 ug/.8mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e04ee332a67fe1dea4752f0a68c0a6ee",
+    "type" : "DrugStrength",
+    "description" : "300 ug/.5mL Injection, solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Used in the treatment of chemotherapy-induced neutropenia by enhancing the production of neutrophils. Filgrastim acts on hematopoietic cells by binding to specific cell surface receptors thereby stimulating proliferation, differentiation, commitment, and end cell functional activation. When tbo-filgrastim is administered to cancer patients, it took 3-5 days to reach maximum absolute neutrophil count (ANC). Levels of neutrophils returned to baseline by 21 days following completion of chemotherapy. In the healthy volunteer trials, doubling the tbo-filgrastim subcutaneous dose from 5 to 10 mcg/kg resulted in a 16-19% increase in the ANCmax and a 33-36% increase in the area under the effect curve for ANC.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:0a3851f953d8e93c2dbd2d970b8ea9cd",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "437.94000244140625",
+    "drugUnit" : "Neupogen 480 mcg/1.6 ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d09896c870b16d5661f0948f585f930f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3138.10009765625",
+    "drugUnit" : "Neupogen 300 mcg/0.5ml Solution 1 Box Contains Ten 0.5ml Syringes"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2eb8c4d710f26ad621e78ba988a5b500",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "4998.240234375",
+    "drugUnit" : "Neupogen 480 mcg/0.8ml Solution 1 Box Contains Ten 0.8ml Syringes"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8b99a2d1ecdeec0617d4e58e26454764",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "286.040008544921875",
+    "drugUnit" : "Neupogen 300 mcg/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7cd8588e23c5460070a283180a19b946",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "4554.580078125",
+    "drugUnit" : "Neupogen 480 mcg/1.6ml Solution 1 Box Contains Ten 1.6ml Syringes"
+  } ],
+  "description" : "Filgrastim is a recombinant, non-pegylated human granulocyte colony stimulating factor (G-CSF) analogue manufactured by recombinant DNA technology using a strain of E. coli. It is marketed as the brand name Neupogen by Amgen. Chemically, it consists of 175 amino acid residues. The protein has an amino acid sequence that is identical to the natural sequence predicted from human DNA sequence analysis, except for the addition of an N-terminal methionine necessary for expression in E coli. Tbo-filgrastim, which is marketed by Sicor Biotech and FDA approved on August 29, 2012, contains the same active ingredient as Neupogen and is biologically similar, but it is formulated to be short-acting. On March 6, 2015, the FDA approved the biosimilar Zarxio (filgrastim-sndz) and is indicated for use in the same conditions as Neupogen. Zarxio is marketed by Sandoz.",
+  "dosageForm" : [ "Injection, solution", "Solution" ],
+  "drugClass" : [ "Immunosuppressive Agents", "Hematopoietic Agents", "Antineutropenic Agents" ],
+  "schema:identifier" : "drugbank:DB00099",
+  "interactingDrug" : [ "DDI between Filgrastim and Topotecan - Filgrastim may enhance the adverse/toxic effect of Topotecan.", "DDI between Filgrastim and Bleomycin - Filgrastim may enhance the adverse/toxic effect of Bleomycin. Specifically, the risk for pulmonary toxicity may be increased.", "DDI between Filgrastim and Cyclophosphamide - Filgrastim may enhance the adverse/toxic effect of Cyclophosphamide. Specifically, the risk of pulmonary toxicity may be enhanced." ],
+  "legalStatus" : "Approved",
+  "mechanismOfAction" : "Filgrastim binds to the G-CSF receptor and stimulates the production of neutrophils in the bone marrow. As a G-CSF analog, it controls proliferation of committed progenitor cells and influences their maturation into mature neutrophils. Filgrastim also stimulates the release of neutrophils from bone marrow storage pools and reduces their maturation time. Filgrastim acts to increase the phagocytic activity of mature neutrophils. In patients receiving cytotoxic chemotherapy, Filgrastim can accelerate neutrophil recovery, leading to a reduction in duration of the neutropenic phase",
+  "name" : "Filgrastim",
+  "nonProprietaryName" : [ "Tbo-filgrastim", "G-CSF", "Granulocyte Colony Stimulating Factor" ],
+  "proprietaryName" : "Biocilin",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/filgrastim.htm", "http://www.drugs.com/cdi/filgrastim.html", "http://www.drugbank.ca/drugs/DB00099" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00099"
+}

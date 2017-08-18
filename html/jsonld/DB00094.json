@@ -2,13 +2,44 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00094",
   "type" : "Drug",
-  "alternateName" : "FSH",
+  "administrationRoute" : [ "subcutaneous", "intramuscular" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:4f06398b408027f4b417cf069e9f43ea",
+    "type" : "DrugStrength",
+    "description" : "Kit form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e29f68cbe2470f0d06d877d8d6350afd",
+    "type" : "DrugStrength",
+    "description" : "75 unit Powder for solution form with intramuscular route"
+  } ],
+  "clinicalPharmacology" : "Used for the treatment of female infertility, urofollitropin or follicle stimulating hormone (FSH) stimulates ovarian follicular growth in women who do not have primary ovarian failure. FSH, the active component of urofollitropin is the primary hormone responsible for follicular recruitment and development.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:05b676dbbbdc0a15ae876619698a40ef",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "93.84999847412109375",
+    "drugUnit" : "Bravelle 75 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:cbe4c3d375d223464768efc2d28c004c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "103.84999847412109375",
+    "drugUnit" : "Fertinex 75 unit Solution"
+  } ],
   "description" : "Urofollitropin is a purified form of follicle-stimulating hormone (FSH) that is manufactured by extraction from human urine and then purified. It consists of two non-covalently linked, non-identical glycoproteins designated as the alpha- and beta- subunits. The alpha- and beta- subunits have 92 and 111 amino acids. The alpha subunit is glycosylated at Asn 51 and Asn 78 while the beta subunit is glycosylated at Asn 7 and Asn 24. Urofollitropin is important in the development of follicles produced by the ovaries. Given by subcutaneous injection, it is used in combination with human chorionic gonadotropin (hCG) to assist in ovulation and fertility. Urofollitropin may also be used to cause the ovary to produce several follicles, which can then be harvested for use in gamete intrafallopian transfer (GIFT) or in vitro fertilization (IVF).",
-  "doseSchedule" : "Kit form with subcutaneous route",
-  "legalStatus" : "approved",
-  "manufacturer" : "Serono laboratories inc",
+  "dosageForm" : [ "Powder for solution", "Kit" ],
+  "drugClass" : "Fertility Agents",
+  "schema:identifier" : "drugbank:DB00094",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:c51b5b3f72bf15f717f23f1fdda6fe44",
+    "type" : "Organization",
+    "name" : "Serono laboratories inc"
+  },
   "mechanismOfAction" : "FSH binds to the follicle stimulating hormone receptor which is a G-coupled transmembrane receptor. Binding of the FSH to its receptor seems to induce phosphorylation and activation of the PI3K (Phosphatidylinositol-3-kinase) and Akt signaling pathway, which is known to regulate many other metabolic and related survival/maturation functions in cells.",
   "name" : "Urofollitropin",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00094",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00094"
+  "nonProprietaryName" : [ "FSH-beta", "Follicle Stimulating Hormone", "Follitropin beta chain precursor", "Follicle-stimulating hormone beta subunit", "FSH", "FSH-B", "Urofollitrophin" ],
+  "proprietaryName" : "Fertinex",
+  "sameAs" : [ "http://www.drugs.com/cdi/urofollitropin-purified.html", "http://www.rxlist.com/cgi/generic3/urofollitropin.htm", "http://www.drugbank.ca/drugs/DB00094" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00094"
 }

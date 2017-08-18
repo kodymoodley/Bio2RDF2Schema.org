@@ -2,10 +2,39 @@
 <http://bio2rdf.org/drugbank:DB00067> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Vasopressin" ;
 	<http://schema.org/description> "Antidiuretic hormone, also known as vasopressin, is a nine amino acid peptide secreted from the posterior pituitary. Antidiuretic hormone binds to receptors in the distal or collecting tubules of the kidney and promotes reabsorbtion of water back into the circulation" ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00067" ;
-	<http://schema.org/doseSchedule> "20 [USP&apos'U]/mL Injection form with intravenous route" ;
-	<http://schema.org/legalStatus> "approved" ;
-	<http://schema.org/manufacturer> "Parke davis div warner lambert co" ;
+	<http://schema.org/drugClass> "Antidiuretic Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00067" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:4ec3f1abac10dbccb411c97866fb3807> ;
+	<http://schema.org/clinicalPharmacology> "Vasopressin is an antidiuretic hormone indicated for the prevention and treatment of postoperative abdominal distention, in abdominal roentgenography to dispel interfering gas shadows, and in diabetes insipidus. Vasopressin can cause contraction of smooth muscle of the gastrointestinal tract and of all parts of the vascular bed, especially the capillaries, small arterioles and venules. It has less effect on the smooth musculature of the large veins. Vasopressin may also be used to control bleeding in some forms of von Willebrand disease and to treat extreme cases of bed wetting in children. It may also play a role in memory formation although the mechanism is unknown." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:0b18c331e0950acda9becd67f7a2d257> , <http://bio2rdf.org/drugbank_resource:32ccf7a3d6e28584c0c93f4bed5c72e3> , <http://bio2rdf.org/drugbank_resource:72995024009d0d870eb61a339373ed80> ;
+	<http://schema.org/dosageForm> "Injection" ;
+	<http://schema.org/foodWarning> "Ethanol" ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:0e4cf7ee70702fa7c4b6c6dd3b5d0e0f> ;
 	<http://schema.org/mechanismOfAction> "Vasopressin acts on three different receptors, vasopressin receptor V1a (which initiates vasoconstriction, liver gluconeogenesis, platelet aggregation and release of factor VIII), vasopressin receptor V1b (which mediates corticotrophin secretion from the pituitary) and vasopressin receptor V2 which controls free water reabsorption in the renal medullar. The binding of vasopressin to the V2 receptor activates adenylate cyclase which causes the release of aquaporin 2 channels into the cells lining the renal medullar duct. This allows water to be reabsorbed down an osmotic gradient so the urine is more concentrated." ;
-	<http://schema.org/alternateName> "Argipressin" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00067" .
+	<http://schema.org/nonProprietaryName> "Arginine vasopressin" , "Antidiuretic hormone" , "Argipressin" , "ADH" , "AVP" ;
+	<http://schema.org/proprietaryName> "Pitressin" ;
+	<http://schema.org/identifier> "drugbank:DB00067" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/mtm/vasopressin.html> , <http://www.drugbank.ca/drugs/DB00067> , <http://www.rxlist.com/cgi/generic3/vasopressin.htm> .
+
+<http://bio2rdf.org/drugbank_resource:0b18c331e0950acda9becd67f7a2d257> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "7.6799998283386230469" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Pitressin 20 unit/ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:0e4cf7ee70702fa7c4b6c6dd3b5d0e0f> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Parke davis div warner lambert co" .
+
+<http://bio2rdf.org/drugbank_resource:32ccf7a3d6e28584c0c93f4bed5c72e3> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2.8800001144409179688" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Vasopressin 10 unit/0.5 ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:4ec3f1abac10dbccb411c97866fb3807> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "20 [USP&apos'U]/mL Injection form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:72995024009d0d870eb61a339373ed80> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.8600000143051147461" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Vasopressin 20 unit/ml vial" .

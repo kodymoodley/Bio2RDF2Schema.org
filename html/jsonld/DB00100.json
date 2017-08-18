@@ -1,0 +1,65 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00100",
+  "type" : "Drug",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:4186c304ff0d868a9d713428d227a3ac",
+    "type" : "DrugStrength",
+    "description" : "Kit form with intravenous route"
+  },
+  "clinicalPharmacology" : "Binds vitamin K and factor VIIIa. Cleaves the Arg-Ile bond in factor X to form active factor Xa. Plays a key role in blood coagulation and clotting. Injections of factor IX are used to treat hemophilia B, which is sometimes called Christmas disease. AlphaNine is injected to increase plasma levels of Factor IX and can temporarily correct this coagulation defect.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:cf00e9f8beb8a540d2c6d5b1645f036e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.4199999570846557617",
+    "drugUnit" : "Alphanine sd 250-1500 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9d34f61260fb8bd42413e84155edb013",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.0",
+    "drugUnit" : "Benefix 500 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6ffb90cbc497894c002727031adafb26",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.2000000476837158203",
+    "drugUnit" : "Mononine 1000 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f010a65d0d89b1eadef3d3ee24222554",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.120000004768371582",
+    "drugUnit" : "Benefix 2000 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ee8d47d5e779efdbe111bd2e26dbeb35",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.2000000476837158203",
+    "drugUnit" : "Mononine 500 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4d27d152ee75190be34ab3fb93bd9450",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.0",
+    "drugUnit" : "Benefix 250 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3cc84b92c03026e414e3291391f4216d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.0",
+    "drugUnit" : "Benefix 1000 unit vial"
+  } ],
+  "description" : "Human Factor IX protein, produced by recombinant DNA technology for use in therapy of factor IX deficiency, known as hemophilia B or Christmas disease. Coagulation Factor IX (Recombinant) is a glycoprotein with an approximate molecular mass of 55,000 Da consisting of 415 amino acids in a single chain. It has a primary amino acid sequence that is identical to the Ala 148 allelic form of plasma-derived factor IX.",
+  "dosageForm" : "Kit",
+  "drugClass" : [ "Coagulants", "Thrombotic Agents" ],
+  "schema:identifier" : "drugbank:DB00100",
+  "legalStatus" : "Approved",
+  "mechanismOfAction" : "Coagulation Factor IX is an important protein in the process of hemostasis and normal blood clotting. Factor IX is plays an important intermediate role in the blood coagulation cascade. It is located within the blood plasma as a zymogen, an antecedent to enzymatic function, in its inactivated state. Factor IX is dependent on the presence of Vitamin K, and is activated to a serine protease by the function of Coagulation Factor XIa. Factor XIa cleaves the peptide bond associated with protein activation in Factor IX, leaving Factor IX with two exposed chains, a light chain and a heavy chain. These two chains are held together by several disulfide bonds that reinforce the structure of Factor IX's activated form. After being activated, Factor IX forms a complex with calcium ions, membrane phospholipids and Coagulation Factor VIII to activate Coagulation Factor X. The activation of Factor X then performs a similarly integral step in the blood coagulation cascade. The ultimate result of phenotypically normal coagulation factors is the creation of platelets for normal blood clotting.",
+  "name" : "Coagulation Factor IX",
+  "nonProprietaryName" : [ "Christmas factor", "Coagulation factor IX precursor", "PTC", "Plasma thromboplastin component" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00100", "http://www.rxlist.com/cgi/generic2/factorix.htm", "http://www.drugs.com/cdi/coagulation-factor-ix-injection-human.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00100"
+}

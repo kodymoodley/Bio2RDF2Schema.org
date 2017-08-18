@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00210",
+  "type" : "Drug",
+  "administrationRoute" : "topical",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:b4e269c17e771f41c2525c3c7956fd07",
+    "type" : "DrugStrength",
+    "description" : ".1 g/100mL Lotion form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8745c71079e3222553e1eb353ea4296f",
+    "type" : "DrugStrength",
+    "description" : "1 mg/g Gel form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8a085551c92e4403d2d62a87a8325853",
+    "type" : "DrugStrength",
+    "description" : "1 mg/g Cream form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ba2ba94a2e8b1485a956da1565c18029",
+    "type" : "DrugStrength",
+    "description" : "3 mg/g Gel form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:589542a3b108950f10d2459aae3c9460",
+    "type" : "DrugStrength",
+    "description" : "1 mg/g Lotion form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:08765eb589f88d30c71229e15a1de3c6",
+    "type" : "DrugStrength",
+    "description" : ".1 g/100g Cream form with topical route"
+  } ],
+  "clinicalPharmacology" : "Adapalene is a chemically stable retinoid-like compound. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes all of which represent important features in the pathology of acne vulgaris.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:0815b603300d3c9d987cd6da5455420f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "219.649993896484375",
+    "drugUnit" : "Differin 0.3% Gel 45 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:bd6d830335fd9f707a33bf3d381c0c15",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "227.1300048828125",
+    "drugUnit" : "Differin 0.1% Cream 45 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9a64f0ade9d30240a339f8d33b4c7044",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "4.8499999046325683594",
+    "drugUnit" : "Differin 0.1% cream"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7f39f8bd1aa049dd886066d5d571bb2b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "227.1300048828125",
+    "drugUnit" : "Differin 0.1% Gel 45 gm Tube"
+  } ],
+  "description" : "Adapalene is a topical retinoid primarily used in the treatment of acne and is also used (off-label) to treat keratosis pilaris as well as other skin conditions. It is currently marketed by Galderma under the trade names Differin in some countries, and Adaferin in India. [Wikipedia]",
+  "dosageForm" : [ "Cream", "Gel", "Lotion" ],
+  "drugClass" : [ "Anti-Inflammatory Agents, Non-Steroidal", "Dermatologic Agents" ],
+  "schema:identifier" : "drugbank:DB00210",
+  "interactingDrug" : [ "DDI between Adapalene and Porfimer - Photosensitizing Agents may enhance the photosensitizing effect of Porfimer.", "DDI between Adapalene and Verteporfin - Photosensitizing Agents may enhance the photosensitizing effect of Verteporfin." ],
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:9e9e7d9b40d9bb0829ea6ad281223d3d",
+    "type" : "Organization",
+    "name" : "Nycomed us inc"
+  },
+  "mechanismOfAction" : "Mechanistically, adapalene binds to specific retinoic acid nuclear receptors (gamma and beta) and retinoid X receptors but does not bind to the cytosolic receptor protein. Although the exact mode of action of adapalene is unknown, it is suggested that topical adapalene may normalize the differentiation of follicular epithelial cells resulting in decreased microcomedone formation.",
+  "name" : "Adapalene",
+  "nonProprietaryName" : [ "Adapaleno", "Adaferin", "Differine", "Adapalenum", "6-(3-(1-Adamantyl)-4-methoxyphenyl)-2-naphthoic acid" ],
+  "proprietaryName" : "Adaferin",
+  "sameAs" : [ "http://www.drugs.com/cdi/adapalene-cream.html", "http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/dif1134.shtml", "http://www.rxlist.com/cgi/generic3/adapalene.htm", "http://www.drugbank.ca/drugs/DB00210" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00210"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00210.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

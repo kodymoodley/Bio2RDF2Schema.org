@@ -2,13 +2,90 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00017",
   "type" : "Drug",
-  "alternateName" : "Calcitonin-salmon",
+  "administrationRoute" : [ "intramuscular; subcutaneous", "nasal" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:37945278973a14109c92032f610a880d",
+    "type" : "DrugStrength",
+    "description" : "200 [iU] Spray, metered form with nasal route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ef05d40b04492972a2b3eb7e0dc6f5b6",
+    "type" : "DrugStrength",
+    "description" : "200 [iU]/mL Injection, solution form with intramuscular; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4dc67eef46739b8cb4820b74a49d85f8",
+    "type" : "DrugStrength",
+    "description" : "2200 [iU]/mL Spray, metered form with nasal route"
+  } ],
+  "clinicalPharmacology" : "Calcitonin inhibits bone resorption by osteoclasts (bone remodeling cells) and promotes bone formation by osteoblasts. This leads to a net increase in bone mass and a reduction in plasma calcium levels. It also promotes the renal excretion of ions such as calcium, phosphate, sodium, magnesium, and potassium by decreasing tubular reabsorption. In consequence, there is an increase in the jejunal secretion of water, sodium, potassium, and chloride.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:e3a770fc11a977483b0545d980297b7d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "34.299999237060546875",
+    "drugUnit" : "Fortical 200 unit nasal spray"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:cb4a384653bc039f8eb1fff2d105d5a2",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "39.509998321533203125",
+    "drugUnit" : "Calcitonin-salmon 200 unit sp"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:cc4567ae0cecafc67c9b72a277206661",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "139.3899993896484375",
+    "drugUnit" : "Miacalcin 200 unit/act Solution 3.7ml Bottle"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6d597ab50c490f6d19cc92c1517d6551",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "44.68000030517578125",
+    "drugUnit" : "Miacalcin 200 unit nasal spray"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1536ee8871579bcd6b92f98229a72396",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "63.590000152587890625",
+    "drugUnit" : "Miacalcin For Inj, 2 unit = 1 Box 2ml Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:287830cfd4558091d7d5f07cb7945a92",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "123.279998779296875",
+    "drugUnit" : "Calcitonin (Salmon) 200 unit/act Solution 3.7ml Bottle"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2c00308556d75e5c667576d339f0dffa",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "8.8100004196166992188",
+    "drugUnit" : "Caltine 100 (100 Iu/Ml) 100 iu/ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f368e967484d44bcb2c0b37d7b8da26f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "29.940000534057617188",
+    "drugUnit" : "Calcimar 200 iu/ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0c8b8690d1621250e33cc3bb32346f71",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "30.729999542236328125",
+    "drugUnit" : "Miacalcin 200 unit/ml vial"
+  } ],
   "description" : "Synthetic peptide, 32 residues long formulated as a nasal spray.",
-  "doseSchedule" : "200 [iU] Spray, metered form with nasal route",
-  "legalStatus" : "approved",
-  "manufacturer" : "Sanofi aventis us llc",
+  "dosageForm" : [ "Injection, solution", "Spray, metered" ],
+  "drugClass" : [ "Anti-Osteporotic Agents", "Antihypercalcemic Agents", "Bone Density Conservation Agents" ],
+  "schema:identifier" : "drugbank:DB00017",
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e095ac12f3e6af0e2acc663b51328fbe",
+    "type" : "Organization",
+    "name" : "Sanofi aventis us llc"
+  },
   "mechanismOfAction" : "Calcitonin binds to the calcitonin receptor (found primarily in osteoclasts) which then enhances the production of vitamin D producing enzymes (25-hydroxyvitamine D-24-hydroxylase), leading to greater calcium retention and enhanced bone density. Binding of calcitonin to its receptor also activates adenylyl cyclase and the phosphatidyl-inositol-calcium pathway.",
   "name" : "Salmon Calcitonin",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00017",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00017"
+  "nonProprietaryName" : [ "Calcitonin, salmon", "Miacalcin", "Fortical", "Calcimar", "Salmotonin", "Cibacalcin", "Calcitonin-salmon", "Calcitonin 1 precursor", "Salmon calcitonin", "Calcitonin (Salmon Synthetic)" ],
+  "proprietaryName" : "Calcimar",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00017", "http://www.rxlist.com/cgi/generic2/calcit.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00017"
 }

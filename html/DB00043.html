@@ -13,14 +13,35 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00043",
   "type" : "Drug",
-  "alternateName" : "Ig gamma-1 chain C region",
+  "administrationRoute" : "subcutaneous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:0fcaf4f0483004d12409b1ad95c0e879",
+    "type" : "DrugStrength",
+    "description" : "202.5 mg/1.4mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fe40d51468a18c08bc4fff82c5a509d0",
+    "type" : "DrugStrength",
+    "description" : "150 mg Powder for solution form with subcutaneous route"
+  } ],
+  "clinicalPharmacology" : "Xolair inhibits the binding of IgE to the high-affinity IgE receptor (FceRI) on the surface of mast cells and basophils. Reduction in surface-bound IgE on FceRI-bearing cells limits the degree of release of mediators of the allergic response. Xolair is used to treat severe, persisten asthma.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:212c074bcfde9c3dad8650d8434f1d92",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "715.41998291015625",
+    "drugUnit" : "Xolair 150 mg vial"
+  },
   "description" : "A recombinant DNA-derived humanized IgG1k monoclonal antibody that selectively binds to human immunoglobulin E (IgE). Xolair is produced by a Chinese hamster ovary cell suspension culture in a nutrient medium containing the antibiotic gentamicin.",
-  "doseSchedule" : "202.5 mg/1.4mL Injection, solution form with subcutaneous route",
-  "legalStatus" : "investigational",
+  "dosageForm" : [ "Injection, solution", "Powder for solution" ],
+  "drugClass" : [ "Immunosuppressive Agents", "Anti-Allergic Agents", "Anti-Asthmatic Agents" ],
+  "schema:identifier" : "drugbank:DB00043",
+  "interactingDrug" : [ "DDI between Omalizumab and Loxapine - Agents to Treat Airway Disease may enhance the adverse/toxic effect of Loxapine. More specifically, the use of Agents to Treat Airway Disease is likely a marker of patients who are likely at a greater risk for experiencing significant bronchospasm from use of inhaled loxapine.", "DDI between Omalizumab and Belimumab - Monoclonal Antibodies may enhance the adverse/toxic effect of Belimumab." ],
+  "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Xolair binds to IgE (a class of antibodies normally secreted in allergic responses), which prevents their binding to mast cells and basophils.",
   "name" : "Omalizumab",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00043",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00043"
+  "nonProprietaryName" : "Ig gamma-1 chain C region",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/xolair.htm", "http://www.drugbank.ca/drugs/DB00043", "http://www.drugs.com/cdi/omalizumab.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00043"
 }</script>
 	</head>
 
@@ -42,7 +63,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00043.json", function(data) {

@@ -1,0 +1,29 @@
+
+<http://bio2rdf.org/drugbank:DB00194> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Vidarabine" ;
+	<http://schema.org/description> "A nucleoside antibiotic isolated from Streptomyces antibioticus. It has some antineoplastic properties and has broad spectrum activity against DNA viruses in cell cultures and significant antiviral activity against infections caused by a variety of viruses such as the herpes viruses, the vaccinia VIRUS and varicella zoster virus. [PubChem]" ;
+	<http://schema.org/drugClass> "Antiviral Agents" , "Antimetabolites" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00194" ;
+	<http://schema.org/clinicalPharmacology> "Vidarabine is a synthetic purine nucleoside analogue with <i>in vitro</i> and <i>in vivo</i> inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of Vidarabine is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV. This viral enzyme converts Vidarabine into Vidarabine monophosphate, a nucleotide analogue. The monophosphate is further converted into diphosphate by cellular guanylate kinase and into triphosphate by a number of cellular enzymes. <i>in vitro</i>, Vidarabine triphosphate stops replication of herpes viral DNA. When used as a substrate for viral DNA polymerase, Vidarabine triphosphate competitively inhibits dATP leading to the formation of 'faulty' DNA. This is where Vidarabine triphosphate is incorporated into the DNA strand replacing many of the adenosine bases. This results in the prevention of DNA synthesis, as phosphodiester bridges can longer to be built, destabilizing the strand." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:aa5dc6191cee4aeb5ee7e73633279a95> , <http://bio2rdf.org/drugbank_resource:03b384f2d9bd7b97a1c0dc2ae7b41b24> ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:9d0c86040f64a39198296af6b92d4ce2> ;
+	<http://schema.org/mechanismOfAction> """Vidarabine stops replication of herpes viral DNA in 2 ways: 1) competitive inhibition of viral DNA polymerase, and consequently 2) incorporation into and termination of the growing viral DNA chain.
+This drug is a nucleoside analog and therefore has to be phosphorylated to be active. Vidarabine is sequentially phosphorylated by kinases to the triphosphate ara-ATP. This is the active form of vidarabine and is both an inhibitor and a substrate of viral DNA polymerase. When used as a substrate for viral DNA polymerase, ara-ATP competitively inhibits dATP leading to the formation of ‘faulty’ DNA. This is where ara-ATP is incorporated into the DNA strand replacing many of the adenosine bases. This results in the prevention of DNA synthesis, as phosphodiester bridges can longer to be built, destabilizing the strand""" ;
+	<http://schema.org/nonProprietaryName> "2-(6-AMINO-purin-9-yl)-5-hydroxymethyl-tetrahydro-furan-3,4-diol" , "Spongoadenosine" , "9-beta-D-Arabinofuranosyl-9H-purin-6-amine" , "9-β-D-arabinofuranosyladenine" , "9-beta-D-Arabinofuranosyladenine" , "9-β-D-arabinofuranosyl-9H-purin-6-amine" , "Vidarabine" , "9-beta-D-arabinofuranosyl-adenine" ;
+	<http://schema.org/proprietaryName> "Arasena-A" ;
+	<http://schema.org/identifier> "drugbank:DB00194" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00194> , <http://www.rxlist.com/cgi/generic3/vidarabine.htm> , <http://www.drugs.com/mtm/vidarabine-ophthalmic.html> .
+
+<http://bio2rdf.org/drugbank_resource:03b384f2d9bd7b97a1c0dc2ae7b41b24> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "687.0" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Vidarabine monohydrate powder" .
+
+<http://bio2rdf.org/drugbank_resource:9d0c86040f64a39198296af6b92d4ce2> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Parkedale pharmaceuticals inc" .
+
+<http://bio2rdf.org/drugbank_resource:aa5dc6191cee4aeb5ee7e73633279a95> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "366.589996337890625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Vidarabine powder" .

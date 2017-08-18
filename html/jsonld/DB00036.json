@@ -2,12 +2,34 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00036",
   "type" : "Drug",
-  "alternateName" : "Coagulation factor VII precursor",
+  "clinicalPharmacology" : "Used in the treatment of bleeding episodes in hemophilia A or B. NovoSeven is recombinant Factor VIIa and, when complexed with tissue factor can activate coagulation Factor X to Factor Xa, as well as coagulation Factor IX to Factor IXa. Factor Xa, in complex with other factors, then converts prothrombin to thrombin, which leads to the formation of a hemostatic plug by converting fibrinogen to fibrin and thereby inducing local clotting.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:38fc3c8208901be296e311937c5d45cf",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6399999856948852539",
+    "drugUnit" : "Novoseven 2400 mcg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:69bd16fe5b0ec16f29338acc3dbe14ed",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6399999856948852539",
+    "drugUnit" : "Novoseven 4800 mcg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e1569d089904646a682bc3ed991889ec",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6399999856948852539",
+    "drugUnit" : "Novoseven 1200 mcg vial"
+  } ],
   "description" : "Recombinant human coagulation Factor VIIa (rFVIIa), intended for promoting hemostasis by activating the extrinsic pathway of the coagulation cascade.1 NovoSeven is a vitamin K-dependent glycoprotein consisting of 406 amino acid residues. Cloned and expressed in hamster kidney cells, the protein is catalytically active in a two-chain form.",
-  "doseSchedule" : "Kit form with  route",
-  "legalStatus" : "approved",
+  "drugClass" : [ "Coagulants", "Thrombotic Agents" ],
+  "schema:identifier" : "drugbank:DB00036",
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "NovoSeven activates the coagulation or clotting cascade by cleaving Factor IX and Factor X, which activates them and then leads to activation of thrombin and fibrin.",
   "name" : "Coagulation factor VIIa",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00036",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00036"
+  "nonProprietaryName" : [ "Proconvertin", "Coagulation factor VII precursor", "Eptacog alfa", "Serum prothrombin conversion accelerator", "SPCA" ],
+  "proprietaryName" : "NovoSeven",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic3/novoseven.htm", "http://www.drugs.com/cdi/coagulation-factor-viia-recombinant.html", "http://www.drugbank.ca/drugs/DB00036" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00036"
 }

@@ -13,15 +13,101 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00060",
   "type" : "Drug",
-  "alternateName" : "Interferon beta precursor",
+  "administrationRoute" : [ "intramuscular", "subcutaneous" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:8ed3d90603c689d08fb21d6728f08b64",
+    "type" : "DrugStrength",
+    "description" : "22 µg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4f06398b408027f4b417cf069e9f43ea",
+    "type" : "DrugStrength",
+    "description" : "Kit form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8d54e034000bacae1b3d9457c055f555",
+    "type" : "DrugStrength",
+    "description" : "66 µg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7add8eb7cc2b5e533d3a4d071fd9346f",
+    "type" : "DrugStrength",
+    "description" : "44 µg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9b0914d18b4e8ec426b3e73e3d05874c",
+    "type" : "DrugStrength",
+    "description" : "44 ug/.5mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2a143e86e7f8c875136c7436dc25c1f0",
+    "type" : "DrugStrength",
+    "description" : "30 ug/.5mL Injection, solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d55ad6158cd0e92b592dc63142a10fd4",
+    "type" : "DrugStrength",
+    "description" : "22 ug/.5mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d5e52325434886a6d25e8f0822e3518a",
+    "type" : "DrugStrength",
+    "description" : "30 µg Solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d50c87569af2bd7817f2f60d0aa05245",
+    "type" : "DrugStrength",
+    "description" : "132 µg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ecabf5b344b3167464e815c34c3a1575",
+    "type" : "DrugStrength",
+    "description" : "Kit form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:200b20ea6e158511322cfc79ca33d1e6",
+    "type" : "DrugStrength",
+    "description" : "30 ug/mL Injection, powder, lyophilized, for solution form with intramuscular route"
+  } ],
+  "clinicalPharmacology" : "Interferon beta upregulates the expression of MHC I proteins, allowing for increased presentation of peptides derived from viral antigens. This enhances the activation of CD8+ T cells that are the precursors for cytotoxic T lymphocytes (CTLs) and makes the macrophage a better target for CTL-mediated killing. Type I interferons also induce the synthesis of several key antiviral mediators including 2'-5' oligoadenylate synthetase (2'-5' A synthetase), beta-2 microglobulin and neopterin.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:bcd7563e97f22502a9d68742b8189b71",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "247.7899932861328125",
+    "drugUnit" : "Rebif 22 mcg/0.5 ml syringe"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:44a0a549a1dc1cad7e91a42eac565da7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3252.2900390625",
+    "drugUnit" : "Avonex 4 30 mcg/vial Kit 1 Box = 4 Vials ( 0.5ml Per Vial)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b2e16568261bf885b76d8b2bda64f2c1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3252.2900390625",
+    "drugUnit" : "Avonex Prefilled (1 Box = 1 Kit = Four 30 mcg/0.5ml Syringes) Box"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f0e9f0145b809b718f16d668e656eae1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "247.7899932861328125",
+    "drugUnit" : "Rebif 44 mcg/0.5 ml syringe"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9a320adacc49b922ce0973154c36b03d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "781.79998779296875",
+    "drugUnit" : "Avonex admin pack 30 mcg vial"
+  } ],
   "description" : "Human interferon beta (166 residues), glycosylated, MW=22.5kD. It is produced by mammalian cells (Chinese Hamster Ovary cells) into which the human interferon beta gene has been introduced. The amino acid sequence of Avonex is identical to that of natural human interferon beta.",
-  "doseSchedule" : "30 ug/mL Injection, powder, lyophilized, for solution form with intramuscular route",
-  "legalStatus" : "investigational",
-  "manufacturer" : "Biogen Idec",
+  "dosageForm" : [ "Injection, solution", "Injection, powder, lyophilized, for solution", "Kit", "Solution" ],
+  "drugClass" : [ "Antiviral Agents", "Antineoplastic Agents", "Immunosuppressive Agents", "Immunologic Factors" ],
+  "schema:identifier" : "drugbank:DB00060",
+  "interactingDrug" : "DDI between Interferon beta-1a and Zidovudine - Interferons may enhance the adverse/toxic effect of Zidovudine. Interferons may decrease the metabolism of Zidovudine.",
+  "legalStatus" : [ "Approved", "Investigational" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:18f6af8ce9556a79e464a0cfa05b32e5",
+    "type" : "Organization",
+    "name" : "Biogen Idec"
+  },
   "mechanismOfAction" : "Interferon beta binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription) which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon beta binds more stably to type I interferon receptors than interferon alpha.",
   "name" : "Interferon beta-1a",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00060",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00060"
+  "nonProprietaryName" : [ "Interferon beta precursor", "Fibroblast interferon", "IFN-beta" ],
+  "proprietaryName" : "Betaferon",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic3/rebif.htm", "http://www.drugbank.ca/drugs/DB00060", "http://www.drugs.com/cdi/interferon-beta-1a.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00060"
 }</script>
 	</head>
 
@@ -43,7 +129,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00060.json", function(data) {

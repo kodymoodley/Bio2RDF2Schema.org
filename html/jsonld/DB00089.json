@@ -2,11 +2,22 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00089",
   "type" : "Drug",
-  "alternateName" : "In 111 Capromab pendetide",
+  "clinicalPharmacology" : "Binds to the prostate-specific membrane antigen, which is a cell surface protein generally overexpressed in prostate tissues and prostate cancers. The radioactive Indium 111, which is covalently attached to the antibody, allows radiodiagnostic detection of PSMA expressing cells and tumors.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:15cf90378192eae51f9ba8e1f49a8e60",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1584.0",
+    "drugUnit" : "Prostascint kit"
+  },
   "description" : "Capromab is a Murine IgG1 monoclonal 7E11-C5.3 antibody that recognizes prostate specific membrane antigen (PSMA – also known as glutamate carboxypeptidase 2) from prostate cancer cells and normal prostate tissue. It is linked to pendetide, a derivative of DTPA. Pendetide acts as a chelating agent for the radionuclide indium-111. Capromab is used to image the extent of prostate cancer.",
-  "legalStatus" : "approved",
+  "drugClass" : [ "Indicators and Reagents", "Diagnostic Agents" ],
+  "schema:identifier" : "drugbank:DB00089",
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Binds selectively to cell-surface prostate-specific membrane antigen (PSMA) expressed on prostate tissues and tumors.",
   "name" : "Capromab",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00089",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00089"
+  "nonProprietaryName" : [ "In 111 Capromab pendetide", "Capromab pendetide" ],
+  "proprietaryName" : "ProstaScint",
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00089",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00089"
 }

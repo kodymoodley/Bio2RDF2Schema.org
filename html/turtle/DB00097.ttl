@@ -1,0 +1,52 @@
+
+<http://bio2rdf.org/drugbank:DB00097> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Choriogonadotropin alfa" ;
+	<http://schema.org/description> "Recombinant human chorionic gonadotropin with 2 subunits, alpha = 92 residues, beta = 145 residues, each with N-and O-linked carbohydrate moieties linked to ASN-52 and ASN-78 (on alpha subunit) and ASN-13, ASN-30, SER-121, SER-127, SER-132 and SER-138 (on beta subunit). The primary structure of the alpha-chain of r-hCG is identical to that of the alpha-chain of hCG, FSH and LH." ;
+	<http://schema.org/drugClass> "Fertility Agents" , "Gonadotropins" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00097" ;
+	<http://schema.org/administrationRoute> "intramuscular" , "subcutaneous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:2a828069e3c5a4b098468f8a2091e89f> , <http://bio2rdf.org/drugbank_resource:ecabf5b344b3167464e815c34c3a1575> ;
+	<http://schema.org/clinicalPharmacology> "Choriogonadotropin alfa is used to treat female infertility, Choriogonadotropin alfa stimulates late follicular maturation and resumption of oocyte meiosis, and initiates rupture of the pre-ovulatory ovarian follicle. Ovidrel is an analogue of Luteinizing Hormone (LH) and binds to the LH/hCG receptor of the granulosa and theca cells of the ovary to effect these changes in the absence of an endogenous LH surge." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:0ea789783a1e723317dfc8de76e0586a> , <http://bio2rdf.org/drugbank_resource:a92a78346d085917a9bef967af32073c> , <http://bio2rdf.org/drugbank_resource:4a8b0931d01ca7da2254ca41274791ef> , <http://bio2rdf.org/drugbank_resource:6ff467a35aa3cd6ef6505a8ba962ea54> , <http://bio2rdf.org/drugbank_resource:8630528ca775f43104cd05ab027cbfe5> ;
+	<http://schema.org/dosageForm> "Injection, solution" , "Kit" ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:f3087679bd8c5d851ab3cf77469b58b9> ;
+	<http://schema.org/mechanismOfAction> "Choriogonadotropin alfa binds to the Follicle stimulating hormone receptor which results in ovulation in the absence of sufficient endogenous Luteinizing hormone." ;
+	<http://schema.org/nonProprietaryName> "Choriogonadotropin beta chain precursor" , "Chorionic gonadotrophin beta subunit" , "CG-beta" ;
+	<http://schema.org/proprietaryName> "Profasi" ;
+	<http://schema.org/identifier> "drugbank:DB00097" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cdi/choriogonadotropin-alfa.html> , <http://www.rxlist.com/cgi/generic/ovidrel.htm> , <http://www.drugbank.ca/drugs/DB00097> .
+
+<http://bio2rdf.org/drugbank_resource:0ea789783a1e723317dfc8de76e0586a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "60.700000762939453125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Pregnyl 10000 unit Solution" .
+
+<http://bio2rdf.org/drugbank_resource:2a828069e3c5a4b098468f8a2091e89f> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "250 ug/.5mL Injection, solution form with subcutaneous route" .
+
+<http://bio2rdf.org/drugbank_resource:4a8b0931d01ca7da2254ca41274791ef> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "118.5500030517578125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Novarel 10000 unit/10ml Solution 1 Vial = 10ml" .
+
+<http://bio2rdf.org/drugbank_resource:6ff467a35aa3cd6ef6505a8ba962ea54> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "93.220001220703125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Ovidrel 250 mcg/0.5ml Injectable 0.5ml Syringe" .
+
+<http://bio2rdf.org/drugbank_resource:8630528ca775f43104cd05ab027cbfe5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "57.229999542236328125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Pregnyl 10000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:a92a78346d085917a9bef967af32073c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "113.98999786376953125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Novarel 10000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:ecabf5b344b3167464e815c34c3a1575> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "Kit form with intramuscular route" .
+
+<http://bio2rdf.org/drugbank_resource:f3087679bd8c5d851ab3cf77469b58b9> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Emd serono inc" .

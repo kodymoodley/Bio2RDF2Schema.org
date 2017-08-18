@@ -13,14 +13,40 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00019",
   "type" : "Drug",
-  "alternateName" : "Granulocyte colony-stimulating factor precursor",
+  "administrationRoute" : "subcutaneous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:bb8157904a842d737d256a179a236798",
+    "type" : "DrugStrength",
+    "description" : "6 mg/.6mL Injection form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:25db42c740390640b1b57b9b06bdcdba",
+    "type" : "DrugStrength",
+    "description" : "10 mg Solution form with subcutaneous route"
+  } ],
+  "clinicalPharmacology" : "Used in the treatment of chemotherapy-induced neutropenia by enhancing the production of neutrophils. Pegfilgrastim acts on hematopoietic cells by binding to specific cell surface receptors thereby stimulating proliferation, differentiation, commitment, and end cell functional activation. Pegfilgrastim has reduced renal clearance and prolonged persistence in vivo as compared to Filgrastim.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:19d481f5b70489c2c40b5dee77e41ab0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "4102.3701171875",
+    "drugUnit" : "Neulasta 6 mg/0.6 ml syringe"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:13ba150534045611cbb227c3d385c52b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "4026.050048828125",
+    "drugUnit" : "Neulasta 6 mg/0.6ml Solution 0.6ml Syringe"
+  } ],
   "description" : "PEGylated (at N terminus) form of human G-CSF (Granulocyte colony stimulating factor), 175 residues, produced from E. coli via bacterial fermentation.",
-  "doseSchedule" : "10 mg Solution form with subcutaneous route",
-  "legalStatus" : "approved",
+  "dosageForm" : [ "Solution", "Injection" ],
+  "drugClass" : [ "Immunosuppressive Agents", "Antineutropenic Agents" ],
+  "schema:identifier" : "drugbank:DB00019",
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Pegfilgrastim binds to the G-CSF receptor. As a G-CSF analog, it controls proliferation of committed progenitor cells and influences their maturation into mature neutrophils. Pegfilgrastim also stimulates the release of neutrophils from bone marrow storage pools and reduces their maturation time. Pegfilgrastim acts to increase the phagocytic activity of mature neutrophils. In patients receiving cytotoxic chemotherapy, pegfilgrastim can accelerate neutrophil recovery, leading to a reduction in duration of the neutropenic phase",
   "name" : "Pegfilgrastim",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00019",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00019"
+  "nonProprietaryName" : [ "Pluripoietin", "Lenograstim", "N-(3-Hydroxypropyl)Methionylcolony-stimulating Factor (human), 1-Ether with .Alpha.-Methyl-.Omega.-Hydroxypoly(Oxyethylene)", "Granulocyte colony-stimulating factor precursor", "G-CSF" ],
+  "sameAs" : [ "http://www.drugs.com/cdi/pegfilgrastim.html", "http://www.drugbank.ca/drugs/DB00019", "http://www.rxlist.com/cgi/generic3/neulasta.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00019"
 }</script>
 	</head>
 
@@ -42,7 +68,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00019.json", function(data) {

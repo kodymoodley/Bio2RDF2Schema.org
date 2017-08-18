@@ -1,0 +1,89 @@
+
+<http://bio2rdf.org/drugbank:DB00150> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "L-Tryptophan" ;
+	<http://schema.org/description> "An essential amino acid that is necessary for normal growth in infants and for nitrogen balance in adults. It is a precursor of indole alkaloids in plants. It is a precursor of serotonin (hence its use as an antidepressant and sleep aid). It can be a precursor to niacin, albeit inefficiently, in mammals. [PubChem]" ;
+	<http://schema.org/drugClass> "Dietary Supplements" , "Micronutrients" , "Amino Acids, Essential" , "Antidepressive Agents, Second-Generation" , "Supplements" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00150" ;
+	<http://schema.org/clinicalPharmacology> "Tryptophan is critical for the production of the body's proteins, enzymes and muscle tissue. It is also essential for the production of niacin, the synthesis of the neurotransmitter serotonin and melatonin. Tryptophan supplements can be used as natural relaxants to help relieve insomnia. Tryptophan can also reduce anxiety and depression and has been shown to reduce the intensity of migraine headaches. Other promising indications include the relief of chronic pain, reduction of impulsivity or mania and the treatment of obsessive or compulsive disorders. Tryptophan also appears to help the immune system and can reduce the risk of cardiac spasms. Tryptophan deficiencies may lead to coronary artery spasms. Tryptophan is used as an essential nutrient in infant formulas and intravenous feeding. Tryptophan is marketed as a prescription drug (Tryptan) for those who do not seem to respond well to conventional antidepressants. It may also be used to treat those afflicted with seasonal affective disorder (a winter-onset depression). Tryptopan serves as the precursor for the synthesis of serotonin (5-hydroxytryptamine, 5-HT) and melatonin (N-acetyl-5-methoxytryptamine)." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:58523788e5eccf33ccb327cc725a16bb> , <http://bio2rdf.org/drugbank_resource:cc109849c0e3a62fde0c069370bb725a> , <http://bio2rdf.org/drugbank_resource:c811906a9074a0b0a2d728c050cf6425> , <http://bio2rdf.org/drugbank_resource:3e3b6ee31edf2e400ea3075735335e5f> , <http://bio2rdf.org/drugbank_resource:3f7582cb91b62e58631fc353f1eef8b3> , <http://bio2rdf.org/drugbank_resource:847e61d079849fd41303d5ec690676d5> , <http://bio2rdf.org/drugbank_resource:fd2b2a89a944912976797697a709ea71> , <http://bio2rdf.org/drugbank_resource:84e6d3818c46601d9387e07833dfda2d> , <http://bio2rdf.org/drugbank_resource:fe11f6e646226641518b7c07a53a4a7a> , <http://bio2rdf.org/drugbank_resource:87d28ba59f701c14d41942b9620ccd3c> , <http://bio2rdf.org/drugbank_resource:333755d774499967f4e035bbd159c3ac> , <http://bio2rdf.org/drugbank_resource:e7c75d36f67c8ae706a703135d57bea6> , <http://bio2rdf.org/drugbank_resource:b1826e3375bb29857f7cdf66bce095bf> , <http://bio2rdf.org/drugbank_resource:7cd98bdc6bf35b58fc391acc8a4a713d> , <http://bio2rdf.org/drugbank_resource:1f35558694128f111ed55422eae0fc6a> ;
+	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;
+	<http://schema.org/mechanismOfAction> "A number of important side reactions occur during the catabolism of tryptophan on the pathway to acetoacetate. The first enzyme of the catabolic pathway is an iron porphyrin oxygenase that opens the indole ring. The latter enzyme is highly inducible, its concentration rising almost 10-fold on a diet high in tryptophan. Kynurenine is the first key branch point intermediate in the pathway. Kynurenine undergoes deamniation in a standard transamination reaction yielding kynurenic acid. Kynurenic acid and metabolites have been shown to act as antiexcitotoxics and anticonvulsives. A second side branch reaction produces anthranilic acid plus alanine. Another equivalent of alanine is produced further along the main catabolic pathway, and it is the production of these alanine residues that allows tryptophan to be classified among the glucogenic and ketogenic amino acids. The second important branch point converts kynurenine into 2-amino-3-carboxymuconic semialdehyde, which has two fates. The main flow of carbon elements from this intermediate is to glutarate. An important side reaction in liver is a transamination and several rearrangements to produce limited amounts of nicotinic acid, which leads to production of a small amount of NAD<sup>+</sup> and NADP<sup>+</sup>." ;
+	<http://schema.org/nonProprietaryName> "L-(-)-Tryptophan" , "(S)-alpha-amino-1H-indole-3-propanoic acid" , "L-Tryptophan" , "Trp" , "Tryptophan" , "L-(−)-tryptophan" , "(S)-α-amino-1H-indole-3-propanoic acid" , "L-β-3-indolylalanine" , "(S)-alpha-Amino-beta-(3-indolyl)-propionic acid" , "(2S)-2-amino-3-(1H-indol-3-yl)Propanoic acid" , "(-)-Tryptophan" , "W" , "(S)-Tryptophan" , "L-beta-3-Indolylalanine" ;
+	<http://schema.org/proprietaryName> "Alti-Tryptophan" ;
+	<http://schema.org/identifier> "drugbank:DB00150" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00150> .
+
+<http://bio2rdf.org/drugbank_resource:1f35558694128f111ed55422eae0fc6a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6000000238418579102" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Tryptan 1 g Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:333755d774499967f4e035bbd159c3ac> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.89999997615814208984" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Ratio-Tryptophan 1 g Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:3e3b6ee31edf2e400ea3075735335e5f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.80000001192092895508" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Tryptan 500 mg Capsule" .
+
+<http://bio2rdf.org/drugbank_resource:3f7582cb91b62e58631fc353f1eef8b3> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.33000001311302185059" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-tryptophan 500 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:58523788e5eccf33ccb327cc725a16bb> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.72000002861022949219" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-tryptophan crystals" .
+
+<http://bio2rdf.org/drugbank_resource:7cd98bdc6bf35b58fc391acc8a4a713d> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.44999998807907104492" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Apo-Tryptophan 500 mg Capsule" .
+
+<http://bio2rdf.org/drugbank_resource:847e61d079849fd41303d5ec690676d5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.44999998807907104492" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Pms-Tryptophan 500 mg Capsule" .
+
+<http://bio2rdf.org/drugbank_resource:84e6d3818c46601d9387e07833dfda2d> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.44999998807907104492" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Ratio-Tryptophan 500 mg Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:87d28ba59f701c14d41942b9620ccd3c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.40000000596046447754" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Tryptan 250 mg Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:b1826e3375bb29857f7cdf66bce095bf> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.44999998807907104492" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Apo-Tryptophan 500 mg Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:c811906a9074a0b0a2d728c050cf6425> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.89999997615814208984" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Apo-Tryptophan 1 g Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:cc109849c0e3a62fde0c069370bb725a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Tryptan 750 mg Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:e7c75d36f67c8ae706a703135d57bea6> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.44999998807907104492" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Pms-Tryptophan 500 mg Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:fd2b2a89a944912976797697a709ea71> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.44999998807907104492" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Ratio-Tryptophan 500 mg Capsule" .
+
+<http://bio2rdf.org/drugbank_resource:fe11f6e646226641518b7c07a53a4a7a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.80000001192092895508" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Tryptan 500 mg Tablet" .

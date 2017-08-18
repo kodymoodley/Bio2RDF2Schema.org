@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00218",
+  "type" : "Drug",
+  "administrationRoute" : [ "intravenous", "oral", "ophthalmic" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:df0d0d683f86758ea90bc3e6875429fb",
+    "type" : "DrugStrength",
+    "description" : "0.5 % Solution form with ophthalmic route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d5ce999f5bef1c1c0bfc9f663e1cdef2",
+    "type" : "DrugStrength",
+    "description" : "400 mg Tablet form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0acfae8c1c1631082c93b5cc0104bd57",
+    "type" : "DrugStrength",
+    "description" : "400 mg/250mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e35511d3b310730107b134c2e1ac7a3e",
+    "type" : "DrugStrength",
+    "description" : "5 mg/mL Solution form with ophthalmic route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1e60b9cf5607cc12d2938962e9b02f8d",
+    "type" : "DrugStrength",
+    "description" : "400 mg Tablet, coated form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4df8a6728320050d76a37b5c35f27700",
+    "type" : "DrugStrength",
+    "description" : "400 mg Tablet, film coated form with oral route"
+  } ],
+  "clinicalPharmacology" : "Moxifloxacin is a quinolone/fluoroquinolone antibiotic. Moxifloxacin can be used to treat infections caused by the following bacteria: Aerobic Gram-positive microorganisms: <i>Corynebacterium</i> species, <i>Micrococcus luteus</i>, <i>Staphylococcus aureus</i>, <i>Staphylococcus epidermidis</i>, <i>Staphylococcus haemolyticus</i>, <i>Staphylococcus hominis</i>, <i>Staphylococcus warneri</i>, <i>Streptococcus pneumoniae</i>, and <i>Streptococcus viridans</i> group. Aerobic Gram-negative microorganisms: <i>Acinetobacter lwoffii</i>, <i>Haemophilus influenzae</i>, and <i>Haemophilus parainfluenzae</i>. Other microorganisms: <i>Chlamydia trachomatis</i>.<br/>Moxifloxacin is bactericidal and its mode of action depends on blocking of bacterial DNA replication by binding itself to an enzyme called DNA gyrase, which allows the untwisting required to replicate one DNA double helix into two. Notably the drug has 100 times higher affinity for bacterial DNA gyrase than for mammalian. Moxifloxacin is a broad-spectrum antibiotic that is active against both Gram-positive and Gram-negative bacteria.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:06c6f7dc43715fbf4b5291fa10d9af2f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "16.350000381469726562",
+    "drugUnit" : "Avelox abc pack 400 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:021a35106028852bb9a920b69ebeff7f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "27.219999313354492188",
+    "drugUnit" : "Vigamox 0.5% eye drops"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f2d8fc99bb22741138ae7a249c06c6e2",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.17000000178813934326",
+    "drugUnit" : "Avelox iv 400 mg/250 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:34c23120562ee99fcad551f15e5b3bab",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "16.68000030517578125",
+    "drugUnit" : "Avelox 400 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:44ac2022dedc267b752444087bda7bac",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "90.720001220703125",
+    "drugUnit" : "Vigamox 0.5% Solution 3ml Bottle"
+  } ],
+  "description" : "Moxifloxacin is a synthetic fluoroquinolone antibiotic agent. Bayer AG developed the drug (initially called BAY 12-8039) and it is marketed worldwide (as the hydrochloride) under the brand name Avelox (in some countries also Avalox) for oral treatment.",
+  "dosageForm" : [ "Injection, solution", "Tablet, coated", "Tablet", "Solution", "Tablet, film coated" ],
+  "drugClass" : "Quinolones",
+  "foodWarning" : "Take without regard to meals. Drink liberally. Absorption is not affected by lipid-rich meals or yogourt.",
+  "schema:identifier" : "drugbank:DB00218",
+  "legalStatus" : [ "Approved", "Investigational" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e12afb0bd3360355b845f42cd59876cf",
+    "type" : "Organization",
+    "name" : "Bayer healthcare pharmaceuticals inc"
+  },
+  "mechanismOfAction" : "The bactericidal action of moxifloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV. DNA gyrase is an essential enzyme that is involved in the replication, transcription and repair of bacterial DNA. Topoisomerase IV is an enzyme known to play a key role in the partitioning of the chromosomal DNA during bacterial cell division.",
+  "name" : "Moxifloxacin",
+  "nonProprietaryName" : [ "1-Cyclopropyl-6-fluoro-1,4-dihydro-8-methoxy-7-((4as,7as)-octahydro-6H-pyrrolo(3,4-b)pyridin-6-yl)-4-oxo-3-quinolinecarboxylic acid", "Moxifloxacin" ],
+  "sameAs" : [ "http://www.drugs.com/cdi/moxifloxacin-drops.html", "http://www.drugbank.ca/drugs/DB00218", "http://www.rxlist.com/cgi/generic3/vigamox.htm", "http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/ave1540.shtml" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00218"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00218.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

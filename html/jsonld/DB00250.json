@@ -1,0 +1,77 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00250",
+  "type" : "Drug",
+  "administrationRoute" : [ "topical", "oral" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:3bee3e95862d4cf90daa98aebf31d8d8",
+    "type" : "DrugStrength",
+    "description" : "50 mg/g Gel form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:bf7d0877141556a3b315102a2b658b33",
+    "type" : "DrugStrength",
+    "description" : "100 mg Tablet form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8ceb47939fa8538e2459110add6d3c07",
+    "type" : "DrugStrength",
+    "description" : "25 mg Tablet form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e35445868d3de5904b09b0b9d74d36c0",
+    "type" : "DrugStrength",
+    "description" : "5 % Gel form with topical route"
+  } ],
+  "clinicalPharmacology" : "Dapsone is a sulfone with anti-inflammatory immunosuppressive properties as well as antibacterial and antibiotic properties. Dapsone is the principal drug in a multidrug regimen recommended by the World Health Organization for the treatment of leprosy. As an anti-infective agent, it is also used for treating malaria and, recently, for Pneumocystic carinii pneumonia in AIDS patients. Dapsone is absorbed rapidly and nearly completely from the gastrointestinal tract. Dapsone is distributed throughout total body water and is present in all tissues. However, it tends to be retained in skin and muscle and especially in the liver and kidney: traces of the drug are present in these organs up to 3 weeks after therapy cessation.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:f0ead112ae9663a5247fe8de19b15853",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.20000000298023223877",
+    "drugUnit" : "Dapsone 25 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:251156817ac6e856d5caa9bf78382c61",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "5.5199999809265136719",
+    "drugUnit" : "Aczone 5% gel"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:792039b8428d4d8e6351395abdfeb0a6",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "5.3800001144409179688",
+    "drugUnit" : "Dapsone powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b4a28b4deeb1a85bdabec6c44bc09f48",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.86000001430511474609",
+    "drugUnit" : "Dapsone 100 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4a1316198db1be81cde17f45b9ed9e88",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "35.990001678466796875",
+    "drugUnit" : "Dapsone 30 25 mg tablet Box"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3afdb0b91c325cde58c8e537f6b3e930",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "42.990001678466796875",
+    "drugUnit" : "Dapsone 30 100 mg tablet Box"
+  } ],
+  "description" : "A sulfone active against a wide range of bacteria but mainly employed for its actions against mycobacterium leprae. Its mechanism of action is probably similar to that of the sulfonamides which involves inhibition of folic acid synthesis in susceptible organisms. It is also used with pyrimethamine in the treatment of malaria. (From Martindale, The Extra Pharmacopoeia, 30th ed, p157-8)",
+  "dosageForm" : [ "Gel", "Tablet" ],
+  "drugClass" : [ "Leprostatic Agents", "Antimalarials", "Folic Acid Antagonists", "Anti-Infective Agents", "Antimycobacterials" ],
+  "foodWarning" : "Take without regard to meals.",
+  "schema:identifier" : "drugbank:DB00250",
+  "legalStatus" : [ "Approved", "Investigational" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:68e406eaf8b34f8c4f7dd23c8a40ed9b",
+    "type" : "Organization",
+    "name" : "Jacobus pharmaceutical co"
+  },
+  "mechanismOfAction" : "Dapsone acts against bacteria and protozoa in the same way as sulphonamides, that is by inhibiting the synthesis of dihydrofolic acid through competition with para-amino-benzoate for the active site of dihydropteroate synthetase. The anti-inflammatory action of the drug is unrelated to its antibacterial action and is still not fully understood.",
+  "name" : "Dapsone",
+  "nonProprietaryName" : [ "4-(4-Aminophenylsulfonyl)benzenamine", "4-(4-Aminophenylsulfonyl)aniline", "4,4'-Diaminodiphenylsulfone", "Dapsona", "Bis(P-aminophenyl) sulfone", "P-Aminophenyl sulfone", "4,4'-Sulfonylbisbenzenamine", "4,4'-Diaminodiphenyl sulfone", "1,1'-Sulfonylbis(4-aminobenzene)", "4-(4-amino-Benzenesulfonyl)-phenylamine", "P,P-Sulphonylbisbenzamine", "P,P'-diaminodiphenyl sulfone", "4,4'-Sulfonylbisbenzeneamine", "DIAPHENYLSULFONE", "1,1'-Sulfonylbis[4-aminobenzene]", "4,4'-sulfonyldianiline", "4-Aminophenyl sulfone", "Bis(4-aminophenyl)sulfone", "4,4'-Diaminodiphenyl sulphone", "DDS", "Dapsonum", "DADPS", "P,P-Sulphonylbisbenzenamine", "4,4'-Sulfonyldianilin", "4,4'-Sulfonylbisaniline", "4,4'-Dapsone", "DAPSONE" ],
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/dapsone.htm", "http://www.drugs.com/cdi/dapsone.html", "http://www.drugbank.ca/drugs/DB00250" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00250"
+}

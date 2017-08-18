@@ -2,13 +2,374 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00052",
   "type" : "Drug",
-  "alternateName" : "Growth hormone 1",
+  "administrationRoute" : [ "subcutaneous", "intramuscular", "intramuscular; subcutaneous" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:40c82853e95bedc470f9c3c824963e19",
+    "type" : "DrugStrength",
+    "description" : "5.83 mg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6657940402458fd9b619ca1e8efdbe5b",
+    "type" : "DrugStrength",
+    "description" : "5 mg/1.5mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:427b5ba59525cc7f52151dc16460a5e0",
+    "type" : "DrugStrength",
+    "description" : "30 mg/3mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:70b67a5cb66053a966693478f82183b5",
+    "type" : "DrugStrength",
+    "description" : "10.0 mg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d275a09dd17f5cb21cd2129770d6c734",
+    "type" : "DrugStrength",
+    "description" : "Kit form with intramuscular; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:93d1bce9104e25935dd6e330769d27fa",
+    "type" : "DrugStrength",
+    "description" : "15 mg/1.5mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:14f19fcb6875d9685ef8e597008d2015",
+    "type" : "DrugStrength",
+    "description" : "5.0 mg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1c43e9a334d68de2c62428bee52f3d12",
+    "type" : "DrugStrength",
+    "description" : "5 mg Powder for solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4d48e191653bfb20c7a09dcb22a14be6",
+    "type" : "DrugStrength",
+    "description" : "8 mg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4f06398b408027f4b417cf069e9f43ea",
+    "type" : "DrugStrength",
+    "description" : "Kit form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:56635bff16aea79d48d8e309edbc83dc",
+    "type" : "DrugStrength",
+    "description" : "10 mg/1.5mL Injection, solution form with subcutaneous route"
+  } ],
+  "clinicalPharmacology" : "Used in the treatment of dwarfism and growth failure, growth hormone (hGH) stimulates skeletal growth in pediatric patients with growth failure due to a lack of adequate secretion of endogenous GH. Skeletal growth is accomplished at the epiphyseal plates at the ends of a growing bone. Growth and metabolism of epiphyseal plate cells are directly stimulated by GH and one of its mediators, IGF-I (insulin-like growth factor).",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:62770bdf6ee51419733aad7e5253d5aa",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "135.410003662109375",
+    "drugUnit" : "Genotropin miniquick 1.8 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e02f417a8df91fcbba198b6b6f7dcf15",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "123.779998779296875",
+    "drugUnit" : "Genotropin MiniQuick 1.6 mg (7 Cartridges Per Box)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6112dbee45aa8a03c33e984383a30e6e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "549.9000244140625",
+    "drugUnit" : "Protropin 10 mg Solution Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e2d666c36d57cc5cc511bf0b66c50454",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "626.0999755859375",
+    "drugUnit" : "Saizen 8.8 mg Solution Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:38a71d74c400ded9171a212db12132bd",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "389.44000244140625",
+    "drugUnit" : "Norditropin 5 mg/1.5ml Solution 1.5ml Cartridge"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f0edd79c1b94fd1e7459725483168d44",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "108.779998779296875",
+    "drugUnit" : "Genotropin MiniQuick 1.4 mg (7 Cartridges Per Box)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c96cdb09b117f4e7d4cf3e80189f6fb8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "45.1399993896484375",
+    "drugUnit" : "Genotropin miniquick 0.6 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:64bc83573403762667628ccd4e08964a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "75.23000335693359375",
+    "drugUnit" : "Genotropin miniquick 1 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e6136683f1f56401263d1106d05e2505",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "784.70001220703125",
+    "drugUnit" : "Nutropin 10 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7c13ab85ccaa5aa11559ebebeb2df1df",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1123.3800048828125",
+    "drugUnit" : "Norditropin 15 mg/1.5 ml cartridge"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e3e62d6de69176f42a8dbf1b86fa9088",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1179.5400390625",
+    "drugUnit" : "Norditropin flexpro 15 mg/1.5"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6835de474d80bae55bd1e51b37f79eb5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "120.37000274658203125",
+    "drugUnit" : "Genotropin miniquick 1.6 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6fd4f74481c0e6191b1df5f432025e0a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "418.660003662109375",
+    "drugUnit" : "Serostim 8.8 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:470c9dfca8ad05f3e5aff177ed07961b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "391.209991455078125",
+    "drugUnit" : "Genotropin 5.8 mg Cartridge"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6dfb6177767cbea925913a221c78711f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1822.9000244140625",
+    "drugUnit" : "Humatrope 24 mg cartridge"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4568a1b49cd28789afb626d2e914a834",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "150.4600067138671875",
+    "drugUnit" : "Genotropin miniquick 2 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:07da93d3d5c131a7b89564570490168a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "274.95001220703125",
+    "drugUnit" : "Protropin 5 mg Solution Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:71b6b1b0c0317a4b6ebc35740cf67260",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1168.3199462890625",
+    "drugUnit" : "Norditropin 15 mg/1.5ml Solution 1.5ml Cartridge"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:842d2ccb0d05f2efd37bf17e16fda7d6",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "30.090000152587890625",
+    "drugUnit" : "Genotropin miniquick 0.4 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:71c62abe2e4abfceffcac01121b5a6e9",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "455.720001220703125",
+    "drugUnit" : "Humatrope 6 mg cartridge"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0dc96cb5fdba23699430caa52b3d18a7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "759.54998779296875",
+    "drugUnit" : "Nutropin aq 20 mg/2ml pen cart"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ce35178bc3cbc17b07812b2de036301a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "239.5099945068359375",
+    "drugUnit" : "Tev-tropin 5 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fbb05d8df1c7ca074bafb32933929814",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "92.8300018310546875",
+    "drugUnit" : "Genotropin MiniQuick 1.2 mg (7 Cartridges Per Box)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:92417026c6319a129fb8811f8693623d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "15.050000190734863281",
+    "drugUnit" : "Genotropin miniquick 0.2 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fd8c78f963b5d618233874f3930bfb58",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "911.45001220703125",
+    "drugUnit" : "Humatrope 12 mg cartridge"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:98d4715622ff7cfc7874421fc29ecfd1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "376.260009765625",
+    "drugUnit" : "Saizen 5 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:95a63844ec3cad89f8beeab3a7d2792a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "602.02001953125",
+    "drugUnit" : "Saizen 8.8 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fdde376229e05be00a49cdaac10ecb33",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "154.720001220703125",
+    "drugUnit" : "Genotropin MiniQuick 2 mg (7 Cartridges Per Box)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:97307fa5b420d79e6e287ffa76f66080",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "928.3599853515625",
+    "drugUnit" : "Genotropin 12 mg Solution"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a01e40a3ceb4078dcb8b812d62fe32c2",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "228.4499969482421875",
+    "drugUnit" : "Genotropin MiniQuick 0.4 mg (7 Cartridges Per Box)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4e55e8b578386735548b36b936226635",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "753.8599853515625",
+    "drugUnit" : "Norditropin NordiFlex Pen 10 mg/1.5ml Solution 1 Syringe = 1.5ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a04dfa707c740cffb353e21744563a29",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "105.31999969482421875",
+    "drugUnit" : "Genotropin miniquick 1.4 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1b5265776f025162bce0e6f5640b1abc",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "283.3800048828125",
+    "drugUnit" : "Omnitrope 5.8 mg Solution Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fe7673bc8402ffebcbcbf823065cc767",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "332.8599853515625",
+    "drugUnit" : "Serostim 6 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9c07103ad665f9be52378b0f0c1d1fef",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "392.350006103515625",
+    "drugUnit" : "Nutropin 5 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b3f9c2e06c14e9accd7f5b7cd3adebce",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "60.189998626708984375",
+    "drugUnit" : "Genotropin miniquick 0.8 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9ea044225599c8b9b27e0171d71e0617",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1168.3199462890625",
+    "drugUnit" : "Norditropin NordiFlex Pen 15 mg/1.5ml Solution 1 Syringe = 1.5ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:52bf90878d0ebc7d64216b97ace282a1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "90.279998779296875",
+    "drugUnit" : "Genotropin miniquick 1.2 mg"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ab266d4f759cca800decc945460bf463",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "221.899993896484375",
+    "drugUnit" : "Serostim 4 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ab2c60536e411f24ab85f8d124b6aeb7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "626.0999755859375",
+    "drugUnit" : "Saizen Click.Easy 8.8 mg Solution Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d521948f91c5c06583be0608b509a5ab",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1123.3800048828125",
+    "drugUnit" : "Norditropin nordiflx 15 mg/1.5"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d59eca559818e6973d7b076aba56a039",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "259.45001220703125",
+    "drugUnit" : "Tev-Tropin 5 mg Solution Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b8e16d0398af5488c611c420c228b908",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "326.670013427734375",
+    "drugUnit" : "Genotropin MiniQuick 0.6 mg (7 Cartridges Per Box)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2fc4f4baf8651b05f3807064d57dcf0e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "277.3800048828125",
+    "drugUnit" : "Serostim 5 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:daeb61ce469496cba34a18c6ce75e659",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "759.54998779296875",
+    "drugUnit" : "Nutropin aq nuspin 20 pen cart"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:db3bb0bd28cae313ed67dc1642ee9c71",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "389.44000244140625",
+    "drugUnit" : "Norditropin NordiFlex Pen 5 mg/1.5ml Solution 1 Syringe = 1.5ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:dbf84f98b64661fea13668b9b10beaac",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "391.30999755859375",
+    "drugUnit" : "Saizen 5 mg Solution Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:33b04bd521413ec6cd930d7039bede15",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "748.91998291015625",
+    "drugUnit" : "Norditropin nordiflex 30 mg/3"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:33b41fa4ed0150db0dc656dcc0926fd7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "110.51999664306640625",
+    "drugUnit" : "Genotropin MiniQuick 0.2 mg (7 Cartridges Per Box)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:314ab602c85a5210b7d3288df937c61c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "77.3600006103515625",
+    "drugUnit" : "Genotropin MiniQuick 1 mg (7 Cartridges Per Box)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:df518831d3cc6b517d21606d012ac71c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "433.55999755859375",
+    "drugUnit" : "Genotropin MiniQuick 0.8 mg (7 Cartridges Per Box)"
+  } ],
   "description" : "Recombinant human growth hormone (somatotropin) 191 residues, MW 22.1 kD, synthesized in E. coli",
-  "doseSchedule" : "5.0 mg Solution form with subcutaneous route",
-  "legalStatus" : "approved",
-  "manufacturer" : "Genentech inc",
+  "dosageForm" : [ "Solution", "Kit", "Injection, solution", "Powder for solution" ],
+  "drugClass" : "Hormone Replacement Agents",
+  "schema:identifier" : "drugbank:DB00052",
+  "legalStatus" : [ "Approved", "Investigational" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:b50d262c8f2ca010e0dd561803df6b27",
+    "type" : "Organization",
+    "name" : "Genentech inc"
+  },
   "mechanismOfAction" : "hGH binds to the human growth hormone receptor (GHR). Upon binding, hGH causes dimerization of GHR, activation of the GHR-associated JAK2 tyrosine kinase, and tyrosyl phosphorylation of both JAK2 and GHR. These events recruit and/or activate a variety of signaling molecules, including MAP kinases, insulin receptor substrates, phosphatidylinositol 3' phosphate kinase, diacylglycerol, protein kinase C, intracellular calcium, and Stat transcription factors. These signaling molecules contribute to the GH-induced changes in enzymatic activity, transport function, and gene expression that ultimately culminate in changes in growth and metabolism.",
   "name" : "Somatropin recombinant",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00052",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00052"
+  "nonProprietaryName" : [ "Somatotropin precursor", "GH-N", "Pituitary growth hormone", "GH", "Somatropin", "Growth hormone 1", "Growth hormone" ],
+  "proprietaryName" : "BioTropin",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00052", "http://www.drugs.com/cdi/somatropin-rdna-origin-nonrefrigerated.html", "http://www.rxlist.com/cgi/generic3/nutropin.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00052"
 }

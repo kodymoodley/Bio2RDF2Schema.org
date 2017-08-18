@@ -2,12 +2,172 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00016",
   "type" : "Drug",
-  "alternateName" : "Erythropoietin precursor",
+  "administrationRoute" : "intravenous; subcutaneous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:af2c18507c80398b461cd9b9d8a66f13",
+    "type" : "DrugStrength",
+    "description" : "2000 [iU]/mL Solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fd4cc6c89154c69f97b35dfdcbcb5b81",
+    "type" : "DrugStrength",
+    "description" : "3000 [iU]/mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3a580c9b1e8ed33ea726d8bbc43a7ad3",
+    "type" : "DrugStrength",
+    "description" : "10000 [iU]/mL Solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:24abc38da87ab747f3e283231ba7b201",
+    "type" : "DrugStrength",
+    "description" : "20000 [iU]/mL Solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:285d08e8e3db366361a28906980cb6fd",
+    "type" : "DrugStrength",
+    "description" : "4000 [iU]/mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5af4be438316594fbcf34b9ba58f7331",
+    "type" : "DrugStrength",
+    "description" : "20000 [iU]/mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:753dab6b0aa995f0fe3b99b85b33c244",
+    "type" : "DrugStrength",
+    "description" : "3000 [iU]/mL Solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:615bb6a8d39413f13b98b94c86df7a73",
+    "type" : "DrugStrength",
+    "description" : "10000 [iU]/mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f526281af659ec9d8c21aa951bc9b6d0",
+    "type" : "DrugStrength",
+    "description" : "4000 [iU]/mL Solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0bce426f8eab80bc4f6a6e01fca1f634",
+    "type" : "DrugStrength",
+    "description" : "2000 [iU]/mL Injection, solution form with intravenous; subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0fc7504ac02075d829b62fefcad4026e",
+    "type" : "DrugStrength",
+    "description" : "40000 [iU]/mL Injection, solution form with intravenous; subcutaneous route"
+  } ],
+  "clinicalPharmacology" : "Used in the treatment of anemia. Involved in the regulation of erythrocyte differentiation and the maintenance of a physiological level of circulating erythrocyte mass.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:37d4f98184b999ed172ac3178dd91b80",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "767.030029296875",
+    "drugUnit" : "Procrit 40000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1cbb669e9b515f8b6a8dd6e03aa5beca",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "6852.2998046875",
+    "drugUnit" : "Epogen 40000 unit/ml Solution 1 Box Contains Ten 1ml Vials"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e914550c78d7ead7724d44e07325297e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "710.8699951171875",
+    "drugUnit" : "Procrit 10000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e94ca46d9abbd390fdd70aeb0d0357fb",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1578.719970703125",
+    "drugUnit" : "Epogen 10000 unit/ml Solution 1 Box Contains Ten 1ml Vials"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:53bba32842a2360702ab71c3ac8edc31",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "303.600006103515625",
+    "drugUnit" : "Epogen 20000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0651e3b258c8de1f723d1102597cc26d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "151.8000030517578125",
+    "drugUnit" : "Epogen 10000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:06f1ab3a98b929e115bfd514c285eb56",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "34.1399993896484375",
+    "drugUnit" : "Epogen 2000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7f0589f0b6a8f434c2596f6cfeb61705",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "55.630001068115234375",
+    "drugUnit" : "Procrit 3000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3d88642de409d2c0e1c0b2f4bbe31909",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "315.739990234375",
+    "drugUnit" : "Epogen 10000 unit/ml Solution 2ml Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3c0b2c7088b1286132acd3b4f344e0c4",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "47.529998779296875",
+    "drugUnit" : "Epogen 3000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d0221155ffeb22e18982cd784b010965",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "640.3699951171875",
+    "drugUnit" : "Epogen 40000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:eed0b6cbfe6fbf2eeaad3c18a4392804",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3157.43994140625",
+    "drugUnit" : "Epogen 20000 unit/ml Solution 1 Box Contains Ten 1ml Vials"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5f433ec71c1244cb0eeb95d6b40e6d39",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "358.019989013671875",
+    "drugUnit" : "Procrit 10000 unit/ml Solution 2ml Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:317a58a8b76e38629f94825f170a34a7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "37.090000152587890625",
+    "drugUnit" : "Procrit 2000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a92e577c74063a66f8ed936910ec4dae",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "378.1400146484375",
+    "drugUnit" : "Procrit 20000 unit/ml Solution"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8d779aab122f86dad3f86b857c79e5e4",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "74.1699981689453125",
+    "drugUnit" : "Procrit 4000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2f552552daf8241ab5a6fc1e103f1e46",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "388.970001220703125",
+    "drugUnit" : "Procrit 20000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fb5ee31605d77ca698b2d74052876f1f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "61.340000152587890625",
+    "drugUnit" : "Epogen 4000 unit/ml vial"
+  } ],
   "description" : "Human erythropoietin (recombinant), produced by CHO cells.",
-  "doseSchedule" : "2000 [iU]/mL Injection, solution form with intravenous; subcutaneous route",
-  "legalStatus" : "approved",
+  "dosageForm" : [ "Injection, solution", "Solution" ],
+  "drugClass" : [ "Hematinics", "Anti-anemic Agents" ],
+  "schema:identifier" : "drugbank:DB00016",
+  "interactingDrug" : [ "DDI between Epoetin alfa and Thalidomide - Erythropoiesis-Stimulating Agents may enhance the thrombogenic effect of Thalidomide.", "DDI between Epoetin alfa and Lenalidomide - Erythropoiesis-Stimulating Agents may enhance the thrombogenic effect of Lenalidomide." ],
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Binding of erythropoietin to the erythropoietin receptor leads to receptor dimerization, which facilitates activation of JAK-STAT signaling pathways within the cytosol. Activated STAT (signal transducers and activators of transcription) proteins are then translocated to the nucleus where they serve as transcription factors which regulate the activation of specific genes involved in cell division or differentiation.",
   "name" : "Epoetin alfa",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00016",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00016"
+  "nonProprietaryName" : "Erythropoietin precursor",
+  "proprietaryName" : "Binocrit",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/epoetin.htm", "http://www.drugs.com/cdi/epoetin-alfa.html", "http://www.drugbank.ca/drugs/DB00016" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00016"
 }

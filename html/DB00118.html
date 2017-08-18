@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00118",
+  "type" : "Drug",
+  "clinicalPharmacology" : "S-adenosylmethionine is an intermediate metabolite of methionine. Its involvement in methylation assists in cellular growth and repair, maintains the phospho-bilipid layer in cell membranes. It also helps in the maintenance of the action of several hormones and neurotransmitters that affect mood. Highest concentration are found in the brain and the liver.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:c28535ece8e815c57c23c1eb571ec4b7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.79000002145767211914",
+    "drugUnit" : "CVS Pharmacy sam-e 400 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a366f80f270626e41146a36d68702541",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.58999997377395629883",
+    "drugUnit" : "Sam-e 200 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ebac0fca7e2b8c4bb6129d4cae89ecff",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.86000001430511474609",
+    "drugUnit" : "Sam-e 400 mg tablet"
+  } ],
+  "description" : "Physiologic methyl radical donor involved in enzymatic transmethylation reactions and present in all living organisms. It possesses anti-inflammatory activity and has been used in treatment of chronic liver disease. (From Merck, 11th ed)",
+  "drugClass" : [ "Dietary Supplements", "Supplements", "Micronutrients" ],
+  "schema:identifier" : "drugbank:DB00118",
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "mechanismOfAction" : "S-Adenosylmethionine (SAMe) is a natural substance present in the cells of the body. It is a direct metabolite of the essential amino acid L-methionine. SAMe plays a crucial biochemical role in the body by donating a one-carbon methyl group in a process called transmethylation. SAMe, formed from the reaction of L-methionine and adenosine triphosphate catalyzed by the enzyme S-adenosylmethionine synthetase, is the methyl-group donor in the biosynthesis of both DNA and RNA nucleic acids, phospholipids, proteins, epinephrine, melatonin, creatine and other molecules.",
+  "name" : "S-Adenosylmethionine",
+  "nonProprietaryName" : [ "S-adenosyl-L-methionine", "S-(5'-Deoxyadenosin-5'-yl)-L-methionine", "S-Adenosylmethionine", "[1-(Adenin-9-yl)-1,5-dideoxy-beta-D-ribofuranos-5-yl][(3S)-3-amino-3-carboxypropyl](methyl)sulfonium", "(3S)-5'-[(3-amino-3-Carboxypropyl)methylsulfonio]-5'-deoxyadenosine, inner salt", "SAM", "AdoMet", "Acylcarnitine", "SAMe" ],
+  "proprietaryName" : "Sam-Sulfate",
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/sad_0231.shtml", "http://www.drugs.com/cdi/s-adenosylmethionine.html", "http://www.drugbank.ca/drugs/DB00118" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00118"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00118.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

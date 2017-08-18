@@ -1,0 +1,43 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00242",
+  "type" : "Drug",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:08d75259494eae3cf601da5eae6dacc7",
+    "type" : "DrugStrength",
+    "description" : "1 mg/mL Injection form with intravenous route"
+  },
+  "clinicalPharmacology" : "Cladribine is a synthetic purine nucleoside that acts as an antineoplastic agent with immunosuppressive effects. Cladribine differs structurally from deoxyadenosine only by the presence of a chlorine atom at position 2 of the purine ring, which results in resistance to enzymatic degradation by adenosine deaminase. Due to this resistance, cladribine exhibits a more prolonged cytotoxic effect than deoxyadenosine against resting and proliferating lymphocytes. Cladribine is one of a group of chemotherapy drugs known as the anti-metabolites.&nbsp;Anti-metabolites stop cells from making and repairing DNA, which are processes that are necessary for cancer cells to grow and multiply.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:0fa4358524473349ae98bebe2c669b04",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "34.200000762939453125",
+    "drugUnit" : "Cladribine 10 mg/10 ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b7338c9a5d05c1cc3bf90cd79d9be49e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "102.779998779296875",
+    "drugUnit" : "Leustatin 10 mg/10 ml vial"
+  } ],
+  "description" : "An antineoplastic agent used in the treatment of lymphoproliferative diseases including hairy-cell leukemia. [PubChem]",
+  "dosageForm" : "Injection",
+  "drugClass" : [ "Antineoplastic Agents", "Immunosuppressive Agents" ],
+  "foodWarning" : "Echinacea should be used with caution, if at all, in patients receiving therapeutic immunosuppressants. Monitor for reduced efficacy of the immunosuppressant during concomitant use.",
+  "schema:identifier" : "drugbank:DB00242",
+  "interactingDrug" : [ "DDI between Cladribine and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T.", "DDI between Cladribine and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Cladribine and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased.", "DDI between Trastuzumab and Cladribine - May enhance the neutropenic effect of Immunosuppressants.", "DDI between Natalizumab and Cladribine - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between Cladribine and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased.", "DDI between Cladribine and Clozapine - Myelosuppressive Agents may enhance the adverse/toxic effect of CloZAPine. Specifically, the risk for agranulocytosis may be increased.", "DDI between Cladribine and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between Cladribine and Tofacitinib - Immunosuppressants may enhance the immunosuppressive effect of Tofacitinib." ],
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e91ecbd8702c2bd53755e648fa5c9435",
+    "type" : "Organization",
+    "name" : "App pharmaceuticals llc"
+  },
+  "mechanismOfAction" : "Cladribine is structurally related to fludarabine and pentostatin but has a different mechanism of action. Although the exact mechanism of action has not been fully determined, evidence shows that cladribine is phosphorylated by deoxycytidine kinase to the nucleotidecladribine triphosphate (CdATP; 2-chloro-2?-deoxyadenosine 5?-triphosphate), which accumulates and is incorporated into DNA in cells such as lymphocytes that contain high levels of deoxycytidine kinase and low levels of deoxynucleotidase, resulting in DNA strand breakage and inhibition of DNA synthesis and repair. High levels of CdATP also appear to inhibit ribonucleotide reductase, which leads to an imbalance in triphosphorylated deoxynucleotide (dNTP) pools and subsequent DNA strand breaks, inhibition of DNA synthesis and repair, nicotinamide adenine dinucleotide (NAD) and ATP depletion, and cell death. Unlike other antimetabolite drugs, cladribine has cytotoxic effects on resting as well as proliferating lymphocytes. However, it does cause cells to accumulate at the G1/S phase junction, suggesting that cytotoxicity is associated with events critical to cell entry into S phase. It also binds purine nucleoside phosphorylase (PNP), however no relationship between this binding and a mechanism of action has been established.",
+  "name" : "Cladribine",
+  "nonProprietaryName" : [ "2-chloro-6-amino-9-(2-Deoxy-beta-D-erythro-pentofuranosyl)purine", "2-Chlorodeoxyadenosine", "CldAdo", "2-Chloro-2'-deoxy-beta-adenosine", "2-chloro-Deoxyadenosine", "2-CdA", "Cladribina", "2-Chloro-2'-deoxyadenosine", "(2R,3S,5R)-5-(6-amino-2-Chloropurin-9-yl)-2-(hydroxymethyl)oxolan-3-ol", "Cladribinum", "2ClAdo", "Cladribine" ],
+  "proprietaryName" : "Leustatin",
+  "sameAs" : [ "http://www.drugs.com/cdi/cladribine.html", "http://www.rxlist.com/cgi/generic3/cladribine.htm", "http://www.drugbank.ca/drugs/DB00242" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00242"
+}

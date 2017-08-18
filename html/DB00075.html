@@ -13,14 +13,31 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00075",
   "type" : "Drug",
-  "alternateName" : "Muromonab-CD3",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:d34e4a59e7a589187c0a09387afccddc",
+    "type" : "DrugStrength",
+    "description" : "5 mg/5mL Injection, solution form with intravenous route"
+  },
+  "clinicalPharmacology" : "Used in organ transplant prophylaxis, Muromonab or OKT-3 binds specifically to the CD-3 complex, which is involved in antigen recognition and cell stimulation, on the surface of T lymphocytes. Immediately after administration CD-3-positive T lymphocytes are abruptly removed from circulation. It has been effective in reversing corticosteroid-resistant acute rejection in renal, liver, and cardiac transplant recipients.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:fae9d6da10546fc23be4bad539a6e256",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "261.75",
+    "drugUnit" : "Orthoclone okt-3 5 mg/5 ml"
+  },
   "description" : "Murine monoclonal antibody specific to CD3 T-cell lymphocyte antigens. More specifically it is a purified murine (mouse) monoclonal antibody, directed against the CD3 (T3) receptor on the surface of human T-cells (T-lymphocytes) cultured using the murine ascites method. Muromonab is 93% monomeric immune globulin G type 2a (IgG2a).",
-  "doseSchedule" : "5 mg/5mL Injection, solution form with intravenous route",
-  "legalStatus" : "investigational",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : [ "Immunologic Factors", "Immunosuppressive Agents" ],
+  "schema:identifier" : "drugbank:DB00075",
+  "legalStatus" : [ "Investigational", "Approved" ],
   "mechanismOfAction" : "Muromonab binds to the T-cell surface glycoprotein CD3 epsilon chain. It appears to kill CD-3 positive cells by inducing Fc mediated apoptosis, antibody mediated cytotoxicity and complement-dependent cytotoxicity.",
   "name" : "Muromonab",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00075",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00075"
+  "nonProprietaryName" : [ "Anti-CD3", "Muromonab-CD3" ],
+  "proprietaryName" : "Orthoclone OKT3",
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00075",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00075"
 }</script>
 	</head>
 
@@ -42,7 +59,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00075.json", function(data) {

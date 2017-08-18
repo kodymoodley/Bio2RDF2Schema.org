@@ -2,12 +2,89 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00083",
   "type" : "Drug",
-  "alternateName" : "BTX-A",
+  "administrationRoute" : [ "intradermal; intramuscular", "intramuscular" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:dc4033b9a0957c28f585b9d2fff9ec3f",
+    "type" : "DrugStrength",
+    "description" : "300 [USP&apos'U] Injection, powder, lyophilized, for solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:032076982ca620055cea9a936c4b3c03",
+    "type" : "DrugStrength",
+    "description" : "50 [USP'U] Injection, powder, lyophilized, for solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e45d8934705428f0e9d555850dd9fd80",
+    "type" : "DrugStrength",
+    "description" : "100 [USP'U] Injection, powder, lyophilized, for solution form with intradermal; intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:91d5a81410ba598c2b308ff9b85b4aac",
+    "type" : "DrugStrength",
+    "description" : "500 U Injection, powder, lyophilized, for solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:445cbfbc5e9d7ca8f33188cdaf05ee61",
+    "type" : "DrugStrength",
+    "description" : "100 [USP'U] Injection, powder, lyophilized, for solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f7bd63ddd77c379ec757db00d7fc9d4c",
+    "type" : "DrugStrength",
+    "description" : "300 U Injection, powder, lyophilized, for solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:bba8919ac993ee9c009b3244a601c7b0",
+    "type" : "DrugStrength",
+    "description" : "200 [USP'U] Injection, powder, lyophilized, for solution form with intradermal; intramuscular route"
+  } ],
+  "clinicalPharmacology" : "A 150 kDa neurotoxic protein produced from fermentation of Hall strain Clostridium botulinum type A grown in a medium containing casein hydrolysate, glucose and yeast extract. It is purified from the culture solution by dialysis and a series of acid precipitations to a complex consisting of the neurotoxin, and several accessory proteins. Botulinum Toxin Type A is not expected to be present in the peripheral blood at measurable levels following IM or intradermal injection at the recommended doses. The recommended quantities of neurotoxin administered at each treatment session are not expected to result in systemic, overt distant clinical effects, i.e. muscle weakness, in patients without other neuromuscular dysfunction. However, sub-clinical systemic effects have been shown by single-fiber electromyography after IM doses of botulinum toxins appropriate to produce clinically observable local muscle weakness.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:3ac3cce848af20f008f51fc65f1ad5aa",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "630.0",
+    "drugUnit" : "Botox cosmetic 100 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7632fd3e002f010e81e02cf785cf221a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "630.0",
+    "drugUnit" : "Botox 100 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:68e78b5d9b0e33dc21e6497005b298cb",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3.7400000095367431641",
+    "drugUnit" : "Botox (100 - 200 unit/Vial)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:be2a05ab30dede9eec79a8808e306fd0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1260.0",
+    "drugUnit" : "Botox 200 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e0bfe0340aa5c8b2a8bd65f8a79cd8fc",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "655.20001220703125",
+    "drugUnit" : "Botox 100 unit"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:45012f39cb123c23564218fcab99738d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "346.79998779296875",
+    "drugUnit" : "Botox cosmetic 50 unit vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ae4f2a6e6b0fb73d66359b4da9d578c4",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "852.0",
+    "drugUnit" : "Dysport 500 unit vial"
+  } ],
   "description" : "Purified botulinum toxin from Clostridium botulinum, purified from culture via dialysis and acid precipitation.",
-  "doseSchedule" : "50 [USP'U] Injection, powder, lyophilized, for solution form with intramuscular route",
-  "legalStatus" : "investigational",
+  "dosageForm" : "Injection, powder, lyophilized, for solution",
+  "drugClass" : [ "Anti-Wrinkle Agents", "Neuromuscular Blocking Agents", "Antidystonic Agents" ],
+  "schema:identifier" : "drugbank:DB00083",
+  "interactingDrug" : [ "DDI between Botulinum Toxin Type A and Neomycin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Spectinomycin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Streptomycin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Arbekacin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Ribostamycin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Kanamycin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Amikacin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Gentamicin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Framycetin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Netilmicin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA.", "DDI between Botulinum Toxin Type A and Tobramycin - May enhance the neuromuscular-blocking effect of AbobotulinumtoxinA." ],
+  "legalStatus" : [ "Investigational", "Approved" ],
   "mechanismOfAction" : "Botulinum Toxin Type A blocks neuromuscular transmission by binding to acceptor sites on motor or sympathetic nerve terminals, entering the nerve terminals, and inhibiting the release of acetylcholine. This inhibition occurs as the neurotoxin cleaves SNAP-25, a protein integral to the successful docking and release of acetylcholine from vesicles situated within nerve endings.",
   "name" : "Botulinum Toxin Type A",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00083",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00083"
+  "nonProprietaryName" : [ "Bontoxilysin A", "Botulinum neurotoxin type A precursor", "BoNT/A", "BTX-A" ],
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/botox.htm", "http://www.drugbank.ca/drugs/DB00083" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00083"
 }

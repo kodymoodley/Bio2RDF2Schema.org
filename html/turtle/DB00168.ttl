@@ -1,0 +1,19 @@
+
+<http://bio2rdf.org/drugbank:DB00168> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Aspartame" ;
+	<http://schema.org/description> "Flavoring agent sweeter than sugar, metabolized as phenylalanine and aspartic acid. [PubChem]" ;
+	<http://schema.org/drugClass> "Sweetening Agents" , "Dietary Supplements" , "Micronutrients" , "Supplements" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00168" ;
+	<http://schema.org/clinicalPharmacology> "Aspartame (L-alpha-aspartyl-L-phenylalanine methyl ester) is a low-calorie sweetener used to sweeten a wide variety of low- and reduced-calorie foods and beverages, including low-calorie tabletop sweeteners. Aspartame is composed of two amino acids, aspartic acid and phenylalanine, as the methyl ester. Aspartic acid and phenylalanine are also found naturally in protein containing foods, including meats, grains and dairy products. Methyl esters are also found naturally in many foods such as fruits and vegetable and their juices. Upon digestion, aspartame breaks down into three components (aspartic acid, phenylalanine and methanol), which are then absorbed into the blood and used in normal body processes. Neither aspartame nor its components accumulates in the body. These components are used in the body in the same ways as when they are derived from common foods." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:94d1f80d334c7e37929ff764225adc77> ;
+	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;
+	<http://schema.org/mechanismOfAction> "180 to 200 times sweeter than sucrose, it is metabolized as a protein and its subsequent amino-acids used up in there respective mechanisms." ;
+	<http://schema.org/nonProprietaryName> "Aspartamum" , "Aspartamo" , "1-methyl N-L-α-aspartyl-L-phenylalanate" , "3-Amino-N-(α-carboxyphenethyl)succinamic acid N-methyl ester" , "3-Amino-N-(α-methoxycarbonylphenethyl) succinamic acid" , "3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid" , "Asp-phe-ome" , "1-Methyl N-L-alpha-aspartyl-L-phenylalanine" , "Aspartam" , "1-Methyl N-L-alpha-aspartyl-L-phenylalanate" , "Aspartylphenylalanine methyl ester" , "Aspartame" , "L-Aspartyl-L-phenylalanine methyl ester" , "3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester" ;
+	<http://schema.org/proprietaryName> "Aminosweet" ;
+	<http://schema.org/identifier> "drugbank:DB00168" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00168> .
+
+<http://bio2rdf.org/drugbank_resource:94d1f80d334c7e37929ff764225adc77> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aspartame powder" .

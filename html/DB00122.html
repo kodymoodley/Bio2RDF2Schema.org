@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00122",
+  "type" : "Drug",
+  "clinicalPharmacology" : "This compound is needed for good nerve conduction throughout the CNS (central nervous system) as it is a precursor to acetylcholine (ACh). Choline is also needed for gallbladder regulation, liver function and lecithin (a key lipid) formation. Choline also aids in fat and cholesterol metabolism and prevents excessive fat build up in the liver. Choline has been used to mitigate the effects of Parkinsonism and tardive dyskinesia. Choline deficiencies may result in excessive build-up of fat in the liver, high blood pressure, gastric ulcers, kidney and liver dysfunction and stunted growth.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:9b64f26419fefcad3e6df5c179eeccd9",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Choline bitartrate crystals"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b20235c1bac5e2b61c4b68e426fb8dc5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "4.3800001144409179688",
+    "drugUnit" : "Trilipix dr 135 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:57fc5c97769f909f7e8759e8eaf6d53b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.059999998658895492554",
+    "drugUnit" : "Choline-10 tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:eeb2ec470f544bd926b3a1d24e721cda",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.4600000381469726562",
+    "drugUnit" : "Trilipix dr 45 mg capsule"
+  } ],
+  "description" : "A basic constituent of lecithin that is found in many plants and animal organs. It is important as a precursor of acetylcholine, as a methyl donor in various metabolic processes, and in lipid metabolism. [PubChem]",
+  "drugClass" : [ "Nootropic Agents", "Lipotropic Agents", "Dietary Supplements", "Micronutrients", "Supplements" ],
+  "schema:identifier" : "drugbank:DB00122",
+  "interactingDrug" : [ "DDI between Choline and Warfarin - Fenofibrate and Derivatives may enhance the anticoagulant effect of Warfarin. Fenofibrate and Derivatives may increase the serum concentration of Warfarin.", "DDI between Choline and Ezetimibe - Fenofibrate and Derivatives may enhance the adverse/toxic effect of Ezetimibe. Specifically, the risk of myopathy and cholelithiasis may be increased.", "DDI between Choline and Colesevelam - May decrease the absorption of Fibric Acid Derivatives.", "DDI between Choline and Raltegravir - May enhance the myopathic (rhabdomyolysis) effect of Fibric Acid Derivatives.", "DDI between Choline and Colchicine - Fibric Acid Derivatives may enhance the myopathic (rhabdomyolysis) effect of Colchicine." ],
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "Choline is a major part of the polar head group of phosphatidylcholine. Phosphatidylcholine's role in the maintenance of cell membrane integrity is vital to all of the basic biological processes: information flow, intracellular communication and bioenergetics. Inadequate choline intake would negatively affect all these processes. Choline is also a major part of another membrane phospholipid, sphingomyelin, also important for the maintenance of cell structure and function. It is noteworthy and not surprising that choline deficiency in cell culture causes apoptosis or programmed cell death. This appears to be due to abnormalities in cell membrane phosphatidylcholine content and an increase in ceramide, a precursor, as well as a metabolite, of sphingomyelin. Ceramide accumulation, which is caused by choline deficiency, appears to activate Caspase, a type of enzyme that mediates apoptosis. Betaine or trimethylglycine is derived from choline via an oxidation reaction. Betaine is one of the factors that maintains low levels of homocysteine by resynthesizing L-methionine from homocysteine. Elevated homocysteine levels are a significant risk factor for atherosclerosis, as well as other cardiovascular and neurological disorders. Acetylcholine is one of the major neurotransmitters and requires choline for its synthesis. Adequate acetylcholine levels in the brain are believed to be protective against certain types of dementia, including Alzheimer's disease.",
+  "name" : "Choline",
+  "nonProprietaryName" : [ "N-trimethylethanolamine", "Bilineurine", "N,N,N-trimethylethanol-ammonium", "Choline ion", "trimethylethanolamine", "Choline" ],
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/cho_0283.shtml", "http://www.drugbank.ca/drugs/DB00122" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00122"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00122.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

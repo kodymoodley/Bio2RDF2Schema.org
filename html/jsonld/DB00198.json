@@ -1,0 +1,92 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00198",
+  "type" : "Drug",
+  "administrationRoute" : "oral",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:6385ba5810d6dc1c8162d40bf66461b1",
+    "type" : "DrugStrength",
+    "description" : "6 mg Powder for suspension form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2c25b3396758a4e693a444ae8e2f2818",
+    "type" : "DrugStrength",
+    "description" : "30 mg Capsule form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8bbc848cd3407aaa814b95f1bf26246f",
+    "type" : "DrugStrength",
+    "description" : "12 mg/mL Powder, for suspension form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b22485821d38036ed1413cb8f5b92697",
+    "type" : "DrugStrength",
+    "description" : "45 mg Capsule form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6904a017d1540b138d3bd8a21ee614ae",
+    "type" : "DrugStrength",
+    "description" : "75 mg Capsule form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e5d35df9740379d8467cb4c97a2c42ef",
+    "type" : "DrugStrength",
+    "description" : "6 mg/mL Powder, for suspension form with oral route"
+  } ],
+  "clinicalPharmacology" : "Oseltamivir is an antiviral drug, a neuraminidase inhibitor used in the treatment and prophylaxis of both influenza A and influenza B. Oseltamivir is a prodrug (usually administered as phosphate), it is hydrolysed hepatically to the active metabolite, the free carboxylate of oseltamivir (GS4071). Like zanamivir, oseltamivir acts as a transition-state analogue inhibitor of influenza neuraminidase.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:b9d042e4c5d8571120c35502c4448329",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "101.54000091552734375",
+    "drugUnit" : "Tamiflu 10 75 mg capsule Disp Pack"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0475a2e86de2e174cb1d5bce64f70c76",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "51.0",
+    "drugUnit" : "Tamiflu 12 mg/ml Suspension"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7c45367c4c1a16a587b01f5e7bac462a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "9.7600002288818359375",
+    "drugUnit" : "Tamiflu 30 mg gel capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c55566c5d668e4e050733a1607a3169e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "9.7600002288818359375",
+    "drugUnit" : "Tamiflu 45 mg gel capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ae9449b8b4aa2abb6cb93fb91420dbff",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "101.54000091552734375",
+    "drugUnit" : "Tamiflu 10 30 mg capsule Box"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:28c820d42c4c473c62c1d5a3310d283e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "9.7600002288818359375",
+    "drugUnit" : "Tamiflu 75 mg gel capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0a26e1f59c720b5a90bcc2cbd9d6475f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "101.54000091552734375",
+    "drugUnit" : "Tamiflu 10 45 mg capsule Box"
+  } ],
+  "description" : "An acetamido cyclohexene that is a structural homolog of sialic acid and inhibits neuraminidase. [PubChem]",
+  "dosageForm" : [ "Capsule", "Powder, for suspension", "Powder for suspension" ],
+  "drugClass" : [ "Enzyme Inhibitors", "Antiviral Agents" ],
+  "foodWarning" : "Take without regard to meals. Food may improve gastric tolerance.",
+  "schema:identifier" : "drugbank:DB00198",
+  "interactingDrug" : "DDI between Oseltamivir and Probenecid - May increase serum concentrations of the active metabolite(s) of Oseltamivir.",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:4dcb2d242a80267002194ce81be5670e",
+    "type" : "Organization",
+    "name" : "Hoffmann la roche inc"
+  },
+  "mechanismOfAction" : "Oseltamivir is an ethyl ester prodrug requiring ester hydrolysis for conversion to the active form, oseltamivir carboxylate. The proposed mechanism of action of oseltamivir is inhibition of influenza virus neuraminidase with the possibility of alteration of virus particle aggregation and release.",
+  "name" : "Oseltamivir",
+  "nonProprietaryName" : [ "1-Cyclohexene-1-carboxylic acid, 4-(acetylamino)-5-amino-3-(1-ethylpropoxy)-, ethyl ester, (3R-(3alpha,4beta,5alpha))-", "(-)-Oseltamivir", "GS-4104", "Oseltamivirum", "Ethyl (3R,4R,5S)-4-acetamido-5-amino-3-(1-ethylpropoxy)-1-cyclohexene-1-carboxylate", "Tamiflu", "(?)-oseltamivir", "Oseltamivir", "HSDB 7433", "Agucort" ],
+  "sameAs" : [ "http://www.drugs.com/oseltamivir.html", "http://www.rxlist.com/cgi/generic3/oseltamiv.htm", "http://www.drugbank.ca/drugs/DB00198" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00198"
+}

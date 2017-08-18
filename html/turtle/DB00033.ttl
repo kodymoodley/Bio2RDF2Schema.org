@@ -3,9 +3,24 @@
 	<http://schema.org/name> "Interferon gamma-1b" ;
 	<http://schema.org/description> """Human Interferon gamma-1b (140 residues), produced from E. coli. Production of Actimmune is achieved by fermentation of a genetically engineered Escherichia coli bacterium containing the DNA which encodes for the human protein. Purification of the product is achieved by conventional column chromatography. 
 The sequence displayed is a cDNA sequence which codes for human interferon gamma, as described by Gray et. al. and not specifically interferon gamma 1b.""" ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00033" ;
-	<http://schema.org/doseSchedule> "100 ug/.5mL Injection, solution form with subcutaneous route" ;
-	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/drugClass> "Immunosuppressive Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00033" ;
+	<http://schema.org/administrationRoute> "subcutaneous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:26e994922f837572b6a9d4355e725f73> ;
+	<http://schema.org/clinicalPharmacology> "IFN gamma stimulates expression of the immunoglobulin heavy chain C gamma 3 and C gamma 2a germline transcripts in B cells. Many components of the antigen presentation pathways are also up-regulated by interferon gamma. It is also a potent activator of macrophages, it has antiproliferative effects on transformed cells and it can potentiate the antiviral and antitumor effects of type I interferons. Interferon gamma may also help the body regulate the activity of fibroblasts. By directly blocking the multiplication of fibroblasts and inhibiting the production and action of TGF-b, a potent scar-inducing molecule, Interferon gamma-1b may prevent excessive scarring." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:861f95a773db065431c6e1698c8a8d5c> ;
+	<http://schema.org/dosageForm> "Injection, solution" ;
+	<http://schema.org/interactingDrug> "DDI between Interferon gamma-1b and Zidovudine - Interferons may enhance the adverse/toxic effect of Zidovudine. Interferons may decrease the metabolism of Zidovudine." ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" ;
 	<http://schema.org/mechanismOfAction> "Binds directly to the type II interferon gamma receptor IFNGR1, leading to a complex of IFNGR1 and IFNGR2. This activates JAK1 and JAK2 kinases which form a STAT1 docking site. This leads to STAT1 phosphorylation, nuclear translocation and initiation of gene transcription of multiple immune-related genes." ;
-	<http://schema.org/alternateName> "Immune interferon" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00033" .
+	<http://schema.org/nonProprietaryName> "Interferon gamma precursor" , "IFN-gamma" , "Immune interferon" ;
+	<http://schema.org/identifier> "drugbank:DB00033" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cdi/interferon-gamma-1b.html> , <http://www.drugbank.ca/drugs/DB00033> .
+
+<http://bio2rdf.org/drugbank_resource:26e994922f837572b6a9d4355e725f73> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "100 ug/.5mL Injection, solution form with subcutaneous route" .
+
+<http://bio2rdf.org/drugbank_resource:861f95a773db065431c6e1698c8a8d5c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "344.399993896484375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Actimmune 2 million unit vial" .

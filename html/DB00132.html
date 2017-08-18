@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00132",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Alpha Linolenic Acid (ALA) is an 18-carbon polyunsaturated fatty acid with three double bonds. It is also called an omega-3 fatty acid, and is essential for all mammals. Alpha-linolenic acid (or omega 3 fatty acid) intake can decrease the risk of cardiovascular diseases by 1) preventing arrhythmias that can lead to sudden cardiac death, 2) decreasing the risk of thrombosis (blood clot formation) that can lead to heart attack or stroke, 3) decreasing serum triglyceride levels, 4) slowing the growth of atherosclerotic plaque, 5) improving vascular endothelial function, 6) lowering blood pressure slightly, and 7) decreasing inflammation. ALA deficiencies can lead to visual problems and sensory neuropathy. Scaly and hemorrhagic skin or scalp inflammations may also develop.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:9c2daed585bfeef63170a1ed177867b0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.21999999880790710449",
+    "drugUnit" : "Alpha lipoic acid 200 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:92c924807327ea18d9340f31d434a659",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : [ "0.11999999731779098511", "0.15999999642372131348" ],
+    "drugUnit" : "Alpha-lipoic acid 50 mg caplet"
+  } ],
+  "description" : "Alpha-linolenic acid (ALA) is a polyunsaturated omega-3 fatty acid. It is a component of many common vegetable oils and is important to human nutrition. [Wikipedia]",
+  "drugClass" : [ "Micronutrients", "Supplements", "Dietary Supplements" ],
+  "schema:identifier" : "drugbank:DB00132",
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "mechanismOfAction" : "Alpha Linolenic Acid or ALA is considered an essential fatty acid because it is required for human health, but cannot be synthesized by humans. It is in fact  a plant-derived fatty acid. Humans can synthesize other omega-3 fatty acids from ALA, including eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA). EPA is a precursor of the series-3 prostaglandins, the series-5 leukotrienes and the series-3 thromboxanes. These eicosanoids have anti-inflammatory and anti-atherogenic properties. ALA metabolites may also inhibit the production of the pro-inflammatory eicosanoids, prostaglandin E2 (PGE2) and leukotriene B4 (LTB4), as well as the pro-inflammatory cytokines, tumor necrosis factor-alpha (TNF-alpha) and interleukin-1 beta (IL-1 beta). Omega-3 fatty acids like ALA and its byproducts can modulate the expression of a number of genes, including those involved with fatty acid metabolism and inflammation. They regulate gene expression through their effects on the activity of transcription factors including NF-kappa B and members of the peroxisome proliferator-activated receptor (PPAR) family. Incorporation of ALA and its metabolites in cell membranes can affect membrane fluidity and may play a role in anti-inflammatory activity, inhibition of platelet aggregation and possibly in anti-proliferative actions of ALA. ALA is first metabolized by delta6 desaturease into steridonic acid.",
+  "name" : "Alpha-Linolenic Acid",
+  "nonProprietaryName" : [ "(9Z,12Z,15Z)-Octadecatrienoic acid", "cis,cis,cis-9,12,15-Octadecatrienoic acid", "(9,12,15)-linolenic acid", "ALA", "cis-delta(9,12,15)-Octadecatrienoic acid", "Linolenic acid", "?-linolenic acid", "all-cis-9,12,15-Octadecatrienoic acid", "9-cis,12-cis,15-cis-octadecatrienoic acid", "9,12,15-Octadecatrienoic acid", "alpha-Linolenic acid", "(Z,Z,Z)-9,12,15-octadecatrienoic acid" ],
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00132",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00132"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00132.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

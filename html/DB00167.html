@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00167",
+  "type" : "Drug",
+  "clinicalPharmacology" : "They provide ingredients for the manufacturing of other essential biochemical components in the body, some of which are utilized for the production of energy, stimulants to the upper brain and helping you to be more alert.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:9ed530238b97d17a756f8dc927ca0cc1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3.2100000381469726562",
+    "drugUnit" : "L-isoleucine powder"
+  },
+  "description" : "An essential branched-chain aliphatic amino acid found in many proteins. It is an isomer of leucine. It is important in hemoglobin synthesis and regulation of blood sugar and energy levels. [PubChem]",
+  "drugClass" : [ "Supplements", "Dietary Supplements", "Micronutrients", "Amino Acids, Essential" ],
+  "schema:identifier" : "drugbank:DB00167",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "(Applies to Valine, Leucine and Isoleucine) <br/>This group of essential amino acids are identified as the branched-chain amino acids, BCAAs. Because this arrangement of carbon atoms cannot be made by humans, these amino acids are an essential element in the diet. The catabolism of all three compounds initiates in muscle and yields NADH and FADH2 which can be utilized for ATP generation. The catabolism of all three of these amino acids uses the same enzymes in the first two steps. The first step in each case is a transamination using a single BCAA aminotransferase, with a-ketoglutarate as amine acceptor. As a result, three different a-keto acids are produced and are oxidized using a common branched-chain a-keto acid dehydrogenase, yielding the three different CoA derivatives. Subsequently the metabolic pathways diverge, producing many intermediates. <br/>The principal product from valine is propionylCoA, the glucogenic precursor of succinyl-CoA. Isoleucine catabolism terminates with production of acetylCoA and propionylCoA; thus isoleucine is both glucogenic and ketogenic. Leucine gives rise to acetylCoA and acetoacetylCoA, and is thus classified as strictly ketogenic. <br/>There are a number of genetic diseases associated with faulty catabolism of the BCAAs. The most common defect is in the branched-chain a-keto acid dehydrogenase. Since there is only one dehydrogenase enzyme for all three amino acids, all three a-keto acids accumulate and are excreted in the urine. The disease is known as Maple syrup urine disease because of the characteristic odor of the urine in afflicted individuals. Mental retardation in these cases is extensive. Unfortunately, since these are essential amino acids, they cannot be heavily restricted in the diet; ultimately, the life of afflicted individuals is short and development is abnormal The main neurological problems are due to poor formation of myelin in the CNS.",
+  "name" : "L-Isoleucine",
+  "nonProprietaryName" : [ "2-Amino-3-methylvaleric acid", "?-amino-?-methylvaleric acid", "(2S,3S)-2-Amino-3-methylpentanoic acid", "L-Isoleucine", "Ile", "alpha-amino-beta-methylvaleric acid", "Isoleucine", "I" ],
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/bra_0042.shtml", "http://www.drugbank.ca/drugs/DB00167" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00167"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00167.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

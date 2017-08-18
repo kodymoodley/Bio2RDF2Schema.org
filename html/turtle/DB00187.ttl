@@ -1,0 +1,50 @@
+
+<http://bio2rdf.org/drugbank:DB00187> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Esmolol" ;
+	<http://schema.org/description> """Esmolol (trade name Brevibloc) is a cardioselective beta1 receptor blocker with rapid onset, a very short duration of action, and no significant intrinsic sympathomimetic or membrane stabilizing activity at therapeutic dosages.
+
+Esmolol decreases the force and rate of heart contractions by blocking beta-adrenergic receptors of the sympathetic nervous system, which are found in the heart and other organs of the body. Esmolol prevents the action of two naturally occurring substances: epinephrine and norepinephrine.""" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00187" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:97eaae010cc670914ce7ace1f28a2a99> , <http://bio2rdf.org/drugbank_resource:cafefd00cc918378a6d54b1dcc507fd1> , <http://bio2rdf.org/drugbank_resource:7c34039be71b18f949145d984739b858> ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:c46dbcfd5c523f60dd479216eda55eb9> , <http://bio2rdf.org/drugbank_resource:fe7340110f1d545139b10c9c96ee5c67> , <http://bio2rdf.org/drugbank_resource:c207727c40fa5807e4e36d0a8439c40f> , <http://bio2rdf.org/drugbank_resource:7976bf62102e93d01807cefcd53c843a> ;
+	<http://schema.org/dosageForm> "Injection, solution" , "Injection" ;
+	<http://schema.org/interactingDrug> "DDI between Esmolol and Risperidone - Hypotensive Agents may enhance the hypotensive effect of RisperiDONE." , "DDI between Esmolol and Tofacitinib - May enhance the bradycardic effect of Bradycardia-Causing Agents." , "DDI between Esmolol and Pentoxifylline - May enhance the hypotensive effect of Antihypertensives." , "DDI between Esmolol and Bretylium - May enhance the bradycardic effect of Bradycardia-Causing Agents. Bretylium may also enhance atrioventricular (AV) blockade in patients receiving AV blocking agents." , "DDI between Esmolol and Mepivacaine - Beta-Blockers may increase the serum concentration of Mepivacaine." , "DDI between Esmolol and Propafenone - May increase the serum concentration of Beta-Blockers. Propafenone possesses some independent beta blocking activity." , "DDI between Esmolol and Tadalafil - May enhance the antihypertensive effect of Antihypertensives." , "DDI between Esmolol and Primidone - May decrease the serum concentration of Beta-Blockers." , "DDI between Esmolol and Heptabarbital - May decrease the serum concentration of Beta-Blockers." , "DDI between Esmolol and Secobarbital - May decrease the serum concentration of Beta-Blockers." , "DDI between Esmolol and Methylphenidate - May diminish the antihypertensive effect of Antihypertensives." , "DDI between Esmolol and Lacosamide - Bradycardia-Causing Agents may enhance the AV-blocking effect of Lacosamide." , "DDI between Esmolol and Bupivacaine - Beta-Blockers may increase the serum concentration of Bupivacaine." , "DDI between Esmolol and Fingolimod - Beta-Blockers may enhance the bradycardic effect of Fingolimod." , "DDI between Esmolol and Acetylcholine - Beta-Blockers may enhance the adverse/toxic effect of Cholinergic Agonists. Of particular concern are the potential for cardiac conduction abnormalities and bronchoconstriction." , "DDI between Esmolol and Midodrine - Beta-Blockers may enhance the bradycardic effect of Midodrine." , "DDI between Esmolol and Methacholine - Beta-Blockers may enhance the adverse/toxic effect of Methacholine." , "DDI between Esmolol and Reserpine - May enhance the hypotensive effect of Beta-Blockers." , "DDI between Esmolol and Amiodarone - May enhance the bradycardic effect of Beta-Blockers. Possibly to the point of cardiac arrest. Amiodarone may increase the serum concentration of Beta-Blockers." , "DDI between Esmolol and Obinutuzumab - Antihypertensives may enhance the hypotensive effect of Obinutuzumab." , "DDI between Esmolol and Butabarbital - May decrease the serum concentration of Beta-Blockers." , "DDI between Rituximab and Esmolol - Antihypertensives may enhance the hypotensive effect of RiTUXimab." , "DDI between Esmolol and Hexobarbital - May decrease the serum concentration of Beta-Blockers." , "DDI between Esmolol and Regorafenib - May enhance the bradycardic effect of Beta-Blockers." , "DDI between Esmolol and Duloxetine - Hypotensive Agents may enhance the orthostatic hypotensive effect of DULoxetine." , "DDI between Esmolol and Methohexital - May decrease the serum concentration of Beta-Blockers." , "DDI between Esmolol and Floctafenine - May enhance the adverse/toxic effect of Beta-Blockers." , "DDI between Esmolol and Butethal - May decrease the serum concentration of Beta-Blockers." , "DDI between Esmolol and Ruxolitinib - May enhance the bradycardic effect of Bradycardia-Causing Agents." , "DDI between Esmolol and Amifostine - Antihypertensives may enhance the hypotensive effect of Amifostine." , "DDI between Esmolol and Carbachol - Beta-Blockers may enhance the adverse/toxic effect of Cholinergic Agonists. Of particular concern are the potential for cardiac conduction abnormalities and bronchoconstriction." , "DDI between Esmolol and Disopyramide - May enhance the bradycardic effect of Beta-Blockers. Beta-Blockers may enhance the negative inotropic effect of Disopyramide." , "DDI between Esmolol and Diazoxide - May enhance the hypotensive effect of Antihypertensives." , "DDI between Esmolol and Yohimbine - May diminish the antihypertensive effect of Antihypertensives." , "DDI between Esmolol and Dipyridamole - May enhance the bradycardic effect of Beta-Blockers." , "DDI between Esmolol and Vardenafil - May enhance the antihypertensive effect of Antihypertensives." , "DDI between Esmolol and Dronedarone - May enhance the bradycardic effect of Beta-Blockers. Dronedarone may increase the serum concentration of Beta-Blockers. This likely applies only to those agents that are metabolized by CYP2D6." , "DDI between Esmolol and Pentobarbital - May decrease the serum concentration of Beta-Blockers." , "DDI between Esmolol and Rivastigmine - May enhance the bradycardic effect of Beta-Blockers." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:ef2c0d83723960c8ceb4d837d6cc6207> ;
+	<http://schema.org/mechanismOfAction> "Similar to other beta-blockers, esmolol blocks the agonistic effect of the sympathetic neurotransmitters by competing for receptor binding sites. Because it predominantly blocks the beta-1 receptors in cardiac tissue, it is said to be cardioselective. In general, so-called cardioselective beta-blockers are relatively cardioselective; at lower doses they block beta-1 receptors only but begin to block beta-2 receptors as the dose increases. At therapeutic dosages, esmolol does not have intrinsic sympathomimetic activity (ISA) or membrane-stabilizing (quinidine-like) activity. Antiarrhythmic activity is due to blockade of adrenergic stimulation of cardiac pacemaker potentials. In the Vaughan Williams classification of antiarrhythmics, beta-blockers are considered to be class II agents." ;
+	<http://schema.org/nonProprietaryName> "Methyl P-(2-hydroxy-3-(isopropylamino)propoxy)hydrocinnamate" , "Methyl 4-(2-hydroxy-3-((1-methylethyl)amino)propoxy)benzenepropanoate" , "(+-)-Methyl P-(2-hydroxy-3-(isopropylamino)propoxy)hydrocinnamate" , "ESMOLOL" , "(+-)-Esmolol" , "3-[4-(2-Hydroxy-3-isopropylamino-propoxy)-phenyl]-propionic acid methyl ester" ;
+	<http://schema.org/identifier> "drugbank:DB00187" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic3/esmolol.htm> , <http://www.drugs.com/cdi/esmolol.html> , <http://www.drugbank.ca/drugs/DB00187> .
+
+<http://bio2rdf.org/drugbank_resource:cafefd00cc918378a6d54b1dcc507fd1> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "10 mg/mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:7976bf62102e93d01807cefcd53c843a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "13.210000038146972656" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Brevibloc 250 mg/ml ampul" .
+
+<http://bio2rdf.org/drugbank_resource:7c34039be71b18f949145d984739b858> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "10 mg/mL Injection form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:97eaae010cc670914ce7ace1f28a2a99> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "20 mg/mL Injection form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:c207727c40fa5807e4e36d0a8439c40f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.5399999618530273438" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Brevibloc 20 mg/ml iv bag" .
+
+<http://bio2rdf.org/drugbank_resource:c46dbcfd5c523f60dd479216eda55eb9> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2.2100000381469726562" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Brevibloc 10 mg/ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:ef2c0d83723960c8ceb4d837d6cc6207> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Baxter healthcare corp anesthesia critical care" .
+
+<http://bio2rdf.org/drugbank_resource:fe7340110f1d545139b10c9c96ee5c67> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2599999904632568359" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Esmolol hcl 10 mg/ml vial" .

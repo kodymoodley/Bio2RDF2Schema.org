@@ -1,0 +1,60 @@
+
+<http://bio2rdf.org/drugbank_resource:84076ec8739434f7f16a160d6c665d93> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1 mg/mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:e91ecbd8702c2bd53755e648fa5c9435> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "App pharmaceuticals llc" .
+
+<http://bio2rdf.org/drugbank:DB00235> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Milrinone" ;
+	<http://schema.org/description> "A positive inotropic cardiotonic agent with vasodilator properties. It inhibits cAMP phosphodiesterase activity in myocardium and vascular smooth muscle. Milrinone is a derivative of amrinone and has 20-30 times the ionotropic potency of amrinone. [PubChem]" ;
+	<http://schema.org/drugClass> "Platelet Aggregation Inhibitors" , "Cardiotonic Agents" , "Phosphodiesterase 3 Inhibitors" , "Vasodilator Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00235" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:ef85dff6d8c515bc0bef9c220ab639c4> , <http://bio2rdf.org/drugbank_resource:84076ec8739434f7f16a160d6c665d93> , <http://bio2rdf.org/drugbank_resource:d38089a67b87421a3b838f693edb71ec> , <http://bio2rdf.org/drugbank_resource:08d75259494eae3cf601da5eae6dacc7> , <http://bio2rdf.org/drugbank_resource:6c6758378925279d62f6b3b00e3e8ebe> , <http://bio2rdf.org/drugbank_resource:1d38645f79eb07f78f1433c61e768e21> ;
+	<http://schema.org/clinicalPharmacology> "Milrinone, a synthetic dimethylxanthine derivative structurally related to theophylline and caffeine, is used in the treatment of peripheral vascular diseases and in the management of cerebrovascular insufficiency, sickle cell disease, and diabetic neuropathy." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:8d7062c5a667554b0b3851ab360f65a8> , <http://bio2rdf.org/drugbank_resource:5cd61a73ad50d9c090851ca9d123b8d0> , <http://bio2rdf.org/drugbank_resource:f0b413ea8eb86c15f186b7d95d35f4bc> , <http://bio2rdf.org/drugbank_resource:86b94dc2a5332f9f3b3406f1caf31b4c> ;
+	<http://schema.org/dosageForm> "Injection, solution" , "Injection" ;
+	<http://schema.org/interactingDrug> "DDI between Milrinone and Riociguat - Milrinone may enhance the hypotensive effect of Riociguat." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:e91ecbd8702c2bd53755e648fa5c9435> ;
+	<http://schema.org/mechanismOfAction> "Milrinone inhibits erythrocyte phosphodiesterase, resulting in an increase in erythrocyte cAMP activity. Subsequently, the erythrocyte membrane becomes more resistant to deformity. Along with erythrocyte activity, Milrinone also decreases blood viscosity by reducing plasma fibrinogen concentrations and increasing fibrinolytic activity." ;
+	<http://schema.org/nonProprietaryName> "1,6-Dihydro-2-methyl-6-oxo(3,4'-bipyridine)-5-carbonitrile" , "Milrinone" , "Milrinona" , "Milrinonum" ;
+	<http://schema.org/proprietaryName> "Corotrop" ;
+	<http://schema.org/identifier> "drugbank:DB00235" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cdi/milrinone.html> , <http://www.drugbank.ca/drugs/DB00235> , <http://www.rxlist.com/cgi/generic3/milrin.htm> .
+
+<http://bio2rdf.org/drugbank_resource:08d75259494eae3cf601da5eae6dacc7> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1 mg/mL Injection form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:1d38645f79eb07f78f1433c61e768e21> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "20 mg/20mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:5cd61a73ad50d9c090851ca9d123b8d0> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6000000238418579102" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Primacor 0.2 mg/ml-d5w 100 ml" .
+
+<http://bio2rdf.org/drugbank_resource:6c6758378925279d62f6b3b00e3e8ebe> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "50 mg/50mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:86b94dc2a5332f9f3b3406f1caf31b4c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3099999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Milrinone lact 10 mg/10 ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:8d7062c5a667554b0b3851ab360f65a8> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.4400000572204589844" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Milrinone lact 20 mg/20 ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:d38089a67b87421a3b838f693edb71ec> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "200 ug/mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:ef85dff6d8c515bc0bef9c220ab639c4> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "10 mg/10mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:f0b413ea8eb86c15f186b7d95d35f4bc> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.4500000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Milrinone-d5w 20 mg/100 ml" .

@@ -1,0 +1,28 @@
+
+<http://bio2rdf.org/drugbank:DB00143> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Glutathione" ;
+	<http://schema.org/description> "A tripeptide with many roles in cells.  It conjugates to drugs to make them more soluble for excretion, is a cofactor for some enzymes, is involved in protein disulfide bond rearrangement and reduces peroxides. [PubChem]" ;
+	<http://schema.org/drugClass> "Supplements" , "Dietary Supplements" , "Micronutrients" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00143" ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:f66df85fabfd49698bb8b30e43914f5a> , <http://bio2rdf.org/drugbank_resource:26d2441e9dd4cdbd08f0c8cdf4becc9d> , <http://bio2rdf.org/drugbank_resource:bc94c047d36dc4d81acfa7d4e664fff7> ;
+	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;
+	<http://schema.org/mechanismOfAction> "Glutathione (GSH) participates in leukotriene synthesis and is a cofactor for the enzyme glutathione peroxidase. It is also important as a hydrophilic molecule that is added to lipophilic toxins and waste in the liver during biotransformation before they can become part of the bile. Glutathione is also needed for the detoxification of methylglyoxal, a toxin produced as a by-product of metabolism. This detoxification reaction is carried out by the glyoxalase system. Glyoxalase I catalyzes the conversion of methylglyoxal and reduced glutathione to S-D-Lactoyl-glutathione. Glyoxalase II catalyzes the conversion of S-D-Lactoyl Glutathione to Reduced Glutathione and D-lactate. GSH is known as a cofactor in both conjugation reactions and reduction reactions, catalyzed by glutathione S-transferase enzymes in cytosol, microsomes, and mitochondria. However, it is capable of participating in non-enzymatic conjugation with some chemicals, as it is hypothesized to do to a significant extent with n-acetyl-p-benzoquinone imine (NAPQI), the reactive cytochrome P450 reactive metabolite formed by toxic overdose of acetaminophen. Glutathione in this capacity binds to NAPQI as a suicide substrate and in the process detoxifies it, taking the place of cellular protein sulfhydryl groups which would otherwise be toxically adducted. The preferred medical treatment to an overdose of this nature, whose efficacy has been consistently supported in literature, is the administration (usually in atomized form) of N-acetylcysteine, which is used by cells to replace spent GSSG and allow a usable GSH pool." ;
+	<http://schema.org/nonProprietaryName> "Reduced glutathione" , "N-(N-gamma-L-Glutamyl-L-cysteinyl)glycine" , "Glutathione-SH" , "gamma-L-Glutamyl-L-cysteinyl-glycine" , "Glutathione" , "5-L-Glutamyl-L-cysteinylglycine" , "GSH" ;
+	<http://schema.org/proprietaryName> "Isethion" ;
+	<http://schema.org/identifier> "drugbank:DB00143" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00143> , <http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/glu_0126.shtml> .
+
+<http://bio2rdf.org/drugbank_resource:26d2441e9dd4cdbd08f0c8cdf4becc9d> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "21.31999969482421875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glutathione crystals" .
+
+<http://bio2rdf.org/drugbank_resource:bc94c047d36dc4d81acfa7d4e664fff7> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "3.0" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-glutathione powder" .
+
+<http://bio2rdf.org/drugbank_resource:f66df85fabfd49698bb8b30e43914f5a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "10.710000038146972656" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glutathione-l reduced powder" .

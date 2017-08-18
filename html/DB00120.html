@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00120",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Used by the brain to produce Norepinephrine, a chemical that transmits signals between nerve cells and the brain; keeps you awake and alert; reduces hunger pains; functions as an antidepressant and helps improve memory.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:10196284f1761e85ab5e65b6f6838d38",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.10999999940395355225",
+    "drugUnit" : "L-phenylalanine 500 mg tablet"
+  },
+  "description" : "An essential aromatic amino acid that is a precursor of melanin; dopamine; noradrenalin (norepinephrine), and thyroxine. [PubChem]",
+  "drugClass" : [ "Dietary Supplements", "Micronutrients", "Supplements", "Amino Acids, Essential" ],
+  "schema:identifier" : "drugbank:DB00120",
+  "interactingDrug" : [ "DDI between L-Phenylalanine and Carmustine - Melphalan may enhance the adverse/toxic effect of Carmustine. Specifically, melphalan may sensitize patients to carmustine lung toxicity.", "DDI between L-Phenylalanine and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between L-Phenylalanine and Clozapine - Myelosuppressive Agents may enhance the adverse/toxic effect of CloZAPine. Specifically, the risk for agranulocytosis may be increased.", "DDI between L-Phenylalanine and Nalidixic Acid - May enhance the adverse/toxic effect of Melphalan. Necrotic enterocolitis has been reported in pediatric patients.", "DDI between L-Phenylalanine and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased.", "DDI between L-Phenylalanine and Tofacitinib - Immunosuppressants may enhance the immunosuppressive effect of Tofacitinib.", "DDI between L-Phenylalanine and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Natalizumab and L-Phenylalanine - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between L-Phenylalanine and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased.", "DDI between Trastuzumab and L-Phenylalanine - May enhance the neutropenic effect of Immunosuppressants.", "DDI between L-Phenylalanine and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T." ],
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "mechanismOfAction" : "The mechanism of L-phenylalanine's putative antidepressant activity may be accounted for by its precursor role in the synthesis of the neurotransmitters norepinephrine and dopamine. Elevated brain norepinephrine and dopamine levels are thought to be associated with antidepressant effects. <br/>The mechanism of L-phenylalanine's possible antivitiligo activity is not well understood. It is thought that L-phenylalanine may stimulate the production of melanin in the affected skin",
+  "name" : "L-Phenylalanine",
+  "nonProprietaryName" : [ "L-Phenylalanine", "PHENYLALANINE", "(S)-alpha-Amino-beta-phenylpropionic acid", "(S)-2-Amino-3-phenylpropionic acid", "?-phenyl-L-alanine", "beta-Phenyl-L-alanine", "3-phenyl-L-alanine", "Phe", "F" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00120", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lph_0201.shtml" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00120"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00120.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

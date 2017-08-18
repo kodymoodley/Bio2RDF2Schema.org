@@ -1,0 +1,12 @@
+
+<http://bio2rdf.org/drugbank:DB00174> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "L-Asparagine" ;
+	<http://schema.org/description> "A non-essential amino acid that is involved in the metabolic control of cell functions in nerve and brain tissue. It is biosynthesized from aspartic acid and ammonia by asparagine synthetase. (From Concise Encyclopedia Biochemistry and Molecular Biology, 3rd ed)" ;
+	<http://schema.org/drugClass> "Micronutrients" , "Dietary Supplements" , "Supplements" , "Non-Essential Amino Acids" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00174" ;
+	<http://schema.org/clinicalPharmacology> "A non-essential amino acid. Asparagine is critical for the production of the body's proteins, enzymes and muscle tissue. Supplements of this amino acid are claimed to balance nervous system function." ;
+	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;
+	<http://schema.org/mechanismOfAction> "Asparagine, a non-essential amino acid is important in the metabolism of toxic ammonia in the body through the action of asparagine synthase which attaches ammonia to aspartic acid in an amidation reaction. Asparagine is also used as a structural component in many proteins." ;
+	<http://schema.org/nonProprietaryName> "Asparagine" , "(S)-Asparagine" , "Aspartamic acid" , "(2S)-2-amino-3-carbamoylpropanoic acid" , "N" , "α-aminosuccinamic acid" , "alpha-aminosuccinamic acid" , "(2S)-2,4-diamino-4-oxobutanoic acid" , "Asn" , "(S)-2-amino-3-carbamoylpropanoic acid" , "L-aspartic acid β-amide" , "L-aspartic acid beta-amide" , "L-2-aminosuccinamic acid" , "L-Asparagin" , "2-Aminosuccinamic acid" , "L-Asparagine" ;
+	<http://schema.org/identifier> "drugbank:DB00174" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00174> .

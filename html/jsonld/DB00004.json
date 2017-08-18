@@ -2,12 +2,28 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00004",
   "type" : "Drug",
-  "alternateName" : "Diphtheria toxin precursor",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e6ee87686487d1fe9353429afe2e696e",
+    "type" : "DrugStrength",
+    "description" : "150 ug/mL Injection, solution form with intravenous route"
+  },
+  "clinicalPharmacology" : "Denileukin diftitox (Ontak) directs the cytocidal action of diphtheria toxin to cells which express the IL-2 receptor. The human IL-2 receptor exists in three forms, low (CD25), intermediate (CD122/CD132) and high (CD25/CD122/CD132) affinity. Malignant cells expressing one or more of the subunits of the IL-2 receptor are found in certain leukemias and lymphomas including cutaneous T-cell lymphoma (CTCL). Ontak interacts with the high affinity IL-2 receptor on the cell surface and inhibits cellular protein synthesis, resulting in cell death within hours.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:66e11d256ca0d9d76ecfc9e4383a3f31",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "878.4000244140625",
+    "drugUnit" : "Ontak 150 mcg/ml vial"
+  },
   "description" : "A recombinant DNA-derived cytotoxic protein composed of the amino acid sequences for diphtheria toxin fragments A and B (Met 1-Thr 387)-His followed by the sequences for interleukin-2 (IL-2; Ala 1-Thr 133). It is produced in an E. coli expression system.",
-  "doseSchedule" : "150 ug/mL Injection, solution form with intravenous route",
-  "legalStatus" : "investigational",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : "Antineoplastic Agents",
+  "schema:identifier" : "drugbank:DB00004",
+  "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Denileukin diftitox binds to the high-affinity IL-2 receptor complex. The IL-2 receptor (Tac) subunit is expressed on activated but not resting lymphocytes. The diphtheria toxin associated with Ontak then selectively kills the IL-2 bearing cells.",
   "name" : "Denileukin diftitox",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00004",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00004"
+  "nonProprietaryName" : [ "DT", "NAD(+--diphthamide ADP- ribosyltransferase)", "Diphtheria toxin precursor" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00004", "http://www.rxlist.com/cgi/generic2/denileukin.htm", "http://www.drugs.com/cdi/denileukin-diftitox.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00004"
 }

@@ -2,12 +2,40 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00080",
   "type" : "Drug",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:1405511ca216263907ec003c94f22ad4",
+    "type" : "DrugStrength",
+    "description" : "500 mg/10mL Injection, powder, lyophilized, for solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f065dbeb9fb5e6a1278461f57e8d7d46",
+    "type" : "DrugStrength",
+    "description" : "500 mg Powder for solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fd80b2cbbfc5c30e118f5ff8a65fb227",
+    "type" : "DrugStrength",
+    "description" : "50 mg/mL Injection, powder, lyophilized, for solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Daptomycin is a 13 member amino acid cyclic lipopeptide antibiotic active against Gram-positive bacteria only. It has proven in vitro activity against enterococci (including glycopeptide-resistant Enterococci (GRE)), staphylococci (including methicillin-resistant <i>Staphylococcus aureus</i>), streptococci and corynebacteria. Daptomycin is derived from the fermentation product of Streptomyces roseosporus.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:581dd9694468c44608530c766f1c70ca",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "272.70001220703125",
+    "drugUnit" : "Cubicin 500 mg vial"
+  },
   "description" : "Daptomycin is a lipopeptide antibiotic that kills susceptible gram positive bacteria by disrupting their membrane potential. It is a naturally-occurring compound found in the soil bacterium <i>Streptomyces roseosporus</i>. Antibiotics are used in the treatment of infections caused by bacteria. They work by killing bacteria or preventing their growth. Daptomycin will not work for colds, flu, or other virus infections. It was approved in September 2003 for the treatment of complicated skin and soft tissue infections. It has a safety profile similar to other agents commonly administered to treat gram-positive infections.",
-  "doseSchedule" : "500 mg/10mL Injection, powder, lyophilized, for solution form with intravenous route",
-  "legalStatus" : "investigational",
-  "manufacturer" : "Cubist pharmaceuticals inc",
-  "mechanismOfAction" : "Daptomycin appears to bind or insert into the outer membrane of gram positive bacteria. The binding and integration of daptomycin into the cell membrane is calcium dependent. Calcium ions cause a conformational change in daptomycin, augmenting its amphipathicity (hydrophilic head group and hydrophobic tail group), leading to incorporation into the cell membrane.\nThis binding causes rapid depolarisation, resulting in a loss of membrane potential leading to inhibition of protein, DNA and RNA synthesis, which results in bacterial cell death. The bactericidal activity of daptomycin is concentration-dependent. There is in vitro evidence of synergy with ?-lactam antibiotics.",
+  "dosageForm" : [ "Powder for solution", "Injection, powder, lyophilized, for solution" ],
+  "schema:identifier" : "drugbank:DB00080",
+  "interactingDrug" : [ "DDI between Daptomycin and Fluvastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased.", "DDI between Daptomycin and Lovastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased.", "DDI between Daptomycin and Pitavastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased.", "DDI between Daptomycin and Simvastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased.", "DDI between Daptomycin and Pravastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased.", "DDI between Daptomycin and Rosuvastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased.", "DDI between Daptomycin and Atorvastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased." ],
+  "legalStatus" : [ "Approved", "Investigational" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:95414ae09d124e25c24bdaa6e6704495",
+    "type" : "Organization",
+    "name" : "Cubist pharmaceuticals inc"
+  },
+  "mechanismOfAction" : "Daptomycin appears to bind or insert into the outer membrane of gram positive bacteria. The binding and integration of daptomycin into the cell membrane is calcium dependent. Calcium ions cause a conformational change in daptomycin, augmenting its amphipathicity (hydrophilic head group and hydrophobic tail group), leading to incorporation into the cell membrane.\r\nThis binding causes rapid depolarisation, resulting in a loss of membrane potential leading to inhibition of protein, DNA and RNA synthesis, which results in bacterial cell death. The bactericidal activity of daptomycin is concentration-dependent. There is in vitro evidence of synergy with ?-lactam antibiotics.",
   "name" : "Daptomycin",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00080",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00080"
+  "sameAs" : [ "http://www.drugs.com/cdi/daptomycin.html", "http://www.rxlist.com/cgi/generic3/cubicin.htm", "http://www.drugbank.ca/drugs/DB00080" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00080"
 }

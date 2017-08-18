@@ -1,0 +1,18 @@
+
+<http://bio2rdf.org/drugbank:DB00189> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Ethchlorvynol" ;
+	<http://schema.org/description> "Ethchlorvynol is a sedative and hypnotic drug. It has been used to treat insomnia, but has been largely superseded and is only offered where an intolerance or allergy to other drugs exists. [Wikipedia]" ;
+	<http://schema.org/drugClass> "Hypnotics and Sedatives" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00189" ;
+	<http://schema.org/clinicalPharmacology> "Ethchlorvynol is a sedative drug and schedule IV (USA) controlled substance. It produces cerebral depression, however the exact mechanism of action is not known." ;
+	<http://schema.org/foodWarning> "Avoid alcohol" ;
+	<http://schema.org/legalStatus> "Illicit" , "Approved" , "Withdrawn" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:1d58db2317559f852caf162080e96344> ;
+	<http://schema.org/mechanismOfAction> "Although the exact mechanism of action is unknown, ethchlorvynol appears to depress the central nervous system in a manner similar to that of barbiturates. Barbiturates bind at a distinct binding sites associated with a Cl<sup>-</sup> ionopore at the GABA<sub>A</sub> receptor, increasing the duration of time for which the Cl<sup>-</sup> ionopore is open. The post-synaptic inhibitory effect of GABA in the thalamus is, therefore, prolonged." ;
+	<http://schema.org/nonProprietaryName> "Placidyl" , "1-Chloro-3-ethyl-pent-1-en-4-yn-3-ol" , "ethyl β-chlorovinyl ethynyl carbinol" , "3-(β-chlorovinyl)-1-pentyn-3-ol" , "1-chloro-3-ethyl-1-penten-4-yn-3-ol" , "β-chlorovinyl ethyl ethynyl carbinol" , "3-(beta-chlorovinyl)-1-pentyn-3-ol" ;
+	<http://schema.org/proprietaryName> "Arvynol" ;
+	<http://schema.org/identifier> "drugbank:DB00189" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cons/ethchlorvynol.html> , <http://www.drugbank.ca/drugs/DB00189> .
+
+<http://bio2rdf.org/drugbank_resource:1d58db2317559f852caf162080e96344> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Banner pharmacaps inc" .

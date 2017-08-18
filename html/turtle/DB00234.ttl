@@ -1,0 +1,12 @@
+
+<http://bio2rdf.org/drugbank:DB00234> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Reboxetine" ;
+	<http://schema.org/description> "Reboxetine is an antidepressant drug used in the treatment of clinical depression, panic disorder and ADD/ADHD. Its mesylate (i.e. methanesulfonate) salt is sold under tradenames including Edronax, Norebox, Prolift, Solvex, Davedax or Vestra. Reboxetine has two chiral centers, but it only exists as two enantiomers, (R,R)-(-)- and (S,S)-(+)-reboxetine." ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00234" ;
+	<http://schema.org/clinicalPharmacology> "Reboxetine is a selective noradrenaline reuptake inhibitor (NaRI), the first drug of new antidepressant class. Reboxetine is an a-ariloxybenzyl derivative of morpholine. Reboxetine is primarily used to treat depression but has also been found useful in the treatment of narcolepsy and panic disorders." ;
+	<http://schema.org/legalStatus> "Investigational" , "Approved" ;
+	<http://schema.org/mechanismOfAction> "Reboxetine is a selective inhibitor of noradrenaline reuptake. It inhibits noradrenaline reuptake <i>in vitro</i> to a similar extent to the tricyclic antidepressant desmethylimipramine. Reboxetine does not affect dopamine or serotonin reuptake and it has low <i>in vivo</i> and <i>in vitro</i> affinity for adrenergic, cholinergic, histaminergic, dopaminergic and serotonergic receptors." ;
+	<http://schema.org/nonProprietaryName> "S)-Reboxetine" , "Esreboxetine" , "Reboxetine" , "SID11114256" , "(S" ;
+	<http://schema.org/proprietaryName> "Davedax" ;
+	<http://schema.org/identifier> "drugbank:DB00234" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00234> .

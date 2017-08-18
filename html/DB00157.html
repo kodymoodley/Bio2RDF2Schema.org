@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00157",
+  "type" : "Drug",
+  "clinicalPharmacology" : "A coenzyme composed of ribosylnicotinamide 5'-diphosphate coupled to adenosine 5'-phosphate by pyrophosphate linkage. It is found widely in nature and is involved in numerous enzymatic reactions in which it serves as an electron carrier by being alternately oxidized (NAD+) and reduced (NADH). The action of supplemental NADH is unclear. Oral NADH supplementation has been used to combat simple fatigue as well as such mysterious and energy-sapping disorders as chronic fatigue syndrome and fibromyalgia. Researchers are also studying the value of NADH supplements for improving mental function in people with Alzheimer's disease, and minimizing physical disability and relieving depression in people with Parkinson's disease. Some healthy individuals also take NADH supplements orally to improve concentration and memory capacity, as well as to increase athletic endurance. However, to date there have been no published studies to indicate that using NADH is in any way effective or safe for these purposes.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e3fdbd933a5244d7a2b23f3fdd498df9",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "154.529998779296875",
+    "drugUnit" : "Nicotinamide adenine powder"
+  },
+  "description" : "NADH is the reduced form of NAD+, and NAD+ is the oxidized form of NADH, a coenzyme composed of ribosylnicotinamide 5'-diphosphate coupled to adenosine 5'-phosphate by pyrophosphate linkage. It is found widely in nature and is involved in numerous enzymatic reactions in which it serves as an electron carrier by being alternately oxidized (NAD+) and reduced (NADH). It forms NADP with the addition of a phosphate group to the 2' position of the adenosyl nucleotide through an ester linkage. (Dorland, 27th ed)",
+  "drugClass" : [ "Dietary Supplements", "Micronutrients", "Supplements" ],
+  "schema:identifier" : "drugbank:DB00157",
+  "legalStatus" : "Nutraceutical",
+  "mechanismOfAction" : "NADH is synthesized by the body and thus is not an essential nutrient. It does require the essential nutrient nicotinamide for its synthesis, and its role in energy production is certainly an essential one. In addition to its role in the mitochondrial electron transport chain, NADH is produced in the cytosol. The mitochondrial membrane is impermeable to NADH, and this permeability barrier effectively separates the cytoplasmic from the mitochondrial NADH pools. However, cytoplasmic NADH can be used for biologic energy production. This occurs when the malate-aspartate shuttle introduces reducing equivalents from NADH in the cytosol to the electron transport chain of the mitochondria. This shuttle mainly occurs in the liver and heart.",
+  "name" : "NADH",
+  "nonProprietaryName" : [ "1,4-dihydronicotinamide adenine dinucleotide", "DPNH", "nicotinamide adenine dinucleotide (reduced)" ],
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/nad_0179.shtml", "http://www.drugbank.ca/drugs/DB00157" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00157"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00157.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00145",
+  "type" : "Drug",
+  "administrationRoute" : "irrigation",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:83a515b3f8ea980a4ac3c52dc4ea0659",
+    "type" : "DrugStrength",
+    "description" : "1.5 g/100mL Solution form with irrigation route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:87ec5665ef708b12203886400452332d",
+    "type" : "DrugStrength",
+    "description" : "1.5 g/100mL Irrigant form with irrigation route"
+  } ],
+  "clinicalPharmacology" : "Helps trigger the release of oxygen to the energy requiring cell-making process; Important in the manufacturing of hormones responsible for a strong immune system.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:6abc63e010ae61ac89a7f2faf0ed135a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Glycine powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:86c211e6f5b8157797ff0533730dd135",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.31000000238418579102",
+    "drugUnit" : "Diluent for flolan vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c06a275d4e682c894a72cc8a528cd363",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Glycine 1.5% irrigation"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1692e264c114bf67c65e16e52b4e80e8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Amino acetic acid powder"
+  } ],
+  "description" : "A non-essential amino acid. It is found primarily in gelatin and silk fibroin and used therapeutically as a nutrient. It is also a fast inhibitory neurotransmitter. [PubChem]",
+  "dosageForm" : [ "Irrigant", "Solution" ],
+  "drugClass" : [ "Non-Essential Amino Acids", "Supplements", "Dietary Supplements", "Micronutrients", "Glycine Agents" ],
+  "schema:identifier" : "drugbank:DB00145",
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:774741674c5c53ec1f8ee81551442864",
+    "type" : "Organization",
+    "name" : "Baxter healthcare corp"
+  },
+  "mechanismOfAction" : "In the CNS, there exist strychnine-sensitive glycine binding sites as well as strychnine-insensitive glycine binding sites. The strychnine-insensitive glycine-binding site is located on the NMDA receptor complex. The strychnine-sensitive glycine receptor complex is comprised of a chloride channel and is a member of the ligand-gated ion channel superfamily. The putative antispastic activity of supplemental glycine could be mediated by glycine's binding to strychnine-sensitive binding sites in the spinal cord. This would result in increased chloride conductance and consequent enhancement of inhibitory neurotransmission. The ability of glycine to potentiate NMDA receptor-mediated neurotransmission raised the possibility of its use in the management of neuroleptic-resistant negative symptoms in schizophrenia. <br/>Animal studies indicate that supplemental glycine protects against endotoxin-induced lethality, hypoxia-reperfusion injury after liver transplantation, and D-galactosamine-mediated liver injury. Neutrophils are thought to participate in these pathologic processes via invasion of tissue and releasing such reactive oxygen species as superoxide. In vitro studies have shown that neutrophils contain a glycine-gated chloride channel that can attenuate increases in intracellular calcium and diminsh neutrophil oxidant production. This research is ealy-stage, but suggests that supplementary glycine may turn out to be useful in processes where neutrophil infiltration contributes to toxicity, such as ARDS.",
+  "name" : "Glycine",
+  "nonProprietaryName" : [ "Aminoessigsaeure", "Glycin", "Aminoethanoic acid", "Glycocoll", "Glykokoll", "Leimzucker", "G", "Aminoacetic acid", "Gly", "H2N-CH2-COOH", "Glyzin", "Glycine", "Hgly" ],
+  "proprietaryName" : "Gyn-Hydralin",
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/gly_0127.shtml", "http://www.drugbank.ca/drugs/DB00145" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00145"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00145.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

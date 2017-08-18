@@ -13,14 +13,46 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00042",
   "type" : "Drug",
-  "alternateName" : "BTX-B",
+  "administrationRoute" : "intramuscular",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:e2d6aae776a03a3ab78927e4ad2251be",
+    "type" : "DrugStrength",
+    "description" : "2500 [USP'U]/.5mL Injection, solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:357a661836295a5b943fe26bbf0a0316",
+    "type" : "DrugStrength",
+    "description" : "10000 [USP'U]/2mL Injection, solution form with intramuscular route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9186ee85d3045335e833cd1faab2131d",
+    "type" : "DrugStrength",
+    "description" : "5000 [USP'U]/mL Injection, solution form with intramuscular route"
+  } ],
+  "clinicalPharmacology" : "Botulinum Toxin Type B inhibits acetylcholine release at the neuromuscular junction via a three stage process: 1) Heavy Chain mediated neurospecific binding of the toxin, 2) internalization of the toxin by receptor-mediated endocytosis, and 3) ATP and pH dependent translocation of the Light Chain to the neuronal cytosol where it acts as a zinc-dependent endoprotease cleaving polypeptides essential for neurotransmitter release.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:b9177e094faad2edb6b97c0a7ab8892e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1245.5",
+    "drugUnit" : "Myobloc 10000 unit/2ml Solution 2ml Vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5f755cbf696ddfd5522ee90b6d1687c6",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "299.399993896484375",
+    "drugUnit" : "Myobloc 2500 unit/0.5 ml vial"
+  } ],
   "description" : "Neurotoxin produced by fermentation of clostridium botulinum type B. The protein exists in noncovalent association with hemagglutinin and nonhemagglutinin proteins as a neurotoxin complex. The neurotoxin complex is recovered from the fermentation process and purified through a series of precipitation and chromatography steps.",
-  "doseSchedule" : "10000 [USP'U]/2mL Injection, solution form with intramuscular route",
-  "legalStatus" : "approved",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : "Antidystonic Agents",
+  "schema:identifier" : "drugbank:DB00042",
+  "interactingDrug" : [ "DDI between Botulinum Toxin Type B and Arbekacin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Kanamycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Tobramycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Gentamicin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Spectinomycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Ribostamycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Netilmicin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Framycetin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Neomycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Streptomycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB.", "DDI between Botulinum Toxin Type B and Amikacin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." ],
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Botulinum Toxin Type B binds to and cleaves the synaptic Vesicle Associated Membrane Protein (VAMP, also known as synaptobrevin) which is a component of the protein complex responsible for docking and fusion of the synaptic vesicle to the presynaptic membrane, a necessary step to neurotransmitter release.",
   "name" : "Botulinum Toxin Type B",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00042",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00042"
+  "nonProprietaryName" : [ "Botulinum neurotoxin type B precursor", "BTX-B" ],
+  "proprietaryName" : "Neurobloc",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/botulinumtoxin.htm", "http://www.drugs.com/cdi/botulinum-toxin-type-b.html", "http://www.drugbank.ca/drugs/DB00042" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00042"
 }</script>
 	</head>
 
@@ -42,7 +74,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00042.json", function(data) {

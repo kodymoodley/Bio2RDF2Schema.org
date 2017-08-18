@@ -2,9 +2,53 @@
 <http://bio2rdf.org/drugbank:DB00058> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Alpha-1-proteinase inhibitor" ;
 	<http://schema.org/description> "Human alpha-1 proteinase inhibitor or alpha-1-antitrypsin, prepared from human plasma via Cohn alcohol fractionation followed by PEG and zinc chloride fractionation." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00058" ;
-	<http://schema.org/doseSchedule> "Kit form with  route" ;
-	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/drugClass> "Enzyme Replacement Agents" , "Trypsin Inhibitors" , "Serine Proteinase Inhibitors" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00058" ;
+	<http://schema.org/clinicalPharmacology> "Prevents excessive accumulation of active neutrophil elastase and consequent proteolysis of elastin tissues in alveolar lung structures. This prevents the development of emphysema." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:e6f84aa14d289aec127707942a991c06> , <http://bio2rdf.org/drugbank_resource:e76985f7506c9e55c27842b7f75159d0> , <http://bio2rdf.org/drugbank_resource:df4dfe79f5feb42a6e7147e7c4993bd1> , <http://bio2rdf.org/drugbank_resource:471294302d288c75e3aa74c5c4873ae2> , <http://bio2rdf.org/drugbank_resource:80e037569fbee2d9435225282e79b892> , <http://bio2rdf.org/drugbank_resource:23ae44ec8031d95cc96e961fa19ee64c> , <http://bio2rdf.org/drugbank_resource:d8d3e8dee1c68d515daabe11aaf10a7f> , <http://bio2rdf.org/drugbank_resource:623da725448807f22aededcc4697581a> ;
+	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/mechanismOfAction> "Alpha-1 proteinase inhibitor is a serine protease inhibitor (Serpin). Its primary mechanism is inhibiting the action of the serine protease called elastase (also plasmin and thrombin) in the lungs. The reactive center loop (RCL) of alpha-1 proteinase inhibitor extends out from the body of the protein and directs binding to the target protease. The protease cleaves the serpin at the reactive site, establishing a covalent linkage between the carboxyl group of the serpin reactive site and the serine hydroxyl of the protease. The resulting inactive serpin-protease complex is highly stable." ;
-	<http://schema.org/alternateName> "Alpha-1-antiproteinase" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00058" .
+	<http://schema.org/nonProprietaryName> "Alpha-1 protease inhibitor" , "Alpha 1-antitrypsin" , "Alpha-1-antitrypsin precursor" , "Alpha-1-antiproteinase" ;
+	<http://schema.org/proprietaryName> "Aralast" ;
+	<http://schema.org/identifier> "drugbank:DB00058" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00058> , <http://www.rxlist.com/cgi/generic3/zemaira.htm> .
+
+<http://bio2rdf.org/drugbank_resource:23ae44ec8031d95cc96e961fa19ee64c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.5" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aralast 500 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:471294302d288c75e3aa74c5c4873ae2> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.46000000834465026855" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Prolastin c 1000 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:623da725448807f22aededcc4697581a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.46000000834465026855" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Prolastin 500 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:80e037569fbee2d9435225282e79b892> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.51999998092651367188" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aralast np 500 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:d8d3e8dee1c68d515daabe11aaf10a7f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.51999998092651367188" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aralast 1000 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:df4dfe79f5feb42a6e7147e7c4993bd1> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.51999998092651367188" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aralast np 1000 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:e6f84aa14d289aec127707942a991c06> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.5" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Zemaira 1000 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:e76985f7506c9e55c27842b7f75159d0> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.46000000834465026855" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Prolastin 1000 mg vial" .

@@ -1,0 +1,17 @@
+
+<http://bio2rdf.org/drugbank:DB00217> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Bethanidine" ;
+	<http://schema.org/description> "A guanidinium antihypertensive agent that acts by blocking adrenergic transmission." ;
+	<http://schema.org/drugClass> "Sympatholytics" , "Antihypertensive Agents" , "Adrenergic Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00217" ;
+	<http://schema.org/clinicalPharmacology> "Bethanidine is a guanidinium antihypertensive agent that acts by blocking adrenergic transmission. The precise mode of action is not clear. Although bethanidine may produce adverse effects, they are beneficial in severe hypertension and produce fewer side effects than guanethidine." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:59c5e93ac37f9fafe82a73e1736dd3d7> ;
+	<http://schema.org/mechanismOfAction> "Bethanidine, a guanidine derivative, is a peripherally acting antiadrenergic agent which primarily acts as an alpha2a adrenergic agonist. Bethanidine effectively decreases blood pressure by suppressing renin secretion or interfering with function of the sympathetic nervous system." ;
+	<http://schema.org/nonProprietaryName> "Betanidine" , "Betanidinum" , "N,N'-dimethyl-N''-(phenylmethyl)-guanidine" , "Betanidina" ;
+	<http://schema.org/proprietaryName> "Esbatal" ;
+	<http://schema.org/identifier> "drugbank:DB00217" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00217> .
+
+<http://bio2rdf.org/drugbank_resource:59c5e93ac37f9fafe82a73e1736dd3d7> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Ah robins co" .

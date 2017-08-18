@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00144",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Phosphatidylserine is indicated in the treatment of cognitive impairment, including Alzheimer's disease, age-associated memory impairment and some non-Alzheimer's dementias. Further research is required before phosphatidylserine can be indicated for immune enhancement or for reduction of exercise stress. Phosphatidylserine was first isolated from brain lipids called cephalins. The major cephalins are phosphatidylserine and phophatidylethanolamine. Phosphatidylserine is involved in signal transduction activity as well as being a basic structural component of biologic membranes.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:99d722ea336cb4e4a405652985f48977",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "13.199999809265136719",
+    "drugUnit" : "Phosphatidylserine 40% powder"
+  },
+  "description" : "Phosphatidylserine (PS) is a phospholipid nutrient found in fish, green leafy vegetables, soybeans and rice, and is essential for the normal functioning of neuronal cell membranes and activates Protein kinase C (PKC) which has been shown to be involved in memory function. In apoptosis, phosphatidylserine is transferred to the outer leaflet of the plasma membrane. This is part of the process by which the cell is targeted for phagocytosis. PS has been shown to slow cognitive decline in animal models. PS has been investigated in a small number of double-blind placebo trials and has been shown to increase memory performance in the elderly. Because of the potentail cognitive benefits of phosphatidylserine, the substance is sold as a dietary supplement to people who believe they can benefit from an increased intake.\r\n\r\nThe dietary supplement was originally processed from bovine sources however Prion disease scares in the 1990s outlawed this process, and a soy-based alternative was adopted.",
+  "drugClass" : [ "Dietary Supplements", "Micronutrients", "Supplements" ],
+  "schema:identifier" : "drugbank:DB00144",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "Cholinergic hypofunction is thought to account in part for the cognitive deficits found in Alzheimer's disease. The most commonly used drugs for the treatment of Alzheimer's disease are reversible acetylcholinesterase inhibitors. The rationale of these drugs is to increase acetylcholine levels in the brains of Alzheimer's patients, and they may be somewhat effective in some cases. Phosphatidylserine restores acetylcholine release in aging humans by maintaining an adequate supply of the molecule and is able to increase the availability of endogenous choline for de novo acetylcholine synthesis. The hippocampus of the brain is believed to be important for cognitive processes and is affected in those with Alzheimer's disease. The dendritic spines of pyramidal cells, the post-synaptic target of the excitatory input to the hippocampus, have been proposed as a substrate for information storage. Age-dependent dendritic spine loss in pyramidal neurons has been reported in the human brain, and the extent of synaptic loss appears to correlate with the degree of cognitive impairment. Phosphatidylserine treatment prevents the age-related reduction in dendritic spine density in rat hippocampus. Protein kinase C facilitation of acetylcholine release has been reported in rats. Phosphatidylserine was found to restore protein kinase C activity in aging rats. Stimulation of calcium uptake by brain synaptosomes and activation of protein kinase C are yet other speculative mechanisms of phosphatidylserine's putative cognition-enhancing action.",
+  "name" : "Phosphatidylserine",
+  "nonProprietaryName" : [ "Ptd-L-Ser", "Phosphatidyl-L-serine", "PS" ],
+  "proprietaryName" : "LifeExtension PS Caps",
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/pho_0202.shtml", "http://www.drugbank.ca/drugs/DB00144" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00144"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00144.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,90 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00162",
+  "type" : "Drug",
+  "administrationRoute" : "intramuscular",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:1674f143866df6a6b31f6a710de015e6",
+    "type" : "DrugStrength",
+    "description" : "15 mg/mL Injection, solution form with intramuscular route"
+  },
+  "clinicalPharmacology" : "Vitamin A is effective for the treatment of Vitamin A deficiency. Vitamin A refers to a group of fat-soluble substances that are structurally related to and possess the biological activity of the parent substance of the group called all-<i>trans</i> retinol or retinol. Vitamin A plays vital roles in vision, epithelial differentiation, growth, reproduction, pattern formation during embryogenesis, bone development, hematopoiesis and brain development. It is also important for the maintenance of the proper functioning of the immune system.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:a3762e5fd116c783250c63a0ae8788a1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.9900000095367431641",
+    "drugUnit" : "Vitamin a acetate crystals"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1d0d6ccf3c0569cf70624146965487eb",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "69.20999908447265625",
+    "drugUnit" : "Avita 0.025% Cream 20 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c19ed2f44d7883fe43f57961b34db341",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "149.3899993896484375",
+    "drugUnit" : "Avita 0.025% Cream 45 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1a915cf902d98f459f6fb13288a2f354",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "22.329999923706054688",
+    "drugUnit" : "Vitamin a palmitate liquid"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f33023d3b9547d48d7411406e3b22ccf",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Vitamin a 10000 unit tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:883cd4a8ab6bf8b3eeeb4949e7311a29",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "17.690000534057617188",
+    "drugUnit" : "Aquasol a 50000 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2f4f40bc8259d566b21c1bdbb99fa46b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.059999998658895492554",
+    "drugUnit" : "Vitamin a palm 10000 unit tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:eaf6d02e08e7781590c1f03f4b6d44ef",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.12999999523162841797",
+    "drugUnit" : "Gordon's vite a creme"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:849c23823b122e3422a1d13cde74d85e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Vitamin a cream"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:36f2595a3f00b30f1d670c12d5394d8a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "149.3899993896484375",
+    "drugUnit" : "Avita 0.025% Gel 45 gm Tube"
+  } ],
+  "description" : "Retinol and derivatives of retinol that play an essential role in metabolic functioning of the retina, the growth of and differentiation of epithelial tissue, the growth of bone, reproduction, and the immune response. Dietary vitamin A is derived from a variety of carotenoids found in plants. It is enriched in the liver, egg yolks, and the fat component of dairy products. [PubChem]",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : [ "Vitamin A", "Vitamins", "Anti-Acne Preparations" ],
+  "schema:identifier" : "drugbank:DB00162",
+  "interactingDrug" : [ "DDI between Vitamin A and Tretinoin - May enhance the adverse/toxic effect of Retinoic Acid Derivatives.", "DDI between Vitamin A and Isotretinoin - May enhance the adverse/toxic effect of Retinoic Acid Derivatives.", "DDI between Vitamin A and Orlistat - May decrease the serum concentration of Vitamins (Fat Soluble).", "DDI between Vitamin A and Acitretin - May enhance the adverse/toxic effect of Retinoic Acid Derivatives." ],
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:8cead2b933cc7ecc1203a15b7b988884",
+    "type" : "Organization",
+    "name" : "Astrazeneca lp"
+  },
+  "mechanismOfAction" : "Vision:Vitamin A (all-<i>trans</i> retinol) is converted in the retina to the 11-<i>cis</i>-isomer of retinaldehyde or 11-<i>cis</i>-retinal. 11-<i>cis</i>-retinal functions in the retina in the transduction of light into the neural signals necessary for vision. 11-<i>cis</i>-retinal, while attached to opsin in rhodopsin is isomerized to all-<i>trans</i>-retinal by light. This is the event that triggers the nerve impulse to the brain which allows for the perception of light. All-<i>trans</i>-retinal is then released from opsin and reduced to all-<i>trans</i>-retinol. All-<i>trans</i>-retinol is isomerized to 11-<i>cis</i>-retinol in the dark, and then oxidized to 11-<i>cis</i>-retinal. 11-<i>cis</i>-retinal recombines with opsin to re-form rhodopsin. Night blindness or defective vision at low illumination results from a failure to re-synthesize 11-<i>cis</i> retinal rapidly. <br/>Epithelial differentiation: The role of Vitamin A in epithelial differentiation, as well as in other physiological processes, involves the binding of Vitamin A to two families of nuclear retinoid receptors (retinoic acid receptors, RARs; and retinoid-X receptors, RXRs). These receptors function as ligand-activated transcription factors that modulate gene transcription. When there is not enough Vitamin A to bind these receptors, natural cell differentiation and growth are interrupted.",
+  "name" : "Vitamin A",
+  "nonProprietaryName" : [ "all-trans-retinyl alcohol", "(2e,4e,6e,8e)-3,7-Dimethyl-9-(2,6,6-trimethylcyclohex-1-en-1-yl)nona-2,4,6,8-tetraen-1-ol", "Vitamin A1", "all-trans-vitamin A alcohol", "Alphalin", "all-trans-retinol", "Retinol", "Chocola a", "Vitamin a" ],
+  "proprietaryName" : "Alphalin",
+  "sameAs" : [ "http://www.drugs.com/mtm/vitamin-a.html", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/vit_0260.shtml", "http://www.drugbank.ca/drugs/DB00162", "http://www.rxlist.com/cgi/generic2/aquasola.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00162"
+}

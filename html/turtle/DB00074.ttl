@@ -2,9 +2,35 @@
 <http://bio2rdf.org/drugbank:DB00074> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Basiliximab" ;
 	<http://schema.org/description> "A recombinant chimeric (murine/human) monoclonal antibody (IgG1k) that functions as an immunosuppressive agent, specifically binding to and blocking the interleukin-2 receptor a-chain (IL-2R alpha, also known as CD25 antigen) on the surface of activated T-lymphocytes. It is a 144 kDa glycoprotein obtained from fermentation of an established mouse myeloma cell line genetically engineered to express plasmids containing the human heavy and light chain constant region genes and mouse heavy and light chain variable region genes encoding the RFT5 antibody that binds selectively to the IL-2R alpha." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00074" ;
-	<http://schema.org/doseSchedule> "20 mg/5mL Injection, powder, for solution form with intravenous route" ;
-	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/drugClass> "Immunosuppressive Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00074" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:94e7be7cb30d44dfaa409965e8cf7633> , <http://bio2rdf.org/drugbank_resource:2575012209df02f6d7caa5ca789c14d6> , <http://bio2rdf.org/drugbank_resource:3f80ce78e430e976973b5df97916b3e2> ;
+	<http://schema.org/clinicalPharmacology> "Basiliximab functions as an IL-2 receptor antagonist. Specifically it inhibits IL-2-mediated activation of lymphocytes, a critical pathway in the cellular immune response involved in allograft rejection." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:c5a75219039d6217a3ecdd4560613b10> , <http://bio2rdf.org/drugbank_resource:42b0ec955bc79c41c0d68296cde163a5> ;
+	<http://schema.org/dosageForm> "Powder for solution" , "Injection, powder, for solution" ;
+	<http://schema.org/interactingDrug> "DDI between Trastuzumab and Basiliximab - May enhance the neutropenic effect of Immunosuppressants." , "DDI between Basiliximab and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants." , "DDI between Basiliximab and Tofacitinib - Immunosuppressants may enhance the immunosuppressive effect of Tofacitinib." , "DDI between Basiliximab and Belimumab - Monoclonal Antibodies may enhance the adverse/toxic effect of Belimumab." , "DDI between Basiliximab and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased." , "DDI between Basiliximab and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants." , "DDI between Basiliximab and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased." , "DDI between Basiliximab and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased." , "DDI between Basiliximab and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T." ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" ;
 	<http://schema.org/mechanismOfAction> "Basiliximab binds with high-affinity to the alpha-subunit (CD25) of the high-affinity IL-2 receptor. This inhibits IL-2 binding, which inhibits T-cell activation and prevents the body from mounting an immune response against the foreign kidney." ;
-	<http://schema.org/alternateName> "chimeric mouse-human antiCD25" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00074" .
+	<http://schema.org/nonProprietaryName> "chimeric mouse-human antiCD25" , "Ig gamma-1 chain C region" ;
+	<http://schema.org/identifier> "drugbank:DB00074" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic2/basiliximab.htm> , <http://www.drugbank.ca/drugs/DB00074> , <http://www.drugs.com/cdi/basiliximab.html> .
+
+<http://bio2rdf.org/drugbank_resource:2575012209df02f6d7caa5ca789c14d6> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "20 mg/5mL Injection, powder, for solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:3f80ce78e430e976973b5df97916b3e2> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "10 mg/2.5mL Injection, powder, for solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:42b0ec955bc79c41c0d68296cde163a5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1883.1099853515625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Simulect 10 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:94e7be7cb30d44dfaa409965e8cf7633> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "20 mg Powder for solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:c5a75219039d6217a3ecdd4560613b10> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2471.60009765625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Simulect 20 mg vial" .

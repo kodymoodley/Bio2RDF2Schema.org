@@ -1,0 +1,63 @@
+
+<http://bio2rdf.org/drugbank_resource:8ceb47939fa8538e2459110add6d3c07> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "25 mg Tablet form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:bf7d0877141556a3b315102a2b658b33> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "100 mg Tablet form with oral route" .
+
+<http://bio2rdf.org/drugbank:DB00250> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Dapsone" ;
+	<http://schema.org/description> "A sulfone active against a wide range of bacteria but mainly employed for its actions against mycobacterium leprae. Its mechanism of action is probably similar to that of the sulfonamides which involves inhibition of folic acid synthesis in susceptible organisms. It is also used with pyrimethamine in the treatment of malaria. (From Martindale, The Extra Pharmacopoeia, 30th ed, p157-8)" ;
+	<http://schema.org/drugClass> "Leprostatic Agents" , "Antimalarials" , "Folic Acid Antagonists" , "Anti-Infective Agents" , "Antimycobacterials" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00250" ;
+	<http://schema.org/administrationRoute> "topical" , "oral" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:3bee3e95862d4cf90daa98aebf31d8d8> , <http://bio2rdf.org/drugbank_resource:bf7d0877141556a3b315102a2b658b33> , <http://bio2rdf.org/drugbank_resource:8ceb47939fa8538e2459110add6d3c07> , <http://bio2rdf.org/drugbank_resource:e35445868d3de5904b09b0b9d74d36c0> ;
+	<http://schema.org/clinicalPharmacology> "Dapsone is a sulfone with anti-inflammatory immunosuppressive properties as well as antibacterial and antibiotic properties. Dapsone is the principal drug in a multidrug regimen recommended by the World Health Organization for the treatment of leprosy. As an anti-infective agent, it is also used for treating malaria and, recently, for Pneumocystic carinii pneumonia in AIDS patients. Dapsone is absorbed rapidly and nearly completely from the gastrointestinal tract. Dapsone is distributed throughout total body water and is present in all tissues. However, it tends to be retained in skin and muscle and especially in the liver and kidney: traces of the drug are present in these organs up to 3 weeks after therapy cessation." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:f0ead112ae9663a5247fe8de19b15853> , <http://bio2rdf.org/drugbank_resource:251156817ac6e856d5caa9bf78382c61> , <http://bio2rdf.org/drugbank_resource:792039b8428d4d8e6351395abdfeb0a6> , <http://bio2rdf.org/drugbank_resource:b4a28b4deeb1a85bdabec6c44bc09f48> , <http://bio2rdf.org/drugbank_resource:4a1316198db1be81cde17f45b9ed9e88> , <http://bio2rdf.org/drugbank_resource:3afdb0b91c325cde58c8e537f6b3e930> ;
+	<http://schema.org/dosageForm> "Gel" , "Tablet" ;
+	<http://schema.org/foodWarning> "Take without regard to meals." ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:68e406eaf8b34f8c4f7dd23c8a40ed9b> ;
+	<http://schema.org/mechanismOfAction> "Dapsone acts against bacteria and protozoa in the same way as sulphonamides, that is by inhibiting the synthesis of dihydrofolic acid through competition with para-amino-benzoate for the active site of dihydropteroate synthetase. The anti-inflammatory action of the drug is unrelated to its antibacterial action and is still not fully understood." ;
+	<http://schema.org/nonProprietaryName> "4-(4-Aminophenylsulfonyl)benzenamine" , "4-(4-Aminophenylsulfonyl)aniline" , "4,4'-Diaminodiphenylsulfone" , "Dapsona" , "Bis(P-aminophenyl) sulfone" , "P-Aminophenyl sulfone" , "4,4'-Sulfonylbisbenzenamine" , "4,4'-Diaminodiphenyl sulfone" , "1,1'-Sulfonylbis(4-aminobenzene)" , "4-(4-amino-Benzenesulfonyl)-phenylamine" , "P,P-Sulphonylbisbenzamine" , "P,P'-diaminodiphenyl sulfone" , "4,4'-Sulfonylbisbenzeneamine" , "DIAPHENYLSULFONE" , "1,1'-Sulfonylbis[4-aminobenzene]" , "4,4'-sulfonyldianiline" , "4-Aminophenyl sulfone" , "Bis(4-aminophenyl)sulfone" , "4,4'-Diaminodiphenyl sulphone" , "DDS" , "Dapsonum" , "DADPS" , "P,P-Sulphonylbisbenzenamine" , "4,4'-Sulfonyldianilin" , "4,4'-Sulfonylbisaniline" , "4,4'-Dapsone" , "DAPSONE" ;
+	<http://schema.org/identifier> "drugbank:DB00250" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic/dapsone.htm> , <http://www.drugs.com/cdi/dapsone.html> , <http://www.drugbank.ca/drugs/DB00250> .
+
+<http://bio2rdf.org/drugbank_resource:251156817ac6e856d5caa9bf78382c61> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5.5199999809265136719" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aczone 5% gel" .
+
+<http://bio2rdf.org/drugbank_resource:3afdb0b91c325cde58c8e537f6b3e930> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "42.990001678466796875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Dapsone 30 100 mg tablet Box" .
+
+<http://bio2rdf.org/drugbank_resource:3bee3e95862d4cf90daa98aebf31d8d8> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "50 mg/g Gel form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:4a1316198db1be81cde17f45b9ed9e88> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "35.990001678466796875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Dapsone 30 25 mg tablet Box" .
+
+<http://bio2rdf.org/drugbank_resource:68e406eaf8b34f8c4f7dd23c8a40ed9b> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Jacobus pharmaceutical co" .
+
+<http://bio2rdf.org/drugbank_resource:792039b8428d4d8e6351395abdfeb0a6> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5.3800001144409179688" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Dapsone powder" .
+
+<http://bio2rdf.org/drugbank_resource:b4a28b4deeb1a85bdabec6c44bc09f48> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.86000001430511474609" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Dapsone 100 mg tablet" .
+
+<http://bio2rdf.org/drugbank_resource:e35445868d3de5904b09b0b9d74d36c0> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "5 % Gel form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:f0ead112ae9663a5247fe8de19b15853> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.20000000298023223877" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Dapsone 25 mg tablet" .

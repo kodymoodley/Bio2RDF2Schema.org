@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00223",
+  "type" : "Drug",
+  "administrationRoute" : "topical",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:36e306636b8ea665111f714d3342229d",
+    "type" : "DrugStrength",
+    "description" : ".5 mg/g Cream form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c0247ffb3bdd581f9cf95e2220371d0a",
+    "type" : "DrugStrength",
+    "description" : ".5 mg/g Ointment form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d37d6ddedb47e53bb198204b3fc9bb2c",
+    "type" : "DrugStrength",
+    "description" : "5 mg/g Cream form with topical route"
+  } ],
+  "clinicalPharmacology" : "Like other topical corticosteroids, diflorasone has anti-inflammatory, antipruritic, and vasoconstrictive properties. Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systemically administered corticosteroids. Diflorasone is a potent topical corticosteroid that should not be used with occlusive dressings. It is recommended that treatment should be limited to 2 consecutive weeks and therapy should be discontinued when adequate results have been achieved.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:1e5531797eaec44b20a357bf52306f0a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "100.5",
+    "drugUnit" : "Diflorasone Diacetate 0.05% Ointment 60 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:80d58dbf21c053af1acf689c0d5cb244",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3.4500000476837158203",
+    "drugUnit" : "Psorcon 0.05% cream"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ee71b0777bce4c02c8404d92ae5dcf33",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "137.5800018310546875",
+    "drugUnit" : "Psorcon 0.05% Cream 60 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2fcb41e837eb279c08fb7b6689cf73fb",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.5",
+    "drugUnit" : "Diflorasone 0.05% cream"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1a26f548d4e0d1363ad019cb042d3ce3",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "101.1100006103515625",
+    "drugUnit" : "Diflorasone Diacetate 0.05% Cream 60 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ad7ceec1bbd593fe2d43add271219219",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "38.049999237060546875",
+    "drugUnit" : "Diflorasone Diacetate 0.05% Ointment 15 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8431eec9ae5b19b22b008b68aca76b95",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "145.75",
+    "drugUnit" : "Psorcon 0.05% Ointment 60 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6e19658eb18e378182ed952fb1185c40",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "52.810001373291015625",
+    "drugUnit" : "Diflorasone Diacetate 0.05% Cream 30 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1ca6817910a2495729c64d157e98f4b1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "52.29000091552734375",
+    "drugUnit" : "Diflorasone Diacetate 0.05% Ointment 30 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:37969a24d85d816b48899b7fac9359d1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "38.25",
+    "drugUnit" : "Diflorasone Diacetate 0.05% Cream 15 gm Tube"
+  } ],
+  "description" : "Diflorasone is a topical corticosteroid used to treat itching and inflammation of the skin.",
+  "dosageForm" : [ "Ointment", "Cream" ],
+  "drugClass" : [ "Glucocorticoids", "Anti-Inflammatory Agents" ],
+  "schema:identifier" : "drugbank:DB00223",
+  "interactingDrug" : [ "DDI between Diflorasone and Deferasirox - Corticosteroids may enhance the adverse/toxic effect of Deferasirox. Specifically, the risk for GI ulceration/irritation or GI bleeding may be increased.", "DDI between Aldesleukin and Diflorasone - Corticosteroids may diminish the antineoplastic effect of Aldesleukin.", "DDI between Diflorasone and Telaprevir - Corticosteroids may decrease the serum concentration of Telaprevir. Telaprevir may increase the serum concentration of Corticosteroids.", "DDI between Hyaluronidase and Diflorasone - Corticosteroids may diminish the therapeutic effect of Hyaluronidase." ],
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:18c17014ef2afa38bf7e2c33182b81aa",
+    "type" : "Organization",
+    "name" : "Altana inc"
+  },
+  "mechanismOfAction" : "The precise mechanism of the antiinflammatory activity of topical steroids in the treatment of steroid-responsive dermatoses, in general, is uncertain. However, corticosteroids are thought to act by the induction of phospholipase A<sub>2</sub> inhibitory proteins, collectively called lipocortins. It is postulated that these proteins control the biosynthesis of potent mediators of inflammation such as prostaglandins and leukotrienes by inhibiting the release of their common precursor arachidonic acid. Arachidonic acid is released from membrane phospholipids by phospholipase A<sub>2</sub>.",
+  "name" : "Diflorasone",
+  "nonProprietaryName" : [ "Diflorasonum", "(6?,11?,16?)-6,9-difluoro-11,17,21-trihydroxy-16-methylpregna-1,4-diene-3,20-dione", "(6alpha,11beta,16beta)-6,9-Difluoro-11,17,21-trihydroxy-16-methylpregna-1,4-diene-3,20-dione", "Diflorasona" ],
+  "proprietaryName" : "Florone",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/diflorasone.htm", "http://www.drugbank.ca/drugs/DB00223", "http://www.drugs.com/cdi/diflorasone-diacetate-cream.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00223"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00223.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

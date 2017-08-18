@@ -1,0 +1,18 @@
+
+<http://bio2rdf.org/drugbank:DB00229> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Cefotiam" ;
+	<http://schema.org/description> "One of the cephalosporins that has a broad spectrum of activity against both gram-positive and gram-negative microorganisms. [PubChem]" ;
+	<http://schema.org/drugClass> "Anti-Bacterial Agents" , "Cephalosporins" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00229" ;
+	<http://schema.org/clinicalPharmacology> "Cefotiam is a third generation beta-lactam cephalosporin antibiotic. It has broad spectrum activity against Gram positive and Gram negative bacteria. It does not have activity against <i>Pseudomonas aeruginosa</i>. Cefotiam works by inhibiting bacterial cell wall biosynthesis." ;
+	<http://schema.org/interactingDrug> "DDI between Cefotiam and Probenecid - Probenecid may increase the serum concentration of Cephalosporins." , "DDI between Cefotiam and Acenocoumarol - May enhance the anticoagulant effect of Vitamin K Antagonists." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:ad7e1515f34f0204304e0b647d02f927> ;
+	<http://schema.org/mechanismOfAction> "The bactericidal activity of cefotiam results from the inhibition of cell wall synthesis via affinity for penicillin-binding proteins (PBPs)." ;
+	<http://schema.org/nonProprietaryName> "(6R,7R)-7-[2-(2-Amino-thiazol-4-yl)-acetylamino]-3-[1-(2-dimethylamino-ethyl)-1H-tetrazol-5-ylsulfanylmethyl]-8-oxo-5-thia-1-aza-bicyclo[4.2.0]oct-2-ene-2-carboxylic acid" , "Cefotiamum" , "CEFOTIAM" , "CTM" ;
+	<http://schema.org/proprietaryName> "Ceradon" ;
+	<http://schema.org/identifier> "drugbank:DB00229" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00229> .
+
+<http://bio2rdf.org/drugbank_resource:ad7e1515f34f0204304e0b647d02f927> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Takeda chemical industries ltd" .

@@ -1,0 +1,104 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00203",
+  "type" : "Drug",
+  "administrationRoute" : [ "oral", "intravenous" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:7d9210fc37064bb0b9e257009c8abf64",
+    "type" : "DrugStrength",
+    "description" : "100 mg Tablet, film coated form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b95085dd147735f4c5ad7ae8ca3b332e",
+    "type" : "DrugStrength",
+    "description" : "50 mg Tablet, film coated form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:de4f90449c91ba83f84253cbbf0127d1",
+    "type" : "DrugStrength",
+    "description" : "25 mg Tablet, film coated form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:df27a2bcc7bb9c277bc3f7050c4ff217",
+    "type" : "DrugStrength",
+    "description" : "20 mg Tablet form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b517913496d106ef027f35a68dd10b8e",
+    "type" : "DrugStrength",
+    "description" : "20 mg Tablet, film coated form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8ceb47939fa8538e2459110add6d3c07",
+    "type" : "DrugStrength",
+    "description" : "25 mg Tablet form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:eb331f160233570e9558f7e283da5586",
+    "type" : "DrugStrength",
+    "description" : ".8 mg/mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:bf2b4d108ca38fd8db2eec974d7db5d6",
+    "type" : "DrugStrength",
+    "description" : "50 mg Tablet form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:bf7d0877141556a3b315102a2b658b33",
+    "type" : "DrugStrength",
+    "description" : "100 mg Tablet form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3f9aee37f9492b983d784d8050a5f7b4",
+    "type" : "DrugStrength",
+    "description" : "10 mg/mL Powder, for suspension form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:671a8e6dd8784095bbe8dde137042b2a",
+    "type" : "DrugStrength",
+    "description" : "0.8 mg Solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Erections are controlled by the parasympathetic nervous system. Upon sexual stimulation, a decrease in vascular resistance is mediated by acetylcholine and nitric oxide resulting in vasodilation. The hemodynamic mechanism of an erection is comprised of five stages. During the latent stage, arterial and carvernous smooth muscle relaxation occurs. Vasodilation results in high levels of blood flow causing the penis to grow to its full size. This stage is called tumescence. During the full-erection stage, blood flow fills penis sinusoids and outflow is restricted. This is followed by the rigid-erection phase during which the cavernous muscles contract causing the penis to become rigid. Little blood flow occurs during this stage. During the final stage, detumescence, the cavernous muscles relax and blood flows out of the penis. Erectile dysfunction may occur when there is insufficient blood supply to the penis or when the penis is unable to prevent outflow of blood from the penis. Sildenafil is a specific inhibitor of PDE5, an enzyme responsible for the breakdown of cGMP to 5’-GMP.  Increased levels of cGMP stimulate vasodilation and facilitate the generation and maintenance of erections. These vasodilatory effects also help decrease symptoms of PAH. Sildenfail also exhibits some activity against PDE6 (10 times less potentcy compared to PDE5), a PDE isoform found predmoninantly in the retina. This activity is responsible for the blue tinged vision experienced by users of sildenafil.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:213423d41ab02a4a3ce50ba7a78521e8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "24.379999160766601562",
+    "drugUnit" : "Sildenafil citrate powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d832a306c1f2c898c5ce6ed13a22016e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "17.5",
+    "drugUnit" : "Revatio 20 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:bef3937f749930599e432d78bac98ae3",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "9.3299999237060546875",
+    "drugUnit" : "Revatio 10 mg/12.5 ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a40da446d0687d315954a9d44595990b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "19.450000762939453125",
+    "drugUnit" : "Viagra 25 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a717339219f73f2eec00476fced44bad",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "19.450000762939453125",
+    "drugUnit" : "Viagra 100 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e5083cddfd491a45462a9fcf452de63c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "19.450000762939453125",
+    "drugUnit" : "Viagra 50 mg tablet"
+  } ],
+  "description" : "Sildenfail is a vasoactive agent used to treat erectile dysfunction and reduce symptoms in patients with pulmonary arterial hypertension (PAH). Sildenafil elevates levels of the second messenger, cGMP, by inhibiting its breakdown via phosphodiesterase type 5 (PDE5). PDE5 is found in particularly high concentrations in the corpus cavernosum, erectile tissue of the penis. It is also found in the retina and vascular endothelium. Increased cGMP results in vasodilation which facilitates generation and maintenance of an erection. The vasodilatory effects of sildenafil also help reduce symptoms of PAH.",
+  "dosageForm" : [ "Tablet, film coated", "Tablet", "Injection, solution", "Powder, for suspension", "Solution" ],
+  "schema:identifier" : "drugbank:DB00203",
+  "interactingDrug" : [ "DDI between Sildenafil and LULICONAZOLE - May increase the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Fosaprepitant - May increase the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Telaprevir - May increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Dasatinib - May increase the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Aprepitant - May increase the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Nefazodone - CYP3A4 Inhibitors (Strong) may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Lorcaserin - May enhance the adverse/toxic effect of Phosphodiesterase 5 Inhibitors. Specifically, the risk of developing priapism may be increased.", "DDI between Sildenafil and Dofetilide - CYP3A4 Inhibitors (Weak) may increase the serum concentration of Dofetilide.", "DDI between Fluconazole and Sildenafil - Fluconazole may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Mifepristone - May increase the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Voriconazole - May increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Deferasirox - May decrease the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Ivacaftor - May increase the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Simeprevir - May increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Siltuximab - May decrease the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Tadalafil - May enhance the adverse/toxic effect of other Phosphodiesterase 5 Inhibitors.", "DDI between Sildenafil and Lopinavir - Protease Inhibitors may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Tipranavir - Protease Inhibitors may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Clarithromycin - CYP3A4 Inhibitors (Strong) may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Boceprevir - May increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Amyl Nitrite - Phosphodiesterase 5 Inhibitors may enhance the vasodilatory effect of Amyl Nitrite.", "DDI between Sildenafil and Aripiprazole - CYP3A4 Inhibitors (Weak) may increase the serum concentration of ARIPiprazole.", "DDI between Sildenafil and Tocilizumab - May decrease the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Fosamprenavir - Protease Inhibitors may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Nelfinavir - Protease Inhibitors may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Sulfisoxazole - Erythromycin (Systemic) may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Hydrocodone - CYP3A4 Inhibitors (Weak) may increase the serum concentration of Hydrocodone.", "DDI between Sildenafil and Bosentan - May decrease the serum concentration of Phosphodiesterase 5 Inhibitors. Phosphodiesterase 5 Inhibitors may increase the serum concentration of Bosentan.", "DDI between Sildenafil and Posaconazole - May increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Mitotane - May decrease the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Indinavir - Protease Inhibitors may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Lomitapide - CYP3A4 Inhibitors (Weak) may increase the serum concentration of Lomitapide.", "DDI between Sildenafil and Telithromycin - CYP3A4 Inhibitors (Strong) may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Vardenafil - May enhance the adverse/toxic effect of other Phosphodiesterase 5 Inhibitors.", "DDI between Sildenafil and Delavirdine - CYP3A4 Inhibitors (Strong) may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Itraconazole - May increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Atorvastatin - May decrease the metabolism of HMG-CoA Reductase Inhibitors.", "DDI between Sildenafil and Pitavastatin - May decrease the metabolism of HMG-CoA Reductase Inhibitors.", "DDI between Sildenafil and Atazanavir - Protease Inhibitors may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Lovastatin - May decrease the metabolism of HMG-CoA Reductase Inhibitors.", "DDI between Sildenafil and Simvastatin - May decrease the metabolism of HMG-CoA Reductase Inhibitors.", "DDI between Sildenafil and Conivaptan - May increase the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Etravirine - May decrease the serum concentration of Phosphodiesterase 5 Inhibitors.", "DDI between Sildenafil and Dapoxetine - May enhance the orthostatic hypotensive effect of Phosphodiesterase 5 Inhibitors.", "DDI between Sildenafil and Dabrafenib - May decrease the serum concentration of CYP3A4 Substrates.", "DDI between Sildenafil and Ritonavir - Protease Inhibitors may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Batimastat - May increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Pimozide - CYP3A4 Inhibitors (Weak) may increase the serum concentration of Pimozide.", "DDI between Sildenafil and Alprostadil - Phosphodiesterase 5 Inhibitors may enhance the adverse/toxic effect of Alprostadil.", "DDI between Sildenafil and Riociguat - Phosphodiesterase 5 Inhibitors may enhance the hypotensive effect of Riociguat.", "DDI between Sildenafil and Darunavir - Protease Inhibitors may increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Isoflurophate - May increase the serum concentration of Sildenafil.", "DDI between Sildenafil and Saquinavir - Protease Inhibitors may increase the serum concentration of Sildenafil." ],
+  "legalStatus" : [ "Approved", "Investigational" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:87e6302c3c48051f76629442f8527b0b",
+    "type" : "Organization",
+    "name" : "Pfizer inc"
+  },
+  "mechanismOfAction" : "Sildenafil inhibits the cGMP-specific phosphodiesterase type 5 (PDE5) which is responsible for degradation of cGMP in the corpus cavernosum located around the penis. Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. Cyclic GMP causes smooth muscle relaxation and increased blood flow into the corpus cavernosum. The inhibition of phosphodiesterase type 5 (PDE5) by sildenafil enhances erectile function by increasing the amount of cGMP.",
+  "name" : "Sildenafil",
+  "nonProprietaryName" : "1-((3-(4,7-Dihydro-1-methyl-7-oxo-3-propyl-1H-pyrazolo(4,3-D)pyrimidin-5-yl)-4-ethoxyphenyl)sulfonyl)-4-methylpiperazine",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00203", "http://www.drugs.com/cdi/sildenafil.html", "http://www.rxlist.com/cgi/generic/viagra.htm", "http://www.pdrhealth.com/drugs/rx/rx-mono.aspx?contentFileName=via1479.html&contentName=Viagra&contentId=818" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00203"
+}

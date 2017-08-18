@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00138",
+  "type" : "Drug",
+  "clinicalPharmacology" : "L-Cystine is a covalently linked dimeric nonessential amino acid formed by the oxidation of cysteine. Two molecules of cysteine are joined together by a disulfide bridge to form cystine. Cystine is a chemical substance which naturally occurs as a deposit in the urine, and can form a calculus (hard mineral formation) when deposited in the kidney. The compound produced when two cysteine molecules linked by a disulfide (S-S) bond. Cystine is required for proper vitamin B6 utilization and is also helpful in the healing of burns and wounds, breaking down mucus deposits in illnesses such as bronchitis as well as cystic fibrosis. Cysteine also assists in the supply of insulin to the pancreas, which is needed for the assimilation of sugars and starches. It increases the level of glutathione in the lungs, liver, kidneys and bone marrow, and this may have an anti-aging effect on the body by reducing age-spots etc.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:dcc68b74b7a98b254a7ae8a63833b6d5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.079999998211860656738",
+    "drugUnit" : "Amino acid capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:18cea361427f3261ac4e8a512779acc8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.34999999403953552246",
+    "drugUnit" : "L-alanine 600 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:80d398ef3fa63ce10f195eceab444bb0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.31000000238418579102",
+    "drugUnit" : "A-ketoglut acid 500 mg capsule"
+  } ],
+  "description" : "A covalently linked dimeric nonessential amino acid formed by the oxidation of cysteine. Two molecules of cysteine are joined together by a disulfide bridge to form cystine. [PubChem]",
+  "drugClass" : [ "Micronutrients", "Non-Essential Amino Acids", "Dietary Supplements", "Supplements" ],
+  "schema:identifier" : "drugbank:DB00138",
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "mechanismOfAction" : "Certain conditions, e.g. an acetaminophen overdose, deplete hepatic glutathione and subject the tissues to oxidative stress resulting in loss of cellular integrity. L-Cystine serves as a major precursor for synthesis of glutathione.",
+  "name" : "L-Cystine",
+  "nonProprietaryName" : [ "L-alpha-Diamino-beta-dithiolactic acid", "?,?'-dithiodialanine", "L-Dicysteine", "(R,R)-3,3'-dithiobis(2-aminopropanoic acid)" ],
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lcy_0088.shtml", "http://www.drugbank.ca/drugs/DB00138" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00138"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00138.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

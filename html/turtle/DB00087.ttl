@@ -2,8 +2,36 @@
 <http://bio2rdf.org/drugbank:DB00087> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Alemtuzumab" ;
 	<http://schema.org/description> "Humanized monoclonal antibody specific to lymphocyte antigens. It is a recombinant DNA-derived humanized monoclonal antibody (Campath-1H) that is directed against the 21-28 kD cell surface glycoprotein,CD52. The Campath-1H antibody is an IgG1 kappa with human variable framework and constant regions, and complementarity-determining regions from a murine (rat) monoclonal antibody (Campath-1G). Campath is produced in mammalian cell (Chinese hamster ovary) suspension culture in a medium containing neomycin." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00087" ;
-	<http://schema.org/doseSchedule> "12 mg/1.2mL Injection, solution, concentrate form with intravenous route" ;
-	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00087" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:0e8f15e95b3dc9f0cb619404a7cd3939> , <http://bio2rdf.org/drugbank_resource:7d1fa8da4b3d71e38528197f4614759b> , <http://bio2rdf.org/drugbank_resource:b109960d084f038b36f8ebe5aefb1616> , <http://bio2rdf.org/drugbank_resource:e2838256b2a0ac70b9d8c65f92a858c2> ;
+	<http://schema.org/clinicalPharmacology> "Campath is used to treat leukemia by exploiting antibody mediated lysis of CD52 presenting cells. The CD52 antigen is a cell surface protein found on essentially all B and T lymphocytes, a majority of monocytes, macrophages and most granulocytes. The CD52 antigen is not present on erythrocytes or hematopoetic stem cells. In leukemia there is an excess of B and T cells, so Campath permits selective reduction of lymphocyte populations." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:8b785308649c5ce0ea4ea4de82ef6c89> , <http://bio2rdf.org/drugbank_resource:d7226a705948cd2ef76fd676fc47a4f6> ;
+	<http://schema.org/dosageForm> "Solution" , "Injection" , "Injection, solution, concentrate" ;
+	<http://schema.org/interactingDrug> "DDI between Alemtuzumab and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T." , "DDI between Trastuzumab and Alemtuzumab - May enhance the neutropenic effect of Immunosuppressants." , "DDI between Alemtuzumab and Clozapine - Myelosuppressive Agents may enhance the adverse/toxic effect of CloZAPine. Specifically, the risk for agranulocytosis may be increased." , "DDI between Alemtuzumab and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants." , "DDI between Alemtuzumab and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants." , "DDI between Alemtuzumab and Belimumab - Monoclonal Antibodies may enhance the adverse/toxic effect of Belimumab." , "DDI between Alemtuzumab and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased." , "DDI between Alemtuzumab and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased." , "DDI between Alemtuzumab and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased." , "DDI between Alemtuzumab and Tofacitinib - Immunosuppressants may enhance the immunosuppressive effect of Tofacitinib." ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" ;
 	<http://schema.org/mechanismOfAction> "Campath binds to the CD52 antigen present on most B and T lymphocytes. This binding leads to antibody-dependent lysis of leukemic cells." ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00087" .
+	<http://schema.org/identifier> "drugbank:DB00087" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic/campath.htm> , <http://www.drugs.com/cdi/alemtuzumab.html> , <http://www.drugbank.ca/drugs/DB00087> .
+
+<http://bio2rdf.org/drugbank_resource:0e8f15e95b3dc9f0cb619404a7cd3939> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "12 mg/1.2mL Injection, solution, concentrate form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:7d1fa8da4b3d71e38528197f4614759b> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "12 mg Solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:8b785308649c5ce0ea4ea4de82ef6c89> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "6179.240234375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Campath 30 mg/ml Solution (1 Box Contains Three 1ml Vials)" .
+
+<http://bio2rdf.org/drugbank_resource:b109960d084f038b36f8ebe5aefb1616> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "30 mg/mL Injection form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:d7226a705948cd2ef76fd676fc47a4f6> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2042.1800537109375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Campath 30 mg/ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:e2838256b2a0ac70b9d8c65f92a858c2> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "30 mg Solution form with intravenous route" .

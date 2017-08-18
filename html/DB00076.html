@@ -13,13 +13,36 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00076",
   "type" : "Drug",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:08b88a72c9a03fd7c4f055bfd65c4435",
+    "type" : "DrugStrength",
+    "description" : "38 mg Injection, powder, lyophilized, for solution form with intravenous route"
+  },
+  "clinicalPharmacology" : "DigiFab binds molecules of digoxin, making them unavailable for binding at their site of action on cells in the body. The Fab fragment-digoxin complex accumulates in the blood, from which it is excreted by the kidney. The net effect is to shift the equilibrium away from binding of digoxin to its receptors in the body, thereby reversing its effects.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:22e0352df8fbacd20bef577120196668",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "727.90997314453125",
+    "drugUnit" : "Digibind 38 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4d3d84f4f9fe57e24c21db1ff229425f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "615.5999755859375",
+    "drugUnit" : "Digifab 40 mg vial"
+  } ],
   "description" : "Digoxin Immune Fab is a sheep antibody (26-10) FAB fragment from sheep immunized with the digoxin derivative Digoxindicarboxymethylamine. It is used as an antidote for overdose of digoxin.",
-  "doseSchedule" : "38 mg Injection, powder, lyophilized, for solution form with intravenous route",
-  "legalStatus" : "approved",
+  "dosageForm" : "Injection, powder, lyophilized, for solution",
+  "drugClass" : "Antidotes",
+  "schema:identifier" : "drugbank:DB00076",
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Binds excess digoxin or digitoxin molecules circulating in the blood.",
   "name" : "Digoxin Immune Fab (Ovine)",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00076",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00076"
+  "proprietaryName" : "Digibind",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00076", "http://www.rxlist.com/cgi/generic3/digoxinfab.htm", "http://www.drugs.com/cdi/digoxin-immune-fab.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00076"
 }</script>
 	</head>
 
@@ -41,7 +64,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00076.json", function(data) {

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00168",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Aspartame (L-alpha-aspartyl-L-phenylalanine methyl ester) is a low-calorie sweetener used to sweeten a wide variety of low- and reduced-calorie foods and beverages, including low-calorie tabletop sweeteners. Aspartame is composed of two amino acids, aspartic acid and phenylalanine, as the methyl ester. Aspartic acid and phenylalanine are also found naturally in protein containing foods, including meats, grains and dairy products. Methyl esters are also found naturally in many foods such as fruits and vegetable and their juices. Upon digestion, aspartame breaks down into three components (aspartic acid, phenylalanine and methanol), which are then absorbed into the blood and used in normal body processes. Neither aspartame nor its components accumulates in the body. These components are used in the body in the same ways as when they are derived from common foods.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:94d1f80d334c7e37929ff764225adc77",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6799999475479125977",
+    "drugUnit" : "Aspartame powder"
+  },
+  "description" : "Flavoring agent sweeter than sugar, metabolized as phenylalanine and aspartic acid. [PubChem]",
+  "drugClass" : [ "Sweetening Agents", "Dietary Supplements", "Micronutrients", "Supplements" ],
+  "schema:identifier" : "drugbank:DB00168",
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "mechanismOfAction" : "180 to 200 times sweeter than sucrose, it is metabolized as a protein and its subsequent amino-acids used up in there respective mechanisms.",
+  "name" : "Aspartame",
+  "nonProprietaryName" : [ "Aspartamum", "Aspartamo", "1-methyl N-L-?-aspartyl-L-phenylalanate", "3-Amino-N-(?-carboxyphenethyl)succinamic acid N-methyl ester", "3-Amino-N-(?-methoxycarbonylphenethyl) succinamic acid", "3-Amino-N-(alpha-methoxycarbonylphenethyl) succinamic acid", "Asp-phe-ome", "1-Methyl N-L-alpha-aspartyl-L-phenylalanine", "Aspartam", "1-Methyl N-L-alpha-aspartyl-L-phenylalanate", "Aspartylphenylalanine methyl ester", "Aspartame", "L-Aspartyl-L-phenylalanine methyl ester", "3-Amino-N-(alpha-carboxyphenethyl)succinamic acid N-methyl ester" ],
+  "proprietaryName" : "Aminosweet",
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00168",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00168"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00168.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

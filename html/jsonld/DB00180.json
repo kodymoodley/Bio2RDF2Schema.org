@@ -1,0 +1,90 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00180",
+  "type" : "Drug",
+  "administrationRoute" : [ "nasal", "respiratory (inhalation)" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:2812ea72c349caceabdbb04ddae66eae",
+    "type" : "DrugStrength",
+    "description" : ".25 mg/mL Spray, metered form with nasal route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2b9d0c2337f365c9921dd16d353d2c21",
+    "type" : "DrugStrength",
+    "description" : ".25 mg/mL Solution form with nasal route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9960ae786932f20569e45005af45e4c6",
+    "type" : "DrugStrength",
+    "description" : "80 ug Aerosol, metered form with respiratory (inhalation) route"
+  } ],
+  "clinicalPharmacology" : "Flunisolide is a synthetic corticosteroid. It is administered either as an oral metered-dose inhaler for the treatment of asthma or as a nasal spray for treating allergic rhinitis. Corticosteroids are naturally occurring hormones that prevent or suppress inflammation and immune responses. When given as an intranasal spray, flunisolide reduces watery nasal discharge (rhinorrhea), nasal congestion, postnasal drip, sneezing, and itching oat the back of the throat that are common allergic symptoms.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:021894cebe70e7d44bde85a27a1d0a0c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "14.0",
+    "drugUnit" : "Aerobid-m aerosol with adapter"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:026b143c2a07b18626c1e57b3e304539",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.62000000476837158203",
+    "drugUnit" : "Apo-Flunisolide 0.025 % Spray"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:208f4190c735931efdebf35ba004edea",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "48.34999847412109375",
+    "drugUnit" : "Flunisolide 0.025% Solution 25ml Bottle"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:cebaeb925988e36ff4483c4c62c299f3",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "101.9499969482421875",
+    "drugUnit" : "Aerobid 250 mcg/act Aerosol 7 gm Inhaler"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9202732a1fdcbfdd26a31aaf605b0e52",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.9800000190734863281",
+    "drugUnit" : "Nasarel 29 mcg-0.025% spray"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:05409ecd9c85f376af60f35f3de58f04",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "57.159999847412109375",
+    "drugUnit" : "Flunisolide 29 mcg/act Solution 25ml Bottle"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:400b11ea50e6708383fb47de28dadab3",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2.2000000476837158203",
+    "drugUnit" : "Flunisolide 29 mcg-0.025% spray"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:aed0c35c6a8109c2e3f1cd938732ee88",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "14.0",
+    "drugUnit" : "Aerobid aerosol with adapter"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:63d1115f5c19b02dabc1ac75bc61e122",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "101.9499969482421875",
+    "drugUnit" : "Aerobid-M 250 mcg/act Aerosol 7 gm Inhaler"
+  } ],
+  "description" : "Flunisolide (marketed as AeroBid, Nasalide, Nasarel) is a corticosteroid often prescribed as treatment for allergic rhinitis.\r\n\r\nThe principle mechanism of action of flunisolide is to activate glucocorticoid receptors. It also has anti-inflammatory action.",
+  "dosageForm" : [ "Solution", "Aerosol, metered", "Spray, metered" ],
+  "schema:identifier" : "drugbank:DB00180",
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:ef2ba3d44493f0c6ff467f09406b6718",
+    "type" : "Organization",
+    "name" : "Roche palo alto llc"
+  },
+  "mechanismOfAction" : "Flunisolide is a glucocorticoid receptor agonist. The antiinflammatory actions of corticosteroids are thought to involve lipocortins, phospholipase A2 inhibitory proteins which, through inhibition arachidonic acid, control the biosynthesis of prostaglandins and leukotrienes. The immune system is suppressed by corticosteroids due to a decrease in the function of the lymphatic system, a reduction in immunoglobulin and complement concentrations, the precipitation of lymphocytopenia, and interference with antigen-antibody binding. Flunisolide binds to plasma transcortin, and it becomes active when it is not bound to transcortin.",
+  "name" : "Flunisolide",
+  "nonProprietaryName" : [ "Flunisolide anhydrous", "Flunisolida", "Flunisolidum" ],
+  "proprietaryName" : "AeroBid",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00180", "http://www.drugs.com/cdi/flunisolide-spray.html", "http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/aer1009.shtml", "http://www.rxlist.com/cgi/generic/flunisolide.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00180"
+}

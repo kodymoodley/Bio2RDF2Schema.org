@@ -1,0 +1,23 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00144",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Phosphatidylserine is indicated in the treatment of cognitive impairment, including Alzheimer's disease, age-associated memory impairment and some non-Alzheimer's dementias. Further research is required before phosphatidylserine can be indicated for immune enhancement or for reduction of exercise stress. Phosphatidylserine was first isolated from brain lipids called cephalins. The major cephalins are phosphatidylserine and phophatidylethanolamine. Phosphatidylserine is involved in signal transduction activity as well as being a basic structural component of biologic membranes.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:99d722ea336cb4e4a405652985f48977",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "13.199999809265136719",
+    "drugUnit" : "Phosphatidylserine 40% powder"
+  },
+  "description" : "Phosphatidylserine (PS) is a phospholipid nutrient found in fish, green leafy vegetables, soybeans and rice, and is essential for the normal functioning of neuronal cell membranes and activates Protein kinase C (PKC) which has been shown to be involved in memory function. In apoptosis, phosphatidylserine is transferred to the outer leaflet of the plasma membrane. This is part of the process by which the cell is targeted for phagocytosis. PS has been shown to slow cognitive decline in animal models. PS has been investigated in a small number of double-blind placebo trials and has been shown to increase memory performance in the elderly. Because of the potentail cognitive benefits of phosphatidylserine, the substance is sold as a dietary supplement to people who believe they can benefit from an increased intake.\r\n\r\nThe dietary supplement was originally processed from bovine sources however Prion disease scares in the 1990s outlawed this process, and a soy-based alternative was adopted.",
+  "drugClass" : [ "Dietary Supplements", "Micronutrients", "Supplements" ],
+  "schema:identifier" : "drugbank:DB00144",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "Cholinergic hypofunction is thought to account in part for the cognitive deficits found in Alzheimer's disease. The most commonly used drugs for the treatment of Alzheimer's disease are reversible acetylcholinesterase inhibitors. The rationale of these drugs is to increase acetylcholine levels in the brains of Alzheimer's patients, and they may be somewhat effective in some cases. Phosphatidylserine restores acetylcholine release in aging humans by maintaining an adequate supply of the molecule and is able to increase the availability of endogenous choline for de novo acetylcholine synthesis. The hippocampus of the brain is believed to be important for cognitive processes and is affected in those with Alzheimer's disease. The dendritic spines of pyramidal cells, the post-synaptic target of the excitatory input to the hippocampus, have been proposed as a substrate for information storage. Age-dependent dendritic spine loss in pyramidal neurons has been reported in the human brain, and the extent of synaptic loss appears to correlate with the degree of cognitive impairment. Phosphatidylserine treatment prevents the age-related reduction in dendritic spine density in rat hippocampus. Protein kinase C facilitation of acetylcholine release has been reported in rats. Phosphatidylserine was found to restore protein kinase C activity in aging rats. Stimulation of calcium uptake by brain synaptosomes and activation of protein kinase C are yet other speculative mechanisms of phosphatidylserine's putative cognition-enhancing action.",
+  "name" : "Phosphatidylserine",
+  "nonProprietaryName" : [ "Ptd-L-Ser", "Phosphatidyl-L-serine", "PS" ],
+  "proprietaryName" : "LifeExtension PS Caps",
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/pho_0202.shtml", "http://www.drugbank.ca/drugs/DB00144" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00144"
+}

@@ -1,0 +1,60 @@
+
+<http://bio2rdf.org/drugbank:DB00210> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Adapalene" ;
+	<http://schema.org/description> "Adapalene is a topical retinoid primarily used in the treatment of acne and is also used (off-label) to treat keratosis pilaris as well as other skin conditions. It is currently marketed by Galderma under the trade names Differin in some countries, and Adaferin in India. [Wikipedia]" ;
+	<http://schema.org/drugClass> "Anti-Inflammatory Agents, Non-Steroidal" , "Dermatologic Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00210" ;
+	<http://schema.org/administrationRoute> "topical" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:b4e269c17e771f41c2525c3c7956fd07> , <http://bio2rdf.org/drugbank_resource:8745c71079e3222553e1eb353ea4296f> , <http://bio2rdf.org/drugbank_resource:8a085551c92e4403d2d62a87a8325853> , <http://bio2rdf.org/drugbank_resource:ba2ba94a2e8b1485a956da1565c18029> , <http://bio2rdf.org/drugbank_resource:589542a3b108950f10d2459aae3c9460> , <http://bio2rdf.org/drugbank_resource:08765eb589f88d30c71229e15a1de3c6> ;
+	<http://schema.org/clinicalPharmacology> "Adapalene is a chemically stable retinoid-like compound. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes all of which represent important features in the pathology of acne vulgaris." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:0815b603300d3c9d987cd6da5455420f> , <http://bio2rdf.org/drugbank_resource:bd6d830335fd9f707a33bf3d381c0c15> , <http://bio2rdf.org/drugbank_resource:9a64f0ade9d30240a339f8d33b4c7044> , <http://bio2rdf.org/drugbank_resource:7f39f8bd1aa049dd886066d5d571bb2b> ;
+	<http://schema.org/dosageForm> "Cream" , "Gel" , "Lotion" ;
+	<http://schema.org/interactingDrug> "DDI between Adapalene and Porfimer - Photosensitizing Agents may enhance the photosensitizing effect of Porfimer." , "DDI between Adapalene and Verteporfin - Photosensitizing Agents may enhance the photosensitizing effect of Verteporfin." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:9e9e7d9b40d9bb0829ea6ad281223d3d> ;
+	<http://schema.org/mechanismOfAction> "Mechanistically, adapalene binds to specific retinoic acid nuclear receptors (gamma and beta) and retinoid X receptors but does not bind to the cytosolic receptor protein. Although the exact mode of action of adapalene is unknown, it is suggested that topical adapalene may normalize the differentiation of follicular epithelial cells resulting in decreased microcomedone formation." ;
+	<http://schema.org/nonProprietaryName> "Adapaleno" , "Adaferin" , "Differine" , "Adapalenum" , "6-(3-(1-Adamantyl)-4-methoxyphenyl)-2-naphthoic acid" ;
+	<http://schema.org/proprietaryName> "Adaferin" ;
+	<http://schema.org/identifier> "drugbank:DB00210" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cdi/adapalene-cream.html> , <http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/dif1134.shtml> , <http://www.rxlist.com/cgi/generic3/adapalene.htm> , <http://www.drugbank.ca/drugs/DB00210> .
+
+<http://bio2rdf.org/drugbank_resource:0815b603300d3c9d987cd6da5455420f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "219.649993896484375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Differin 0.3% Gel 45 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:08765eb589f88d30c71229e15a1de3c6> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> ".1 g/100g Cream form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:589542a3b108950f10d2459aae3c9460> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1 mg/g Lotion form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:7f39f8bd1aa049dd886066d5d571bb2b> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "227.1300048828125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Differin 0.1% Gel 45 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:8745c71079e3222553e1eb353ea4296f> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1 mg/g Gel form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:8a085551c92e4403d2d62a87a8325853> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1 mg/g Cream form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:9a64f0ade9d30240a339f8d33b4c7044> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "4.8499999046325683594" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Differin 0.1% cream" .
+
+<http://bio2rdf.org/drugbank_resource:9e9e7d9b40d9bb0829ea6ad281223d3d> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Nycomed us inc" .
+
+<http://bio2rdf.org/drugbank_resource:b4e269c17e771f41c2525c3c7956fd07> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> ".1 g/100mL Lotion form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:ba2ba94a2e8b1485a956da1565c18029> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "3 mg/g Gel form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:bd6d830335fd9f707a33bf3d381c0c15> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "227.1300048828125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Differin 0.1% Cream 45 gm Tube" .

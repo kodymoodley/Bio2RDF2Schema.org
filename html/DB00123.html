@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00123",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Insures the adequate absorption of calcium; helps form collagen ( which makes up bone cartilage &amp; connective tissues); aids in the production of antibodies, hormones &amp; enzymes. Recent studies have shown that Lysine may be effective against herpes by improving the balance of nutrients that reduce viral growth. A deficiency may result in tiredness, inability to concentrate, irritability, bloodshot eyes, retarded growth, hair loss, anemia &amp; reproductive problems.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:ac10ee9ca217c9b2c81191f32e120602",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "CVS Pharmacy l-lysine 500 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:85befe9d0b1e5913428d24834dfff6bd",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.039999999105930328369",
+    "drugUnit" : "L-lysine 1000 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4ef3c9b2c778bb2cdad1caf487910579",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.15999999642372131348",
+    "drugUnit" : "Lysine hcl powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:71f79dacb1cbe65005c7fc7e44942d33",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.070000000298023223877",
+    "drugUnit" : "L-lysine hcl 500 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a2e7ed0e7b89aa77f2f4d91dadde35bd",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Lysine 500 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a62233461d8b565d6b3aee3234adc828",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.079999998211860656738",
+    "drugUnit" : "Ra l-lysine 1000 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a6deac13209ecaf808a90fb625814d3a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.15999999642372131348",
+    "drugUnit" : "L-lysine ointment"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:33877ac1fc01dc57807399bfb7dc31a1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "63.240001678466796875",
+    "drugUnit" : "Cayston 75 mg inhal solution"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d90e1f7c66b4de56346a2292f72e6b97",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "304.5",
+    "drugUnit" : "Neoprofen 20 mg/2 ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b72cbfdf814d5922e23298ffd1b367bb",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.039999999105930328369",
+    "drugUnit" : "L-lysine 500 mg tablet"
+  } ],
+  "description" : "L-Lysine (abbreviated as Lys or K) is an ?-amino acid with the chemical formula HO2CCH(NH2)(CH2)4NH2. This amino acid is an essential amino acid, which means that humans cannot synthesize it. Its codons are AAA and AAG.\r\n\r\nL-Lysine is a base, as are arginine and histidine. The ?-amino group often participates in hydrogen bonding and as a general base in catalysis. Common posttranslational modifications include methylation of the ?-amino group, giving methyl-, dimethyl-, and trimethyllysine. The latter occurs in calmodulin. Other posttranslational modifications include acetylation. Collagen contains hydroxylysine which is derived from lysine by lysyl hydroxylase. O-Glycosylation of lysine residues in the endoplasmic reticulum or Golgi apparatus is used to mark certain proteins for secretion from the cell.",
+  "drugClass" : [ "Amino Acids, Essential", "Supplements", "Micronutrients", "Dietary Supplements" ],
+  "schema:identifier" : "drugbank:DB00123",
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "mechanismOfAction" : "Proteins of the herpes simplex virus are rich in L-arginine, and tissue culture studies indicate an enhancing effect on viral replication when the amino acid ratio of L-arginine to L-lysine is high in the tissue culture media. When the ratio of L-lysine to L-arginine is high, viral replication and the cytopathogenicity of herpes simplex virus have been found to be inhibited. L-lysine may facilitate the absorption of calcium from the small intestine.",
+  "name" : "L-Lysine",
+  "nonProprietaryName" : [ "lysine acid", "LYS", "6-ammonio-L-norleucine", "(S)-lysine", "(S)-2,6-diaminohexanoic acid", "L-lys", "(S)-?,?-diaminocaproic acid" ],
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lly_0166.shtml", "http://www.drugbank.ca/drugs/DB00123" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00123"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00123.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

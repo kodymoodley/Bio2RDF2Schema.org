@@ -1,0 +1,87 @@
+
+<http://bio2rdf.org/drugbank:DB00240> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Alclometasone" ;
+	<http://schema.org/description> "Alclometasone is synthetic glucocorticoid steroid for topical use in dermatology as anti-inflammatory, antipruritic, antiallergic, antiproliferative and vasoconstrictive agent. [Wikipedia]" ;
+	<http://schema.org/drugClass> "Antipruritics" , "Corticosteroids" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00240" ;
+	<http://schema.org/administrationRoute> "topical" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:36e306636b8ea665111f714d3342229d> , <http://bio2rdf.org/drugbank_resource:c0247ffb3bdd581f9cf95e2220371d0a> ;
+	<http://schema.org/clinicalPharmacology> "Alclometasone is a synthetic corticosteroid for topical dermatologic use. The corticosteroids constitute a class of primarily synthetic steroids used topically as anti-inflammatory and antipruritic agents. Alclometasone is a selective glucocorticoid receptor agonist." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:9820f08d9cccd35ead7bfda9d0ef468a> , <http://bio2rdf.org/drugbank_resource:246f054063f3952845e9f7aeaf8a6d47> , <http://bio2rdf.org/drugbank_resource:c5fbaea328ec78830968760db2c076c5> , <http://bio2rdf.org/drugbank_resource:dd9a4dde78d7d0424835e424baf6538d> , <http://bio2rdf.org/drugbank_resource:1310ddc86080c844e1e644c64451dd48> , <http://bio2rdf.org/drugbank_resource:dc6432fcf7a8e348cd8b046f73401f21> , <http://bio2rdf.org/drugbank_resource:0f123b59d9efa816b07fe7a7e38b5888> , <http://bio2rdf.org/drugbank_resource:27002e6bcf25fe4c5b01bbbdab84d0e7> , <http://bio2rdf.org/drugbank_resource:4d160f84d86ce6901fec3b3c93463851> , <http://bio2rdf.org/drugbank_resource:9fbd3ec8b8f845ae24bd0f6a900d6f6f> , <http://bio2rdf.org/drugbank_resource:eac6c8067e3878850ec9182c315513c1> , <http://bio2rdf.org/drugbank_resource:cb2222f0f5d0c3582f6ac0f181c3c62a> ;
+	<http://schema.org/dosageForm> "Cream" , "Ointment" ;
+	<http://schema.org/interactingDrug> "DDI between Aldesleukin and Alclometasone - May diminish the antineoplastic effect of Aldesleukin. Exceptions: Beclomethasone (Nasal); Budesonide (Nasal); Ciclesonide (Nasal); Desonide; Dexamethasone (Ophthalmic); Difluprednate; Flunisolide (Nasal); Fluocinolone (Ophthalmic); Fluticasone (Nasal); Loteprednol; Mometasone (Nasal); PrednisoLONE (Ophthalmic); Triamcinolone (Nasal); Triamcinolone (Ophthalmic)." , "DDI between Hyaluronidase and Alclometasone - May diminish the therapeutic effect of Hyaluronidase." , "DDI between Alclometasone and Telaprevir - Corticosteroids may decrease the serum concentration of Telaprevir. Telaprevir may increase the serum concentration of Corticosteroids." , "DDI between Alclometasone and Deferasirox - Corticosteroids may enhance the adverse/toxic effect of Deferasirox. Specifically, the risk for GI ulceration/irritation or GI bleeding may be increased." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:9e9e7d9b40d9bb0829ea6ad281223d3d> ;
+	<http://schema.org/mechanismOfAction> "The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear. However, corticosteroids are thought to act by the induction of phospholipase A<sub>2</sub> inhibitory proteins, collectively called lipocortins. It is postulated that these proteins control the biosynthesis of potent mediators of inflammation such as prostaglandins and leukotrienes by inhibiting the release of their common precursor, arachidonic acid. Arachidonic acid is released from membrane phospholipids by phospholipase A<sub>2</sub>. Alclometasone initially binds the corticosteroid receptor. This complex migrates to the nucleus where it binds to different glucocorticoid response elements on the DNA. This in turn enhances and represses various genes, especially those involved in inflammatory pathways." ;
+	<http://schema.org/nonProprietaryName> "Aclometasone" , "7alpha-Chloro-16alpha-methylprednisolone" , "7α-Chloro-16α-methylprednisolone" ;
+	<http://schema.org/identifier> "drugbank:DB00240" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00240> , <http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/acl1005.shtml> , <http://www.rxlist.com/cgi/generic3/alclometasone.htm> , <http://www.drugs.com/cdi/alclometasone-cream.html> .
+
+<http://bio2rdf.org/drugbank_resource:9e9e7d9b40d9bb0829ea6ad281223d3d> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Nycomed us inc" .
+
+<http://bio2rdf.org/drugbank_resource:0f123b59d9efa816b07fe7a7e38b5888> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "52.990001678466796875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Alclometasone Dipropionate 0.05% Cream 60 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:1310ddc86080c844e1e644c64451dd48> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "81.19000244140625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aclovate 0.05% Cream 45 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:246f054063f3952845e9f7aeaf8a6d47> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "103.09999847412109375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aclovate 0.05% Cream 60 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:27002e6bcf25fe4c5b01bbbdab84d0e7> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "39.270000457763671875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Alclometasone Dipropionate 0.05% Ointment 60 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:36e306636b8ea665111f714d3342229d> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> ".5 mg/g Cream form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:4d160f84d86ce6901fec3b3c93463851> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2.9100000858306884766" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aclovate 0.05% cream" .
+
+<http://bio2rdf.org/drugbank_resource:9820f08d9cccd35ead7bfda9d0ef468a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "41.310001373291015625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Alclometasone Dipropionate 0.05% Cream 45 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:9fbd3ec8b8f845ae24bd0f6a900d6f6f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "54.54000091552734375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aclovate 0.05% Cream 15 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:c0247ffb3bdd581f9cf95e2220371d0a> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> ".5 mg/g Ointment form with topical route" .
+
+<http://bio2rdf.org/drugbank_resource:c5fbaea328ec78830968760db2c076c5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "141.100006103515625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aclovate 0.05% Ointment 60 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:cb2222f0f5d0c3582f6ac0f181c3c62a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2100000381469726562" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Alclometasone dipro 0.05% crm" .
+
+<http://bio2rdf.org/drugbank_resource:dc6432fcf7a8e348cd8b046f73401f21> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "52.990001678466796875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aclovate 0.05% Ointment 15 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:dd9a4dde78d7d0424835e424baf6538d> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "16.989999771118164062" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Alclometasone Dipropionate 0.05% Ointment 15 gm Tube" .
+
+<http://bio2rdf.org/drugbank_resource:eac6c8067e3878850ec9182c315513c1> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "19.809999465942382812" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Alclometasone Dipropionate 0.05% Cream 15 gm Tube" .

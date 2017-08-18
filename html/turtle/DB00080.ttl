@@ -2,10 +2,33 @@
 <http://bio2rdf.org/drugbank:DB00080> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Daptomycin" ;
 	<http://schema.org/description> "Daptomycin is a lipopeptide antibiotic that kills susceptible gram positive bacteria by disrupting their membrane potential. It is a naturally-occurring compound found in the soil bacterium <i>Streptomyces roseosporus</i>. Antibiotics are used in the treatment of infections caused by bacteria. They work by killing bacteria or preventing their growth. Daptomycin will not work for colds, flu, or other virus infections. It was approved in September 2003 for the treatment of complicated skin and soft tissue infections. It has a safety profile similar to other agents commonly administered to treat gram-positive infections." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00080" ;
-	<http://schema.org/doseSchedule> "500 mg/10mL Injection, powder, lyophilized, for solution form with intravenous route" ;
-	<http://schema.org/legalStatus> "investigational" ;
-	<http://schema.org/manufacturer> "Cubist pharmaceuticals inc" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00080" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:1405511ca216263907ec003c94f22ad4> , <http://bio2rdf.org/drugbank_resource:f065dbeb9fb5e6a1278461f57e8d7d46> , <http://bio2rdf.org/drugbank_resource:fd80b2cbbfc5c30e118f5ff8a65fb227> ;
+	<http://schema.org/clinicalPharmacology> "Daptomycin is a 13 member amino acid cyclic lipopeptide antibiotic active against Gram-positive bacteria only. It has proven in vitro activity against enterococci (including glycopeptide-resistant Enterococci (GRE)), staphylococci (including methicillin-resistant <i>Staphylococcus aureus</i>), streptococci and corynebacteria. Daptomycin is derived from the fermentation product of Streptomyces roseosporus." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:581dd9694468c44608530c766f1c70ca> ;
+	<http://schema.org/dosageForm> "Powder for solution" , "Injection, powder, lyophilized, for solution" ;
+	<http://schema.org/interactingDrug> "DDI between Daptomycin and Fluvastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased." , "DDI between Daptomycin and Lovastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased." , "DDI between Daptomycin and Pitavastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased." , "DDI between Daptomycin and Simvastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased." , "DDI between Daptomycin and Pravastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased." , "DDI between Daptomycin and Rosuvastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased." , "DDI between Daptomycin and Atorvastatin - HMG-CoA Reductase Inhibitors may enhance the adverse/toxic effect of DAPTOmycin. Specifically, the risk of skeletal muscle toxicity may be increased." ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:95414ae09d124e25c24bdaa6e6704495> ;
 	<http://schema.org/mechanismOfAction> """Daptomycin appears to bind or insert into the outer membrane of gram positive bacteria. The binding and integration of daptomycin into the cell membrane is calcium dependent. Calcium ions cause a conformational change in daptomycin, augmenting its amphipathicity (hydrophilic head group and hydrophobic tail group), leading to incorporation into the cell membrane.
 This binding causes rapid depolarisation, resulting in a loss of membrane potential leading to inhibition of protein, DNA and RNA synthesis, which results in bacterial cell death. The bactericidal activity of daptomycin is concentration-dependent. There is in vitro evidence of synergy with β-lactam antibiotics.""" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00080" .
+	<http://schema.org/identifier> "drugbank:DB00080" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cdi/daptomycin.html> , <http://www.rxlist.com/cgi/generic3/cubicin.htm> , <http://www.drugbank.ca/drugs/DB00080> .
+
+<http://bio2rdf.org/drugbank_resource:1405511ca216263907ec003c94f22ad4> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "500 mg/10mL Injection, powder, lyophilized, for solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:581dd9694468c44608530c766f1c70ca> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "272.70001220703125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cubicin 500 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:95414ae09d124e25c24bdaa6e6704495> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Cubist pharmaceuticals inc" .
+
+<http://bio2rdf.org/drugbank_resource:f065dbeb9fb5e6a1278461f57e8d7d46> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "500 mg Powder for solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:fd80b2cbbfc5c30e118f5ff8a65fb227> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "50 mg/mL Injection, powder, lyophilized, for solution form with intravenous route" .

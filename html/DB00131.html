@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00131",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:9b694e4e229ef644cc666541a8150594",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "19.739999771118164062",
+    "drugUnit" : "Adenosine-5 monophosphate"
+  },
+  "description" : "Adenylic acid. Adenine nucleotide containing one phosphate group esterified to the sugar moiety in the 2&#39;-, 3&#39;-, or 5&#39;-position. [PubChem]",
+  "drugClass" : [ "Micronutrients", "Supplements", "Dietary Supplements" ],
+  "schema:identifier" : "drugbank:DB00131",
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "mechanismOfAction" : "Nucleotides such as Adenosine-5'-Monophosphate affect a number of immune functions, including the reversal of malnutrition and starvation-induced immunosuppression, the enhancement of T-cell maturation and function, the enhancement of natural killer cell activity, the improvement of delayed cutaneous hypersensitivity, helping resistance to such infectious agents as Staphylococcus aureus and Candida albicans, and finally the modulation of T-cell responses toward type 1 CD4 helper lymphocytes or Th1 cells. Studies have shown that mice fed a nucleotide-free diet have both impaired humoral and cellular immune responses. The addition of dietary nucleotides normalizes both types of responses. RNA, a delivery form of nucleotides, and ribonucleotides were used in these studies. The mechanism of the immune-enhancing activity of nucleic acids/nucleotides is not clear.",
+  "name" : "Adenosine monophosphate",
+  "nonProprietaryName" : [ "5'-Adenylic acid", "Phosaden", "Adenylate", "Ado5'p", "Adenylic acid", "5'-O-Phosphonoadenosine", "Adenosine phosphate", "Phosphaden", "Phosphate d'adenosine", "Adenosine-5'-Monophosphate", "Adenosine 5'-(dihydrogen phosphate)", "AMP", "Fosfato de adenosina", "Adenosine-5'-monophosphoric acid", "Adenosine 5'-monophosphate", "Adenosine-5'p", "5'-AMP", "5'-Adenosine monophosphate", "Adenosine 5'-phosphate", "PAdo", "ADENOSINE monophosphate", "Adenosini phosphas" ],
+  "proprietaryName" : "My-B-Den",
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00131",
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00131"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00131.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

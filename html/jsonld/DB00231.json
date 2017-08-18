@@ -1,0 +1,151 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00231",
+  "type" : "Drug",
+  "administrationRoute" : "oral",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:508c62a293f6fca819e0a9281f7401d6",
+    "type" : "DrugStrength",
+    "description" : "7.5 mg Capsule form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2c25b3396758a4e693a444ae8e2f2818",
+    "type" : "DrugStrength",
+    "description" : "30 mg Capsule form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5fa3d36c77453c2caff65fcd45071787",
+    "type" : "DrugStrength",
+    "description" : "22.5 mg Capsule form with oral route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5e43a8249df1baa9b258a688963bf2b6",
+    "type" : "DrugStrength",
+    "description" : "15 mg Capsule form with oral route"
+  } ],
+  "clinicalPharmacology" : "Temazepam is a benzodiazepine used as a hypnotic agent in the management of insomnia. Temazepam produces CNS depression at limbic, thalamic, and hypothalamic levels of the CNS. Temazepam increases the affinity of the neurotransmitter gamma-aminobutyric acid (GABA) for GABA receptors by binding to benzodiazepine receptors. Results are sedation, hypnosis, skeletal muscle relaxation, anticonvulsant activity, and anxiolytic action.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:a976321f626a2b3fdf84eaf63542901d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.14000000059604644775",
+    "drugUnit" : "Co Temazepam 30 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:86dfcbcf62cd6ed8b8e81a2ada0ea771",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "11.369999885559082031",
+    "drugUnit" : "Restoril 7.5 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1f9acc1337c4046fe54059263f04d343",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.11999999731779098511",
+    "drugUnit" : "Co Temazepam 15 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9b0d4640058e5467e501528058603190",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.11999999731779098511",
+    "drugUnit" : "Pms-Temazepam 15 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5040846ffecc4453ba6b1b3f13fe29d7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.11999999731779098511",
+    "drugUnit" : "Apo-Temazepam 15 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:98f5e59a148155aa90f5a2792683deb1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.11999999731779098511",
+    "drugUnit" : "Ratio-Temazepam 15 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:836c55cbcdc97e03f5c04f5d15c60789",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "7.6700000762939453125",
+    "drugUnit" : "Restoril 30 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:691a108487bff7cc2f128039c2f95748",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.57999998331069946289",
+    "drugUnit" : "Temazepam 15 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ea09a4d887cf77d0399b17e89afac7b0",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.11999999731779098511",
+    "drugUnit" : "Novo-Temazepam 15 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ffcad08bf5a79e38139247af62f15531",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.14000000059604644775",
+    "drugUnit" : "Ratio-Temazepam 30 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:33b70fbd503b2aa348ee4a3674d2ad9e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.68999999761581420898",
+    "drugUnit" : "Temazepam 30 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:e42fda32153730044ca23a31b7340228",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "7.8699998855590820312",
+    "drugUnit" : "Restoril 15 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7d12798e1bbdc40c552b2e7a0f71f69c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "9.9399995803833007812",
+    "drugUnit" : "Temazepam 7.5 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:44b161a8fdef7edf48292b034eb7b430",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.14000000059604644775",
+    "drugUnit" : "Apo-Temazepam 30 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:5fb0b9fb8757e63e5a2445922977be69",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "9.9399995803833007812",
+    "drugUnit" : "Temazepam 22.5 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8e8ac6f78fbb757bce917d52407c876f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.14000000059604644775",
+    "drugUnit" : "Pms-Temazepam 30 mg Capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:142116e7ace19fc3e624116110b38074",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "11.369999885559082031",
+    "drugUnit" : "Restoril 22.5 mg capsule"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8bbef9193f6d11d1dd642ccb9d07f38e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.14000000059604644775",
+    "drugUnit" : "Novo-Temazepam 30 mg Capsule"
+  } ],
+  "description" : "A benzodiazepine that acts as a gamma-aminobutyric acid modulator and anti-anxiety agent. [PubChem]",
+  "dosageForm" : "Capsule",
+  "drugClass" : "Benzodiazepines",
+  "foodWarning" : "Avoid alcohol.",
+  "schema:identifier" : "drugbank:DB00231",
+  "interactingDrug" : [ "DDI between Temazepam and Thalidomide - CNS Depressants may enhance the CNS depressant effect of Thalidomide.", "DDI between Temazepam and Mirtazapine - CNS Depressants may enhance the CNS depressant effect of Mirtazapine.", "DDI between Temazepam and Rufinamide - May enhance the adverse/toxic effect of CNS Depressants. Specifically, sleepiness and dizziness may be enhanced.", "DDI between Temazepam and Gamma Hydroxybutyric Acid - May enhance the CNS depressant effect of Sodium Oxybate.", "DDI between Temazepam and Phenytoin - Benzodiazepines may increase the serum concentration of Phenytoin. Short-term exposure to benzodiazepines may not present as much risk as chronic therapy.", "DDI between Temazepam and Methotrimeprazine - CNS Depressants may enhance the CNS depressant effect of Methotrimeprazine. Methotrimeprazine may enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Ropinirole - CNS Depressants may enhance the sedative effect of ROPINIRole.", "DDI between Temazepam and Hydrocodone - CNS Depressants may enhance the CNS depressant effect of Hydrocodone.", "DDI between Temazepam and Methadone - Benzodiazepines may enhance the CNS depressant effect of Methadone.", "DDI between Temazepam and Tapentadol - May enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Buprenorphine - CNS Depressants may enhance the CNS depressant effect of Buprenorphine.", "DDI between Temazepam and Doxylamine - May enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Rotigotine - CNS Depressants may enhance the sedative effect of Rotigotine.", "DDI between Temazepam and Nabilone - May enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Teduglutide - May increase the serum concentration of Benzodiazepines.", "DDI between Temazepam and Pramipexole - CNS Depressants may enhance the sedative effect of Pramipexole.", "DDI between Temazepam and Olanzapine - May enhance the adverse/toxic effect of Benzodiazepines.", "DDI between Temazepam and Perampanel - May enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Clozapine - Benzodiazepines may enhance the adverse/toxic effect of CloZAPine.", "DDI between Temazepam and Suvorexant - CNS Depressants may enhance the CNS depressant effect of Suvorexant.", "DDI between Temazepam and Droperidol - May enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Yohimbine - May diminish the therapeutic effect of Antianxiety Agents.", "DDI between Temazepam and Orphenadrine - CNS Depressants may enhance the CNS depressant effect of Orphenadrine.", "DDI between Temazepam and Metyrosine - CNS Depressants may enhance the sedative effect of Metyrosine.", "DDI between Temazepam and Fosphenytoin - Benzodiazepines may increase the serum concentration of Fosphenytoin. Short-term exposure to benzodiazepines may not present as much risk as chronic therapy.", "DDI between Temazepam and Aminophylline - Theophylline Derivatives may diminish the therapeutic effect of Benzodiazepines.", "DDI between Temazepam and Magnesium Sulfate - May enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Zolpidem - CNS Depressants may enhance the CNS depressant effect of Zolpidem.", "DDI between Temazepam and Hydroxyzine - May enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Dronabinol - May enhance the CNS depressant effect of CNS Depressants.", "DDI between Temazepam and Theophylline - Theophylline Derivatives may diminish the therapeutic effect of Benzodiazepines." ],
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:69a8d6e1e931140bf978b28c2608c7ed",
+    "type" : "Organization",
+    "name" : "Tyco healthcare group lp"
+  },
+  "mechanismOfAction" : "Benzodiazepines bind nonspecifically to benzodiazepine receptors, which affects muscle relaxation, anticonvulsant activity, motor coordination, and memory. As benzodiazepine receptors are thought to be coupled to gamma-aminobutyric acid-A (GABA<sub>A</sub>) receptors, this enhances the effects of GABA by increasing GABA affinity for the GABA receptor. Binding of the inhibitory neurotransmitter GABA to the site opens the chloride channel, resulting in a hyperpolarized cell membrane that prevents further excitation of the cell.",
+  "name" : "Temazepam",
+  "nonProprietaryName" : "Restoril",
+  "proprietaryName" : "Euhypnos",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/temaz.htm", "http://www.drugbank.ca/drugs/DB00231", "http://www.drugs.com/temazepam.html", "http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/res1373.shtml" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00231"
+}

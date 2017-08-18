@@ -1,0 +1,20 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00106",
+  "type" : "Drug",
+  "clinicalPharmacology" : "Used in the palliative treatment of advanced prostate cancer. Abarelix is a luteinizing hormone agonist that results in suppression of testicular or follicular steroidogenesis.",
+  "description" : "Synthetic decapeptide antagonist to gonadotropin releasing hormone (GnRH). It is marketed by Praecis Pharmaceuticals as Plenaxis. Praecis announced in June 2006 that it was voluntarily withdrawing the drug from the market.",
+  "drugClass" : "Anti-Testosterone Agents",
+  "schema:identifier" : "drugbank:DB00106",
+  "legalStatus" : [ "Withdrawn", "Approved", "Investigational" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:376c6e6cad258f51a802ccce8c53ca4c",
+    "type" : "Organization",
+    "name" : "Speciality european pharma ltd"
+  },
+  "mechanismOfAction" : "Abarelix binds to the gonadotropin releasing hormone receptor and acts as a potent inhibitor of gonadotropin secretion.",
+  "name" : "Abarelix",
+  "proprietaryName" : "Plenaxis",
+  "sameAs" : [ "http://www.drugs.com/cdi/abarelix.html", "http://www.drugbank.ca/drugs/DB00106", "http://www.rxlist.com/cgi/generic/plenaxis.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00106"
+}

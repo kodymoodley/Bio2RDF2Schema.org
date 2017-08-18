@@ -1,0 +1,17 @@
+
+<http://bio2rdf.org/drugbank_resource:b3c50fa14d63741838efb05e090cacf6> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Pharmacia and upjohn co" .
+
+<http://bio2rdf.org/drugbank:DB00226> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Guanadrel" ;
+	<http://schema.org/description> "Guanadrel is a postganglionic adrenergic blocking agent. Uptake of guanadrel and storage in sympathetic neurons occurs via the norepinephrine pump or transporter." ;
+	<http://schema.org/drugClass> "Antihypertensive Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00226" ;
+	<http://schema.org/clinicalPharmacology> "High blood pressure adds to the work load of the heart and arteries. If it continues for a long time, the heart and arteries may not function properly. This can damage the blood vessels of the brain, heart, and kidneys resulting in a stroke, heart failure, or kidney failure. High blood pressure may also increase the risk of heart attacks. These problems may be less likely to occur if blood pressure is controlled. Guanadrel works by controlling nerve impulses along certain nerve pathways. As a result, it relaxes the blood vessels so that blood passes through them more easily. This helps to lower blood pressure." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:b3c50fa14d63741838efb05e090cacf6> ;
+	<http://schema.org/mechanismOfAction> "Guanadrel is a postganglionic adrenergic blocking agent. Uptake of guanadrel and storage in sympathetic neurons occurs via the norepinephrine pump or transporter. Guanadrel slowly displaces norepinephrine from its storage in nerve endings and thereby blocks the release of norepinephrine normally produced by nerve stimulation. The reduction in neurotransmitter release in response to sympathetic nerve stimulation, as a result of catecholamine depletion, leads to reduced arteriolar vasoconstriction, especially the reflex increase in sympathetic tone that occurs with a change in position." ;
+	<http://schema.org/nonProprietaryName> "Guanadrelum" , "Guanadrel" ;
+	<http://schema.org/proprietaryName> "Anarel" ;
+	<http://schema.org/identifier> "drugbank:DB00226" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/mtm/guanadrel.html> , <http://www.drugbank.ca/drugs/DB00226> .

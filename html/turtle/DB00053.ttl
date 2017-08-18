@@ -2,9 +2,36 @@
 <http://bio2rdf.org/drugbank:DB00053> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Imiglucerase" ;
 	<http://schema.org/description> "Human Beta-glucocerebrosidase or Beta-D-glucosyl-N-acylsphingosine glucohydrolase E.C. 3.2.1.45. 497 residue protein with N-linked carbohydrates, MW=59.3 kD. Alglucerase is prepared by modification of the oligosaccharide chains of human Beta-glucocerebrosidase. The modification alters the sugar residues at the non-reducing ends of the oligosaccharide chains of the glycoprotein so that they are predominantly terminated with mannose residues" ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00053" ;
-	<http://schema.org/doseSchedule> "40 U/mL Injection, powder, lyophilized, for solution form with intravenous route" ;
-	<http://schema.org/legalStatus> "approved" ;
-	<http://schema.org/manufacturer> "Genzyme corp" ;
+	<http://schema.org/drugClass> "Enzyme Replacement Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00053" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:75dd94443024ae73bb177432660edf39> ;
+	<http://schema.org/clinicalPharmacology> "Gaucher disease is characterized by a functional deficiency in Beta-glucocerebrosidase enzymatic activity and the resultant accumulation of lipid glucocerebroside in tissue macrophages which become engorged and are termed Gaucher cells. Gaucher cells are typically found in liver, spleen and bone marrow. This can lead to an enlarged spleen and liver (hepatosplenomegaly). Secondary hematologic sequelae include severe anemia and thrombocytopenia. Injections of imiglucerase into Gaucher disease patients leads to elevated serum levels of the enzyme and reduction in the accumulation of glucocerebroside leading to reduced anemia and thrombocytopenia, reduced spleen and liver size, and decreased cachexia" ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:f18ec9ef1c296d3f9ec5dc26c31c7ee6> , <http://bio2rdf.org/drugbank_resource:6e9c93a5e7e2594fa9a85c810e8cba4a> , <http://bio2rdf.org/drugbank_resource:8ec13b92db07ff88c5fb0c75a7866b8d> ;
+	<http://schema.org/dosageForm> "Injection, powder, lyophilized, for solution" ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:ecdb1053634e311725cc3e13c4c7d612> ;
 	<http://schema.org/mechanismOfAction> "Imiglucerase catalyzes the hydrolysis of the glycolipid, glucocerebroside, to glucose and ceramide as part of the normal degradation pathway for membrane lipids." ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00053" .
+	<http://schema.org/identifier> "drugbank:DB00053" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cdi/imiglucerase.html> , <http://www.drugbank.ca/drugs/DB00053> , <http://www.rxlist.com/cgi/generic2/imiglucerase.htm> .
+
+<http://bio2rdf.org/drugbank_resource:6e9c93a5e7e2594fa9a85c810e8cba4a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1903.199951171875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cerezyme 400 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:75dd94443024ae73bb177432660edf39> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "40 U/mL Injection, powder, lyophilized, for solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:8ec13b92db07ff88c5fb0c75a7866b8d> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "380.6400146484375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Ceredase 80 unit/ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:ecdb1053634e311725cc3e13c4c7d612> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Genzyme corp" .
+
+<http://bio2rdf.org/drugbank_resource:f18ec9ef1c296d3f9ec5dc26c31c7ee6> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "951.5999755859375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cerezyme 200 unit vial" .

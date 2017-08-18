@@ -1,0 +1,35 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00102",
+  "type" : "Drug",
+  "administrationRoute" : "topical",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:76cc7a41e93863bcbab0bba32bc52311",
+    "type" : "DrugStrength",
+    "description" : "100 ug/g Gel form with topical route"
+  },
+  "clinicalPharmacology" : "Used for the topical treatment of skin ulcers, Regranex has a biological activity similar to that of endogenous platelet-derived growth factor, which includes promoting the chemotactic recruitment and proliferation of cells involved in wound repair and enhancing the formation of granulation tissue.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:297c109e257837216e45959f8f447a12",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "46.40000152587890625",
+    "drugUnit" : "Regranex 0.01% gel"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0e2df5f495acffe41bea5306f7ac822a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "723.82000732421875",
+    "drugUnit" : "Regranex 0.01% Gel 15 gm Tube"
+  } ],
+  "description" : "Becaplermin is produced by recombinant DNA technology by insertion of the gene for the B chain of platelet derived growth factor (PDGF) into the yeast, Saccharomyces cerevisiae. Becaplermin has a molecular weight of approximately 25 KD and is a homodimer composed of two identical polypeptide chains that are bound together by disulfide bonds",
+  "dosageForm" : "Gel",
+  "drugClass" : "Angiogenesis Inducing Agents",
+  "schema:identifier" : "drugbank:DB00102",
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "mechanismOfAction" : "Binds to the beta platelet-derived growth factor (PDGF) receptor, a tyrosine kinase receptor. PDGF is known to exist as a dimer, and activates its signaling pathway by a ligand induced receptor dimerization and autophosphorylation. PDGF receptors also contain many auto-phosphorylation sites, which serve to mediate binding of SH2 sites and subsequently signal corresponding pathways. There are five different isoforms of PDGF that activate through two different receptors (alpha and beta).",
+  "name" : "Becaplermin",
+  "nonProprietaryName" : [ "PDGF B-chain", "Platelet-derived growth factor B chain precursor", "c-sis", "Platelet-derived growth factor beta polypeptide", "PDGF-2" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00102", "http://www.rxlist.com/cgi/generic2/becapler.htm", "http://www.drugs.com/cdi/becaplermin.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00102"
+}

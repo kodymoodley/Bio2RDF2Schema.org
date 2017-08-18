@@ -1,0 +1,16 @@
+
+<http://bio2rdf.org/drugbank:DB00236> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Pipobroman" ;
+	<http://schema.org/description> "An antineoplastic agent that acts by alkylation. [PubChem]" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00236" ;
+	<http://schema.org/clinicalPharmacology> "Pipobroman is an antineoplastic agent. Specifically it is a piperazine derivative with a chemical structure close to that of many DNA alkylating agents. Pipobroman has well documented clinical activity against polycythemia vera and essential thrombocythemia." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:d4eb3451ac96e7e3ee0aadeafce55aca> ;
+	<http://schema.org/mechanismOfAction> "The mechanism of action is uncertain but pipobroman is thought to alkylate DNA leading to disruption of DNA synthesis and eventual cell death." ;
+	<http://schema.org/nonProprietaryName> "Vercyte" ;
+	<http://schema.org/proprietaryName> "Vercite" ;
+	<http://schema.org/identifier> "drugbank:DB00236" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00236> .
+
+<http://bio2rdf.org/drugbank_resource:d4eb3451ac96e7e3ee0aadeafce55aca> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Abbott laboratories pharmaceutical products div" .

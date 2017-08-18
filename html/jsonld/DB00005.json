@@ -2,13 +2,67 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00005",
   "type" : "Drug",
-  "alternateName" : "p75",
+  "administrationRoute" : "subcutaneous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:acfe6c16cc26ac4ef2a485ec701f2aa6",
+    "type" : "DrugStrength",
+    "description" : "25 mg/.5mL Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:188749c4b5a764d8393cf48bcc1fd45b",
+    "type" : "DrugStrength",
+    "description" : "50 mg/mL Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:54334de7445f7445046f6a374334d1d8",
+    "type" : "DrugStrength",
+    "description" : "50 mg Solution form with subcutaneous route"
+  } ],
+  "clinicalPharmacology" : "Tumor necrosis factor TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. Elevated levels of TNF are found in tissues and fluids of patients with rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis (AS), and plaque psoriasis. Etanercept binds specifically to tumor necrosis factor (TNF) and blocks its interaction with cell surface TNF receptors.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:25bf44ae419c0db049fadc0372cbc959",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "488.739990234375",
+    "drugUnit" : "Enbrel 50 mg/ml sureclick syr"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b571dbd95184988fa65b4ade5718b856",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2033.1400146484375",
+    "drugUnit" : "Enbrel SureClick (1 Box Contains Four 50 mg Prefilled Autoinjectors)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:782968b1e676a89cb7f9b339afc3ee3e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2033.1400146484375",
+    "drugUnit" : "Enbrel (1 Box = 1 Kit = Four 50 mg Syringes) 3.92ml Box"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:bc8043038e801315ba92878f3aa88d23",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "250.3699951171875",
+    "drugUnit" : "Enbrel 25 mg kit"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:92bebd266adaf9ef7ad0558dfc319dab",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1016.57000732421875",
+    "drugUnit" : "Enbrel 4 25 mg Kit (1 Box = 1 Kit = Four 25 mg Vials)"
+  } ],
   "description" : "Dimeric fusion protein consisting of the extracellular ligand-binding portion of the human 75 kilodalton (p75) tumor necrosis factor receptor (TNFR) linked to the Fc portion of human IgG1. The Fc component of etanercept contains the CH2 domain, the CH3 domain and hinge region, but not the CH1 domain of IgG1. Etanercept is produced by recombinant DNA technology in a Chinese hamster ovary (CHO) mammalian cell expression system. It consists of 934 amino acids",
-  "doseSchedule" : "50 mg/mL Solution form with subcutaneous route",
-  "legalStatus" : "approved",
-  "manufacturer" : "Amgen Inc. + Wyeth + Takeda",
+  "dosageForm" : "Solution",
+  "drugClass" : "Immunosuppressive Agents",
+  "schema:identifier" : "drugbank:DB00005",
+  "interactingDrug" : [ "DDI between Etanercept and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between Etanercept and Rilonacept - Anti-TNF Agents may enhance the adverse/toxic effect of Rilonacept.", "DDI between Etanercept and Tocilizumab - May enhance the immunosuppressive effect of Anti-TNF Agents.", "DDI between Etanercept and Belimumab - Etanercept may enhance the adverse/toxic effect of Belimumab.", "DDI between Etanercept and Trastuzumab - May enhance the neutropenic effect of Immunosuppressants.", "DDI between Etanercept and Canakinumab - Anti-TNF Agents may enhance the adverse/toxic effect of Canakinumab. Specifically, the risk for serious infections and/or neutropenia may be increased.", "DDI between Etanercept and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between Etanercept and Infliximab - Etanercept may enhance the immunosuppressive effect of InFLIXimab.", "DDI between Etanercept and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Etanercept and Cyclophosphamide - Etanercept may enhance the adverse/toxic effect of Cyclophosphamide. An increased risk of solid cancer development may be present.", "DDI between Etanercept and Vedolizumab - Anti-TNF Agents may enhance the adverse/toxic effect of Vedolizumab.", "DDI between Etanercept and Abatacept - Anti-TNF Agents may enhance the adverse/toxic effect of Abatacept. An increased risk of serious infection during concomitant use has been reported.", "DDI between Etanercept and Anakinra - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Etanercept and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased.", "DDI between Etanercept and Certolizumab pegol - Anti-TNF Agents may enhance the immunosuppressive effect of Certolizumab Pegol.", "DDI between Etanercept and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T.", "DDI between Etanercept and Tofacitinib - Anti-TNF Agents may enhance the adverse/toxic effect of Tofacitinib.", "DDI between Etanercept and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased." ],
+  "legalStatus" : [ "Approved", "Investigational" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:9b287527de9ee84238fd4fc74597d274",
+    "type" : "Organization",
+    "name" : "Amgen Inc. + Wyeth + Takeda"
+  },
   "mechanismOfAction" : "There are two distinct receptors for TNF (TNFRs), a 55 kilodalton protein (p55) and a 75 kilodalton protein (p75). The biological activity of TNF is dependent upon binding to either cell surface receptor (p75 or p55). Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind to two TNF molecules, thereby effectively removing them from circulation.",
   "name" : "Etanercept",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00005",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00005"
+  "nonProprietaryName" : [ "CD120b", "p75", "Tumor necrosis factor receptor superfamily member 1B precursor", "Tumor necrosis factor receptor type II", "p80 TNF-alpha receptor", "TNF-R2", "Tumor necrosis factor receptor 2" ],
+  "proprietaryName" : "Enbrel Sureclick",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00005", "http://www.rxlist.com/cgi/generic/etanercept.htm", "http://www.drugs.com/cdi/etanercept.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00005"
 }

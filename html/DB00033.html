@@ -13,14 +13,31 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00033",
   "type" : "Drug",
-  "alternateName" : "Immune interferon",
+  "administrationRoute" : "subcutaneous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:26e994922f837572b6a9d4355e725f73",
+    "type" : "DrugStrength",
+    "description" : "100 ug/.5mL Injection, solution form with subcutaneous route"
+  },
+  "clinicalPharmacology" : "IFN gamma stimulates expression of the immunoglobulin heavy chain C gamma 3 and C gamma 2a germline transcripts in B cells. Many components of the antigen presentation pathways are also up-regulated by interferon gamma. It is also a potent activator of macrophages, it has antiproliferative effects on transformed cells and it can potentiate the antiviral and antitumor effects of type I interferons. Interferon gamma may also help the body regulate the activity of fibroblasts. By directly blocking the multiplication of fibroblasts and inhibiting the production and action of TGF-b, a potent scar-inducing molecule, Interferon gamma-1b may prevent excessive scarring.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:861f95a773db065431c6e1698c8a8d5c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "344.399993896484375",
+    "drugUnit" : "Actimmune 2 million unit vial"
+  },
   "description" : "Human Interferon gamma-1b (140 residues), produced from E. coli. Production of Actimmune is achieved by fermentation of a genetically engineered Escherichia coli bacterium containing the DNA which encodes for the human protein. Purification of the product is achieved by conventional column chromatography. \r\nThe sequence displayed is a cDNA sequence which codes for human interferon gamma, as described by Gray et. al. and not specifically interferon gamma 1b.",
-  "doseSchedule" : "100 ug/.5mL Injection, solution form with subcutaneous route",
-  "legalStatus" : "investigational",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : "Immunosuppressive Agents",
+  "schema:identifier" : "drugbank:DB00033",
+  "interactingDrug" : "DDI between Interferon gamma-1b and Zidovudine - Interferons may enhance the adverse/toxic effect of Zidovudine. Interferons may decrease the metabolism of Zidovudine.",
+  "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Binds directly to the type II interferon gamma receptor IFNGR1, leading to a complex of IFNGR1 and IFNGR2. This activates JAK1 and JAK2 kinases which form a STAT1 docking site. This leads to STAT1 phosphorylation, nuclear translocation and initiation of gene transcription of multiple immune-related genes.",
   "name" : "Interferon gamma-1b",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00033",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00033"
+  "nonProprietaryName" : [ "Interferon gamma precursor", "IFN-gamma", "Immune interferon" ],
+  "sameAs" : [ "http://www.drugs.com/cdi/interferon-gamma-1b.html", "http://www.drugbank.ca/drugs/DB00033" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00033"
 }</script>
 	</head>
 
@@ -42,7 +59,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00033.json", function(data) {

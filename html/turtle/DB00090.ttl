@@ -2,9 +2,26 @@
 <http://bio2rdf.org/drugbank:DB00090> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Laronidase" ;
 	<http://schema.org/description> "Human recombinant alpha-L-iduronidase, 628 residues (mature form), produced by recombinant DNAtechnology in a Chinese hamster ovary cell line. Laronidase is a glycoprotein with a molecular weight of approximately 83 kD. The predicted amino acid sequence of the recombinant form, as well as the nucleotide sequence that encodes it, are identical to a polymorphic form of human a-L-iduronidase. It contains 6 N-linked oligosaccharide modification sites." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00090" ;
-	<http://schema.org/doseSchedule> "2.9 mg/5mL Injection, solution, concentrate form with intravenous route" ;
-	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/drugClass> "Enzyme Replacement Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00090" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:c3ea863492592dff31fb000b21cd1a19> , <http://bio2rdf.org/drugbank_resource:8abd75317f3f7b8f7d56e3fe7d6204bd> ;
+	<http://schema.org/clinicalPharmacology> "Laronidase is used to treat mucopolysaccharide storage disorders (specifically mucopolysaccharidosis 1 or Hurlers syndrome) caused by deficiencies of alpha-L-iduronidase. Reduced or absent a-L-iduronidase activity results in the accumulation of the GAG substrates, dermatan sulfate and heparan sulfate, throughout the body and leads to widespread cellular, tissue, and organ dysfunction." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:b1b0e441b938db5af273fee1049fca10> ;
+	<http://schema.org/dosageForm> "Injection, solution, concentrate" , "Solution" ;
+	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/mechanismOfAction> "Laronidase catalyses the hydrolysis of terminal alpha-L-iduronic acid residues of dermatan sulfate and heparin sulfate." ;
-	<http://schema.org/alternateName> "Alpha-L-iduronidase precursor" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00090" .
+	<http://schema.org/nonProprietaryName> "Alpha-L-iduronidase precursor" ;
+	<http://schema.org/identifier> "drugbank:DB00090" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cdi/laronidase.html> , <http://www.rxlist.com/cgi/generic3/aldurazyme.htm> , <http://www.drugbank.ca/drugs/DB00090> .
+
+<http://bio2rdf.org/drugbank_resource:8abd75317f3f7b8f7d56e3fe7d6204bd> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "2.9 mg/5mL Injection, solution, concentrate form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:b1b0e441b938db5af273fee1049fca10> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "168.0" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Aldurazyme 2.9 mg/5 ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:c3ea863492592dff31fb000b21cd1a19> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "0.58 mg Solution form with intravenous route" .

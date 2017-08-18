@@ -2,10 +2,206 @@
 <http://bio2rdf.org/drugbank:DB00091> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Cyclosporine" ;
 	<http://schema.org/description> "A cyclic undecapeptide from an extract of soil fungi. It is a powerful immunosupressant with a specific action on T-lymphocytes. It is used for the prophylaxis of graft rejection in organ and tissue transplantation. Cyclosporine is produced as a metabolite by the fungus species Cordyceps militaris. (From Martindale, The Extra Pharmacopoeia, 30th ed)." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00091" ;
-	<http://schema.org/doseSchedule> "100 mg/mL Solution form with oral route" ;
-	<http://schema.org/legalStatus> "investigational" ;
-	<http://schema.org/manufacturer> "Apotex inc" ;
+	<http://schema.org/drugClass> "Antifungal Agents" , "Antirheumatic Agents" , "Dermatologic Agents" , "Immunosuppressive Agents" , "Enzyme Inhibitors" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00091" ;
+	<http://schema.org/administrationRoute> "ophthalmic" , "oral" , "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:30d0083606d3fa4b4b602b5d3ed0feda> , <http://bio2rdf.org/drugbank_resource:fba31fe582cac619f85335c144278e17> , <http://bio2rdf.org/drugbank_resource:3afc1cd15f9de2a07db0081098265ac4> , <http://bio2rdf.org/drugbank_resource:3d51d314e6796004243d124d2c5f0793> , <http://bio2rdf.org/drugbank_resource:e6fc137e236497aea65dd3bb99d52e53> , <http://bio2rdf.org/drugbank_resource:904bc2c9127fa8f18e0965559eecc60c> , <http://bio2rdf.org/drugbank_resource:3f54718d1deb0dbafe47e6e45eda5914> , <http://bio2rdf.org/drugbank_resource:a61e3adec088927f97197e2f1513790d> , <http://bio2rdf.org/drugbank_resource:01c6a15f6a299a85cd866fc4092d0dce> , <http://bio2rdf.org/drugbank_resource:7fc0069b68f72ba58fdad65bec3cc1df> ;
+	<http://schema.org/clinicalPharmacology> "Used in immunosuppression for prophylactic treatment of organ transplants, cyclosporine exerts specific and reversible inhibition of immunocompetent lymphocytes in the G0-or G1-phase of the cell cycle. T-lymphocytes are preferentially inhibited. The T1-helper cell is the main target, although the T1-suppressor cell may also be suppressed. Sandimmune (cyclosporine) also inhibits lymphokine production and release including interleukin-2." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:f450cab47e7ff929a3b295bc51b8b9ca> , <http://bio2rdf.org/drugbank_resource:ce1025252cd5ae669f6f464487c644a9> , <http://bio2rdf.org/drugbank_resource:245e715352ab240f9df724518aa473f5> , <http://bio2rdf.org/drugbank_resource:cd667a0f9b9629192e691324de2b3971> , <http://bio2rdf.org/drugbank_resource:de0844b510aa4971b62eb3c349200a94> , <http://bio2rdf.org/drugbank_resource:d603baac9c69130654f663e299b982d8> , <http://bio2rdf.org/drugbank_resource:fb8374bb488d33d5a065915c42ecdfe7> , <http://bio2rdf.org/drugbank_resource:305e33dba48cfe8359d758c8b4b0b268> , <http://bio2rdf.org/drugbank_resource:dc6a6f1e0fc87eb9499b8ef8f783dfdb> , <http://bio2rdf.org/drugbank_resource:dccd00aedf3d9174a28c6bfc880eaa82> , <http://bio2rdf.org/drugbank_resource:f8a75e7783b35b333af542e1153d1c45> , <http://bio2rdf.org/drugbank_resource:e2b2be6ae563aea5982ac4f4e9e146fd> , <http://bio2rdf.org/drugbank_resource:8f4121e9c8fa4015de38681b155c9548> , <http://bio2rdf.org/drugbank_resource:35325bb0b0ebb6ccc7ac4ea7c7a16e0a> , <http://bio2rdf.org/drugbank_resource:375b99562a877b7cbca2713385234bfe> , <http://bio2rdf.org/drugbank_resource:98ec90475e7600018025139b68c57943> , <http://bio2rdf.org/drugbank_resource:4ea6dc8af2475e7e5bc7e2c6711f1828> , <http://bio2rdf.org/drugbank_resource:4a8f07b4252bf47e4247a0b20734a0a3> , <http://bio2rdf.org/drugbank_resource:9fc40f65fc51fd498bb35e87c09f2259> , <http://bio2rdf.org/drugbank_resource:a6fe499d4eacbc28e4c0d97c42f9669c> , <http://bio2rdf.org/drugbank_resource:b61352e2f4c1948e5387e140f35535cd> , <http://bio2rdf.org/drugbank_resource:60a8faa8c3d34658e910fab16fb1bc90> , <http://bio2rdf.org/drugbank_resource:ba5b929eb9e6eba43068e0fc6ced150f> , <http://bio2rdf.org/drugbank_resource:bbfa6dee1e1b2c21f170707a0e6c57b9> , <http://bio2rdf.org/drugbank_resource:bfd8a7fe4c110ad33da05fc888b6c0ee> , <http://bio2rdf.org/drugbank_resource:22613e159668452d2ac4c80de5a74fa4> , <http://bio2rdf.org/drugbank_resource:7435034028a1241f18dc2abc550eb56a> , <http://bio2rdf.org/drugbank_resource:22f274142bd4025b2336168d384c368f> , <http://bio2rdf.org/drugbank_resource:2ab2126651c88673ad272c42babb250f> , <http://bio2rdf.org/drugbank_resource:82e15553f1cb05c75db7412da480fff0> , <http://bio2rdf.org/drugbank_resource:f1f708d2545a4761185b45a660c69743> ;
+	<http://schema.org/dosageForm> "Capsule" , "Injection" , "Injection, solution" , "Solution" , "Capsule, liquid filled" , "Emulsion" ;
+	<http://schema.org/foodWarning> "Avoid salt substitutes containing potassium." ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:dc4a561c55d386ce9aa0ac35fa50583b> ;
 	<http://schema.org/mechanismOfAction> "Cyclosporine binds to cyclophilin. The complex then inhibits calcineurin which is normally responsible for activating transcription of interleukin 2. Cyclosporine also inhibits lymphokine production and interleukin release. In ophthalmic applications, the precise mechanism of action is not known. Cyclosporine emulsion is thought to act as a partial immunomodulator in patients whose tear production is presumed to be suppressed due to ocular inflammation associated with keratoconjunctivitis sicca." ;
-	<http://schema.org/alternateName> "CsA" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00091" .
+	<http://schema.org/nonProprietaryName> "Cyclosporin A" , "Ciclosporin" , "CsA" , "CyA" ;
+	<http://schema.org/proprietaryName> "Sangcya" ;
+	<http://schema.org/identifier> "drugbank:DB00091" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic/cyclosporine.htm> , <http://www.drugs.com/cdi/cyclosporine-drops.html> , <http://www.drugbank.ca/drugs/DB00091> .
+
+<http://bio2rdf.org/drugbank_resource:01c6a15f6a299a85cd866fc4092d0dce> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "100 mg/mL Solution form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:22613e159668452d2ac4c80de5a74fa4> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3200000524520874023" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Gengraf 25 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:22f274142bd4025b2336168d384c368f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.5299999713897705078" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Neoral 25 mg gelatin capsule" .
+
+<http://bio2rdf.org/drugbank_resource:245e715352ab240f9df724518aa473f5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "9.8900003433227539062" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Sandimmune 100 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:2ab2126651c88673ad272c42babb250f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "190.5399932861328125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Neoral 30 100 mg capsule Box" .
+
+<http://bio2rdf.org/drugbank_resource:305e33dba48cfe8359d758c8b4b0b268> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "308.69000244140625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "SandIMMUNE 30 100 mg capsule Box" .
+
+<http://bio2rdf.org/drugbank_resource:30d0083606d3fa4b4b602b5d3ed0feda> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "50 mg/mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:35325bb0b0ebb6ccc7ac4ea7c7a16e0a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "77.3300018310546875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "SandIMMUNE 30 25 mg capsule Box" .
+
+<http://bio2rdf.org/drugbank_resource:375b99562a877b7cbca2713385234bfe> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "25.200000762939453125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine a powder" .
+
+<http://bio2rdf.org/drugbank_resource:3afc1cd15f9de2a07db0081098265ac4> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "50 mg/mL Injection form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:3d51d314e6796004243d124d2c5f0793> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "100 mg Capsule, liquid filled form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:3f54718d1deb0dbafe47e6e45eda5914> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "0.05 % Emulsion form with ophthalmic route" .
+
+<http://bio2rdf.org/drugbank_resource:4a8f07b4252bf47e4247a0b20734a0a3> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5.2800002098083496094" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Gengraf 100 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:4ea6dc8af2475e7e5bc7e2c6711f1828> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "311.529998779296875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "CycloSPORINE Modified 100 mg/ml Solution 50ml Bottle" .
+
+<http://bio2rdf.org/drugbank_resource:60a8faa8c3d34658e910fab16fb1bc90> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "4.4899997711181640625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Restasis 0.05% eye emulsion" .
+
+<http://bio2rdf.org/drugbank_resource:7435034028a1241f18dc2abc550eb56a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5.5" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine 100 mg softgel" .
+
+<http://bio2rdf.org/drugbank_resource:7fc0069b68f72ba58fdad65bec3cc1df> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> ".5 mg/mL Emulsion form with ophthalmic route" .
+
+<http://bio2rdf.org/drugbank_resource:82e15553f1cb05c75db7412da480fff0> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "171.4799957275390625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "CycloSPORINE Modified 30 100 mg capsule Box" .
+
+<http://bio2rdf.org/drugbank_resource:8f4121e9c8fa4015de38681b155c9548> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "205.9900054931640625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Restasis 30 0.05% Emulsion 1 Box = 30 Containers" .
+
+<http://bio2rdf.org/drugbank_resource:904bc2c9127fa8f18e0965559eecc60c> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "25 mg Capsule, liquid filled form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:98ec90475e7600018025139b68c57943> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "7.7100000381469726562" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Sandimmune 50 mg/ml ampul" .
+
+<http://bio2rdf.org/drugbank_resource:9fc40f65fc51fd498bb35e87c09f2259> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2.4800000190734863281" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Sandimmune 25 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:a61e3adec088927f97197e2f1513790d> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "50 mg Capsule, liquid filled form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:a6fe499d4eacbc28e4c0d97c42f9669c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5.2800002098083496094" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine 50 mg/ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:b61352e2f4c1948e5387e140f35535cd> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "42.990001678466796875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Gengraf 30 25 mg capsule Box" .
+
+<http://bio2rdf.org/drugbank_resource:ba5b929eb9e6eba43068e0fc6ced150f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "346.1400146484375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Neoral 100 mg/ml Solution 50ml Bottle" .
+
+<http://bio2rdf.org/drugbank_resource:bbfa6dee1e1b2c21f170707a0e6c57b9> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5.4899997711181640625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine modif 100 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:bfd8a7fe4c110ad33da05fc888b6c0ee> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "159.94000244140625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Gengraf 30 100 mg capsule Box" .
+
+<http://bio2rdf.org/drugbank_resource:cd667a0f9b9629192e691324de2b3971> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "6.4600000381469726562" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine 100 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:ce1025252cd5ae669f6f464487c644a9> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "46.380001068115234375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "SandIMMUNE 50 mg/ml Solution 5ml Ampule" .
+
+<http://bio2rdf.org/drugbank_resource:d603baac9c69130654f663e299b982d8> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.5599999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine 25 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:dc4a561c55d386ce9aa0ac35fa50583b> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Apotex inc" .
+
+<http://bio2rdf.org/drugbank_resource:dc6a6f1e0fc87eb9499b8ef8f783dfdb> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2.7400000095367431641" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine 50 mg softgel" .
+
+<http://bio2rdf.org/drugbank_resource:dccd00aedf3d9174a28c6bfc880eaa82> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "47.689998626708984375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Neoral 30 25 mg capsule Box" .
+
+<http://bio2rdf.org/drugbank_resource:de0844b510aa4971b62eb3c349200a94> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "42.90000152587890625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "CycloSPORINE Modified 30 25 mg capsule Box" .
+
+<http://bio2rdf.org/drugbank_resource:e2b2be6ae563aea5982ac4f4e9e146fd> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.379999995231628418" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine 25 mg softgel" .
+
+<http://bio2rdf.org/drugbank_resource:e6fc137e236497aea65dd3bb99d52e53> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "25 mg Capsule form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:f1f708d2545a4761185b45a660c69743> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5.4499998092651367188" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine 50 mg/ml amp" .
+
+<http://bio2rdf.org/drugbank_resource:f450cab47e7ff929a3b295bc51b8b9ca> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5.5" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyclosporine modif 100 mg softgel" .
+
+<http://bio2rdf.org/drugbank_resource:f8a75e7783b35b333af542e1153d1c45> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "6.1100001335144042969" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Neoral 100 mg gelatn capsule" .
+
+<http://bio2rdf.org/drugbank_resource:fb8374bb488d33d5a065915c42ecdfe7> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "499.6199951171875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "SandIMMUNE 100 mg/ml Solution 50ml Bottle" .
+
+<http://bio2rdf.org/drugbank_resource:fba31fe582cac619f85335c144278e17> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "100 mg Capsule form with oral route" .

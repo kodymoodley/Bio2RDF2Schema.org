@@ -1,0 +1,37 @@
+
+<http://bio2rdf.org/drugbank:DB00103> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Agalsidase beta" ;
+	<http://schema.org/description> "Recombinant human alpha-galactosidase A. The mature protein is composed of 2 subunits of 398 residues. Protein is glycosylated and produced by CHO cells" ;
+	<http://schema.org/drugClass> "Enzyme Replacement Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00103" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:1c7495e7ba342d224b5028d72d73010d> , <http://bio2rdf.org/drugbank_resource:a39e93df12255155561f3d4acd297da8> , <http://bio2rdf.org/drugbank_resource:24189bc5fb16bfce4551ecdfb0196def> ;
+	<http://schema.org/clinicalPharmacology> "Used in the treatment of Fabry disease, an X-linked genetic disorder of glycosphingolipid metabolism. The disease is characterized by a deficiency of the lysosomal enzyme alpha-galactosidase A, which leads to progressive accumulation of glycosphingolipids, predominantly GL-3, in many body tissues. Clinical manifestations of Fabry disease include renal failure, cardiomyopathy, and cerebrovascular accidents. Fabrazyme is intended to provide an exogenous source of alpha-galactosidase A and to limit the accumulation of these glycolipids in the tissues. Studies show unconclusive evidence for the clinical efficacy of either agalasidase alfa or agalasidase beta in preventing morbidity." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:7454b30a34e91c83a5dc8aab49e6556b> , <http://bio2rdf.org/drugbank_resource:311dd27c8ddecfda5544b19be69b1b52> ;
+	<http://schema.org/dosageForm> "Injection, powder, lyophilized, for solution" , "Powder for solution" ;
+	<http://schema.org/interactingDrug> "DDI between Agalsidase beta and Chloroquine - May diminish the therapeutic effect of Agalsidase Beta." , "DDI between Agalsidase beta and Amiodarone - May diminish the therapeutic effect of Agalsidase Beta." ;
+	<http://schema.org/legalStatus> "Investigational" , "Approved" ;
+	<http://schema.org/mechanismOfAction> "Alpha-galactosidase A catalyzes the hydrolysis of globotriaosylceramide (GL-3) and other a-galactyl-terminated neutral glycosphingolipids, such as galabiosylceramide and blood group B substances to ceramide dihexoside and galactose." ;
+	<http://schema.org/nonProprietaryName> "Alpha-galactosidase A precursor" , "Alpha-D- galactoside galactohydrolase" , "Alpha-D-galactosidase A" , "Agalsidase alfa" , "Melibiase" ;
+	<http://schema.org/proprietaryName> "Replagal" ;
+	<http://schema.org/identifier> "drugbank:DB00103" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00103> , <http://www.drugs.com/cdi/agalsidase-beta.html> , <http://www.rxlist.com/cgi/generic3/fabrazyme.htm> .
+
+<http://bio2rdf.org/drugbank_resource:1c7495e7ba342d224b5028d72d73010d> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "35 mg Powder for solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:24189bc5fb16bfce4551ecdfb0196def> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "5 mg/mL Injection, powder, lyophilized, for solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:311dd27c8ddecfda5544b19be69b1b52> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "5403.60009765625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Fabrazyme 35 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:7454b30a34e91c83a5dc8aab49e6556b> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "771.5999755859375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Fabrazyme 5 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:a39e93df12255155561f3d4acd297da8> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "5 mg Powder for solution form with intravenous route" .

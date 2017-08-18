@@ -13,13 +13,30 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00055",
   "type" : "Drug",
-  "alternateName" : "Blood coagulation factor XIV",
+  "clinicalPharmacology" : "Drotrecogin alfa is activated human protein C that is synthesized by recombinant DNA technology. It is a glycoprotein of approximately 55 kilodalton molecular weight, consisting of a heavy chain and a light chain linked by a disulfide bond.\r\nDrotrecogin alfa inhibits factor Va and VIIIa, thereby reducing the coagulability of blood.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:13e77d7b98fbc2bf7a096844cb4ef44e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "370.420013427734375",
+    "drugUnit" : "Xigris 5 mg vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9745eb276f567c5824be0c61c00be05c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1481.6600341796875",
+    "drugUnit" : "Xigris 20 mg vial"
+  } ],
   "description" : "Drotrecogin alfa is activated human protein C that is synthesized by recombinant DNA technology. It is a glycoprotein of approximately 55 kilodalton molecular weight, consisting of a heavy chain and a light chain linked by a disulfide bond. Drotrecogin alfa was withdrawn from the market after a major study indicated that it was not effective in improving outcomes in patients with sepsis.",
-  "legalStatus" : "approved",
+  "drugClass" : "Antisepsis",
+  "schema:identifier" : "drugbank:DB00055",
+  "legalStatus" : [ "Approved", "Investigational", "Withdrawn" ],
   "mechanismOfAction" : "Activated protein C combines with protein S on platelet surfaces and then degrades factor Va and factor VIIIa, thereby reducing blood coagulability.",
   "name" : "Drotrecogin alfa",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00055",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00055"
+  "nonProprietaryName" : [ "Blood coagulation factor XIV", "Anticoagulant protein C", "Autoprothrombin IIA", "Vitamin K-dependent protein C precursor" ],
+  "proprietaryName" : "Xigris",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/drotrecogin.htm", "http://www.drugbank.ca/drugs/DB00055", "http://www.drugs.com/cdi/drotrecogin-alfa.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00055"
 }</script>
 	</head>
 
@@ -41,7 +58,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00055.json", function(data) {

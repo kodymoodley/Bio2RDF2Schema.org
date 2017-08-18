@@ -2,8 +2,18 @@
 <http://bio2rdf.org/drugbank:DB00092> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Alefacept" ;
 	<http://schema.org/description> "Immunosuppressive dimeric fusion protein that consists of the extracellular CD2-binding portion of the human leukocyte function antigen-3 (LFA-3) linked to the Fc (hinge, CH2 and CH3 domains) portion of human IgG1. Produced by CHO cells, mW is 91.4 kD." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00092" ;
-	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/drugClass> "Dermatologic Agents" , "Immunosuppressive Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00092" ;
+	<http://schema.org/clinicalPharmacology> "Interferes with lymphocyte activation by specifically binding to the lymphocyte antigen, CD2, and inhibiting LFA-3/CD2 interaction. Activation of T lymphocytes involving the interaction between LFA-3 on antigen-presenting cells and CD2 on T lymphocytes plays a role in the pathophysiology of chronic plaque psoriasis. Also causes a reduction in subsets of CD2+ T lymphocytes as well as CD4+ and CD8+ T lymphocytes." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:7afa1800e5c1c46512e6ca6d36734f9b> ;
+	<http://schema.org/legalStatus> "Withdrawn" , "Approved" ;
 	<http://schema.org/mechanismOfAction> "Inhibits T-lymphocyte activation and production by binding to the CD2 lymphocyte antigen." ;
-	<http://schema.org/alternateName> "ASP0485" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00092" .
+	<http://schema.org/nonProprietaryName> "ASP0485" ;
+	<http://schema.org/proprietaryName> "Amevive" ;
+	<http://schema.org/identifier> "drugbank:DB00092" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic3/amevive.htm> , <http://www.drugbank.ca/drugs/DB00092> , <http://www.drugs.com/cdi/alefacept.html> .
+
+<http://bio2rdf.org/drugbank_resource:7afa1800e5c1c46512e6ca6d36734f9b> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1190.4000244140625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Amevive 15 mg vial" .

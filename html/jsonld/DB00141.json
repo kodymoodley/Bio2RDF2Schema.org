@@ -1,0 +1,22 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00141",
+  "type" : "Drug",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:2af73fadc7068d9e1c634eb609b26483",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "3.75",
+    "drugUnit" : "Acetyl-d-glucosamine powder"
+  },
+  "description" : "The N-acetyl derivative of glucosamine. [PubChem]",
+  "drugClass" : [ "Micronutrients", "Supplements", "Dietary Supplements" ],
+  "schema:identifier" : "drugbank:DB00141",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "The mechanism of action in relieving arthritic pain and in repair of cartilage is a matter of speculation. Biochemically, glucosamine is involved in glycoprotein metabolism. Glycoproteins, known as proteoglycans, form the ground substance in the extra-cellular matrix of connective tissue. Proteoglycans are polyanionic substances of high-molecular weight and contain many different types of heteropolysaccharide side-chains covalently linked to a polypeptide-chain backbone. These polysaccharides make up to 95% of the proteoglycan structure. In fact, chemically, proteoglycans resemble polysaccharides more than they do proteins. The polysaccharide groups in proteoglycans are called glycosaminoglycans (GAGs). GAGs include hyaluronic acid, chondroitin sulfate, dermatan sulfate, keratan sulfate, heparin and heparan sulfate. All of the GAGs contain derivatives of glucosamine or galactosamine. Glucosamine derivatives are found in hyaluronic acid, keratan sulfate and heparan sulfate. Chondroitin sulfate contains derivatives of galactosamine. The glucosamine-containing glycosaminoglycan hyaluronic acid is vital for the function of articular cartilage. GAG chains are fundamental components of aggrecan found in articular cartilage. Aggrecan confers upon articular cartilage shock-absorbing properties. It does this by providing cartilage with a swelling pressure that is restrained by the tensile forces of collagen fibers. This balance confers upon articular cartilage the deformable resilience vital to its function. In the early stages of degenerative joint disease, aggrecan biosynthesis is increased. However, in later stages, aggrecan synthesis is decreased, leading eventually to the loss of cartilage resiliency and to most of the symptoms that accompany osteoarthritis. During the progression of osteoarthritis, exogenous glucosamine may have a beneficial role. It is known that, in vitro, chondrocytes do synthesize more aggregan when the culture medium is supplemented with glucosamine. N-acetylglucosamine is found to be less effective in these in vitro studies. Glucosamine has also been found to have antioxidant activity and to be beneficial in animal models of experimental arthritis. The counter anion of the glucosamine salt (i.e. chloride or sulfate) is unlikely to play any role in the action or pharmacokinetics of glucosamine. Further, the sulfate in glucosamine sulfate supplements should not be confused with the glucosamine sulfate found in such GAGs as keratan sulfate and heparan sulfate. In the case of the supplement, sulfate is the anion of the salt. In the case of the above GAGs, sulfate is present as an ester. Also, there is no glucosamine sulfate in chondroitin sulfate (source: PDRhealth).",
+  "name" : "N-Acetyl-D-glucosamine",
+  "nonProprietaryName" : [ "2-Acetamido-2-deoxy-D-glucose", "D-GlcNAc", "aldehydo-N-acetyl-D-glucosamine", "N-Acetyl-D-glucosamine", "N-Acetylchitosamine" ],
+  "proprietaryName" : "Aflexa",
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/glu_0122.shtml", "http://www.drugbank.ca/drugs/DB00141" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00141"
+}

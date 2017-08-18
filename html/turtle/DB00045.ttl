@@ -2,8 +2,12 @@
 <http://bio2rdf.org/drugbank:DB00045> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "OspA lipoprotein" ;
 	<http://schema.org/description> "Vaccine against Lyme disease that contains lipoprotein OspA, an outer surface protein of Borrelia burgdorferi sensu stricto ZS7, as expressed by Escherichia coli. Lipoprotein OspA is a single polypeptide chain of 257 amino acids with lipids covalently bonded to the N terminus. It is conjugated with alum (aluminum hydroxide) as an adjuvant." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00045" ;
-	<http://schema.org/legalStatus> "withdrawn" ;
+	<http://schema.org/drugClass> "Vaccines" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00045" ;
+	<http://schema.org/clinicalPharmacology> "OspA lipoprotein is a single polypeptide chain of 270 amino acids. It is a vaccination used to prevent Lyme Disease." ;
+	<http://schema.org/legalStatus> "Approved" , "Withdrawn" ;
 	<http://schema.org/mechanismOfAction> "OspA lipoprotein, an outer surface protein of the bacteria Borrelia burgdorferi sensu stricto ZS7, is used to stimulate the production of specific antibodies against B. burgdorferi. It is used as a vaccination against Lyme Disease, a disease carried by ticks." ;
-	<http://schema.org/alternateName> "Outer surface protein A precursor" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00045" .
+	<http://schema.org/nonProprietaryName> "Outer surface protein A precursor" ;
+	<http://schema.org/proprietaryName> "LYMErix" ;
+	<http://schema.org/identifier> "drugbank:DB00045" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00045> .

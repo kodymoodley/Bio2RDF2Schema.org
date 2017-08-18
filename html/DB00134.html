@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00134",
+  "type" : "Drug",
+  "clinicalPharmacology" : "L-Methionine is a principle supplier of sulfur which prevents disorders of the hair, skin and nails; helps lower cholesterol levels by increasing the liver's production of lecithin; reduces liver fat and protects the kidneys; a natural chelating agent for heavy metals; regulates the formation of ammonia and creates ammonia-free urine which reduces bladder irritation; influences hair follicles and promotes hair growth. L-methionine may protect against the toxic effects of hepatotoxins, such as acetaminophen. Methionine may have antioxidant activity.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:65e2044f82b9ae4941324c76d80ebb62",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Methionine powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d26832a77cc407cb68dffd3bd3d56b17",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.25999999046325683594",
+    "drugUnit" : "Dl-methionine powder"
+  } ],
+  "description" : "A sulfur containing essential amino acid that is important in many body functions. It is a chelating agent for heavy metals. [PubChem]",
+  "drugClass" : [ "Supplements", "Dietary Supplements", "Amino Acids, Essential", "Micronutrients" ],
+  "foodWarning" : "Take with food.",
+  "schema:identifier" : "drugbank:DB00134",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "mechanismOfAction" : "The mechanism of the possible anti-hepatotoxic activity of L-methionine is not entirely clear. It is thought that metabolism of high doses of acetaminophen in the liver lead to decreased levels of hepatic glutathione and increased oxidative stress. L-methionine is a precursor to L-cysteine. L-cysteine itself may have antioxidant activity. L-cysteine is also a precursor to the antioxidant glutathione. Antioxidant activity of L-methionine and metabolites of L-methionine appear to account for its possible anti-hepatotoxic activity. Recent research suggests that methionine itself has free-radical scavenging activity by virtue of its sulfur, as well as its chelating ability.",
+  "name" : "L-Methionine",
+  "nonProprietaryName" : [ "L-?-amino-?-methylmercaptobutyric acid", "(S)-2-amino-4-(methylthio)butanoic acid", "L-a-Amino-g-methylthiobutyric acid", "L-Methionine", "(S)-2-amino-4-(methylthio)butyric acid", "(S)-methionine", "L-(-)-Methionine", "(2S)-2-amino-4-(Methylsulfanyl)butanoic acid", "Met", "M", "L-alpha-amino-gamma-Methylmercaptobutyric acid", "L-Methionin", "Methionine" ],
+  "proprietaryName" : "Acimethin",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00134", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lme_0173.shtml" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00134"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00134.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

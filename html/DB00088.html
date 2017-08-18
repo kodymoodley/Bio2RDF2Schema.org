@@ -13,13 +13,28 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00088",
   "type" : "Drug",
+  "clinicalPharmacology" : "Gaucher disease is characterized by a functional deficiency in Beta-glucocerebrosidase enzymatic activity and the resultant accumulation of lipid glucocerebroside in tissue macrophages which become engorged and are termed Gaucher cells. Gaucher cells are typically found in liver, spleen and bone marrow. This can lead to an enlarged spleen and liver (hepatosplenomegaly). Secondary hematologic sequelae include severe anemia and thrombocytopenia. Injections of alglucerase into Gaucher disease patients leads to elevated serum levels of the enzyme and reduction in the accumulation of glucocerebroside",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:8ec13b92db07ff88c5fb0c75a7866b8d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "380.6400146484375",
+    "drugUnit" : "Ceredase 80 unit/ml vial"
+  },
   "description" : "Human Beta-glucocerebrosidase or Beta-D-glucosyl-N-acylsphingosine glucohydrolase E.C. 3.2.1.45. 497 residue protein with N-linked carbohydrates, MW=59.3 kD. Alglucerase is prepared by modification of the oligosaccharide chains of human Beta-glucocerebrosidase. The modification alters the sugar residues at the non-reducing ends of the oligosaccharide chains of the glycoprotein so that they are predominantly terminated with mannose residues",
-  "legalStatus" : "approved",
-  "manufacturer" : "Genzyme corp",
+  "drugClass" : "Enzyme Replacement Agents",
+  "schema:identifier" : "drugbank:DB00088",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:ecdb1053634e311725cc3e13c4c7d612",
+    "type" : "Organization",
+    "name" : "Genzyme corp"
+  },
   "mechanismOfAction" : "Alglucerase catalyzes the hydrolysis of the glycolipid, glucocerebroside, to glucose and ceramide as part of the normal degradation pathway for membrane lipids.",
   "name" : "Alglucerase",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00088",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00088"
+  "proprietaryName" : "Ceredase",
+  "sameAs" : [ "http://www.drugs.com/cdi/alglucerase.html", "http://www.rxlist.com/cgi/generic3/ceredase.htm", "http://www.drugbank.ca/drugs/DB00088" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00088"
 }</script>
 	</head>
 
@@ -41,7 +56,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00088.json", function(data) {

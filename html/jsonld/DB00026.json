@@ -2,12 +2,39 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00026",
   "type" : "Drug",
-  "alternateName" : "Interleukin-1 receptor antagonist protein precursor",
+  "administrationRoute" : "subcutaneous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:fca7dab3d899d4b5d66d960bde52a5b6",
+    "type" : "DrugStrength",
+    "description" : "100 mg/.67mL Injection, solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f04da6822a857c2eaf5fd9960e97d1ec",
+    "type" : "DrugStrength",
+    "description" : "150 mg Solution form with subcutaneous route"
+  } ],
+  "clinicalPharmacology" : "Used to treat rheumatoid arthritis, Anakinra blocks the biologic activity of IL-1 by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI), which is expressed in a wide variety of tissues and organs. IL-1 production is induced in response to inflammatory stimuli and mediates various physiologic responses including inflammatory and immunological responses. Patients with rheumatoid arthritis have elevated levels of IL-1. The levels of the naturally occurring IL-1Ra in synovium and synovial fluid from rheumatoid arthritis (RA) patients are not sufficient to compete with the elevated amount of locally produced IL-1. Increasing the levels of IL-1Ra by artificial means reduces the negative effects (cartilage degradation, bone resorption) of IL-1.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:b0a5d80a1728a9af6f4b89104065f386",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "61.799999237060546875",
+    "drugUnit" : "Kineret 100 mg/0.67 ml syr"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:dc65626211a6a673e2fcc0b9b31bc1d5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "449.899993896484375",
+    "drugUnit" : "Kineret 1 Box = 7 Syringes, 4.69ml Box"
+  } ],
   "description" : "Anakinra is a recombinant, nonglycosylated human interleukin-1 receptor antagonist (IL-1Ra). The difference  between anakinra and the native human IL-1Ra is that anakinra has an extra methionine residue at the amino terminus. It is manufactured by using the E. coli expression system. Anakinra is composed of 153 amino acid residues. FDA approved on November 14, 2001.",
-  "doseSchedule" : "150 mg Solution form with subcutaneous route",
-  "legalStatus" : "approved",
+  "dosageForm" : [ "Solution", "Injection, solution" ],
+  "drugClass" : [ "Immunosuppressive Agents", "Antirheumatic Agents" ],
+  "schema:identifier" : "drugbank:DB00026",
+  "interactingDrug" : [ "DDI between Anakinra and Lenalidomide - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Anakinra and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between Anakinra and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased.", "DDI between Anakinra and Infliximab - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Anakinra and Certolizumab pegol - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Anakinra and Canakinumab - Interleukin-1 Receptor Antagonist may enhance the adverse/toxic effect of Canakinumab. Whether such a combination will also alter the therapeutic response to one or both agents is unclear.", "DDI between Etanercept and Anakinra - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Anakinra and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Anakinra and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased.", "DDI between Anakinra and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between Anakinra and Abatacept - Anakinra may enhance the adverse/toxic effect of Abatacept.", "DDI between Anakinra and Pomalidomide - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Anakinra and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T.", "DDI between Anakinra and golimumab - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Anakinra and Trastuzumab - May enhance the neutropenic effect of Immunosuppressants.", "DDI between Anakinra and Adalimumab - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Anakinra and Tofacitinib - Anakinra may enhance the adverse/toxic effect of Tofacitinib.", "DDI between Anakinra and Thalidomide - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported." ],
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Anakinra binds competitively to the Interleukin-1 type I receptor (IL-1RI), thereby inhibiting the action of elevated levels IL-1 which normally can lead to cartilage degradation and bone resorption.",
   "name" : "Anakinra",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00026",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00026"
+  "nonProprietaryName" : [ "Interleukin-1 receptor antagonist protein precursor", "IL1 inhibitor", "IL-1RN", "ICIL-1RA", "IL-1ra", "IRAP" ],
+  "sameAs" : [ "http://www.drugs.com/cdi/anakinra.html", "http://www.rxlist.com/cgi/generic/anakinra.htm", "http://www.drugbank.ca/drugs/DB00026" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00026"
 }

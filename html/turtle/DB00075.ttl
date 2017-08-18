@@ -2,9 +2,24 @@
 <http://bio2rdf.org/drugbank:DB00075> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Muromonab" ;
 	<http://schema.org/description> "Murine monoclonal antibody specific to CD3 T-cell lymphocyte antigens. More specifically it is a purified murine (mouse) monoclonal antibody, directed against the CD3 (T3) receptor on the surface of human T-cells (T-lymphocytes) cultured using the murine ascites method. Muromonab is 93% monomeric immune globulin G type 2a (IgG2a)." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00075" ;
-	<http://schema.org/doseSchedule> "5 mg/5mL Injection, solution form with intravenous route" ;
-	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/drugClass> "Immunologic Factors" , "Immunosuppressive Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00075" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:d34e4a59e7a589187c0a09387afccddc> ;
+	<http://schema.org/clinicalPharmacology> "Used in organ transplant prophylaxis, Muromonab or OKT-3 binds specifically to the CD-3 complex, which is involved in antigen recognition and cell stimulation, on the surface of T lymphocytes. Immediately after administration CD-3-positive T lymphocytes are abruptly removed from circulation. It has been effective in reversing corticosteroid-resistant acute rejection in renal, liver, and cardiac transplant recipients." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:fae9d6da10546fc23be4bad539a6e256> ;
+	<http://schema.org/dosageForm> "Injection, solution" ;
+	<http://schema.org/legalStatus> "Investigational" , "Approved" ;
 	<http://schema.org/mechanismOfAction> "Muromonab binds to the T-cell surface glycoprotein CD3 epsilon chain. It appears to kill CD-3 positive cells by inducing Fc mediated apoptosis, antibody mediated cytotoxicity and complement-dependent cytotoxicity." ;
-	<http://schema.org/alternateName> "Muromonab-CD3" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00075" .
+	<http://schema.org/nonProprietaryName> "Anti-CD3" , "Muromonab-CD3" ;
+	<http://schema.org/proprietaryName> "Orthoclone OKT3" ;
+	<http://schema.org/identifier> "drugbank:DB00075" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00075> .
+
+<http://bio2rdf.org/drugbank_resource:d34e4a59e7a589187c0a09387afccddc> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "5 mg/5mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:fae9d6da10546fc23be4bad539a6e256> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "261.75" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Orthoclone okt-3 5 mg/5 ml" .

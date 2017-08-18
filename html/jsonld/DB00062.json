@@ -2,12 +2,70 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00062",
   "type" : "Drug",
-  "alternateName" : "Serum albumin precursor",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:f72ee8867cb7b8c82ee5c00786b564da",
+    "type" : "DrugStrength",
+    "description" : "12.5 g/50mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:604edfa0c00e91c83662ed63eb4dd6c2",
+    "type" : "DrugStrength",
+    "description" : "10 g/50mL Injection, solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b8385c4ec43925420c894c3d1b6262fb",
+    "type" : "DrugStrength",
+    "description" : "2.5 g/50mL Solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:12a90a41f3e0a2b0bc5164e40b10ab2d",
+    "type" : "DrugStrength",
+    "description" : "12.5 g/250mL Injection, solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Regulates the colloidal osmotic pressure of blood. It is used to increase the circulating plasma volume, thereby reducing hemoconcentrtion and blood viscosity. Also used as a transport protein that binds naturally occurring, therapeutic and toxic materials in circulation.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:3c0927744193396d214b449cb6d5274d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.3200000524520874023",
+    "drugUnit" : "Albutein 25% vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f0169885ee20d61d0c13e8ca9b18ee9a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.43000000715255737305",
+    "drugUnit" : "Albutein 5% iv solution"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6090bcf428c479972da91913e3b570e4",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.30000001192092895508",
+    "drugUnit" : "Albumin (human) 5% iv solution"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b8e1a6fced5a2fd260666f76f82316bf",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.9700000286102294922",
+    "drugUnit" : "Albumin 25% iv solution"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:21490186df343b9eb04a977899158e21",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2.2200000286102294922",
+    "drugUnit" : "Buminate 25% iv solution"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b3fdca62a1e46bbbf29cd4672ac264b7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.43999999761581420898",
+    "drugUnit" : "Buminate 5% iv solution"
+  } ],
   "description" : "Human serum albumin isolated from expired blood plasma",
-  "doseSchedule" : "12.5 g/250mL Injection, solution form with intravenous route",
-  "legalStatus" : "approved",
+  "dosageForm" : [ "Injection, solution", "Solution" ],
+  "drugClass" : "Serum substitutes",
+  "schema:identifier" : "drugbank:DB00062",
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Acts as a high molecular weight, very soluble osmolyte",
   "name" : "Human Serum Albumin",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00062",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00062"
+  "nonProprietaryName" : "Serum albumin precursor",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00062", "http://www.rxlist.com/cgi/generic3/albumin.htm" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00062"
 }

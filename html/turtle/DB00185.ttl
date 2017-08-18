@@ -1,0 +1,28 @@
+
+<http://bio2rdf.org/drugbank:DB00185> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Cevimeline" ;
+	<http://schema.org/description> "Cevimeline is a parasympathomimetic and muscarinic agonist, with particular effect on M3 receptors. It is indicated by the Food and Drug Administration for the treatment of dry mouth associated with Sjögren's syndrome. [Wikipedia]" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00185" ;
+	<http://schema.org/administrationRoute> "oral" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:2c25b3396758a4e693a444ae8e2f2818> ;
+	<http://schema.org/clinicalPharmacology> "Cevimeline is a cholinergic agonist which binds to muscarinic receptors. Muscarinic agonists in sufficient dosage can increase secretion of exocrine glands, such as salivary and sweat glands and increase tone of the smooth muscle in the gastrointestinal and urinary tracts." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:18b6c02db10297041ec88079ec57e127> ;
+	<http://schema.org/dosageForm> "Capsule" ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:0d3d461e6871cd5574e6eac1e2a26bdf> ;
+	<http://schema.org/mechanismOfAction> "Muscarinic agonists such as cevimeline bind and activate the muscarinic M1 and M3 receptors. The M1 receptors are common in secretory glands (exocrine glands such as salivary and sweat glands), and their activation results in an increase in secretion from the secretory glands. The M3 receptors are found on smooth muscles and in many glands which help to stimulate secretion in salivary glands, and their activation generally results in smooth muscle contraction and increased glandular secretions. Therefore, as saliva excretion is increased, the symptoms of dry mouth are relieved." ;
+	<http://schema.org/nonProprietaryName> "2-Methyspiro(1,3-oxathiolane-5,3)quinuclidine" , "Cevimelina" , "Sni 2011" , "Cevimelinum" ;
+	<http://schema.org/proprietaryName> "Saligren" ;
+	<http://schema.org/identifier> "drugbank:DB00185" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic/cevimeline.htm> , <http://www.drugbank.ca/drugs/DB00185> , <http://www.drugs.com/cdi/cevimeline.html> .
+
+<http://bio2rdf.org/drugbank_resource:0d3d461e6871cd5574e6eac1e2a26bdf> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Daiichi sankyo co ltd" .
+
+<http://bio2rdf.org/drugbank_resource:18b6c02db10297041ec88079ec57e127> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2.6900000572204589844" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Evoxac 30 mg capsule" .
+
+<http://bio2rdf.org/drugbank_resource:2c25b3396758a4e693a444ae8e2f2818> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "30 mg Capsule form with oral route" .

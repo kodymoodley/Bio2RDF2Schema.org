@@ -1,0 +1,138 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00165",
+  "type" : "Drug",
+  "administrationRoute" : "intramuscular; intravenous",
+  "availableStrength" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:53cb51f7843d8a47e92403f25c8fde11",
+    "type" : "DrugStrength",
+    "description" : "100 mg/mL Injection, solution form with intramuscular; intravenous route"
+  },
+  "clinicalPharmacology" : "Vitamin B6 (pyridoxine) is a water-soluble vitamin used in the prophylaxis and treatment of vitamin B6 deficiency and peripheral neuropathy in those receiving isoniazid (isonicotinic acid hydrazide, INH). Vitamin B6 has been found to lower systolic and diastolic blood pressure in a small group of subjects with essential hypertension. Hypertension is another risk factor for atherosclerosis and coronary heart disease. Another study showed pyridoxine hydrochloride to inhibit ADP- or epinephrine-induced platelet aggregation and to lower total cholesterol levels and increase HDL-cholesterol levels, again in a small group of subjects. Vitamin B6, in the form of pyridoxal 5'-phosphate, was found to protect vascular endothelial cells in culture from injury by activated platelets. Endothelial injury and dysfunction are critical initiating events in the pathogenesis of atherosclerosis. Human studies have demonstrated that vitamin B6 deficiency affects cellular and humoral responses of the immune system. Vitamin B6 deficiency results in altered lymphocyte differentiation and maturation, reduced delayed-type hypersensitivity (DTH) responses, impaired antibody production, decreased lymphocyte proliferation and decreased interleukin (IL)-2 production, among other immunologic activities.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:0ece3189624df2cebec8aae81b79dc74",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.14000000059604644775",
+    "drugUnit" : "Pyridoxine 25 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:14c1ba32c2cbd42181863114b9a97c1f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Vitamin b-6 25 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:16c885fd7bc0e3a1d11904c18b0f4dec",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.059999998658895492554",
+    "drugUnit" : "Pyridoxine 50 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6a018d56c523e89b1c3da76ad3c460c8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "11.689999580383300781",
+    "drugUnit" : "Pyridoxine HCl 100 mg/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:53f2c71713e514e3823736d021c65900",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.12999999523162841797",
+    "drugUnit" : "Pyridoxine 250 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1bb7a137dd8978d737808a586d851cb8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "CVS Pharmacy vitamin b-6 50 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1f397868330aa0dab761a254deaa9bc9",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "12.989999771118164062",
+    "drugUnit" : "Pyridoxine HCl 100 50 mg tablet Bottle"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:79da45fd5241516ec05e0742e25d16e1",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.059999998658895492554",
+    "drugUnit" : "Neuro-k 250 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f4685078f4fc513d74f473104da6fc66",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "CVS Pharmacy vitamin b-6 100 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:f911b44fc01cb99005a1f24c16a2178c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.18000000715255737305",
+    "drugUnit" : "Pyridoxine 500 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2a3b3e954d27bfcbf78f14a90509479b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.12999999523162841797",
+    "drugUnit" : "Neuro k 500 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2ffda373a8cf32371a72a0ada4eb0921",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.070000000298023223877",
+    "drugUnit" : "CVS Pharmacy vitamin b-6 200 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:aea085d74de4d5fcbdadf4f3ca755f1a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Vitamin b-6 50 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ff354276c0d3993a5c3c485f18521196",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.039999999105930328369",
+    "drugUnit" : "Vitamin b-6 100 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:34575b5530f43ab48068138ee3eedeb4",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Pyridoxine 100 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:3b590eb787c12c790179b68651111912",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Vitamin b6 50 mg tablet"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:946cedde61768323c1efd81318155435",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "10.789999961853027344",
+    "drugUnit" : "Pyridoxine 100 mg/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:01e73aba90b2b565953020016d24c629",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "6.9400000572204589844",
+    "drugUnit" : "Pyridoxine hcl crystals"
+  } ],
+  "description" : "Pyridoxine is the 4-methanol form of vitamin B6 and is converted to pyridoxal 5-phosphate in the body. Pyridoxal 5-phosphate is a coenzyme for synthesis of amino acids, neurotransmitters (serotonin, norepinephrine), sphingolipids, aminolevulinic acid.  Although pyridoxine and vitamin B6 are still frequently used as synonyms, especially by medical researchers, this practice is erroneous and sometimes misleading. [PubChem]",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : [ "Vitamin B Complex", "Vitamins" ],
+  "schema:identifier" : "drugbank:DB00165",
+  "interactingDrug" : [ "DDI between Pyridoxine and Secobarbital - Pyridoxine may increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Phenobarbital - May increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Butethal - Pyridoxine may increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Hexobarbital - Pyridoxine may increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Butabarbital - Pyridoxine may increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Fosphenytoin - Pyridoxine may increase the metabolism of Fosphenytoin. This is most apparent in high pyridoxine doses (e.g., 80 mg to 200 mg daily)", "DDI between Pyridoxine and Altretamine - Pyridoxine may diminish the therapeutic effect of Altretamine. Specifically when altretamine is used in combination with Cisplatin the response duration may be diminished.", "DDI between Pyridoxine and Primidone - Pyridoxine may increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Pentobarbital - Pyridoxine may increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Phenytoin - Pyridoxine may increase the metabolism of Phenytoin. This is most apparent in high pyridoxine doses (e.g., 80 mg to 200 mg daily)", "DDI between Pyridoxine and Heptabarbital - Pyridoxine may increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Butalbital - May increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Amobarbital - May increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)", "DDI between Pyridoxine and Methohexital - Pyridoxine may increase the metabolism of Barbiturates. Apparent in high pyridoxine doses (eg, 200 mg/day)" ],
+  "legalStatus" : [ "Nutraceutical", "Approved" ],
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087",
+    "type" : "Organization",
+    "name" : "Eli lilly and co"
+  },
+  "mechanismOfAction" : "Vitamin B6 is the collective term for a group of three related compounds, pyridoxine (PN), pyridoxal (PL) and pyridoxamine (PM), and their phosphorylated derivatives, pyridoxine 5'-phosphate (PNP), pyridoxal 5'-phosphate (PLP) and pyridoxamine 5'-phosphate (PMP). Although all six of these compounds should technically be referred to as vitamin B6, the term vitamin B6 is commonly used interchangeably with just one of them, pyridoxine. Vitamin B6, principally in its biologically active coenzyme form pyridoxal 5'-phosphate, is involved in a wide range of biochemical reactions, including the metabolism of amino acids and glycogen, the synthesis of nucleic acids, hemogloblin, sphingomyelin and other sphingolipids, and the synthesis of the neurotransmitters serotonin, dopamine, norepinephrine and gamma-aminobutyric acid (GABA).",
+  "name" : "Pyridoxine",
+  "nonProprietaryName" : [ "Vitamin B6", "5-Hydroxy-6-methyl-3,4-pyridinedimethanol", "3-hydroxy-4,5-bis(hydroxymethyl)-2-methylpyridine", "Pyridoxol", "Pyridoxine", "2-Methyl-3-hydroxy-4,5-dihydroxymethylpyridine", "3-Hydroxy-4,5-dimethylol-alpha-picoline" ],
+  "proprietaryName" : "Becilan",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00165", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/vit_0215.shtml", "http://www.drugs.com/cdi/pyridoxine-vitamin-b6-extended-release-tablets.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00165"
+}

@@ -2,9 +2,234 @@
 <http://bio2rdf.org/drugbank:DB00025> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Antihemophilic Factor" ;
 	<http://schema.org/description> "Human recombinant antihemophilic factor (AHF) or Factor VIII, 2332 residues, glycosylated, produced by CHO cells" ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00025" ;
-	<http://schema.org/doseSchedule> "Kit form with intravenous route" ;
-	<http://schema.org/legalStatus> "investigational" ;
+	<http://schema.org/drugClass> "Thrombotic Agents" , "Coagulants" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00025" ;
+	<http://schema.org/administrationRoute> "intravenous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:4186c304ff0d868a9d713428d227a3ac> ;
+	<http://schema.org/clinicalPharmacology> "Antihemophilic Factor binds factor IXa along with calcium and phospholipid, This complex converts factor X to factor Xa to facilitate clotting cascade." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:8a0b836acf1498d2ea8233767abc4033> , <http://bio2rdf.org/drugbank_resource:53dc84ee32fbfc5bdb07153d1c6262c5> , <http://bio2rdf.org/drugbank_resource:8123871838ea39707ebd14c8aa53c66b> , <http://bio2rdf.org/drugbank_resource:abb967dff20ec7ba2525123928b13d9b> , <http://bio2rdf.org/drugbank_resource:d8cd490492193eb0241c9c702527eb07> , <http://bio2rdf.org/drugbank_resource:b279950d1eb644baff4f758a93abd361> , <http://bio2rdf.org/drugbank_resource:b0f7e540a95f7981823bbb0e3b0552dd> , <http://bio2rdf.org/drugbank_resource:a2aef61b6c40db65512656128a8f64b3> , <http://bio2rdf.org/drugbank_resource:24f15b7cc18bbff8dad9dd1299a3fda6> , <http://bio2rdf.org/drugbank_resource:b5e53f5e523b04246aa8e6422a68cdf7> , <http://bio2rdf.org/drugbank_resource:7dbbbf7d3bf4225b17689794a9ff3260> , <http://bio2rdf.org/drugbank_resource:7e29f8384de04a4d8bfa4a07e844a097> , <http://bio2rdf.org/drugbank_resource:cfacf6e86ea93e72361f62ccbceb5ffb> , <http://bio2rdf.org/drugbank_resource:d26116bb7c24737ad4d075f9098f6597> , <http://bio2rdf.org/drugbank_resource:47fd9d3772ce925ce2d5eeba5cc0c021> , <http://bio2rdf.org/drugbank_resource:0fbbc605f91884f2dbc7b5c443291849> , <http://bio2rdf.org/drugbank_resource:71229c5452a2fc6cfbf4f3e2d469227e> , <http://bio2rdf.org/drugbank_resource:71a59649a958a8e0688c2920115232ac> , <http://bio2rdf.org/drugbank_resource:4b6cd2fa677c53fd27da6ceedd3feb9e> , <http://bio2rdf.org/drugbank_resource:0791fe5536e37df403b7988470dc2937> , <http://bio2rdf.org/drugbank_resource:720f44fe8dd2dfc6e6a8c195ba1c310f> , <http://bio2rdf.org/drugbank_resource:4bf27843fd880feaa8b25a1c2285f784> , <http://bio2rdf.org/drugbank_resource:08b82d59c372c1c33b9f4c6f78e35341> , <http://bio2rdf.org/drugbank_resource:08f76513b94f8b7198aa57acf8d1a4f1> , <http://bio2rdf.org/drugbank_resource:0a6d699ccecf086209e63d012d1b239a> , <http://bio2rdf.org/drugbank_resource:0a93c8ebd62a9efab07ba2d7657fb6c8> , <http://bio2rdf.org/drugbank_resource:02e744332d27052547381e55a08898f9> , <http://bio2rdf.org/drugbank_resource:eba2bbdb3540ed509834f84ecda46deb> , <http://bio2rdf.org/drugbank_resource:6f4ddce2065e3cc8e9c494f36fb19636> , <http://bio2rdf.org/drugbank_resource:3dec4593b659065a4ba2886ad4b0601f> , <http://bio2rdf.org/drugbank_resource:97822b53f995fef2b26a60cd043dd0be> , <http://bio2rdf.org/drugbank_resource:981a906c7259e96261e730c3ee5402ba> , <http://bio2rdf.org/drugbank_resource:366307a02e8cb931d571587987524276> , <http://bio2rdf.org/drugbank_resource:5eb3acb2bf1888335ab90414b7bae123> , <http://bio2rdf.org/drugbank_resource:0283ba3451618e9286b8c6377827ede5> , <http://bio2rdf.org/drugbank_resource:f1b5f76c58abce22074de84db90ad49a> , <http://bio2rdf.org/drugbank_resource:f1e5676e1ebbae53d7bdd5acd852be8f> , <http://bio2rdf.org/drugbank_resource:3adb3b572cfb69e265b86b24a48e7748> , <http://bio2rdf.org/drugbank_resource:e20f3604427f393294ecf26a23f0a840> , <http://bio2rdf.org/drugbank_resource:2f2efd69b926a68a76826c6a1c12dc08> , <http://bio2rdf.org/drugbank_resource:923c8021485791e469c116fdda5c83a5> , <http://bio2rdf.org/drugbank_resource:c1aaa0513676e965c7a7416b387bb96c> , <http://bio2rdf.org/drugbank_resource:321e87000e81f985c03b7ef7220eb9d7> ;
+	<http://schema.org/dosageForm> "Kit" ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" ;
 	<http://schema.org/mechanismOfAction> "Antihemophilic factor (AHF) is a protein found in normal plasma which is necessary for clot formation. The administration of AHF provides an increase in plasma levels of AHF and can temporarily correct the coagulation defect of patients with hemophilia A (classical hemophilia)." ;
-	<http://schema.org/alternateName> "Factor VIII" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00025" .
+	<http://schema.org/nonProprietaryName> "AHF" , "Factor VIII" ;
+	<http://schema.org/proprietaryName> "Bioclate" ;
+	<http://schema.org/identifier> "drugbank:DB00025" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00025> , <http://www.rxlist.com/cgi/generic2/hemofilm.htm> , <http://www.drugs.com/cdi/antihemophilic-factor-human.html> .
+
+<http://bio2rdf.org/drugbank_resource:0283ba3451618e9286b8c6377827ede5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.5599999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Helixate fs 250 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:02e744332d27052547381e55a08898f9> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Humate-p 1000 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:0791fe5536e37df403b7988470dc2937> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3099999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Refacto 1000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:08b82d59c372c1c33b9f4c6f78e35341> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.0099999904632568359" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Monoclate-p 1000 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:08f76513b94f8b7198aa57acf8d1a4f1> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Kogenate fs 250 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:0a6d699ccecf086209e63d012d1b239a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Advate 1801-2400 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:0a93c8ebd62a9efab07ba2d7657fb6c8> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Kogenate fs 3000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:0fbbc605f91884f2dbc7b5c443291849> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.0099999904632568359" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Monoclate-p 1500 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:24f15b7cc18bbff8dad9dd1299a3fda6> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6599999666213989258" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Xyntha 250 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:2f2efd69b926a68a76826c6a1c12dc08> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6599999666213989258" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Xyntha 2000 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:321e87000e81f985c03b7ef7220eb9d7> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Alphanate 1000-1500 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:366307a02e8cb931d571587987524276> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Kogenate fs 500 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:3adb3b572cfb69e265b86b24a48e7748> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.5599999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Helixate fs 500 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:3dec4593b659065a4ba2886ad4b0601f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3400000333786010742" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Hemofil m 220-400 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:4186c304ff0d868a9d713428d227a3ac> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "Kit form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:47fd9d3772ce925ce2d5eeba5cc0c021> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.5599999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Helixate fs 3000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:4b6cd2fa677c53fd27da6ceedd3feb9e> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Humate-p 2000 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:4bf27843fd880feaa8b25a1c2285f784> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Advate 801-1200 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:53dc84ee32fbfc5bdb07153d1c6262c5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6599999666213989258" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Xyntha 500 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:5eb3acb2bf1888335ab90414b7bae123> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3099999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Koate-dvi 1000 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:6f4ddce2065e3cc8e9c494f36fb19636> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Humate-p 500 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:71229c5452a2fc6cfbf4f3e2d469227e> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Advate 2400-3600 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:71a59649a958a8e0688c2920115232ac> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Alphanate 250-500 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:720f44fe8dd2dfc6e6a8c195ba1c310f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Humate-p 2400 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:7dbbbf7d3bf4225b17689794a9ff3260> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.0099999904632568359" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Monoclate-p 250 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:7e29f8384de04a4d8bfa4a07e844a097> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Advate 401-800 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:8123871838ea39707ebd14c8aa53c66b> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3099999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Refacto 2000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:8a0b836acf1498d2ea8233767abc4033> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Advate 200-400 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:923c8021485791e469c116fdda5c83a5> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Humate-p 1200 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:97822b53f995fef2b26a60cd043dd0be> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3400000333786010742" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Hemofil m 401-800 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:981a906c7259e96261e730c3ee5402ba> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3400000333786010742" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Hemofil m 801-1700 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:a2aef61b6c40db65512656128a8f64b3> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Kogenate fs 1000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:abb967dff20ec7ba2525123928b13d9b> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.0099999904632568359" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Monoclate-p 500ahfu kit" .
+
+<http://bio2rdf.org/drugbank_resource:b0f7e540a95f7981823bbb0e3b0552dd> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2000000476837158203" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Humate-p 600 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:b279950d1eb644baff4f758a93abd361> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.379999995231628418" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Wilate 450-450 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:b5e53f5e523b04246aa8e6422a68cdf7> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3099999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Refacto 250 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:c1aaa0513676e965c7a7416b387bb96c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6599999666213989258" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Xyntha 1000 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:cfacf6e86ea93e72361f62ccbceb5ffb> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6799999475479125977" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Advate 1201-1800 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:d26116bb7c24737ad4d075f9098f6597> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3099999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Koate-dvi 250 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:d8cd490492193eb0241c9c702527eb07> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.5599999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Helixate fs 1000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:e20f3604427f393294ecf26a23f0a840> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.379999995231628418" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Wilate 900-900 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:eba2bbdb3540ed509834f84ecda46deb> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3099999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Koate-dvi 500 unit kit" .
+
+<http://bio2rdf.org/drugbank_resource:f1b5f76c58abce22074de84db90ad49a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3400000333786010742" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Hemofil m 1701-2000 unit vial" .
+
+<http://bio2rdf.org/drugbank_resource:f1e5676e1ebbae53d7bdd5acd852be8f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.3099999427795410156" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Refacto 500 unit vial" .

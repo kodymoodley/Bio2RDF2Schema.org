@@ -1,0 +1,71 @@
+{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00239",
+  "type" : "Drug",
+  "administrationRoute" : "topical",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:8bf239f5f67e5949c9e5cecee8924c76",
+    "type" : "DrugStrength",
+    "description" : "30 mg/g Lotion form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:efbdbb7f2947a608c966d9e84154e539",
+    "type" : "DrugStrength",
+    "description" : "10 mg/g Cream form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c7b4afdf1865a0f4ad695720ed65c88d",
+    "type" : "DrugStrength",
+    "description" : "10 mg/mL Lotion form with topical route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2bed3265cc1030af35ad051739ca034a",
+    "type" : "DrugStrength",
+    "description" : "10 mg/g Lotion form with topical route"
+  } ],
+  "clinicalPharmacology" : "Oxiconazole is a broad-spectrum imidazole derivative whose antifungal activity is derived primarily from the inhibition of ergosterol biosynthesis, which is critical for cellular membrane integrity. It has fungicidal or fungistatic activity in vitro against a number of pathogenic fungi including the following dermatophytes, and yeasts: <i>T. rubrum</i>, <i>T. mentagrophytes</i>, <i>T. tonsurans</i>, <i>T. violaceum</i>, <i>E. floccosum</i>, <i>M. canis</i>, <i>M. audouini</i>, <i>M. gypseum</i>, <i>C. albicans</i>, and <i>M. furfur</i>.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:133317ed0b640498e0f26fb02d2356e6",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "93.12999725341796875",
+    "drugUnit" : "Oxistat 1% Lotion 30ml Bottle"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:49b4478a2ebf2355f490dec7c435532f",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "2.2300000190734863281",
+    "drugUnit" : "Oxistat 1% cream"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:6a2c35e8f0168bf3815845c5dce4d7bd",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "48.990001678466796875",
+    "drugUnit" : "Oxistat 1% Cream 15 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:87e813a5d0b858d8e61b2a9f4dc3e26c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "90.30999755859375",
+    "drugUnit" : "Oxistat 1% Cream 30 gm Tube"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c56482be6467f9e20abcfc47fc5f2ab7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "157.9900054931640625",
+    "drugUnit" : "Oxistat 1% Cream 60 gm Tube"
+  } ],
+  "description" : "Oxiconazole nitrate (U.S.: Oxistat, Canada: Oxizole) is an antifungal medication typically administered in a cream or lotion to treat skin infections such as athlete's foot, jock itch and ringworm. [Wikipedia]",
+  "dosageForm" : [ "Cream", "Lotion" ],
+  "drugClass" : "Antifungal Agents",
+  "schema:identifier" : "drugbank:DB00239",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:18c17014ef2afa38bf7e2c33182b81aa",
+    "type" : "Organization",
+    "name" : "Altana inc"
+  },
+  "mechanismOfAction" : "Oxiconazole inhibits ergosterol biosynthesis, which is required for cytoplasmic membrane integrity of fungi. It acts to destabilize the fungal cyctochrome P450 51 enzyme (also known as Lanosterol 14-alpha demethylase). This is vital in the cell membrance structure of the fungus. Its inhibition leads to cell lysis. Oxiconazole has also been shown in inhibit DNA synthesis and suppress intracellular concentrations of ATP. Like other imidazole antifungals, Oxiconazole can increase membrane permeability to zinc, augmenting its cytotoxicity.",
+  "name" : "Oxiconazole",
+  "nonProprietaryName" : [ "Oxiconazolum", "Oxiconazol" ],
+  "proprietaryName" : "Oxizole",
+  "sameAs" : [ "http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/oxi1314.shtml", "http://www.rxlist.com/cgi/generic3/oxico.htm", "http://www.drugs.com/cdi/oxiconazole-cream.html", "http://www.drugbank.ca/drugs/DB00239" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00239"
+}

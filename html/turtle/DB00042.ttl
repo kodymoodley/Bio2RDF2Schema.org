@@ -2,9 +2,36 @@
 <http://bio2rdf.org/drugbank:DB00042> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Botulinum Toxin Type B" ;
 	<http://schema.org/description> "Neurotoxin produced by fermentation of clostridium botulinum type B. The protein exists in noncovalent association with hemagglutinin and nonhemagglutinin proteins as a neurotoxin complex. The neurotoxin complex is recovered from the fermentation process and purified through a series of precipitation and chromatography steps." ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00042" ;
-	<http://schema.org/doseSchedule> "10000 [USP'U]/2mL Injection, solution form with intramuscular route" ;
-	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/drugClass> "Antidystonic Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00042" ;
+	<http://schema.org/administrationRoute> "intramuscular" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:e2d6aae776a03a3ab78927e4ad2251be> , <http://bio2rdf.org/drugbank_resource:357a661836295a5b943fe26bbf0a0316> , <http://bio2rdf.org/drugbank_resource:9186ee85d3045335e833cd1faab2131d> ;
+	<http://schema.org/clinicalPharmacology> "Botulinum Toxin Type B inhibits acetylcholine release at the neuromuscular junction via a three stage process: 1) Heavy Chain mediated neurospecific binding of the toxin, 2) internalization of the toxin by receptor-mediated endocytosis, and 3) ATP and pH dependent translocation of the Light Chain to the neuronal cytosol where it acts as a zinc-dependent endoprotease cleaving polypeptides essential for neurotransmitter release." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:b9177e094faad2edb6b97c0a7ab8892e> , <http://bio2rdf.org/drugbank_resource:5f755cbf696ddfd5522ee90b6d1687c6> ;
+	<http://schema.org/dosageForm> "Injection, solution" ;
+	<http://schema.org/interactingDrug> "DDI between Botulinum Toxin Type B and Arbekacin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Kanamycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Tobramycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Gentamicin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Spectinomycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Ribostamycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Netilmicin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Framycetin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Neomycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Streptomycin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." , "DDI between Botulinum Toxin Type B and Amikacin - May enhance the neuromuscular-blocking effect of RimabotulinumtoxinB." ;
+	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/mechanismOfAction> "Botulinum Toxin Type B binds to and cleaves the synaptic Vesicle Associated Membrane Protein (VAMP, also known as synaptobrevin) which is a component of the protein complex responsible for docking and fusion of the synaptic vesicle to the presynaptic membrane, a necessary step to neurotransmitter release." ;
-	<http://schema.org/alternateName> "BTX-B" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00042" .
+	<http://schema.org/nonProprietaryName> "Botulinum neurotoxin type B precursor" , "BTX-B" ;
+	<http://schema.org/proprietaryName> "Neurobloc" ;
+	<http://schema.org/identifier> "drugbank:DB00042" ;
+	<http://schema.org/sameAs> <http://www.rxlist.com/cgi/generic/botulinumtoxin.htm> , <http://www.drugs.com/cdi/botulinum-toxin-type-b.html> , <http://www.drugbank.ca/drugs/DB00042> .
+
+<http://bio2rdf.org/drugbank_resource:357a661836295a5b943fe26bbf0a0316> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "10000 [USP'U]/2mL Injection, solution form with intramuscular route" .
+
+<http://bio2rdf.org/drugbank_resource:5f755cbf696ddfd5522ee90b6d1687c6> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "299.399993896484375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Myobloc 2500 unit/0.5 ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:9186ee85d3045335e833cd1faab2131d> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "5000 [USP'U]/mL Injection, solution form with intramuscular route" .
+
+<http://bio2rdf.org/drugbank_resource:b9177e094faad2edb6b97c0a7ab8892e> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1245.5" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Myobloc 10000 unit/2ml Solution 2ml Vial" .
+
+<http://bio2rdf.org/drugbank_resource:e2d6aae776a03a3ab78927e4ad2251be> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "2500 [USP'U]/.5mL Injection, solution form with intramuscular route" .

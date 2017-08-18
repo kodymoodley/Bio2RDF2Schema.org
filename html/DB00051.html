@@ -13,14 +13,72 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00051",
   "type" : "Drug",
-  "alternateName" : "Ig gamma-1 chain C region",
+  "administrationRoute" : "subcutaneous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:fdf8884ccbab88477b7704f519a7cbea",
+    "type" : "DrugStrength",
+    "description" : "40 mg Solution form with subcutaneous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7e8d4012911d538beea1391f5cada09a",
+    "type" : "DrugStrength",
+    "description" : "40 mg/.8mL Injection, solution form with subcutaneous route"
+  } ],
+  "clinicalPharmacology" : "Used in the treatment of immune system mediated diseases, adalimumab binds specifically to TNF-alpha and blocks its general cytokine effects, thereby reducing TNF-induced inflammation and halting tissue destruction.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:009e9c19dfa55c3cea32081f60ef3359",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "959.19000244140625",
+    "drugUnit" : "Humira 40 mg/0.8 ml pen"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:389c332956892cf9cfc0e51b00683c9d",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1995.0999755859375",
+    "drugUnit" : "Humira (1 Box = Two 40 mg/0.8ml Syringes) Box"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:fb1fd854099c43ceff1589960dd53c73",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "959.19000244140625",
+    "drugUnit" : "Humira 20 mg/0.4 ml syringe"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:ce19e5d6e01e6a439b31dafff0a2d3a2",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1995.0999755859375",
+    "drugUnit" : "Humira 2 20 mg/0.4ml Kit 1 Box = Two 20 mg/0.4ml Syringes"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c4b2739715149a54bb861eff43ffa0fc",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "959.19000244140625",
+    "drugUnit" : "Humira psoriasis starter pack"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:692c8b8906959bfd4cca7760d410c0f9",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1995.0999755859375",
+    "drugUnit" : "Humira Pen 2 40 mg/0.8ml Kit (1 Box = 1 Kit Containing Two 40 mg/0.8ml Pens)"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:76ba8a08a0c77e931f1599da021637e5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "959.19000244140625",
+    "drugUnit" : "Humira crohn's starter pack"
+  } ],
   "description" : "Adalimumab is a human monoclonal antibody against TNF-alpha. It is produced by recombinant DNA technology using a mammalian cell expression system. It consists of 1330 amino acids and has a molecular weight of approximately 148 kilodaltons.",
-  "doseSchedule" : "40 mg/.8mL Injection, solution form with subcutaneous route",
-  "legalStatus" : "approved",
+  "dosageForm" : [ "Solution", "Injection, solution" ],
+  "drugClass" : [ "Antirheumatic Agents", "Immunosuppressive Agents", "Anti-Inflammatory Agents" ],
+  "schema:identifier" : "drugbank:DB00051",
+  "interactingDrug" : [ "DDI between Adalimumab and Infliximab - Adalimumab may enhance the immunosuppressive effect of InFLIXimab.", "DDI between Adalimumab and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between Adalimumab and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between Adalimumab and Abatacept - Anti-TNF Agents may enhance the adverse/toxic effect of Abatacept. An increased risk of serious infection during concomitant use has been reported.", "DDI between Adalimumab and Tofacitinib - Anti-TNF Agents may enhance the adverse/toxic effect of Tofacitinib.", "DDI between Adalimumab and Certolizumab pegol - Anti-TNF Agents may enhance the immunosuppressive effect of Certolizumab Pegol.", "DDI between Adalimumab and Aminophylline - May decrease the serum concentration of Theophylline Derivatives.", "DDI between Adalimumab and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T.", "DDI between Adalimumab and Warfarin - Adalimumab may decrease the serum concentration of Warfarin.", "DDI between Adalimumab and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Adalimumab and Theophylline - May decrease the serum concentration of Theophylline Derivatives.", "DDI between Adalimumab and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased.", "DDI between Adalimumab and Rilonacept - Anti-TNF Agents may enhance the adverse/toxic effect of Rilonacept.", "DDI between Anakinra and Adalimumab - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported.", "DDI between Adalimumab and Trastuzumab - May enhance the neutropenic effect of Immunosuppressants.", "DDI between Adalimumab and Canakinumab - Anti-TNF Agents may enhance the adverse/toxic effect of Canakinumab. Specifically, the risk for serious infections and/or neutropenia may be increased.", "DDI between Adalimumab and Vedolizumab - Anti-TNF Agents may enhance the adverse/toxic effect of Vedolizumab.", "DDI between Adalimumab and Belimumab - Monoclonal Antibodies may enhance the adverse/toxic effect of Belimumab.", "DDI between Adalimumab and Tocilizumab - May enhance the immunosuppressive effect of Anti-TNF Agents.", "DDI between Adalimumab and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased." ],
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Adalimumab binds to TNF-alpha and blocks its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab also lyses surface TNF expressing cells in vitro in the presence of complement.",
   "name" : "Adalimumab",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00051",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00051"
+  "nonProprietaryName" : "Ig gamma-1 chain C region",
+  "proprietaryName" : "Humira Pen",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic3/humira.htm", "http://www.drugs.com/cdi/adalimumab.html", "http://www.drugbank.ca/drugs/DB00051" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00051"
 }</script>
 	</head>
 
@@ -42,7 +100,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00051.json", function(data) {

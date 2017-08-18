@@ -2,12 +2,25 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00002",
   "type" : "Drug",
-  "alternateName" : "Anti EGFR",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:b624d8e3e20d2f4d741378e7638c4819",
+    "type" : "DrugStrength",
+    "description" : "2 mg/mL Solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:b9f61619a00a6c02f73eb60c5107544e",
+    "type" : "DrugStrength",
+    "description" : "2 mg Solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Used in the treatment of colorectal cancer, cetuximab binds specifically to the epidermal growth factor receptor (EGFr, HER1, c-ErbB-1) on both normal and tumor cells. EGFr is over-expressed in many colorectal cancers. Cetuximab competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor–alpha. Binding of cetuximab to the EGFr blocks phosphorylation and activation of receptor-associated kinases, resulting in inhibition of cell growth, induction of apoptosis, decreased matrix metalloproteinase secretion and reduced vascular endothelial growth factor production.",
   "description" : "Epidermal growth factor receptor binding FAB. Cetuximab is composed of the Fv (variable; antigen-binding) regions of the 225 murine EGFr monoclonal antibody specific for the N-terminal portion of human EGFr with human IgG1 heavy and kappa light chain constant (framework) regions.",
-  "doseSchedule" : "2 mg/mL Solution form with intravenous route",
-  "legalStatus" : "approved",
+  "dosageForm" : "Solution",
+  "drugClass" : "Antineoplastic Agents",
+  "schema:identifier" : "drugbank:DB00002",
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Cetuximab binds to the epidermal growth factor receptor (EGFr) on both normal and tumor cells. EGFr is over-expressed in many colorectal cancers. Cetuximab competitively inhibits the binding of epidermal growth factor (EGF) and TGF alpha, thereby reducing their effects on cell growth and metastatic spread.",
   "name" : "Cetuximab",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00002",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00002"
+  "nonProprietaryName" : [ "IMC-C225", "Anti EGFR" ],
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic3/erbitux.htm", "http://www.drugs.com/cdi/cetuximab.html", "http://www.drugbank.ca/drugs/DB00002" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00002"
 }

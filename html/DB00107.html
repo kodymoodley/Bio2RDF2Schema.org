@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "id" : "http://bio2rdf.org/drugbank:DB00107",
+  "type" : "Drug",
+  "administrationRoute" : [ "intramuscular; intravenous", "intravenous" ],
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:1588f62bddb8c0b1cca8f11ce8e653b9",
+    "type" : "DrugStrength",
+    "description" : "10 [USP'U]/mL Injection, solution form with intramuscular; intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:2d6f2db0443dc24ac01149b8df7afb05",
+    "type" : "DrugStrength",
+    "description" : "10 [USP'U]/mL Injection form with intramuscular; intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9ea94506ab138833cc18501d48712af4",
+    "type" : "DrugStrength",
+    "description" : "10 [iU]/mL Injection form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Indirectly stimulates contraction of uterine smooth muscle by increasing the sodium permeability of uterine myofibrils. Increases contraction amplitude and frequency, which tends to decrease cervical activity, produce dilation and effacement of the cervix, and transiently impede uterine blood flow; contractions produced by oxytocin at term are similar to those occurring during spontaneous labor. High estrogen concentrations lower the threshold for uterine response to oxytocin. Uterine response increases with the duration of pregnancy and is greater in labor than when not in labor; only very large doses elicit contractions in early pregnancy. Contracts myoepithelial cells surrounding the alveoli of the breasts, forcing milk from the alveoli into the larger ducts and facilitating milk ejection. Minimal antidiuretic activity relative to vasopressin; water intoxication possible at high doses and/or excessive electrolyte-free fluid.",
+  "cost" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:414e6975656d60d3809b9fb6fb2e254b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.039999999105930328369",
+    "drugUnit" : "Oxytocin-d5w 40 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:af064159bb4fc82136cb40b5562ab1f7",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6000000238418579102",
+    "drugUnit" : "Pitocin 10 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:0cfde0aa11ae53c6e1fbee2348d78639",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.059999998658895492554",
+    "drugUnit" : "Oxytocin-d5lr 30 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:7aa74b3a23174d65e4a0b5e4aac7b7f5",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1762.25",
+    "drugUnit" : "Oxytocin powder"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:46e06496520cf1930dd2517ee51327bd",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "9.840000152587890625",
+    "drugUnit" : "Oxytocin 10 unit/ml vial"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:34057ad77b1ac7a7320fb15b4a9579f8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.090000003576278686523",
+    "drugUnit" : "Oxytocin-lr 40 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a7862c3566285f664f57633ded8a0335",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Oxytocin-d5w 30 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:02beea256df99dd91cf8e36da8123698",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.050000000745058059692",
+    "drugUnit" : "Oxytocin-d5w-lr 20 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a268c2e4aa6659044051834105b97f5b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.0099999997764825820923",
+    "drugUnit" : "Oxytocin-ns 20 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:330cf282167660f0baa23fb93f332e33",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Oxytocin-d5w 20 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a0a2a3a5a7585729399b1a5f7cdd5c1b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.0099999997764825820923",
+    "drugUnit" : "Oxytocin-d5-1/2ns 30 unit/1000"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a13b78efc50de2cd8f6a30dab62b4789",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Oxytocin-lr 5 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:a3b527c2c3ad96ed7092231e73ab5572",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.050000000745058059692",
+    "drugUnit" : "Oxytocin-lr 10 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:936e2c4be236e3d513b2826ba8f247e4",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Oxytocin-lr 30 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:9ac6d39261decf7f58c1d10a87f04175",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.0099999997764825820923",
+    "drugUnit" : "Oxytocin-d5-1/2ns 10 unit/1000"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:17b65895e8478eae29b9d9165e99e303",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Oxytocin-ns 40 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d5b31d7c16f18eea06bac111c278742e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.050000000745058059692",
+    "drugUnit" : "Oxytocin-d5w-lr 15 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8ef8c11f1ce611c19c2dd109c8d997b8",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.0099999997764825820923",
+    "drugUnit" : "Oxytocin-d5-1/2ns 20 unit/1000"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:d7145b75a075f1f5ab7b464721ed75b6",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.039999999105930328369",
+    "drugUnit" : "Oxytocin-d5w-lr 10 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:8cc145def001af40a517b22441c5be76",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.059999998658895492554",
+    "drugUnit" : "Oxytocin-lr 20 unit/500 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:92b680bd27e04c76ee85cd49afc6427c",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.0099999997764825820923",
+    "drugUnit" : "Oxytocin-d5-ns 20 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:57079672641369864447d9eb83922cab",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.0099999997764825820923",
+    "drugUnit" : "Oxytocin-ns 10 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:1b6ee3ac63088930b65fde96ea6cf8b4",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.019999999552965164185",
+    "drugUnit" : "Oxytocin-d5w 10 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:c24939e0ef0f9a720a75f7e982f546e9",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.029999999329447746277",
+    "drugUnit" : "Oxytocin-ns 30 unit/1000 ml"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:10d50d7f1e4914101ab450492769bf2a",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.039999999105930328369",
+    "drugUnit" : "Oxytocin-d5-1/4ns 15 unit/250"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:11ea7cbea776c57d9693d34bf9647e3e",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.070000000298023223877",
+    "drugUnit" : "Oxytocin-d5w-lr 40 unit/500 ml"
+  } ],
+  "description" : "Synthetic 9 residue cyclic peptide. The hormone is prepared synthetically to avoid possible contamination with vasopressin (ADH) and other small polypeptides with biologic activity.",
+  "dosageForm" : [ "Injection, solution", "Injection" ],
+  "drugClass" : [ "Labor Induction Agents", "Anti-tocolytic Agents", "Oxytocics" ],
+  "schema:identifier" : "drugbank:DB00107",
+  "interactingDrug" : [ "DDI between Oxytocin and Carboprost Tromethamine - May enhance the adverse/toxic effect of Oxytocic Agents. Specifically, oxytocic effects may be enhanced.", "DDI between Oxytocin and Dinoprostone - May enhance the adverse/toxic effect of Oxytocin. Specifically,oxytocic effects may be enhanced.", "DDI between Oxytocin and Mifepristone - May enhance the QTc-prolonging effect of QTc-Prolonging Agents (Indeterminate Risk and Risk Modifying).", "DDI between Oxytocin and Misoprostol - May enhance the adverse/toxic effect of Oxytocin. Specifically, oxytocic effects may be enhanced." ],
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:e91ecbd8702c2bd53755e648fa5c9435",
+    "type" : "Organization",
+    "name" : "App pharmaceuticals llc"
+  },
+  "mechanismOfAction" : "Uterine motility depends on the formation of the contractile protein actomyosin under the influence of the Ca2+-dependent phosphorylating enzyme myosin light-chain kinase. Oxytocin promotes contractions by increasing the intracellular Ca2+, which in turn activates myosin's light chain kinase.. Oxytocin has specific receptors in the muscle lining of the uterus and the receptor concentration increases greatly during pregnancy, reaching a maximum in early labor at term.",
+  "name" : "Oxytocin",
+  "nonProprietaryName" : [ "Syntocinon", "SID29217903", "Pitocin", "SID50111741" ],
+  "proprietaryName" : "Syntocinon",
+  "sameAs" : [ "http://www.drugs.com/cdi/oxytocin.html", "http://www.rxlist.com/cgi/generic3/oxytocin.htm", "http://www.drugbank.ca/drugs/DB00107" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00107"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00107.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

@@ -13,14 +13,34 @@
  "@context" : "http://schema.org",
   "id" : "http://bio2rdf.org/drugbank:DB00039",
   "type" : "Drug",
-  "alternateName" : "KGF",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "id" : "http://bio2rdf.org/drugbank_resource:7ff6f0a5e1af06a6a5b2d188464b97a9",
+    "type" : "DrugStrength",
+    "description" : "6.25 mg/1.2mL Injection, powder, lyophilized, for solution form with intravenous route"
+  }, {
+    "id" : "http://bio2rdf.org/drugbank_resource:4dd9bca870aedb3ff6992ac3a61b4921",
+    "type" : "DrugStrength",
+    "description" : "6.25 mg Powder for solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Used in the prevention or treatment of oral mucoscitis (mouth ulcers arising from chemotherapy), Kepivance binds to the human keratinocyte growth factor (KGF) receptor on buccal cell surfaces. Kepivance acts as both a cell growth and survival factor by stimulating epithelial cell proliferation, differentiation, and migration around the tongue and mouth. The KGF receptor is found on many tissues particularly around the tongue, esophagus, salivary gland and other gastro-intestinal tract organs.",
+  "cost" : {
+    "id" : "http://bio2rdf.org/drugbank_resource:580a0c566780f2565fba631dc3716c6b",
+    "type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1650.0",
+    "drugUnit" : "Kepivance 6.25 mg vial"
+  },
   "description" : "Palifermin is a recombinant human keratinocyte growth factor (KGF). It is 140 residues long, and is produced using E. coli.",
-  "doseSchedule" : "6.25 mg Powder for solution form with intravenous route",
-  "legalStatus" : "approved",
+  "dosageForm" : [ "Injection, powder, lyophilized, for solution", "Powder for solution" ],
+  "drugClass" : "Anti-Mucositis Agents",
+  "schema:identifier" : "drugbank:DB00039",
+  "legalStatus" : "Approved",
   "mechanismOfAction" : "Kepivance binds to the human keratinocyte growth factor (KGF) receptor found on buccal cell surfaces. The binding activates a Ras-MapK (Map kinase) signaling pathway which leads to the transcriptional activation of many proteins important for cell growth and survival.",
   "name" : "Palifermin",
-  "schema:sameAs" : "https://www.drugbank.ca/drugs/DB00039",
-  "schema:url" : "https://www.drugbank.ca/drugs/DB00039"
+  "nonProprietaryName" : [ "HBGF-7", "KGF", "FGF-7", "Keratinocyte growth factor precursor", "Fibroblast growth factor- 7" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00039", "http://www.rxlist.com/cgi/generic/kepivance.htm", "http://www.drugs.com/cdi/palifermin.html" ],
+  "schema:url" : "http://bio2rdf.org/drugbank:DB00039"
 }</script>
 	</head>
 
@@ -42,7 +62,7 @@
 			<div id="contents">
 				<script type="text/javascript">
 
-				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Alternate Name</td><td>{{alternateName}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{manufacturer}}</td></tr><tr><td class='dataframeKey'>Dosage Schedule</td><td>{{doseSchedule}}</td></tr><tr><td class='dataframeKey'>Legal Status</td><td>{{legalStatus}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr></tbody></table>";
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
 				var template = Handlebars.compile(templateCode);
 
 				$.getJSON("jsonld/DB00039.json", function(data) {

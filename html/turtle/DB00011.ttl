@@ -2,8 +2,13 @@
 <http://bio2rdf.org/drugbank:DB00011> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Interferon alfa-n1" ;
 	<http://schema.org/description> "Purified, natural (n is for natural) glycosylated human interferon alpha proteins 166 residues" ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00011" ;
-	<http://schema.org/legalStatus> "approved" ;
+	<http://schema.org/drugClass> "Immunosuppressive Agents" , "Antiviral Agents" , "Immunologic Factors" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00011" ;
+	<http://schema.org/clinicalPharmacology> "Upregulates the expression of MHC I proteins, allowing for increased presentation of peptides derived from viral antigens. This enhances the activation of CD8+ T cells that are the precursors for cytotoxic T lymphocytes (CTLs) and makes the macrophage a better target for CTL-mediated killing. Interferon alpha also induce the synthesis of several key antiviral mediators, including 2'-5' oligoadenylate synthetase (2'-5' A synthetase) and protein kinase R." ;
+	<http://schema.org/foodWarning> "Avoid alcohol." ;
+	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/mechanismOfAction> "Interferon alpha binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription)which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon alpha binds less stably to type I interferon receptors than interferon beta." ;
-	<http://schema.org/alternateName> "Interferon alpha-A" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00011" .
+	<http://schema.org/nonProprietaryName> "Interferon alpha-A" , "Interferon alpha-2" , "LeIF A" ;
+	<http://schema.org/proprietaryName> "Wellferon" ;
+	<http://schema.org/identifier> "drugbank:DB00011" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00011> .

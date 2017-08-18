@@ -2,10 +2,55 @@
 <http://bio2rdf.org/drugbank:DB00005> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Etanercept" ;
 	<http://schema.org/description> "Dimeric fusion protein consisting of the extracellular ligand-binding portion of the human 75 kilodalton (p75) tumor necrosis factor receptor (TNFR) linked to the Fc portion of human IgG1. The Fc component of etanercept contains the CH2 domain, the CH3 domain and hinge region, but not the CH1 domain of IgG1. Etanercept is produced by recombinant DNA technology in a Chinese hamster ovary (CHO) mammalian cell expression system. It consists of 934 amino acids" ;
-	<http://schema.org/url> "https://www.drugbank.ca/drugs/DB00005" ;
-	<http://schema.org/doseSchedule> "50 mg/mL Solution form with subcutaneous route" ;
-	<http://schema.org/legalStatus> "approved" ;
-	<http://schema.org/manufacturer> "Amgen Inc. + Wyeth + Takeda" ;
+	<http://schema.org/drugClass> "Immunosuppressive Agents" ;
+	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00005" ;
+	<http://schema.org/administrationRoute> "subcutaneous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:acfe6c16cc26ac4ef2a485ec701f2aa6> , <http://bio2rdf.org/drugbank_resource:188749c4b5a764d8393cf48bcc1fd45b> , <http://bio2rdf.org/drugbank_resource:54334de7445f7445046f6a374334d1d8> ;
+	<http://schema.org/clinicalPharmacology> "Tumor necrosis factor TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. Elevated levels of TNF are found in tissues and fluids of patients with rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis (AS), and plaque psoriasis. Etanercept binds specifically to tumor necrosis factor (TNF) and blocks its interaction with cell surface TNF receptors." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:25bf44ae419c0db049fadc0372cbc959> , <http://bio2rdf.org/drugbank_resource:b571dbd95184988fa65b4ade5718b856> , <http://bio2rdf.org/drugbank_resource:782968b1e676a89cb7f9b339afc3ee3e> , <http://bio2rdf.org/drugbank_resource:bc8043038e801315ba92878f3aa88d23> , <http://bio2rdf.org/drugbank_resource:92bebd266adaf9ef7ad0558dfc319dab> ;
+	<http://schema.org/dosageForm> "Solution" ;
+	<http://schema.org/interactingDrug> "DDI between Etanercept and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased." , "DDI between Etanercept and Rilonacept - Anti-TNF Agents may enhance the adverse/toxic effect of Rilonacept." , "DDI between Etanercept and Tocilizumab - May enhance the immunosuppressive effect of Anti-TNF Agents." , "DDI between Etanercept and Belimumab - Etanercept may enhance the adverse/toxic effect of Belimumab." , "DDI between Etanercept and Trastuzumab - May enhance the neutropenic effect of Immunosuppressants." , "DDI between Etanercept and Canakinumab - Anti-TNF Agents may enhance the adverse/toxic effect of Canakinumab. Specifically, the risk for serious infections and/or neutropenia may be increased." , "DDI between Etanercept and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants." , "DDI between Etanercept and Infliximab - Etanercept may enhance the immunosuppressive effect of InFLIXimab." , "DDI between Etanercept and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants." , "DDI between Etanercept and Cyclophosphamide - Etanercept may enhance the adverse/toxic effect of Cyclophosphamide. An increased risk of solid cancer development may be present." , "DDI between Etanercept and Vedolizumab - Anti-TNF Agents may enhance the adverse/toxic effect of Vedolizumab." , "DDI between Etanercept and Abatacept - Anti-TNF Agents may enhance the adverse/toxic effect of Abatacept. An increased risk of serious infection during concomitant use has been reported." , "DDI between Etanercept and Anakinra - Anti-TNF Agents may enhance the adverse/toxic effect of Anakinra. An increased risk of serious infection during concomitant use has been reported." , "DDI between Etanercept and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased." , "DDI between Etanercept and Certolizumab pegol - Anti-TNF Agents may enhance the immunosuppressive effect of Certolizumab Pegol." , "DDI between Etanercept and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T." , "DDI between Etanercept and Tofacitinib - Anti-TNF Agents may enhance the adverse/toxic effect of Tofacitinib." , "DDI between Etanercept and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased." ;
+	<http://schema.org/legalStatus> "Approved" , "Investigational" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:9b287527de9ee84238fd4fc74597d274> ;
 	<http://schema.org/mechanismOfAction> "There are two distinct receptors for TNF (TNFRs), a 55 kilodalton protein (p55) and a 75 kilodalton protein (p75). The biological activity of TNF is dependent upon binding to either cell surface receptor (p75 or p55). Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind to two TNF molecules, thereby effectively removing them from circulation." ;
-	<http://schema.org/alternateName> "p75" ;
-	<http://schema.org/sameAs> "https://www.drugbank.ca/drugs/DB00005" .
+	<http://schema.org/nonProprietaryName> "CD120b" , "p75" , "Tumor necrosis factor receptor superfamily member 1B precursor" , "Tumor necrosis factor receptor type II" , "p80 TNF-alpha receptor" , "TNF-R2" , "Tumor necrosis factor receptor 2" ;
+	<http://schema.org/proprietaryName> "Enbrel Sureclick" ;
+	<http://schema.org/identifier> "drugbank:DB00005" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00005> , <http://www.rxlist.com/cgi/generic/etanercept.htm> , <http://www.drugs.com/cdi/etanercept.html> .
+
+<http://bio2rdf.org/drugbank_resource:188749c4b5a764d8393cf48bcc1fd45b> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "50 mg/mL Solution form with subcutaneous route" .
+
+<http://bio2rdf.org/drugbank_resource:25bf44ae419c0db049fadc0372cbc959> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "488.739990234375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Enbrel 50 mg/ml sureclick syr" .
+
+<http://bio2rdf.org/drugbank_resource:54334de7445f7445046f6a374334d1d8> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "50 mg Solution form with subcutaneous route" .
+
+<http://bio2rdf.org/drugbank_resource:782968b1e676a89cb7f9b339afc3ee3e> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2033.1400146484375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Enbrel (1 Box = 1 Kit = Four 50 mg Syringes) 3.92ml Box" .
+
+<http://bio2rdf.org/drugbank_resource:92bebd266adaf9ef7ad0558dfc319dab> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1016.57000732421875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Enbrel 4 25 mg Kit (1 Box = 1 Kit = Four 25 mg Vials)" .
+
+<http://bio2rdf.org/drugbank_resource:9b287527de9ee84238fd4fc74597d274> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Amgen Inc. + Wyeth + Takeda" .
+
+<http://bio2rdf.org/drugbank_resource:acfe6c16cc26ac4ef2a485ec701f2aa6> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "25 mg/.5mL Solution form with subcutaneous route" .
+
+<http://bio2rdf.org/drugbank_resource:b571dbd95184988fa65b4ade5718b856> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "2033.1400146484375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Enbrel SureClick (1 Box Contains Four 50 mg Prefilled Autoinjectors)" .
+
+<http://bio2rdf.org/drugbank_resource:bc8043038e801315ba92878f3aa88d23> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "250.3699951171875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Enbrel 25 mg kit" .
