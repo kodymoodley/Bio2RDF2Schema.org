@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Eletriptan" ;
 	<http://schema.org/description> "Eletriptan is a second generation triptan drug developed by Pfizer Inc for the treatment of migraine headaches. [Wikipedia]" ;
 	<http://schema.org/drugClass> "Serotonin Receptor Agonists" , "Serotonin Antagonists" , "Anti-migraine Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00216" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00216.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:b517913496d106ef027f35a68dd10b8e> , <http://bio2rdf.org/drugbank_resource:72dedb861d8431ddf33ec57db0faceb2> , <http://bio2rdf.org/drugbank_resource:df27a2bcc7bb9c277bc3f7050c4ff217> , <http://bio2rdf.org/drugbank_resource:6f645ced3de4ce3c65f19aa4cb35edc6> ;
 	<http://schema.org/clinicalPharmacology> "Eletriptan is a selective 5-hydroxytryptamine 1B/1D receptor agonist. In the anesthetized dog, eletriptan has been shown to reduce carotid arterial blood flow, with only a small increase in arterial blood pressure at high doses. While the effect on blood flow was selective for the carotid arterial bed, decreases in coronary artery diameter were observed. Eletriptan has also been shown to inhibit trigeminal nerve activity in the rat." ;

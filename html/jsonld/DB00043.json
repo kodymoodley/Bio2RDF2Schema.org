@@ -1,21 +1,21 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00043",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00043",
+  "@type" : "Drug",
   "administrationRoute" : "subcutaneous",
   "availableStrength" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:0fcaf4f0483004d12409b1ad95c0e879",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:0fcaf4f0483004d12409b1ad95c0e879",
+    "@type" : "DrugStrength",
     "description" : "202.5 mg/1.4mL Injection, solution form with subcutaneous route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:fe40d51468a18c08bc4fff82c5a509d0",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:fe40d51468a18c08bc4fff82c5a509d0",
+    "@type" : "DrugStrength",
     "description" : "150 mg Powder for solution form with subcutaneous route"
   } ],
   "clinicalPharmacology" : "Xolair inhibits the binding of IgE to the high-affinity IgE receptor (FceRI) on the surface of mast cells and basophils. Reduction in surface-bound IgE on FceRI-bearing cells limits the degree of release of mediators of the allergic response. Xolair is used to treat severe, persisten asthma.",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:212c074bcfde9c3dad8650d8434f1d92",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:212c074bcfde9c3dad8650d8434f1d92",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "715.41998291015625",
     "drugUnit" : "Xolair 150 mg vial"
@@ -23,12 +23,12 @@
   "description" : "A recombinant DNA-derived humanized IgG1k monoclonal antibody that selectively binds to human immunoglobulin E (IgE). Xolair is produced by a Chinese hamster ovary cell suspension culture in a nutrient medium containing the antibiotic gentamicin.",
   "dosageForm" : [ "Injection, solution", "Powder for solution" ],
   "drugClass" : [ "Immunosuppressive Agents", "Anti-Allergic Agents", "Anti-Asthmatic Agents" ],
-  "schema:identifier" : "drugbank:DB00043",
+  "identifier" : "drugbank:DB00043",
   "interactingDrug" : [ "DDI between Omalizumab and Loxapine - Agents to Treat Airway Disease may enhance the adverse/toxic effect of Loxapine. More specifically, the use of Agents to Treat Airway Disease is likely a marker of patients who are likely at a greater risk for experiencing significant bronchospasm from use of inhaled loxapine.", "DDI between Omalizumab and Belimumab - Monoclonal Antibodies may enhance the adverse/toxic effect of Belimumab." ],
   "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Xolair binds to IgE (a class of antibodies normally secreted in allergic responses), which prevents their binding to mast cells and basophils.",
   "name" : "Omalizumab",
   "nonProprietaryName" : "Ig gamma-1 chain C region",
   "sameAs" : [ "http://www.rxlist.com/cgi/generic/xolair.htm", "http://www.drugbank.ca/drugs/DB00043", "http://www.drugs.com/cdi/omalizumab.html" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00043"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00043.html"
 }

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Interferon Alfa-2b, Recombinant" ;
 	<http://schema.org/description> "Interferon alpha 2b (human leukocyte clone hif-sn 206 protein moiety reduced). A type I interferon consisting of 165 amino acid residues with arginine in position 23. This protein is produced by recombinant DNA technology and resembles interferon secreted by leukocytes. It is used extensively as an antiviral or antineoplastic agent." ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00105" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00105.html" ;
 	<http://schema.org/administrationRoute> "intralesional; intramuscular; subcutaneous" , "intramuscular; subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:d46b970056d0a083cca1f813197ccf0c> , <http://bio2rdf.org/drugbank_resource:c7d119b1e6d46c382382c2c17e2801ac> ;
 	<http://schema.org/clinicalPharmacology> "Upregulates the expression of MHC I proteins, allowing for increased presentation of peptides derived from viral antigens. This enhances the activation of CD8+ T cells that are the precursors for cytotoxic T lymphocytes (CTLs) and makes the macrophage a better target for CTL-mediated killing. Interferon alpha also induce the synthesis of several key antiviral mediators, including 2'-5' oligoadenylate synthetase (2'-5' A synthetase) and protein kinase R." ;

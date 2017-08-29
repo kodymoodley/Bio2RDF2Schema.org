@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Interferon beta-1b" ;
 	<http://schema.org/description> "Human interferon beta (165 residues), cysteine 17 is substituted with serine. Produced in E. coli, no carbohydrates, MW=18.5kD" ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" , "Adjuvants, Immunologic" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00068" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00068.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:c64d0b2f435adaff020fa913847a520b> ;
 	<http://schema.org/clinicalPharmacology> "Interferon beta upregulates the expression of MHC I proteins, allowing for increased presentation of peptides derived from viral antigens. This enhances the activation of CD8+ T cells that are the precursors for cytotoxic T lymphocytes (CTLs) and makes the macrophage a better target for CTL-mediated killing. Type I interferons also induce the synthesis of several key antiviral mediators including 2'-5' oligoadenylate synthetase (2'-5' A synthetase), beta-2 microglobulin, neopterin and protein kinase R." ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Adalimumab" ;
 	<http://schema.org/description> "Adalimumab is a human monoclonal antibody against TNF-alpha. It is produced by recombinant DNA technology using a mammalian cell expression system. It consists of 1330 amino acids and has a molecular weight of approximately 148 kilodaltons." ;
 	<http://schema.org/drugClass> "Antirheumatic Agents" , "Immunosuppressive Agents" , "Anti-Inflammatory Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00051" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00051.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:fdf8884ccbab88477b7704f519a7cbea> , <http://bio2rdf.org/drugbank_resource:7e8d4012911d538beea1391f5cada09a> ;
 	<http://schema.org/clinicalPharmacology> "Used in the treatment of immune system mediated diseases, adalimumab binds specifically to TNF-alpha and blocks its general cytokine effects, thereby reducing TNF-induced inflammation and halting tissue destruction." ;

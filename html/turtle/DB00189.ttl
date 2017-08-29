@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Ethchlorvynol" ;
 	<http://schema.org/description> "Ethchlorvynol is a sedative and hypnotic drug. It has been used to treat insomnia, but has been largely superseded and is only offered where an intolerance or allergy to other drugs exists. [Wikipedia]" ;
 	<http://schema.org/drugClass> "Hypnotics and Sedatives" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00189" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00189.html" ;
 	<http://schema.org/clinicalPharmacology> "Ethchlorvynol is a sedative drug and schedule IV (USA) controlled substance. It produces cerebral depression, however the exact mechanism of action is not known." ;
 	<http://schema.org/foodWarning> "Avoid alcohol" ;
 	<http://schema.org/legalStatus> "Illicit" , "Approved" , "Withdrawn" ;

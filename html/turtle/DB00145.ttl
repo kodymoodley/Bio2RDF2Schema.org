@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Glycine" ;
 	<http://schema.org/description> "A non-essential amino acid. It is found primarily in gelatin and silk fibroin and used therapeutically as a nutrient. It is also a fast inhibitory neurotransmitter. [PubChem]" ;
 	<http://schema.org/drugClass> "Non-Essential Amino Acids" , "Supplements" , "Dietary Supplements" , "Micronutrients" , "Glycine Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00145" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00145.html" ;
 	<http://schema.org/administrationRoute> "irrigation" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:83a515b3f8ea980a4ac3c52dc4ea0659> , <http://bio2rdf.org/drugbank_resource:87ec5665ef708b12203886400452332d> ;
 	<http://schema.org/clinicalPharmacology> "Helps trigger the release of oxygen to the energy requiring cell-making process; Important in the manufacturing of hormones responsible for a strong immune system." ;

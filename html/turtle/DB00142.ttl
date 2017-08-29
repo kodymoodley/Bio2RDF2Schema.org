@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Glutamic Acid" ;
 	<http://schema.org/description> "A peptide that is a homopolymer of glutamic acid. [PubChem]" ;
 	<http://schema.org/drugClass> "Supplements" , "Non-Essential Amino Acids" , "Dietary Supplements" , "Micronutrients" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00142" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00142.html" ;
 	<http://schema.org/clinicalPharmacology> "In addition to being one of the building blocks in protein synthesis, it is the most widespread neurotransmitter in brain function, as an excitatory neurotransmitter and as a precursor for the synthesis of GABA in GABAergic neurons." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:4b597e449e2b1b5c11c13e74b41295c4> ;
 	<http://schema.org/legalStatus> "Nutraceutical" ;

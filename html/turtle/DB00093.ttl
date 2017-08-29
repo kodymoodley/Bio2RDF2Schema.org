@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Felypressin" ;
 	<http://schema.org/description> "A synthetic nonapeptide comprising cysteinyl, phenylalanyl, phenylalanyl, glutaminyl, asparaginyl, cysteinyl, prolyl, lysyl, and glycinamide residues in sequence, with a disulfide bridge joining the two cysteine residues. Its antidiuretic effects are less than those of vasopressin. It is used as a vasoconstrictor in local anaesthetic injections for dental use, and is an ingredient of preparations that have been used for treatment of pain and inflammation of the mouth. [ChEBI]" ;
 	<http://schema.org/drugClass> "Renal Agents" , "Vasoconstrictor Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00093" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00093.html" ;
 	<http://schema.org/clinicalPharmacology> "Felypressin is a synthetic analog of lypressin or vasopressin with more vasoconstrictor activity than antidiuretic action. It is used primarily as a hemostatic. Felypressin is a non-catecholamine vasoconstrictor that is chemically related to vasopressin, the posterior pituitary hormone." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:a57533055c136af9a471684ba442d058> ;

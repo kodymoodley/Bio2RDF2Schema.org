@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Leucine" ;
 	<http://schema.org/description> "An essential branched-chain amino acid important for hemoglobin formation. [PubChem]" ;
 	<http://schema.org/drugClass> "Supplements" , "Amino Acids, Essential" , "Dietary Supplements" , "Micronutrients" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00149" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00149.html" ;
 	<http://schema.org/clinicalPharmacology> "An essential amino acid. (Claim) Leucine helps with the regulation of blood-sugar levels, the growth and repair of muscle tissue (such as bones, skin and muscles), growth hormone production, wound healing as well as energy regulation. It can assist to prevent the breakdown of muscle proteins that sometimes occur after trauma or severe stress. It may also be beneficial for individuals with phenylketonuria - a condition in which the body cannot metabolize the amino acid phenylalanine" ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:5641fad31588864015f55abc6e3a4f47> , <http://bio2rdf.org/drugbank_resource:b65b864194b18fec1caf59648adc60ff> ;
 	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;

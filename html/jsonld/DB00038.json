@@ -1,22 +1,22 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00038",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00038",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Oprelvekin is indicated for the prevention of severe thrombocytopenia and the reduction of the need for platelet transfusions following myelosuppressive chemotherapy in adult patients with nonmyeloid malignancies who are at high risk of severe thrombocytopenia. The primary hematopoietic activity of Oprelvekin is stimulation of megakaryocytopoiesis and thrombopoiesis. Oprelvekin has shown potent thrombopoietic activity in individuals with compromised hematopoiesis",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:a73505449fbaa9b66536bac73b8ec651",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a73505449fbaa9b66536bac73b8ec651",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "352.899993896484375",
     "drugUnit" : "Neumega 5 mg vial"
   },
   "description" : "Oprelvekin, the active ingredient in Neumega® is recombinant Interleukin eleven, which is produced in Escherichia coli (E. coli) by recombinant DNA technology. The protein has a molecular mass of approximately 19,000 daltons, and is non-glycosylated. The polypeptide is 177 amino acids in length (the natural IL-11 has 178). This alteration has not resulted in measurable differences in bioactivity either in vitro or in vivo.\r\n\r\nThe primary hematopoietic activity of Neumega® is stimulation of megakaryocytopoiesis and thrombopoiesis. In mice and nonhuman primate studies Neumega® has shown potent thrombopoietic activity in compromised hematopoiesis, including moderately to severely myelosuppressed animals. In these studies, Neumega® improved platelet nadirs and accelerated platelet recoveries compared to controls.\r\n\r\nIn animal studies Oprelvekin also has non-hematopoetic activities. This includes the regulation of intestinal epithelium growth (enhanced healing of gastrointestinal lesions), the inhibition of adipogenesis, the induction of acute phase protein synthesis (e.g., fibrinogen), and inhibition of macrophageal released pro-inflammatory cytokines.",
   "drugClass" : [ "Coagulants", "Antineoplastic Agents", "Thrombotic Agents" ],
-  "schema:identifier" : "drugbank:DB00038",
+  "identifier" : "drugbank:DB00038",
   "legalStatus" : [ "Approved", "Investigational" ],
   "mechanismOfAction" : "Oprelvekin binds to the interleukin 11 receptor which leads to a cascade of signal transduction events. IL-11 is a thrombopoietic growth factor that directly stimulates the proliferation of hematopoietic stem cells and megakaryocyte progenitor cells and induces megakaryocyte maturation resulting in increased platelet production.",
   "name" : "Oprelvekin",
   "nonProprietaryName" : [ "Adipogenesis inhibitory factor", "Interleukin-11 precursor", "AGIF", "IL-11" ],
   "sameAs" : [ "http://www.rxlist.com/cgi/generic3/oprelvek.htm", "http://www.drugs.com/cdi/oprelvekin.html", "http://www.drugbank.ca/drugs/DB00038" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00038"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00038.html"
 }

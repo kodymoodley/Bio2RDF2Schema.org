@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Cetrorelix" ;
 	<http://schema.org/description> "Cetrorelix is a man-made hormone that blocks the effects of Gonadotropin Releasing Hormone (GnRH). GnRH controls another hormone that is called luteinizing hormone (LH), which is the hormone that starts ovulation during the menstrual cycle. When undergoing hormone treatment sometimes premature ovulation can occur, leading to eggs that are not ready for fertilization to be released. Cetrorelix does not allow the premature release of these eggs to occur." ;
 	<http://schema.org/drugClass> "Hormone Antagonists" , "Fertility Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00050" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00050.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:4f06398b408027f4b417cf069e9f43ea> , <http://bio2rdf.org/drugbank_resource:a599eccf37c1f430d25ce56eeae3c691> ;
 	<http://schema.org/clinicalPharmacology> "Cetrorelix is a synthetic decapeptide with gonadotropin-releasing hormone (GnRH) antagonistic activity. GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge. This LH-surge induces the ovulation of the dominant follicle, resumption of oocyte meiosis and subsequently luteinization as indicated by rising progesterone levels. Cetrorelix competes with natural GnRH for binding to membrane receptors on pituitary cells and thus controls the release of LH and FSH in a dose-dependent manner." ;

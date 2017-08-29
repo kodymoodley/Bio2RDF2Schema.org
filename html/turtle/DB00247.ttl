@@ -6,7 +6,7 @@
 	<http://schema.org/name> "Methysergide" ;
 	<http://schema.org/description> "An ergot derivative that is a congener of lysergic acid diethylamide.  It antagonizes the effects of serotonin in blood vessels and gastrointestinal smooth muscle, but has few of the properties of other ergot alkaloids. Methysergide is used prophylactically in migraine and other vascular headaches and to antagonize serotonin in the carcinoid syndrome. [PubChem]" ;
 	<http://schema.org/drugClass> "Vasoconstrictor Agents" , "Serotonin Antagonists" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00247" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00247.html" ;
 	<http://schema.org/clinicalPharmacology> "Methysergide has been shown, <i>in vitro</i> and <i>in vivo</i>, to inhibit or block the effects of serotonin, a substance which may be involved in the mechanism of vascular headaches. Serotonin has been variously described as a central neurohumoral agent or chemical mediator, as a \"headache substance\" acting directly or indirectly to lower pain threshold, as an intrinsic \"motor hormone\" of the gastrointestinal tract, and as a \"hormone\" involved in connective tissue reparative processes." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:a62b492350b843eb4d487ca9c2424b08> , <http://bio2rdf.org/drugbank_resource:6b31b07e49cbc58ad7b08ca75e12af5c> ;
 	<http://schema.org/foodWarning> "Take with food to reduce irritation." ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Bethanidine" ;
 	<http://schema.org/description> "A guanidinium antihypertensive agent that acts by blocking adrenergic transmission." ;
 	<http://schema.org/drugClass> "Sympatholytics" , "Antihypertensive Agents" , "Adrenergic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00217" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00217.html" ;
 	<http://schema.org/clinicalPharmacology> "Bethanidine is a guanidinium antihypertensive agent that acts by blocking adrenergic transmission. The precise mode of action is not clear. Although bethanidine may produce adverse effects, they are beneficial in severe hypertension and produce fewer side effects than guanethidine." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:59c5e93ac37f9fafe82a73e1736dd3d7> ;

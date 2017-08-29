@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Threonine" ;
 	<http://schema.org/description> "An essential amino acid occurring naturally in the L-form, which is the active form. It is found in eggs, milk, gelatin, and other proteins. [PubChem]" ;
 	<http://schema.org/drugClass> "Supplements" , "Dietary Supplements" , "Micronutrients" , "Amino Acids, Essential" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00156" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00156.html" ;
 	<http://schema.org/clinicalPharmacology> "L-Threonine is an essential amino acid that helps to maintain the proper protein balance in the body. It is important for the formation of collagen, elastin, and tooth enamel, and aids liver and lipotropic function when combined with aspartic acid and methionine." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:868a0c855a2936e2cfc65960bf612850> ;
 	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;

@@ -1,31 +1,31 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00103",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00103",
+  "@type" : "Drug",
   "administrationRoute" : "intravenous",
   "availableStrength" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:1c7495e7ba342d224b5028d72d73010d",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:1c7495e7ba342d224b5028d72d73010d",
+    "@type" : "DrugStrength",
     "description" : "35 mg Powder for solution form with intravenous route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:a39e93df12255155561f3d4acd297da8",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a39e93df12255155561f3d4acd297da8",
+    "@type" : "DrugStrength",
     "description" : "5 mg Powder for solution form with intravenous route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:24189bc5fb16bfce4551ecdfb0196def",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:24189bc5fb16bfce4551ecdfb0196def",
+    "@type" : "DrugStrength",
     "description" : "5 mg/mL Injection, powder, lyophilized, for solution form with intravenous route"
   } ],
   "clinicalPharmacology" : "Used in the treatment of Fabry disease, an X-linked genetic disorder of glycosphingolipid metabolism. The disease is characterized by a deficiency of the lysosomal enzyme alpha-galactosidase A, which leads to progressive accumulation of glycosphingolipids, predominantly GL-3, in many body tissues. Clinical manifestations of Fabry disease include renal failure, cardiomyopathy, and cerebrovascular accidents. Fabrazyme is intended to provide an exogenous source of alpha-galactosidase A and to limit the accumulation of these glycolipids in the tissues. Studies show unconclusive evidence for the clinical efficacy of either agalasidase alfa or agalasidase beta in preventing morbidity.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:7454b30a34e91c83a5dc8aab49e6556b",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:7454b30a34e91c83a5dc8aab49e6556b",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "771.5999755859375",
     "drugUnit" : "Fabrazyme 5 mg vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:311dd27c8ddecfda5544b19be69b1b52",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:311dd27c8ddecfda5544b19be69b1b52",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "5403.60009765625",
     "drugUnit" : "Fabrazyme 35 mg vial"
@@ -33,7 +33,7 @@
   "description" : "Recombinant human alpha-galactosidase A. The mature protein is composed of 2 subunits of 398 residues. Protein is glycosylated and produced by CHO cells",
   "dosageForm" : [ "Injection, powder, lyophilized, for solution", "Powder for solution" ],
   "drugClass" : "Enzyme Replacement Agents",
-  "schema:identifier" : "drugbank:DB00103",
+  "identifier" : "drugbank:DB00103",
   "interactingDrug" : [ "DDI between Agalsidase beta and Chloroquine - May diminish the therapeutic effect of Agalsidase Beta.", "DDI between Agalsidase beta and Amiodarone - May diminish the therapeutic effect of Agalsidase Beta." ],
   "legalStatus" : [ "Investigational", "Approved" ],
   "mechanismOfAction" : "Alpha-galactosidase A catalyzes the hydrolysis of globotriaosylceramide (GL-3) and other a-galactyl-terminated neutral glycosphingolipids, such as galabiosylceramide and blood group B substances to ceramide dihexoside and galactose.",
@@ -41,5 +41,5 @@
   "nonProprietaryName" : [ "Alpha-galactosidase A precursor", "Alpha-D- galactoside galactohydrolase", "Alpha-D-galactosidase A", "Agalsidase alfa", "Melibiase" ],
   "proprietaryName" : "Replagal",
   "sameAs" : [ "http://www.drugbank.ca/drugs/DB00103", "http://www.drugs.com/cdi/agalsidase-beta.html", "http://www.rxlist.com/cgi/generic3/fabrazyme.htm" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00103"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00103.html"
 }

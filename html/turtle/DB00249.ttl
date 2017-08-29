@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Idoxuridine" ;
 	<http://schema.org/description> "An analog of deoxyuridine that inhibits viral DNA synthesis. The drug is used as an antiviral agent. [PubChem]" ;
 	<http://schema.org/drugClass> "Antiviral Agents" , "Nucleic Acid Synthesis Inhibitors" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00249" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00249.html" ;
 	<http://schema.org/clinicalPharmacology> "In chemical structure idoxuridine closely approximates the configuration of thymidine, one of the four building blocks of DNA (the genetic material of the Herpes virus). As a result, idoxuridine is able to replace thymidine in the enzymatic step of viral replication or \"growth\". The consequent production of faulty DNA results in a pseudostructure which cannot infect or destroy tissue. In short, by pre-empting a vital building block in the genetic material of the Herpes simplex virus, Herplex-D topical solution destroys the infective and destructive capacity of the viral material. The virus infected cell may only be attacked during the period of active synthesis of DNA. This occurs early in the development of the Herpes simplex lesion, but at different times in different cells. Therefore, ideally, the affected area should remain saturated with the antiviral agent." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:2628163f117e836f8ac4cb458c126d0c> ;
 	<http://schema.org/legalStatus> "Approved" ;

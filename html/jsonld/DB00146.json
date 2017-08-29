@@ -1,16 +1,16 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00146",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00146",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Calcidiol is the precursor of vitamin D3. Vitamin D3 is a steroid hormone that has long been known for its important role in regulating body levels of calcium and phosphorus, in mineralization of bone, and for the assimilation of vitamin A. The classical manifestations of vitamin D deficiency is rickets, which is seen in children and results in bony deformaties including bowed long bones. Deficiency in adults leads to the disease osteomalacia. Both rickets and osteomalacia reflect impaired mineralization of newly synthesized bone matrix, and usually result from a combination of inadequate exposure to sunlight and decreased dietary intake of vitamin D. Common causes of vitamin D deficiency include genetic defects in the vitamin D receptor, severe liver or kidney disease, and insufficient exposure to sunlight. Vitamin D plays an important role in maintaining calcium balance and in the regulation of parathyroid hormone (PTH). It promotes renal reabsorption of calcium, increases intestinal absorption of calcium and phosphorus, and increases calcium and phosphorus mobilization from bone to plasma.",
   "description" : "The major circulating metabolite of vitamin D3 (cholecalciferol).  It is produced in the liver and is the best indicator of the body's vitamin D stores. It is effective in the treatment of rickets and osteomalacia, both in azotemic and non-azotemic patients. Calcifediol also has mineralizing properties. [PubChem]",
   "drugClass" : [ "Antihypocalcemic Agents", "Vitamin D", "Antithyroid Agents", "Bone Density Conservation Agents", "Vitamins" ],
-  "schema:identifier" : "drugbank:DB00146",
+  "identifier" : "drugbank:DB00146",
   "interactingDrug" : [ "DDI between Calcidiol and Acenocoumarol - May diminish the anticoagulant effect of Vitamin K Antagonists.", "DDI between Calcidiol and Theophylline - May increase the serum concentration of Theophylline Derivatives.", "DDI between Calcidiol and Aminophylline - May increase the serum concentration of Theophylline Derivatives.", "DDI between Calcidiol and Digoxin - May increase the serum concentration of Cardiac Glycosides." ],
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:02e8695a3201a764f140c2eb3ae2df15",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:02e8695a3201a764f140c2eb3ae2df15",
+    "@type" : "Organization",
     "name" : "Organon usa inc"
   },
   "mechanismOfAction" : "Calcidiol is transformed in the kidney by 25-hydroxyvitamin D3-1-(alpha)-hydroxylase to calcitriol, the active form of vitamin D3. Calcitriol binds to intracellular receptors that then function as transcription factors to modulate gene expression. Like the receptors for other steroid hormones and thyroid hormones, the vitamin D receptor has hormone-binding and DNA-binding domains. The vitamin D receptor forms a complex with another intracellular receptor, the retinoid-X receptor, and that heterodimer is what binds to DNA. In most cases studied, the effect is to activate transcription, but situations are also known in which vitamin D suppresses transcription. Calcitriol increases the serum calcium concentrations by: increasing GI absorption of phosphorus and calcium, increasing osteoclastic resorption, and increasing distal renal tubular reabsorption of calcium. Calcitriol appears to promote intestinal absorption of calcium through binding to the vitamin D receptor in the mucosal cytoplasm of the intestine. Subsequently, calcium is absorbed through formation of a calcium-binding protein.",
@@ -18,5 +18,5 @@
   "nonProprietaryName" : [ "(5Z,7e)-(3S)-9,10-Secocholesta-5,7,10(19)-triene-3,25-diol", "(3beta,5Z,7e)-9,10-Secocholesta-5,7,10(19)-triene-3,25-diol", "Calcifediol", "Calcifediolum", "(3?,5Z,7E)-9,10-secocholesta-5,7,10(19)-triene-3,25-diol", "25-hydroxycholecalciferol", "Calcifediol Anhydrous", "Calcidiol", "3-{2-[1-(5-hydroxy-1,5-dimethyl-hexyl)-7a-methyl-octahydro-inden-4-ylidene]-ethylidene}-4-methylene-cyclohexanol", "25-Hydroxyvitamin D3", "(3S,5Z,7e)-9,10-Secocholesta-5,7,10-triene-3,25-diol", "25(OH)D3" ],
   "proprietaryName" : "Calderol",
   "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/vit_0265.shtml", "http://www.drugbank.ca/drugs/DB00146" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00146"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00146.html"
 }

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Laronidase" ;
 	<http://schema.org/description> "Human recombinant alpha-L-iduronidase, 628 residues (mature form), produced by recombinant DNAtechnology in a Chinese hamster ovary cell line. Laronidase is a glycoprotein with a molecular weight of approximately 83 kD. The predicted amino acid sequence of the recombinant form, as well as the nucleotide sequence that encodes it, are identical to a polymorphic form of human a-L-iduronidase. It contains 6 N-linked oligosaccharide modification sites." ;
 	<http://schema.org/drugClass> "Enzyme Replacement Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00090" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00090.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:c3ea863492592dff31fb000b21cd1a19> , <http://bio2rdf.org/drugbank_resource:8abd75317f3f7b8f7d56e3fe7d6204bd> ;
 	<http://schema.org/clinicalPharmacology> "Laronidase is used to treat mucopolysaccharide storage disorders (specifically mucopolysaccharidosis 1 or Hurlers syndrome) caused by deficiencies of alpha-L-iduronidase. Reduced or absent a-L-iduronidase activity results in the accumulation of the GAG substrates, dermatan sulfate and heparan sulfate, throughout the body and leads to widespread cellular, tissue, and organ dysfunction." ;

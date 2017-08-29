@@ -228,12 +228,26 @@ public class SparqlExecutor {
 		}
 	}
 	
-	static void embedInHTMLFile(String jsonContent, String filename, String drugbankid){
+	/*static Statement getDrugFromDDI(Statement oldStatement, Value obj, String rootDrug){
+		Statement result;
+		String delete_prefix = "http://bio2rdf.org/drugbank_resource:";
+		String new_object_uri = "http://www.drugbank.ca/drugs/";
+		String str = obj.stringValue();
+		String newStr = str.replace(delete_prefix, "");
+		newStr = newStr.replace(rootDrug, "");
+		newStr = newStr.replace("_", "");
+		new_object_uri += newStr;
+		Value newObj = SimpleValueFactory.getInstance().createLiteral(new_object_uri);
 		
+		result = SimpleValueFactory.getInstance().createStatement(oldStatement.getSubject(), oldStatement.getPredicate(), newObj);
+		
+		return result;
+	}*/
+	
+	static void embedInHTMLFile(String jsonContent, String filename, String drugbankid){		
 		/** Generate HTML Data Template
 		 *  CODE HERE:
-		 */
-		
+		 */		
 		//START
 		String dataRows = "";
 		//1. Drug name
@@ -332,7 +346,7 @@ public class SparqlExecutor {
 		try {			
 			connection = repository.getConnection();
 			// Loop through drugs
-			for (int i = 1;i < 251;i++){
+			for (int i = 201;i < 251;i++){
 				// Get Drugbank id for this iteration
 				String drugid = getDrugbankID(i);
 				// Specify SPARQL construct query
@@ -347,7 +361,7 @@ public class SparqlExecutor {
 				"  ?s schema:name ?drugName.\r\n" + 
 				"  ?s schema:description ?drugDescription.\r\n" + 
 				"  ?s schema:identifier ?drugIdentifier.\r\n" + 
-				"  ?s schema:url ?drugUrl.\r\n" + 
+				"  ?s schema:url \"https://schemaorg.metadatacenter.org/drugbank/" + drugid + ".html\".\r\n" + 
 				"  ?s schema:sameAs ?sameAs.\r\n" + 
 				"\r\n" + 
 				"  ?s schema:proprietaryName ?proprietaryName.\r\n" + 
@@ -444,7 +458,7 @@ public class SparqlExecutor {
 							// Has language marker so we create a new triple removing the language marker
 							Value obj = SimpleValueFactory.getInstance().createLiteral(st.getObject().stringValue());
 							st = SimpleValueFactory.getInstance().createStatement(st.getSubject(), st.getPredicate(), obj);						
-						}
+						}	
 						statements.add(st);
 					}
 

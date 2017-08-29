@@ -1,0 +1,35 @@
+{
+ "@context" : "http://schema.org",
+  "@id" : "http://bio2rdf.org/drugbank:DB00064",
+  "@type" : "Drug",
+  "administrationRoute" : "intravenous",
+  "availableStrength" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:aabe568eadbc42e88ba5efc1c4f459af",
+    "@type" : "DrugStrength",
+    "description" : "1 mCi/mL Injection, solution form with intravenous route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:ee3b201572e17e6cb188d477a81cdc61",
+    "@type" : "DrugStrength",
+    "description" : ".01 mCi/mL Injection, solution form with intravenous route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:c2d81a161bc3e1b48025b3ccab160464",
+    "@type" : "DrugStrength",
+    "description" : ".025 mCi/mL Injection, solution form with intravenous route"
+  } ],
+  "clinicalPharmacology" : "Regulates the colloidal osmotic pressure of blood. It is used to increase the circulating plasma volume, thereby reducing hemoconcentrtion and blood viscosity. Also used as a transport protein that binds naturally occurring, therapeutic and toxic materials in circulation.",
+  "description" : "A diagnostic radiopharmaceutical containing iodinated I 131 albumin for intravenous imaging. Following intravenous injection, radioiodinated albumin human is uniformly distributed throughout the intravascular pool within 10 minutes; extravascular distribution takes place more slowly (2 days). Indicated for use in determinations of total blood and plasma volumes, cardiac output, cardiac and pulmonary blood volumes and circulation times",
+  "dosageForm" : "Injection, solution",
+  "drugClass" : "Diagnostic Agents",
+  "identifier" : "drugbank:DB00064",
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:e0d7907845cf25d1ba29732129da5a43",
+    "@type" : "Organization",
+    "name" : "Iso tex diagnostics inc"
+  },
+  "mechanismOfAction" : "Serum albumin acts as a high molecular weight, very soluble osmolyte",
+  "name" : "Serum albumin iodonated",
+  "nonProprietaryName" : "Serum albumin precursor",
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00064",
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00064.html"
+}

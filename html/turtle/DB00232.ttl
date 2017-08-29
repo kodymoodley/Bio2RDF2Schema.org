@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Methyclothiazide" ;
 	<http://schema.org/description> "A thiazide diuretic with properties similar to those of hydrochlorothiazide. (From Martindale, The Extra Pharmacopoeia, 30th ed, p825)" ;
 	<http://schema.org/drugClass> "Sodium Chloride Symporter Inhibitors" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00232" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00232.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:846121eedbf8f69dd90f0a39f6b06b12> ;
 	<http://schema.org/clinicalPharmacology> "Methyclothiazide, a diuretic-antihypertensive agent, is a member of the benzothiadiazine (thiazide) class of drugs. Methyclothiazide has a per mg natriuretic activity approximately 100 times that of the prototype thiazide, chlorothiazide. At maximal therapeutic dosages, all thiazides are approximately equal in their diuretic/natriuretic effects. Like other benzothiadiazines, methyclothiazide also has antihypertensive properties, and may be used for this purpose either alone or to enhance the antihypertensive action of other drugs." ;

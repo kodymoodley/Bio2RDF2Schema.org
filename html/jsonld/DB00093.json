@@ -1,15 +1,15 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00093",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00093",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Felypressin is a synthetic analog of lypressin or vasopressin with more vasoconstrictor activity than antidiuretic action. It is used primarily as a hemostatic. Felypressin is a non-catecholamine vasoconstrictor that is chemically related to vasopressin, the posterior pituitary hormone.",
   "description" : "A synthetic nonapeptide comprising cysteinyl, phenylalanyl, phenylalanyl, glutaminyl, asparaginyl, cysteinyl, prolyl, lysyl, and glycinamide residues in sequence, with a disulfide bridge joining the two cysteine residues. Its antidiuretic effects are less than those of vasopressin. It is used as a vasoconstrictor in local anaesthetic injections for dental use, and is an ingredient of preparations that have been used for treatment of pain and inflammation of the mouth. [ChEBI]",
   "drugClass" : [ "Renal Agents", "Vasoconstrictor Agents" ],
-  "schema:identifier" : "drugbank:DB00093",
+  "identifier" : "drugbank:DB00093",
   "legalStatus" : "Approved",
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:a57533055c136af9a471684ba442d058",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a57533055c136af9a471684ba442d058",
+    "@type" : "Organization",
     "name" : "Novartis pharmaceuticals corp"
   },
   "mechanismOfAction" : "Felypressin binds to the vasopressin receptor V1a. This causes contraction of the smooth muscle in the vascular bed, especially capillaries, small arterioles and venules.",
@@ -17,5 +17,5 @@
   "nonProprietaryName" : [ "Felypressin", "PLV-2", "2-(L-phenylalanine)-8-L-lysinevasopressin", "Felypressine", "Felipresina", "Felypressinum" ],
   "proprietaryName" : "Colupressine",
   "sameAs" : "http://www.drugbank.ca/drugs/DB00093",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00093"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00093.html"
 }

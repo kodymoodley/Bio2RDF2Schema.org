@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Vasopressin" ;
 	<http://schema.org/description> "Antidiuretic hormone, also known as vasopressin, is a nine amino acid peptide secreted from the posterior pituitary. Antidiuretic hormone binds to receptors in the distal or collecting tubules of the kidney and promotes reabsorbtion of water back into the circulation" ;
 	<http://schema.org/drugClass> "Antidiuretic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00067" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00067.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:4ec3f1abac10dbccb411c97866fb3807> ;
 	<http://schema.org/clinicalPharmacology> "Vasopressin is an antidiuretic hormone indicated for the prevention and treatment of postoperative abdominal distention, in abdominal roentgenography to dispel interfering gas shadows, and in diabetes insipidus. Vasopressin can cause contraction of smooth muscle of the gastrointestinal tract and of all parts of the vascular bed, especially the capillaries, small arterioles and venules. It has less effect on the smooth musculature of the large veins. Vasopressin may also be used to control bleeding in some forms of von Willebrand disease and to treat extreme cases of bed wetting in children. It may also play a role in memory formation although the mechanism is unknown." ;

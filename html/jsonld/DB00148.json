@@ -1,34 +1,34 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00148",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00148",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Creatine is a essential, non-proteinaceous amino acid found in all animals and, in some plants. Creatine is synthesized in the kidney, liver and pancreas from L-arginine, glycine and L-methionine. Following its biosynthesis, creatine is transported to the skeletal muscle, heart, brain and other tissues. Most of the creatine is metabolized in these tissues to phosphocreatine (creatine phosphate). Phosphocreatine is a major energy storage form in the body. Supplemental creatine may have an energy-generating action during anaerobic exercise and may also have neuroprotective and cardioprotective actions.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:c99bac6106694dc88a12c58fab27f12e",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:c99bac6106694dc88a12c58fab27f12e",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.0099999997764825820923",
     "drugUnit" : "Creatine powder"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:80339c18f3c78a32e40e6dc482276708",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:80339c18f3c78a32e40e6dc482276708",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.81000000238418579102",
     "drugUnit" : "Creatine monohydrate powder"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:5854c9e39c1f4e1894f0ae4ed80fab9b",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:5854c9e39c1f4e1894f0ae4ed80fab9b",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.070000000298023223877",
     "drugUnit" : "Cytotine 1.5 g/15 ml liquid"
   } ],
   "description" : "An amino acid that occurs in vertebrate tissues and in urine.  In muscle tissue, creatine generally occurs as phosphocreatine.  Creatine is excreted as creatinine in the urine. [PubChem]",
   "drugClass" : [ "Dietary Supplements", "Supplements", "Micronutrients" ],
-  "schema:identifier" : "drugbank:DB00148",
+  "identifier" : "drugbank:DB00148",
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "mechanismOfAction" : "In the muscles, a fraction of the total creatine binds to phosphate - forming creatine phosphate. The reaction is catalysed by creatine kinase, and the result is phosphocreatine (PCr). Phosphocreatine binds with adenosine diphosphate to convert it back to ATP (adenosine triphosphate), an important cellular energy source for short term ATP needs prior to oxidative phosphorylation.",
   "name" : "Creatine",
   "nonProprietaryName" : [ "Kreatin", "N-[(e)-AMINO(imino)methyl]-N-methylglycine", "(N-methylcarbamimidamido)acetic acid", "N-(aminoiminomethyl)-N-methylglycine", "Methylglycocyamine", "(alpha-Methylguanido)acetic acid", "Creatine", "(?-methylguanido)acetic acid", "N-Amidinosarcosine", "((amino(Imino)methyl)(methyl)amino)acetic acid", "N-Carbamimidoyl-N-methylglycine", "Creatin", "alpha-Methylguanidino acetic acid", "N-Methyl-N-guanylglycine" ],
   "sameAs" : [ "http://www.drugs.com/creatine.html", "http://www.drugbank.ca/drugs/DB00148", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/cre_0086.shtml" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00148"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00148.html"
 }

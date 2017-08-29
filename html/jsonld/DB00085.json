@@ -1,221 +1,221 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00085",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00085",
+  "@type" : "Drug",
   "administrationRoute" : [ "epidural; infiltration", "oral" ],
   "availableStrength" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:f70279cb9494a9eda450c00b55d0352f",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f70279cb9494a9eda450c00b55d0352f",
+    "@type" : "DrugStrength",
     "description" : "46000; 23000; 46000 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:9a3b4abb8f273fa2f383b551a1894f0f",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:9a3b4abb8f273fa2f383b551a1894f0f",
+    "@type" : "DrugStrength",
     "description" : "136000; 25000; 85000 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:27136092f71ea2dc0884122e1d472f2b",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:27136092f71ea2dc0884122e1d472f2b",
+    "@type" : "DrugStrength",
     "description" : "10 mg/mL Injection, solution form with epidural; infiltration route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:1260467275068ce542e5c299b586399c",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:1260467275068ce542e5c299b586399c",
+    "@type" : "DrugStrength",
     "description" : "82000; 15000; 51000 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:b36bd6c496a004338641872653e73c55",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:b36bd6c496a004338641872653e73c55",
+    "@type" : "DrugStrength",
     "description" : "120000; 24000; 76000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release pellets form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:b249bfa106599ab2ea815c0538721b01",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:b249bfa106599ab2ea815c0538721b01",
+    "@type" : "DrugStrength",
     "description" : "70000; 16800; 40000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:175732483eb5d0afdce1e0b87ee0ae6f",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:175732483eb5d0afdce1e0b87ee0ae6f",
+    "@type" : "DrugStrength",
     "description" : "41400; 20700; 41400 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:d7b4a2cd91ffa76e6ced42d860f720e6",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:d7b4a2cd91ffa76e6ced42d860f720e6",
+    "@type" : "DrugStrength",
     "description" : "27600; 13800; 27600 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:ba17e8c73ecc076468a27be60bd51000",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:ba17e8c73ecc076468a27be60bd51000",
+    "@type" : "DrugStrength",
     "description" : "16000; 3000; 10000 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:ac19273ac22375d315e23710d2b5cc80",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:ac19273ac22375d315e23710d2b5cc80",
+    "@type" : "DrugStrength",
     "description" : "60500; 16000; 57500 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:d9ffd5f12f88be5848c77072a4dc4885",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:d9ffd5f12f88be5848c77072a4dc4885",
+    "@type" : "DrugStrength",
     "description" : "27000; 5000; 17000 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:bfa1b3202d38637a18d8bcfd8c3e23e1",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:bfa1b3202d38637a18d8bcfd8c3e23e1",
+    "@type" : "DrugStrength",
     "description" : "60000; 12000; 38000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release pellets form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:5ec480f1898bc210cd4f4f879582cacb",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:5ec480f1898bc210cd4f4f879582cacb",
+    "@type" : "DrugStrength",
     "description" : "218000; 40000; 136000 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:5ebc91afa2630a7ae33f0c165c59a6e5",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:5ebc91afa2630a7ae33f0c165c59a6e5",
+    "@type" : "DrugStrength",
     "description" : "43750; 10500; 25000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:c78b0a07c1f0add4a6a69d96c1a51410",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:c78b0a07c1f0add4a6a69d96c1a51410",
+    "@type" : "DrugStrength",
     "description" : "30000; 6000; 19000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release pellets form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:e683fe8ebafdf4d83c824776e4144db6",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:e683fe8ebafdf4d83c824776e4144db6",
+    "@type" : "DrugStrength",
     "description" : "55000; 10000; 34000 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:06b122a4103620abd546ff8709085515",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:06b122a4103620abd546ff8709085515",
+    "@type" : "DrugStrength",
     "description" : "180000; 36000; 114000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release pellets form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:e42f8d5be9f3d3dd82e7435e76128245",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:e42f8d5be9f3d3dd82e7435e76128245",
+    "@type" : "DrugStrength",
     "description" : "20 mg/mL Injection, solution form with epidural; infiltration route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:8532faf6b74a0718755250462da33523",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8532faf6b74a0718755250462da33523",
+    "@type" : "DrugStrength",
     "description" : "39150; 10440; 39150 [USP'U]/1; [USP'U]/1; [USP'U] Tablet form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:03e8c102c79db06eecd326f99a3b3942",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:03e8c102c79db06eecd326f99a3b3942",
+    "@type" : "DrugStrength",
     "description" : "17500; 4200; 10000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:3bd791e323b3beafbc6a893a9ca9c390",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:3bd791e323b3beafbc6a893a9ca9c390",
+    "@type" : "DrugStrength",
     "description" : "78300; 20880; 78300 [USP'U]/1; [USP'U]/1; [USP'U] Tablet form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:80d05f76cbb76694ea904495c3f83347",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:80d05f76cbb76694ea904495c3f83347",
+    "@type" : "DrugStrength",
     "description" : "15125; 4000; 14375 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:f4a43febd5a54c4918f01872054a5fb9",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f4a43febd5a54c4918f01872054a5fb9",
+    "@type" : "DrugStrength",
     "description" : "15000; 3000; 9500 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:ee02f096580d1140f2283235c4b55c78",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:ee02f096580d1140f2283235c4b55c78",
+    "@type" : "DrugStrength",
     "description" : "61000; 21000; 37000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:f3682897e4c20e6c4a84dea7e938c970",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f3682897e4c20e6c4a84dea7e938c970",
+    "@type" : "DrugStrength",
     "description" : "109000; 20000; 68000 [USP&apos'U]/1; [USP&apos'U]/1; [USP&apos'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:fc307f5231f93b7e5949d1b89005df9d",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:fc307f5231f93b7e5949d1b89005df9d",
+    "@type" : "DrugStrength",
     "description" : "15 mg/mL Injection, solution form with epidural; infiltration route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:4bc998c1669fd3eb89c1373cac8c6655",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:4bc998c1669fd3eb89c1373cac8c6655",
+    "@type" : "DrugStrength",
     "description" : "30250; 8000; 28750 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:fb06a3920befd7b98ab29b2268c87737",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:fb06a3920befd7b98ab29b2268c87737",
+    "@type" : "DrugStrength",
     "description" : "27000; 5000; 17000 [USP'U]/1; [USP'U]/1; [USP'U] Capsule, delayed release form with oral route"
   } ],
   "clinicalPharmacology" : "Used in the treatment of cystic fibrosis or pancreatic dysfunction, pancrelipase helps improve fat digestion in the small intestine. Specifically, the lipase, protease and amylase components break down fat, protein, and starches, respectively, in the small intestine. Lipase hydrolyzes fats into glycerol and fatty acids. Protease converts proteins into proteoses and derived substances, while amylase converts starches into dextrins and sugars. Pancreatic enzymes are used to correct maldigestion, malabsorption and pain associated with pancreatic insufficiency. The major maldigestion/malabsorption problems arise from incomplete fat digestion. Exogenous pancrelipase reduces the amount of nitrogen and fat excreted in the stool.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:fabfd4bc6db7daec552d4d9d7680a1d5",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:fabfd4bc6db7daec552d4d9d7680a1d5",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "2.4000000953674316406",
     "drugUnit" : "Pancrease MT 16 48-16-48mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:79ab2c1c7440c13241702076dd5d19ba",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:79ab2c1c7440c13241702076dd5d19ba",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "2.8299999237060546875",
     "drugUnit" : "Creon 20 66.4-20-75mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:1455dba056db65198be22dd7b9de91b5",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:1455dba056db65198be22dd7b9de91b5",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.75999999046325683594",
     "drugUnit" : "Pancrease ec capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:29908be8537ff75a79cf6833a461b15a",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:29908be8537ff75a79cf6833a461b15a",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.379999995231628418",
     "drugUnit" : "Pancrelipase 10000 30-10-30mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:b86002b41e7f14823116e1ce24323ba8",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:b86002b41e7f14823116e1ce24323ba8",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "2.9900000095367431641",
     "drugUnit" : "Pancrease MT 20 56-20-44mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:a8c7cc5801792094f0055ebc2e9d3e21",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a8c7cc5801792094f0055ebc2e9d3e21",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.87000000476837158203",
     "drugUnit" : "Pancrease 4500 unit Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:58cc0cb8d1b813d65f27ceb41a1fa2f1",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:58cc0cb8d1b813d65f27ceb41a1fa2f1",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.63999998569488525391",
     "drugUnit" : "Pancrelipase ec 4500 capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:ad17eddaf3658ba5067de9988332c5d4",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:ad17eddaf3658ba5067de9988332c5d4",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "3.3199999332427978516",
     "drugUnit" : "Creon 24000 unit Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:db60df9a7361881c13b11f212f725c91",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:db60df9a7361881c13b11f212f725c91",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "2.0199999809265136719",
     "drugUnit" : "Pancrelipase 16000 48-16-48mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:c2716b6d823241ed07de0e8d9ba4c72e",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:c2716b6d823241ed07de0e8d9ba4c72e",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.4900000095367431641",
     "drugUnit" : "Pancrease MT 10 30-10-30mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:c491326d05c458e1d5bd46daab9acecd",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:c491326d05c458e1d5bd46daab9acecd",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.80000001192092895508",
     "drugUnit" : "Ultrase 4500 unit Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:e1312af2dd2a5c8b01925d934d31add9",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:e1312af2dd2a5c8b01925d934d31add9",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.5399999618530273438",
     "drugUnit" : "Creon 10 33.2-10-37.5mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:c8e60da3d57e2298d631522fe49e6844",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:c8e60da3d57e2298d631522fe49e6844",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.86000001430511474609",
     "drugUnit" : "Creon 5 16.6-5-18.75mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:022d47b05a48d7e1ed077af6a0f030ba",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:022d47b05a48d7e1ed077af6a0f030ba",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "3.0599999427795410156",
     "drugUnit" : "Ultrase MT 20 65-20-65mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:409ff48fde8874d595ab2a22e4791904",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:409ff48fde8874d595ab2a22e4791904",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.6499999761581420898",
     "drugUnit" : "Ultrase MT 12 39-12-39mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:85656854a98a0017cedb7913b48928a9",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:85656854a98a0017cedb7913b48928a9",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.0299999713897705078",
     "drugUnit" : "Pancrelipase MST-16 48-16-48mu Enteric Coated Capsule"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:f500349aa6694ee3d7725b0d1d14e869",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f500349aa6694ee3d7725b0d1d14e869",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "2.6500000953674316406",
     "drugUnit" : "Ultrase MT 18 58.5-18-58.5mu Enteric Coated Capsule"
@@ -224,12 +224,12 @@
   "dosageForm" : [ "Tablet", "Injection, solution", "Capsule, delayed release", "Capsule, delayed release pellets" ],
   "drugClass" : [ "Gastrointestinal Agents", "Enzyme Replacement Agents" ],
   "foodWarning" : "Delayed release capsules should not be broken or crushed, but for those patients who cannot swallow the capsules, sprinkle the contents of the capsule onto soft acidic foods (pH of ?4.5). Alkaline foods with a higher pH will promote early release of pancrelipase followed by enzyme inactivation in the stomach.",
-  "schema:identifier" : "drugbank:DB00085",
+  "identifier" : "drugbank:DB00085",
   "legalStatus" : "Approved",
   "mechanismOfAction" : "The lipase, protease and amylase components of pancrelipase break down fat, protein, and starches, respectively, in the small intestine. Lipase hydrolyzes fats into glycerol and fatty acids. Protease converts proteins into proteoses and derived substances, while amylase converts starches into dextrins and sugars.",
   "name" : "Pancrelipase",
   "nonProprietaryName" : [ "Pancreatic alpha-amylase precursor", "1,4-alpha-D- glucan glucanohydrolase", "PA" ],
   "proprietaryName" : "Cotazym",
   "sameAs" : [ "http://www.rxlist.com/cgi/generic2/pancrel.htm", "http://www.drugbank.ca/drugs/DB00085", "http://www.drugs.com/cdi/amylase-lipase-protease.html" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00085"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00085.html"
 }

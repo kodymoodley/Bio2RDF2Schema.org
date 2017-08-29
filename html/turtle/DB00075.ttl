@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Muromonab" ;
 	<http://schema.org/description> "Murine monoclonal antibody specific to CD3 T-cell lymphocyte antigens. More specifically it is a purified murine (mouse) monoclonal antibody, directed against the CD3 (T3) receptor on the surface of human T-cells (T-lymphocytes) cultured using the murine ascites method. Muromonab is 93% monomeric immune globulin G type 2a (IgG2a)." ;
 	<http://schema.org/drugClass> "Immunologic Factors" , "Immunosuppressive Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00075" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00075.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:d34e4a59e7a589187c0a09387afccddc> ;
 	<http://schema.org/clinicalPharmacology> "Used in organ transplant prophylaxis, Muromonab or OKT-3 binds specifically to the CD-3 complex, which is involved in antigen recognition and cell stimulation, on the surface of T lymphocytes. Immediately after administration CD-3-positive T lymphocytes are abruptly removed from circulation. It has been effective in reversing corticosteroid-resistant acute rejection in renal, liver, and cardiac transplant recipients." ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Rasburicase" ;
 	<http://schema.org/description> "Rasburicase is a recombinant urate-oxidase enzyme produced by a genetically modified <i>Saccharomyces cerevisiae</i> strain. The cDNA coding for rasburicase was cloned from a strain of <i>Aspergillus flavus</i>." ;
 	<http://schema.org/drugClass> "Antihyperuricemic Agents" , "Gout Suppressants" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00049" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00049.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:a4cd6226b86f6cbeab2111fbb40eba42> ;
 	<http://schema.org/clinicalPharmacology> "Drugs used to treat lympohoid leukemia, non-Hodgkin's lymphoma and acute myelogenous leukemia often lead to the accumulation of toxic plasma levels of purine metabolites (i.e. uric acid). The injection of rasburicase reduces levels of uric acid and mitigates the toxic effects of chemotherapy induced tumor lysis." ;

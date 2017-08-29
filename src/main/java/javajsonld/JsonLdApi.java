@@ -163,6 +163,7 @@ public class JsonLdApi {
             // 2.2)
             for (final Object item : (List<Object>) element) {
                 // 2.2.1)
+            	
                 final Object compactedItem = compact(activeCtx, activeProperty, item,
                         compactArrays);
                 // 2.2.2)
@@ -200,6 +201,10 @@ public class JsonLdApi {
             final List<String> keys = new ArrayList<String>(elem.keySet());
             Collections.sort(keys);
             for (final String expandedProperty : keys) {
+            	if (expandedProperty.contains("url") || expandedProperty.contains("identifier")){
+            		//System.out.println("expandedProperty: " + expandedProperty);        
+            	}
+            	
                 final Object expandedValue = elem.get(expandedProperty);
 
                 // 7.1)
@@ -227,8 +232,13 @@ public class JsonLdApi {
                         }
                     }
 
-                    // 7.1.3)
-                    final String alias = activeCtx.compactIri(expandedProperty, true);
+                    // 7.1.3)                 
+                    final String alias;
+                    if (JsonLdConsts.ID.equals(expandedProperty))
+                    	alias = JsonLdConsts.ID;
+                    else
+                    	alias = JsonLdConsts.TYPE;
+                    //final String alias = activeCtx.compactIri(expandedProperty, true);
                     // 7.1.4)
                     result.put(alias, compactedValue);
                     continue;
@@ -312,8 +322,10 @@ public class JsonLdApi {
                 // 7.5)
                 if (((List<Object>) expandedValue).size() == 0) {
                     // 7.5.1)
-                    final String itemActiveProperty = activeCtx.compactIri(expandedProperty,
+                	
+                    final String itemActiveProperty = activeCtx.compactIri(expandedProperty,                    		
                             expandedValue, true, insideReverse);
+                    
                     // 7.5.2)
                     if (!result.containsKey(itemActiveProperty)) {
                         result.put(itemActiveProperty, new ArrayList<Object>());
@@ -322,6 +334,7 @@ public class JsonLdApi {
                         if (!(value instanceof List)) {
                             final List<Object> tmp = new ArrayList<Object>();
                             tmp.add(value);
+                           
                             result.put(itemActiveProperty, tmp);
                         }
                     }
@@ -332,9 +345,11 @@ public class JsonLdApi {
                     // 7.6.1)
                     final String itemActiveProperty = activeCtx.compactIri(expandedProperty,
                             expandedItem, true, insideReverse);
+                    
                     // 7.6.2)
                     final String container = activeCtx.getContainer(itemActiveProperty);
-
+                    
+                    
                     // get @list value if appropriate
                     final boolean isList = (expandedItem instanceof Map
                             && ((Map<String, Object>) expandedItem).containsKey(JsonLdConsts.LIST));
@@ -391,6 +406,7 @@ public class JsonLdApi {
                             mapObject = (Map<String, Object>) result.get(itemActiveProperty);
                         } else {
                             mapObject = newMap();
+                            
                             result.put(itemActiveProperty, mapObject);
                         }
 
@@ -407,6 +423,7 @@ public class JsonLdApi {
                                 .get(container);
                         // 7.6.5.4)
                         if (!mapObject.containsKey(mapKey)) {
+                       
                             mapObject.put(mapKey, compactedItem);
                         } else {
                             List<Object> tmp;
@@ -434,17 +451,37 @@ public class JsonLdApi {
                         }
                         // 7.6.6.2)
                         if (!result.containsKey(itemActiveProperty)) {
-                            result.put(itemActiveProperty, compactedItem);
+                        	String tmp = "";
+                        	if (itemActiveProperty.contains("url")){
+                        			tmp = "url";
+                        			result.put(tmp, compactedItem);
+                        	}
+                        	else if (itemActiveProperty.contains("identifier")){
+                        		tmp = "identifier";
+                    			result.put(tmp, compactedItem);
+                        	}
+                        	else{
+                        		result.put(itemActiveProperty, compactedItem);
+                        	}
                         } else {
                             if (!(result.get(itemActiveProperty) instanceof List)) {
                                 final List<Object> tmp = new ArrayList<Object>();
                                 tmp.add(result.put(itemActiveProperty, tmp));
                             }
                             if (compactedItem instanceof List) {
+                            	
                                 ((List<Object>) result.get(itemActiveProperty))
                                         .addAll((List<Object>) compactedItem);
                             } else {
-                                ((List<Object>) result.get(itemActiveProperty)).add(compactedItem);
+                            	String tmp = "";
+                            	if (itemActiveProperty.contains("url")){
+                            			tmp = "url";
+                            			((List<Object>) result.get(tmp)).add(compactedItem);
+                            	}
+                            	else{
+                            		//System.out.println("sad: " + itemActiveProperty);
+                            		((List<Object>) result.get(itemActiveProperty)).add(compactedItem);
+                            	}
                             }
                         }
 

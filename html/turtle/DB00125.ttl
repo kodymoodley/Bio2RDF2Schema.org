@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Arginine" ;
 	<http://schema.org/description> "An essential amino acid that is physiologically active in the L-form. [PubChem]" ;
 	<http://schema.org/drugClass> "Supplements" , "Micronutrients" , "Dietary Supplements" , "Conditionally Essential Amino Acids" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00125" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00125.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:1c50c54cf637cb6e424322f3be53b557> ;
 	<http://schema.org/clinicalPharmacology> "Studies have shown that is has improved immune responses to bacteria, viruses and tumor cells; promotes wound healing and regeneration of the liver; causes the release of growth hormones; considered crucial for optimal muscle growth and tissue repair." ;

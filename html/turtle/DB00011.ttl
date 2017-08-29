@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Interferon alfa-n1" ;
 	<http://schema.org/description> "Purified, natural (n is for natural) glycosylated human interferon alpha proteins 166 residues" ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" , "Antiviral Agents" , "Immunologic Factors" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00011" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00011.html" ;
 	<http://schema.org/clinicalPharmacology> "Upregulates the expression of MHC I proteins, allowing for increased presentation of peptides derived from viral antigens. This enhances the activation of CD8+ T cells that are the precursors for cytotoxic T lymphocytes (CTLs) and makes the macrophage a better target for CTL-mediated killing. Interferon alpha also induce the synthesis of several key antiviral mediators, including 2'-5' oligoadenylate synthetase (2'-5' A synthetase) and protein kinase R." ;
 	<http://schema.org/foodWarning> "Avoid alcohol." ;
 	<http://schema.org/legalStatus> "Approved" ;

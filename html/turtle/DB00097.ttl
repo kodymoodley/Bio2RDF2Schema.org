@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Choriogonadotropin alfa" ;
 	<http://schema.org/description> "Recombinant human chorionic gonadotropin with 2 subunits, alpha = 92 residues, beta = 145 residues, each with N-and O-linked carbohydrate moieties linked to ASN-52 and ASN-78 (on alpha subunit) and ASN-13, ASN-30, SER-121, SER-127, SER-132 and SER-138 (on beta subunit). The primary structure of the alpha-chain of r-hCG is identical to that of the alpha-chain of hCG, FSH and LH." ;
 	<http://schema.org/drugClass> "Fertility Agents" , "Gonadotropins" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00097" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00097.html" ;
 	<http://schema.org/administrationRoute> "intramuscular" , "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:2a828069e3c5a4b098468f8a2091e89f> , <http://bio2rdf.org/drugbank_resource:ecabf5b344b3167464e815c34c3a1575> ;
 	<http://schema.org/clinicalPharmacology> "Choriogonadotropin alfa is used to treat female infertility, Choriogonadotropin alfa stimulates late follicular maturation and resumption of oocyte meiosis, and initiates rupture of the pre-ovulatory ovarian follicle. Ovidrel is an analogue of Luteinizing Hormone (LH) and binds to the LH/hCG receptor of the granulosa and theca cells of the ovary to effect these changes in the absence of an endogenous LH surge." ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Drotrecogin alfa" ;
 	<http://schema.org/description> "Drotrecogin alfa is activated human protein C that is synthesized by recombinant DNA technology. It is a glycoprotein of approximately 55 kilodalton molecular weight, consisting of a heavy chain and a light chain linked by a disulfide bond. Drotrecogin alfa was withdrawn from the market after a major study indicated that it was not effective in improving outcomes in patients with sepsis." ;
 	<http://schema.org/drugClass> "Antisepsis" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00055" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00055.html" ;
 	<http://schema.org/clinicalPharmacology> """Drotrecogin alfa is activated human protein C that is synthesized by recombinant DNA technology. It is a glycoprotein of approximately 55 kilodalton molecular weight, consisting of a heavy chain and a light chain linked by a disulfide bond.
 Drotrecogin alfa inhibits factor Va and VIIIa, thereby reducing the coagulability of blood.""" ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:13e77d7b98fbc2bf7a096844cb4ef44e> , <http://bio2rdf.org/drugbank_resource:9745eb276f567c5824be0c61c00be05c> ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Human Serum Albumin" ;
 	<http://schema.org/description> "Human serum albumin isolated from expired blood plasma" ;
 	<http://schema.org/drugClass> "Serum substitutes" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00062" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00062.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:f72ee8867cb7b8c82ee5c00786b564da> , <http://bio2rdf.org/drugbank_resource:604edfa0c00e91c83662ed63eb4dd6c2> , <http://bio2rdf.org/drugbank_resource:b8385c4ec43925420c894c3d1b6262fb> , <http://bio2rdf.org/drugbank_resource:12a90a41f3e0a2b0bc5164e40b10ab2d> ;
 	<http://schema.org/clinicalPharmacology> "Regulates the colloidal osmotic pressure of blood. It is used to increase the circulating plasma volume, thereby reducing hemoconcentrtion and blood viscosity. Also used as a transport protein that binds naturally occurring, therapeutic and toxic materials in circulation." ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Isoetarine" ;
 	<http://schema.org/description> "Isoetarine is a selective adrenergic beta-2 agonist used as fast acting bronchodilator for emphysema, bronchitis and asthma. [PubChem]" ;
 	<http://schema.org/drugClass> "Adrenergic beta-2 Receptor Agonists" , "Bronchodilator Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00221" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00221.html" ;
 	<http://schema.org/clinicalPharmacology> "Isoetharine is a relatively selective beta2-adrenergic bronchodilator. Isoetharine is indicated for the relief of bronchospasm associated with chronic obstructive pulmonary disease. Adrenergic bronchodilators are breathed in through the mouth to open up the bronchial tubes (air passages) of the lungs." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:d06c3c3ddb3b53af25ccf2849abf6154> ;

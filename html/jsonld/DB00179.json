@@ -1,15 +1,15 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00179",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00179",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Masoprocol is a novel antineoplastic agent. It is not known exactly how masoprocol works. Laboratory experiments have shown that masoprocol prevents cells similar to the ones found in actinic keratoses from multiplying. Masoprocol was withdrawn from the U.S. market in June 1996.",
   "description" : "A potent lipoxygenase inhibitor that interferes with arachidonic acid metabolism. The compound also inhibits formyltetrahydrofolate synthetase, carboxylesterase, and cyclooxygenase to a lesser extent. It also serves as an antioxidant in fats and oils. [PubChem]",
   "drugClass" : [ "Lipoxygenase Inhibitors", "Antioxidants", "Cyclooxygenase Inhibitors", "Antineoplastic Agents" ],
-  "schema:identifier" : "drugbank:DB00179",
+  "identifier" : "drugbank:DB00179",
   "legalStatus" : "Approved",
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:3ce03215e5f5e6143d3f158a5626d831",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:3ce03215e5f5e6143d3f158a5626d831",
+    "@type" : "Organization",
     "name" : "Univ arizona cancer center"
   },
   "mechanismOfAction" : "Although the exact mechanism of action is not known, studies have shown that masoprocol is a potent 5-lipoxygenase inhibitor and has antiproliferative activity against keratinocytes in tissue culture, but the relationship between this activity and its effectiveness in actinic keratoses is unknown. Masoprocol also inhibits prostaglandins but the significance of this action is not yet known.",
@@ -17,5 +17,5 @@
   "nonProprietaryName" : [ "Nordihydroguaiaretic acid", "Meso-4,4'-(2,3-dimethyl-1,4-butanediyl)bis(pyrocatechol)", "erythro-Nordihydroguaiaretic acid", "Meso-ndga", "Meso-beta,gamma-dimethyl-alpha,delta-bis(3,4-dihydroxyphenyl)butan", "Meso-2,3-bis(3,4-dihydroxyphenylmethyl)butane", "NDGA", "Masoprocolum", "Meso-4-[4-(3,4-dihydroxyphenyl)-2,3-dimethylbutyl]benzene-1,2-diol", "CHX 100", "Meso-nordihydroguaiaretic acid", "Actinex", "Meso-1,4-bis(3,4-dihydroxyphenyl)-2,3-dimethylbutane", "CHX-100", "Meso-4,4'-(2,3-dimethyltetramethylene)dipyrocatechol" ],
   "proprietaryName" : "Actinex",
   "sameAs" : "http://www.drugbank.ca/drugs/DB00179",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00179"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00179.html"
 }

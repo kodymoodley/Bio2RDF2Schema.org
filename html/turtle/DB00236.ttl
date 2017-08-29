@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00236> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Pipobroman" ;
 	<http://schema.org/description> "An antineoplastic agent that acts by alkylation. [PubChem]" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00236" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00236.html" ;
 	<http://schema.org/clinicalPharmacology> "Pipobroman is an antineoplastic agent. Specifically it is a piperazine derivative with a chemical structure close to that of many DNA alkylating agents. Pipobroman has well documented clinical activity against polycythemia vera and essential thrombocythemia." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:d4eb3451ac96e7e3ee0aadeafce55aca> ;

@@ -1,175 +1,175 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00115",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00115",
+  "@type" : "Drug",
   "administrationRoute" : [ "intramuscular; subcutaneous", "intramuscular", "nasal" ],
   "availableStrength" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:f2977936270a493873be5432bb760ef7",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f2977936270a493873be5432bb760ef7",
+    "@type" : "DrugStrength",
     "description" : "1000 ug/mL Injection, solution form with intramuscular; subcutaneous route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:807b0e58e0eead4b875202221ebe0f53",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:807b0e58e0eead4b875202221ebe0f53",
+    "@type" : "DrugStrength",
     "description" : "500 ug Spray form with nasal route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:a6302cf127669e87e24a75b24552a9e8",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a6302cf127669e87e24a75b24552a9e8",
+    "@type" : "DrugStrength",
     "description" : "1000 ug/mL Injection, solution form with intramuscular route"
   } ],
   "clinicalPharmacology" : "Cyanocobalamin (Vitamin B12) is a water-soluble organometallic compound with a trivalent cobalt ion bound inside a corrin ring. It is needed for nerve cells and red blood cells, and to make DNA. Vitamin B12 deficiency is the cause of several forms of anemia.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:bebac78c95b00726b8c4bee0e4779e7d",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:bebac78c95b00726b8c4bee0e4779e7d",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.17000000178813934326",
     "drugUnit" : "Vitamin b-12 2.5 mg tablet sl"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:8f932ee9e61ef826d99d617f75fcf600",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8f932ee9e61ef826d99d617f75fcf600",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.039999999105930328369",
     "drugUnit" : "Vitamin b-12 50 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:c10c82d778a407464cb9a0dd05365a01",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:c10c82d778a407464cb9a0dd05365a01",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "277.970001220703125",
     "drugUnit" : "Nascobal 500 mcg/0.1ml Solution 2.3ml Bottle"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:465eafb4ba2c8214bbba8a3fe4a3d53d",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:465eafb4ba2c8214bbba8a3fe4a3d53d",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.0299999713897705078",
     "drugUnit" : "Cyanocobalamin 1000 mcg/ml Solution"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:4a165062b5bad3e87a72662951e75336",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:4a165062b5bad3e87a72662951e75336",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.059999998658895492554",
     "drugUnit" : "Sm vitamin b-12 500 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:8181c1626bdd98365d643d27c31c1745",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8181c1626bdd98365d643d27c31c1745",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.029999999329447746277",
     "drugUnit" : "CVS Pharmacy vitamin b12 100 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:a6f0ab8b499e220380dfee505946613f",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a6f0ab8b499e220380dfee505946613f",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.47999998927116394043",
     "drugUnit" : "Rubesol-1000 mcg/ml vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:80d091ba1c62a95b71cbaf5c4553d846",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:80d091ba1c62a95b71cbaf5c4553d846",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.2000000476837158203",
     "drugUnit" : "Cyanocobalamin 1000 mcg/ml"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:f2d058b144a0e63835e7ac85a429cf55",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f2d058b144a0e63835e7ac85a429cf55",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.029999999329447746277",
     "drugUnit" : "Vitamin b-12 250 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:a9a742ea7539fa059e9d3d0279d8ba4a",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a9a742ea7539fa059e9d3d0279d8ba4a",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.079999998211860656738",
     "drugUnit" : "Vitamin b-12 1000 mcg tablet sl"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:f338318f4a9daeb97063bed8b29e06d2",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f338318f4a9daeb97063bed8b29e06d2",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.029999999329447746277",
     "drugUnit" : "Ra vitamin b-12 50 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:f50356f4d4bdf5f6a0733bf1b88867b3",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f50356f4d4bdf5f6a0733bf1b88867b3",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.050000000745058059692",
     "drugUnit" : "Vitabee with vit c caplet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:0a4585f835956b0c2a8149ff270836ed",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:0a4585f835956b0c2a8149ff270836ed",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.039999999105930328369",
     "drugUnit" : "CVS Pharmacy vitamin b-12 500 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:320c9dfc3437991eae3d9fdbd1a93349",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:320c9dfc3437991eae3d9fdbd1a93349",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.46999999880790710449",
     "drugUnit" : "Vitamin B-12 1000 mcg/ml"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:afaa9eaa177b23d7f2afc92b496fe39d",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:afaa9eaa177b23d7f2afc92b496fe39d",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.019999999552965164185",
     "drugUnit" : "Pv b-12 250 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:35cf8bbaac1a392ec42f0545aae45db8",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:35cf8bbaac1a392ec42f0545aae45db8",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.039999999105930328369",
     "drugUnit" : "CVS Pharmacy vitamin b-12 1000 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:6724b19234f76594cc0f81fd6a22debf",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:6724b19234f76594cc0f81fd6a22debf",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "161.17999267578125",
     "drugUnit" : "Cyanocobalamin crystals"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:6c68b481a53eb3324497c3e106b50e02",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:6c68b481a53eb3324497c3e106b50e02",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.14000000059604644775",
     "drugUnit" : "Cyanocobalamin 100 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:c6a3b8cb12047270d964254520704e24",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:c6a3b8cb12047270d964254520704e24",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.4400000572204589844",
     "drugUnit" : "Cyanocobalamin 1000 mcg/ml vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:6ddca1d699b5c70a96b10ac22425a9c5",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:6ddca1d699b5c70a96b10ac22425a9c5",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "2.5799999237060546875",
     "drugUnit" : "Infuvite pediatric vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:257d083ab302242e28bf758734bb946a",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:257d083ab302242e28bf758734bb946a",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.15999999642372131348",
     "drugUnit" : "Cyanocobalamin 1000 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:2b2233d80e04491699f4f636c45570a6",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:2b2233d80e04491699f4f636c45570a6",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.050000000745058059692",
     "drugUnit" : "Vitamin b-12 500 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:8742c4fbb141c7d3b0495b1fbd950190",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8742c4fbb141c7d3b0495b1fbd950190",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.019999999552965164185",
     "drugUnit" : "Vitamin b-12 100 mcg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:88d4bd4129536c287b87652d061d2e29",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:88d4bd4129536c287b87652d061d2e29",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.070000000298023223877",
     "drugUnit" : "B12 2500 mcg tablet sl"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:b7f846762ab73717fdb47a921d9f32da",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:b7f846762ab73717fdb47a921d9f32da",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.029999999329447746277",
     "drugUnit" : "Pv vit b-12 1000 mcg tablet sl"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:5e41d4438aa4ba380e4a18c02b8bc030",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:5e41d4438aa4ba380e4a18c02b8bc030",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.059999998658895492554",
     "drugUnit" : "Vitamin b-12 1000 mcg tablet"
@@ -177,12 +177,12 @@
   "description" : "Cyanocobalamin (commonly known as Vitamin B12) is the most chemically complex of all the vitamins. Cyanocobalamin's structure is based on a corrin ring, which, although similar to the porphyrin ring found in heme, chlorophyll, and cytochrome, has two of the pyrrole rings directly bonded. The central metal ion is Co (cobalt). Cyanocobalamin cannot be made by plants or by animals, as the only type of organisms that have the enzymes required for the synthesis of cyanocobalamin are bacteria and archaea. Higher plants do not concentrate cyanocobalamin from the soil and so are a poor source of the substance as compared with animal tissues. Cyanocobalamin is naturally found in foods including meat (especially liver and shellfish), eggs, and milk products. [HMDB]",
   "dosageForm" : [ "Spray", "Injection, solution" ],
   "drugClass" : [ "Vitamins", "Vitamin B Complex", "Anti-anemic Agents" ],
-  "schema:identifier" : "drugbank:DB00115",
+  "identifier" : "drugbank:DB00115",
   "interactingDrug" : [ "DDI between Cyanocobalamin and Chloramphenicol - May diminish the therapeutic effect of Vitamin B12.", "DDI between Cyanocobalamin and Colchicine - May decrease the serum concentration of Cyanocobalamin." ],
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:e9ee4548d6d10b87a4a259470fe32c97",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:e9ee4548d6d10b87a4a259470fe32c97",
+    "@type" : "Organization",
     "name" : "Par pharmaceutical inc"
   },
   "mechanismOfAction" : "Vitamin B12 is used in the body in two forms: Methylcobalamin and 5-deoxyadenosyl cobalamin. The enzyme methionine synthase needs methylcobalamin as a cofactor. This enzyme is involved in the conversion of the amino acid homocysteine into methionine. Methionine in turn is required for DNA methylation. 5-Deoxyadenosyl cobalamin is a cofactor needed by the enzyme that converts L-methylmalonyl-CoA to succinyl-CoA. This conversion is an important step in the extraction of energy from proteins and fats. Furthermore, succinyl CoA is necessary for the production of hemoglobin, the substances that carries oxygen in red blood cells.",
@@ -190,5 +190,5 @@
   "nonProprietaryName" : [ "Vitamin B12", "Cyanocob(III)alamin", "Vitamin B12 complex" ],
   "proprietaryName" : "Bedodeka",
   "sameAs" : [ "http://www.rxlist.com/cgi/generic/b12inj.htm", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/vit_0262.shtml", "http://www.drugbank.ca/drugs/DB00115", "http://www.drugs.com/cdi/cyanocobalamin-b12.html" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00115"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00115.html"
 }

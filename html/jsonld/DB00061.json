@@ -1,17 +1,17 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00061",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00061",
+  "@type" : "Drug",
   "administrationRoute" : "intramuscular",
   "availableStrength" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:d4c7a100dd9dac16dce453550375c347",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:d4c7a100dd9dac16dce453550375c347",
+    "@type" : "DrugStrength",
     "description" : "250 [iU]/mL Injection, solution form with intramuscular route"
   },
   "clinicalPharmacology" : "Used to replace deficient or inactive adenosine deaminase which leads to severe combined immunodeficiency disease (SCID). The enzyme is responsible for converting adenosine to inosine. In the absence of adenosine deaminase, the purine substrates adenosine, 2'-deoxyadenosine and their metabolites are actually toxic to lymphocytes thereby leading to diminished immune function.",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:fe38491ea0c8f60781960e94e09c9fd5",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:fe38491ea0c8f60781960e94e09c9fd5",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "4375.0",
     "drugUnit" : "Adagen 250 unit/ml vial"
@@ -19,17 +19,17 @@
   "description" : "Bovine adenosine deaminase derived from bovine intestine that has been extensively pegylated for extended serum half life.",
   "dosageForm" : "Injection, solution",
   "drugClass" : "Enzyme Replacement Agents",
-  "schema:identifier" : "drugbank:DB00061",
+  "identifier" : "drugbank:DB00061",
   "interactingDrug" : "DDI between Pegademase bovine and Pentostatin - Pegademase Bovine may diminish the therapeutic effect of Pentostatin. Pentostatin may diminish the therapeutic effect of Pegademase Bovine.",
   "legalStatus" : "Approved",
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:43def0612a2d9ed1ab40977a8d7204f8",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:43def0612a2d9ed1ab40977a8d7204f8",
+    "@type" : "Organization",
     "name" : "Sigma tau pharmaceuticals inc"
   },
   "mechanismOfAction" : "Pegademase converts adenosine (toxic) to inosine (less toxic) by deamination. It also converts 2'-deoxyadenosine to 2'-deoxyinosine via deamination.",
   "name" : "Pegademase bovine",
   "nonProprietaryName" : [ "Adenosine deaminase", "Adenosine aminohydrolase" ],
-  "sameAs" : [ "http://www.rxlist.com/cgi/generic2/pegademase.htm", "http://www.drugs.com/cdi/pegademase-bovine.html", "http://www.drugbank.ca/drugs/DB00061" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00061"
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic2/pegademase.htm", "http://www.drugbank.ca/drugs/DB00061", "http://www.drugs.com/cdi/pegademase-bovine.html" ],
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00061.html"
 }

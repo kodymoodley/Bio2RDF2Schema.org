@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Basiliximab" ;
 	<http://schema.org/description> "A recombinant chimeric (murine/human) monoclonal antibody (IgG1k) that functions as an immunosuppressive agent, specifically binding to and blocking the interleukin-2 receptor a-chain (IL-2R alpha, also known as CD25 antigen) on the surface of activated T-lymphocytes. It is a 144 kDa glycoprotein obtained from fermentation of an established mouse myeloma cell line genetically engineered to express plasmids containing the human heavy and light chain constant region genes and mouse heavy and light chain variable region genes encoding the RFT5 antibody that binds selectively to the IL-2R alpha." ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00074" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00074.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:94e7be7cb30d44dfaa409965e8cf7633> , <http://bio2rdf.org/drugbank_resource:2575012209df02f6d7caa5ca789c14d6> , <http://bio2rdf.org/drugbank_resource:3f80ce78e430e976973b5df97916b3e2> ;
 	<http://schema.org/clinicalPharmacology> "Basiliximab functions as an IL-2 receptor antagonist. Specifically it inhibits IL-2-mediated activation of lymphocytes, a critical pathway in the cellular immune response involved in allograft rejection." ;

@@ -9,7 +9,7 @@
 	<http://schema.org/name> "Temazepam" ;
 	<http://schema.org/description> "A benzodiazepine that acts as a gamma-aminobutyric acid modulator and anti-anxiety agent. [PubChem]" ;
 	<http://schema.org/drugClass> "Benzodiazepines" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00231" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00231.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:508c62a293f6fca819e0a9281f7401d6> , <http://bio2rdf.org/drugbank_resource:2c25b3396758a4e693a444ae8e2f2818> , <http://bio2rdf.org/drugbank_resource:5fa3d36c77453c2caff65fcd45071787> , <http://bio2rdf.org/drugbank_resource:5e43a8249df1baa9b258a688963bf2b6> ;
 	<http://schema.org/clinicalPharmacology> "Temazepam is a benzodiazepine used as a hypnotic agent in the management of insomnia. Temazepam produces CNS depression at limbic, thalamic, and hypothalamic levels of the CNS. Temazepam increases the affinity of the neurotransmitter gamma-aminobutyric acid (GABA) for GABA receptors by binding to benzodiazepine receptors. Results are sedation, hypnosis, skeletal muscle relaxation, anticonvulsant activity, and anxiolytic action." ;

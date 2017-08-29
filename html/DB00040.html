@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "@id" : "http://bio2rdf.org/drugbank:DB00040",
+  "@type" : "Drug",
+  "administrationRoute" : "intramuscular; intravenous; subcutaneous",
+  "availableStrength" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:b13f90c2326cb4bf6bfa3bc062d4a866",
+    "@type" : "DrugStrength",
+    "description" : "1 mg/mL Injection, powder, for solution form with intramuscular; intravenous; subcutaneous route"
+  },
+  "clinicalPharmacology" : "Used in the treatment of hypoglycemia and in gastric imaging, glucagon increases blood glucose concentration and is used in the treatment of hypoglycemia. Glucagon acts only on liver glycogen, converting it to glucose through the release of insulin. It also relaxes the smooth muscles of the gastrointestinal tract.",
+  "cost" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:a06b4e35c6449168bf3eefa2e5067dbd",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "128.339996337890625",
+    "drugUnit" : "Glucagon 1 mg kit"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:3fffcd53e26f1e6b79e30b953e41f404",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "84.0",
+    "drugUnit" : "Glucagen 1 mg vial"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:d6118aa16b34d1948d8311ed707c5485",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "123.720001220703125",
+    "drugUnit" : "GlucaGen HypoKit 1 mg Solution Box"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:22d6454891d2f3eb374e0bdad3c5a6a1",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "124.0500030517578125",
+    "drugUnit" : "Glucagon Emergency 1 mg Kit Box"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:1dfce0a579f170fc21bbec3f8aa7ac3f",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "94.98000335693359375",
+    "drugUnit" : "Glucagon 1 mg/vial"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:4c68b91b3ab4e9a582387dd0f07dc26e",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "120.3600006103515625",
+    "drugUnit" : "Glucagen 1 mg hypokit"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:76039fedfd26f9e2bf777e875e911f57",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "119.279998779296875",
+    "drugUnit" : "Glucagon 1 mg emergency kit"
+  } ],
+  "description" : "29 residue peptide hormone. Glucagon is synthesized in a special non- pathogenic laboratory strain of Escherichia coli bacteria that has been genetically altered by the addition of the gene for glucagons",
+  "dosageForm" : "Injection, powder, for solution",
+  "drugClass" : "Hypoglycemic Agents",
+  "identifier" : "drugbank:DB00040",
+  "interactingDrug" : [ "DDI between Glucagon recombinant and Sunitinib - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Dulaglutide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Acarbose - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Insulin Regular and Glucagon recombinant - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Insulin Glargine - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Empagliflozin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Tolazamide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Saxagliptin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Pentamidine - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Insulin Glulisine - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Insulin Lispro - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Rosiglitazone - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Pioglitazone - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Quinine - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Sulfamethoxazole - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Pasireotide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Insulin Aspart - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Octreotide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and inhaled insulin - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Liraglutide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Mifepristone - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Sulfisoxazole - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Gliclazide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Chlorpropamide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Sulfadiazine - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Metformin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Glipizide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Disopyramide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Glyburide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Dapagliflozin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Sitagliptin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Exenatide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Lanreotide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Repaglinide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Miglitol - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Mecasermin - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Tolbutamide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Insulin Detemir - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Alogliptin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Linagliptin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Albiglutide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Nateglinide - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Glimepiride - May enhance the hypoglycemic effect of other Hypoglycemic Agents.", "DDI between Glucagon recombinant and Pramlintide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Canagliflozin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents.", "DDI between Glucagon recombinant and Bromocriptine - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." ],
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087",
+    "@type" : "Organization",
+    "name" : "Eli lilly and co"
+  },
+  "mechanismOfAction" : "Glucagon binds the glucagon receptor, a G protein-coupled receptor located in the plasma membrane, which then initiates a dual signaling pathway using both adenylate cyclase activation and increased intracellular calcium. Adenylate cyclase manufactures cAMP (cyclic AMP), which activates protein kinase A (cAMP-dependent protein kinase). This enzyme, in turn, activates phosphorylase kinase, which, in turn, phosphorylates glycogen phosphorylase, converting into the active form called phosphorylase A. Phosphorylase A is the enzyme responsible for the release of glucose-1-phosphate from glycogen polymers. This yields glucose molecules to be released into the blood. Glucagon receptors are found in the liver, kidney, brain and pancreatic islet cells. The glucagon mediated signals lead to an increase in insulin excretion",
+  "name" : "Glucagon recombinant",
+  "nonProprietaryName" : [ "Glucagon", "His-ser-gln-gly-thr-phe-thr-ser-asp-tyr-ser-lys-tyr-leu-asp-ser-arg-arg-ala-gln-asp-phe-val-gln-trp-leu-met-asn-thr", "Glucagonum", "His-ser-glu(NH2)-gly-thr-phe-thr-ser-asp-tyr-ser-lys-tyr-leu-asp-ser-arg-arg-ala-glu(NH2)-asp-phe-val-glu(NH2)-trp-leu-met-asp(NH2)-thr", "HSQGTFTSDYSKYLDSRRAQDFVQWLMNT", "Glucagone" ],
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00040", "http://www.drugs.com/cdi/glucagon.html", "http://www.rxlist.com/cgi/generic2/gluca.htm" ],
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00040.html"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00040.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

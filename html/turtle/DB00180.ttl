@@ -4,7 +4,7 @@
 	<http://schema.org/description> """Flunisolide (marketed as AeroBid, Nasalide, Nasarel) is a corticosteroid often prescribed as treatment for allergic rhinitis.
 
 The principle mechanism of action of flunisolide is to activate glucocorticoid receptors. It also has anti-inflammatory action.""" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00180" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00180.html" ;
 	<http://schema.org/administrationRoute> "nasal" , "respiratory (inhalation)" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:2812ea72c349caceabdbb04ddae66eae> , <http://bio2rdf.org/drugbank_resource:2b9d0c2337f365c9921dd16d353d2c21> , <http://bio2rdf.org/drugbank_resource:9960ae786932f20569e45005af45e4c6> ;
 	<http://schema.org/clinicalPharmacology> "Flunisolide is a synthetic corticosteroid. It is administered either as an oral metered-dose inhaler for the treatment of asthma or as a nasal spray for treating allergic rhinitis. Corticosteroids are naturally occurring hormones that prevent or suppress inflammation and immune responses. When given as an intranasal spray, flunisolide reduces watery nasal discharge (rhinorrhea), nasal congestion, postnasal drip, sneezing, and itching oat the back of the throat that are common allergic symptoms." ;

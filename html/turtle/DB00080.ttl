@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00080> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Daptomycin" ;
 	<http://schema.org/description> "Daptomycin is a lipopeptide antibiotic that kills susceptible gram positive bacteria by disrupting their membrane potential. It is a naturally-occurring compound found in the soil bacterium <i>Streptomyces roseosporus</i>. Antibiotics are used in the treatment of infections caused by bacteria. They work by killing bacteria or preventing their growth. Daptomycin will not work for colds, flu, or other virus infections. It was approved in September 2003 for the treatment of complicated skin and soft tissue infections. It has a safety profile similar to other agents commonly administered to treat gram-positive infections." ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00080" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00080.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:1405511ca216263907ec003c94f22ad4> , <http://bio2rdf.org/drugbank_resource:f065dbeb9fb5e6a1278461f57e8d7d46> , <http://bio2rdf.org/drugbank_resource:fd80b2cbbfc5c30e118f5ff8a65fb227> ;
 	<http://schema.org/clinicalPharmacology> "Daptomycin is a 13 member amino acid cyclic lipopeptide antibiotic active against Gram-positive bacteria only. It has proven in vitro activity against enterococci (including glycopeptide-resistant Enterococci (GRE)), staphylococci (including methicillin-resistant <i>Staphylococcus aureus</i>), streptococci and corynebacteria. Daptomycin is derived from the fermentation product of Streptomyces roseosporus." ;

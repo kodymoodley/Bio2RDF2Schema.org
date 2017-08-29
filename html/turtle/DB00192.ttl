@@ -6,7 +6,7 @@
 	<http://schema.org/name> "Indecainide" ;
 	<http://schema.org/description> "Indecainide is a rarely used antidysrhythmic. Indecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics." ;
 	<http://schema.org/drugClass> "Anti-Arrhythmia Agents" , "Sodium Channel Blockers" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00192" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00192.html" ;
 	<http://schema.org/clinicalPharmacology> "Indecainide is a rarely used antidysrhythmic. Indecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087> ;

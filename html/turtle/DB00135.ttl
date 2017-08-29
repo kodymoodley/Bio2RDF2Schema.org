@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Tyrosine" ;
 	<http://schema.org/description> "A non-essential amino acid. In animals it is synthesized from phenylalanine. It is also the precursor of epinephrine; thyroid hormones; and melanin. [PubChem]" ;
 	<http://schema.org/drugClass> "Dietary Supplements" , "Micronutrients" , "Non-Essential Amino Acids" , "Supplements" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00135" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00135.html" ;
 	<http://schema.org/clinicalPharmacology> "Tyrosine is a nonessential amino acid synthesized in the body from phenylalanine. Tyrosine is critical for the production of the body's proteins, enzymes and muscle tissue. Tyrosine is a precursor to the neurotransmitters norepinephrine and dopamine. It can act as a mood elevator and an anti-depressant. It may improve memory and increase mental alertness. Tyrosine aids in the production of melanin and plays a critical role in the production of thyroxin (thyroid hormones). Tyrosine deficiencies are manifested by hypothyroidism, low blood pressure and low body temperature. Supplemental tyrosine has been used to reduce stress and combat narcolepsy and chronic fatigue." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:b7832f85e36d0ac604f27c59eb1b08ca> , <http://bio2rdf.org/drugbank_resource:08ee40761e23e0435c476ffa2540d57a> ;
 	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;

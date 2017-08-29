@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00208> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Ticlopidine" ;
 	<http://schema.org/description> "Ticlopidine is an effective inhibitor of platelet aggregation. It is a prodrug that is metabolised to an active form, which blocks the ADP receptor that is involved in GPIIb/IIIa receptor activation leading to platelet aggregation. Ticlopidine is marketed under the brand name Ticlid and is indicated for patients who cannot take aspirin or in whom aspirin has not worked to prevent a thrombotic stroke. The FDA label includes a black-box warning of neutropenia, aplastic anemia, thrombotic thrombocytopenia purpura, and agranulocytosis, so it is necessary to monitor patients' WBC and platelets when they are taking ticlopidine." ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00208" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00208.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:dd7e6f962154b87b41dd20b833d4b108> ;
 	<http://schema.org/clinicalPharmacology> "Ticlopidine is a prodrug that is metabolised to an as yet undetermined metabolite that acts as a platelet aggregation inhibitor. Inhibition of platelet aggregation causes a prolongation of bleeding time. In its prodrug form, ticlopidine has no significant in vitro activity at the concentrations attained in vivo." ;

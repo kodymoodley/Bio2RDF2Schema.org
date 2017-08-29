@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Lepirudin" ;
 	<http://schema.org/description> "Lepirudin is identical to natural hirudin except for substitution of leucine for isoleucine at the N-terminal end of the molecule and the absence of a sulfate group on the tyrosine at position 63. It is produced via yeast cells. Bayer ceased the production of lepirudin (Refludan) effective May 31, 2012." ;
 	<http://schema.org/drugClass> "Antithrombins" , "Fibrinolytic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00001" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00001.html" ;
 	<http://schema.org/clinicalPharmacology> "Lepirudin is used to break up clots and to reduce thrombocytopenia. It binds to thrombin and prevents thrombus or clot formation. It is a highly potent, selective, and essentially irreversible inhibitor of thrombin and clot-bond thrombin. Lepirudin requires no cofactor for its anticoagulant action. Lepirudin is a recombinant form of hirudin, an endogenous anticoagulant found in medicinal leeches." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:172d9ce8065ac96f019189b12bde6767> ;
 	<http://schema.org/legalStatus> "Approved" ;

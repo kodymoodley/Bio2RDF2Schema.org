@@ -1,28 +1,28 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00132",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00132",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Alpha Linolenic Acid (ALA) is an 18-carbon polyunsaturated fatty acid with three double bonds. It is also called an omega-3 fatty acid, and is essential for all mammals. Alpha-linolenic acid (or omega 3 fatty acid) intake can decrease the risk of cardiovascular diseases by 1) preventing arrhythmias that can lead to sudden cardiac death, 2) decreasing the risk of thrombosis (blood clot formation) that can lead to heart attack or stroke, 3) decreasing serum triglyceride levels, 4) slowing the growth of atherosclerotic plaque, 5) improving vascular endothelial function, 6) lowering blood pressure slightly, and 7) decreasing inflammation. ALA deficiencies can lead to visual problems and sensory neuropathy. Scaly and hemorrhagic skin or scalp inflammations may also develop.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:9c2daed585bfeef63170a1ed177867b0",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:9c2daed585bfeef63170a1ed177867b0",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.21999999880790710449",
     "drugUnit" : "Alpha lipoic acid 200 mg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:92c924807327ea18d9340f31d434a659",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:92c924807327ea18d9340f31d434a659",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : [ "0.11999999731779098511", "0.15999999642372131348" ],
     "drugUnit" : "Alpha-lipoic acid 50 mg caplet"
   } ],
   "description" : "Alpha-linolenic acid (ALA) is a polyunsaturated omega-3 fatty acid. It is a component of many common vegetable oils and is important to human nutrition. [Wikipedia]",
   "drugClass" : [ "Micronutrients", "Supplements", "Dietary Supplements" ],
-  "schema:identifier" : "drugbank:DB00132",
+  "identifier" : "drugbank:DB00132",
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "mechanismOfAction" : "Alpha Linolenic Acid or ALA is considered an essential fatty acid because it is required for human health, but cannot be synthesized by humans. It is in fact  a plant-derived fatty acid. Humans can synthesize other omega-3 fatty acids from ALA, including eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA). EPA is a precursor of the series-3 prostaglandins, the series-5 leukotrienes and the series-3 thromboxanes. These eicosanoids have anti-inflammatory and anti-atherogenic properties. ALA metabolites may also inhibit the production of the pro-inflammatory eicosanoids, prostaglandin E2 (PGE2) and leukotriene B4 (LTB4), as well as the pro-inflammatory cytokines, tumor necrosis factor-alpha (TNF-alpha) and interleukin-1 beta (IL-1 beta). Omega-3 fatty acids like ALA and its byproducts can modulate the expression of a number of genes, including those involved with fatty acid metabolism and inflammation. They regulate gene expression through their effects on the activity of transcription factors including NF-kappa B and members of the peroxisome proliferator-activated receptor (PPAR) family. Incorporation of ALA and its metabolites in cell membranes can affect membrane fluidity and may play a role in anti-inflammatory activity, inhibition of platelet aggregation and possibly in anti-proliferative actions of ALA. ALA is first metabolized by delta6 desaturease into steridonic acid.",
   "name" : "Alpha-Linolenic Acid",
   "nonProprietaryName" : [ "(9Z,12Z,15Z)-Octadecatrienoic acid", "cis,cis,cis-9,12,15-Octadecatrienoic acid", "(9,12,15)-linolenic acid", "ALA", "cis-delta(9,12,15)-Octadecatrienoic acid", "Linolenic acid", "?-linolenic acid", "all-cis-9,12,15-Octadecatrienoic acid", "9-cis,12-cis,15-cis-octadecatrienoic acid", "9,12,15-Octadecatrienoic acid", "alpha-Linolenic acid", "(Z,Z,Z)-9,12,15-octadecatrienoic acid" ],
   "sameAs" : "http://www.drugbank.ca/drugs/DB00132",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00132"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00132.html"
 }

@@ -1,44 +1,44 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00014",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00014",
+  "@type" : "Drug",
   "administrationRoute" : "subcutaneous",
   "availableStrength" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:1321173447d553714aad5e900132c023",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:1321173447d553714aad5e900132c023",
+    "@type" : "DrugStrength",
     "description" : "10.8 mg Implant form with subcutaneous route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:f88a04cabd1c6be9efc308d0f3ef5b84",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f88a04cabd1c6be9efc308d0f3ef5b84",
+    "@type" : "DrugStrength",
     "description" : "3.6 mg Implant form with subcutaneous route"
   } ],
   "clinicalPharmacology" : "The pharmacokinetics of goserelin have been determined in both male and female healthy volunteers and patients. In these studies, goserelin was administered as a single 250µg (aqueous solution) dose and as a single or multiple 3.6 mg depot dose by subcutaneous route.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:8d92c637f7950d4f2d2c5c3c9a36f168",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8d92c637f7950d4f2d2c5c3c9a36f168",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1380.6500244140625",
     "drugUnit" : "Zoladex 10.8 mg implant syringe"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:90081eb64a841e74bcd00f24c62cc843",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:90081eb64a841e74bcd00f24c62cc843",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "451.19000244140625",
     "drugUnit" : "Zoladex 3.6 mg implant syringe"
   } ],
   "description" : "Goserelin is a synthetic hormone. In men, it stops the production of the hormone testosterone, which may stimulate the growth of cancer cells. In women, goserelin decreases the production of the hormone estradiol (which may stimulate the growth of cancer cells) to levels similar to a postmenopausal state. When the medication is stopped, hormone levels return to normal.",
   "dosageForm" : "Implant",
-  "schema:identifier" : "drugbank:DB00014",
-  "interactingDrug" : [ "DDI between Goserelin and Insulin, isophane - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Mifepristone - May enhance the QTc-prolonging effect of Moderate Risk QTc-Prolonging Agents.", "DDI between Goserelin and Metformin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Lispro - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Glulisine - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Vildagliptin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Gliquidone - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Glyburide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Glimepiride - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Alogliptin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Repaglinide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Regular - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Acetohexamide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Chlorpropamide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Glargine - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Detemir - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Saxagliptin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Aspart - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Linagliptin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Gliclazide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Canagliflozin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Tolbutamide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents." ],
+  "identifier" : "drugbank:DB00014",
+  "interactingDrug" : [ "DDI between Goserelin and Insulin, isophane - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Mifepristone - May enhance the QTc-prolonging effect of Moderate Risk QTc-Prolonging Agents.", "DDI between Goserelin and Metformin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Lispro - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Glulisine - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Vildagliptin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Gliquidone - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Glyburide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Glimepiride - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Alogliptin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Repaglinide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Regular - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Acetohexamide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Chlorpropamide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Glargine - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Detemir - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Saxagliptin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Insulin Aspart - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Gliclazide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Linagliptin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Canagliflozin - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents.", "DDI between Goserelin and Tolbutamide - Hyperglycemia-Associated Agents may diminish the therapeutic effect of Antidiabetic Agents." ],
   "legalStatus" : "Approved",
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:b66d18269373e385e0e3631d385dbfcf",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:b66d18269373e385e0e3631d385dbfcf",
+    "@type" : "Organization",
     "name" : "Astrazeneca uk ltd"
   },
   "mechanismOfAction" : "Goserelin is a synthetic decapeptide analogue of LHRH. Goserelin acts as a potent inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. The result is sustained suppression of LH and serum testosterone levels.",
   "name" : "Goserelin",
   "nonProprietaryName" : [ "ICI-118630", "Zoladex", "Goserelin acetate", "Goserelin" ],
   "sameAs" : [ "http://www.drugs.com/cdi/goserelin.html", "http://www.drugbank.ca/drugs/DB00014", "http://www.rxlist.com/cgi/generic/goserel.htm" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00014"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00014.html"
 }

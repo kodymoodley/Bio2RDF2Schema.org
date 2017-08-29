@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Pegaspargase" ;
 	<http://schema.org/description> "Pegylated L-asparagine amidohydrolase from E. coli. Pegylation substantially (by a factor of 4) extends the protein half life." ;
 	<http://schema.org/drugClass> "Antineoplastic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00059" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00059.html" ;
 	<http://schema.org/administrationRoute> "intramuscular; intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:8aa5e236e581699fa88cbdf38ab29595> ;
 	<http://schema.org/clinicalPharmacology> "In a significant number of patients with acute leukemia, the malignant cells are dependent on an exogenous source of asparagine for survival. Normal cells, however, are able to synthesize asparagine and thus are affected less by the rapid depletion produced by treatment with the enzyme asparaginase. Oncaspar exploits a metabolic defect in asparagine synthesis of some malignant cells." ;

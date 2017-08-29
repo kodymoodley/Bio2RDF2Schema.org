@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Serine" ;
 	<http://schema.org/description> "A non-essential amino acid occurring in natural form as the L-isomer. It is synthesized from glycine or threonine. It is involved in the biosynthesis of purines; pyrimidines; and other amino acids. [PubChem]" ;
 	<http://schema.org/drugClass> "Non-Essential Amino Acids" , "Micronutrients" , "Supplements" , "Dietary Supplements" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00133" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00133.html" ;
 	<http://schema.org/clinicalPharmacology> "Serine is classified as a nutritionally non-essential amino acid. Serine is critical for the production of the body's proteins, enzymes and muscle tissue. Serine is needed for the proper metabolism of fats and fatty acids. It also helps in the production of antibodies. Serine is used as a natural moisturizing agent in some cosmetics and skin care products. The main source of essential amino acids is from the diet, non-essential amino acids are normally synthesize by humans and other mammals from common intermediates." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:e05c3168919ed1187502a51015e8892c> ;
 	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;

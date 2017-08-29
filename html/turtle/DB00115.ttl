@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Cyanocobalamin" ;
 	<http://schema.org/description> "Cyanocobalamin (commonly known as Vitamin B12) is the most chemically complex of all the vitamins. Cyanocobalamin's structure is based on a corrin ring, which, although similar to the porphyrin ring found in heme, chlorophyll, and cytochrome, has two of the pyrrole rings directly bonded. The central metal ion is Co (cobalt). Cyanocobalamin cannot be made by plants or by animals, as the only type of organisms that have the enzymes required for the synthesis of cyanocobalamin are bacteria and archaea. Higher plants do not concentrate cyanocobalamin from the soil and so are a poor source of the substance as compared with animal tissues. Cyanocobalamin is naturally found in foods including meat (especially liver and shellfish), eggs, and milk products. [HMDB]" ;
 	<http://schema.org/drugClass> "Vitamins" , "Vitamin B Complex" , "Anti-anemic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00115" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00115.html" ;
 	<http://schema.org/administrationRoute> "intramuscular; subcutaneous" , "intramuscular" , "nasal" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:f2977936270a493873be5432bb760ef7> , <http://bio2rdf.org/drugbank_resource:807b0e58e0eead4b875202221ebe0f53> , <http://bio2rdf.org/drugbank_resource:a6302cf127669e87e24a75b24552a9e8> ;
 	<http://schema.org/clinicalPharmacology> "Cyanocobalamin (Vitamin B12) is a water-soluble organometallic compound with a trivalent cobalt ion bound inside a corrin ring. It is needed for nerve cells and red blood cells, and to make DNA. Vitamin B12 deficiency is the cause of several forms of anemia." ;

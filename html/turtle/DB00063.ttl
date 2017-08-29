@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Eptifibatide" ;
 	<http://schema.org/description> "Synthetic cyclic hexapeptide that binds to platelet receptor glycoprotein and inhibits platelet aggregation." ;
 	<http://schema.org/drugClass> "Platelet Aggregation Inhibitors" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00063" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00063.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:d22be43d19772ebee8285e121e900af9> , <http://bio2rdf.org/drugbank_resource:b9f61619a00a6c02f73eb60c5107544e> , <http://bio2rdf.org/drugbank_resource:61ecd29eb2276a23da72a14dd028a1ec> , <http://bio2rdf.org/drugbank_resource:6809f7354be48347bc1dfd6cc49dad48> ;
 	<http://schema.org/clinicalPharmacology> "Eptifibatide is an anti-coagulant that selectively blocks the platelet glycoprotein IIb/IIIa receptor. Eptifibatide is a cyclic heptapeptide derived from a protein found in the venom of the southeastern pygmy rattlesnake (Sistrurus miliarus barbouri). It belongs to the class of the so called arginin-glycin-aspartat-mimetics and reversibly binds to platelets." ;

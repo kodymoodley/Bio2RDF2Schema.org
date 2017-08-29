@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00087> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Alemtuzumab" ;
 	<http://schema.org/description> "Humanized monoclonal antibody specific to lymphocyte antigens. It is a recombinant DNA-derived humanized monoclonal antibody (Campath-1H) that is directed against the 21-28 kD cell surface glycoprotein,CD52. The Campath-1H antibody is an IgG1 kappa with human variable framework and constant regions, and complementarity-determining regions from a murine (rat) monoclonal antibody (Campath-1G). Campath is produced in mammalian cell (Chinese hamster ovary) suspension culture in a medium containing neomycin." ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00087" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00087.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:0e8f15e95b3dc9f0cb619404a7cd3939> , <http://bio2rdf.org/drugbank_resource:7d1fa8da4b3d71e38528197f4614759b> , <http://bio2rdf.org/drugbank_resource:b109960d084f038b36f8ebe5aefb1616> , <http://bio2rdf.org/drugbank_resource:e2838256b2a0ac70b9d8c65f92a858c2> ;
 	<http://schema.org/clinicalPharmacology> "Campath is used to treat leukemia by exploiting antibody mediated lysis of CD52 presenting cells. The CD52 antigen is a cell surface protein found on essentially all B and T lymphocytes, a majority of monocytes, macrophages and most granulocytes. The CD52 antigen is not present on erythrocytes or hematopoetic stem cells. In leukemia there is an excess of B and T cells, so Campath permits selective reduction of lymphocyte populations." ;

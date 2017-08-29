@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00188> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Bortezomib" ;
 	<http://schema.org/description> "Bortezomib (originally PS-341 and marketed as Velcade by Millennium Pharmaceuticals) is the first therapeutic proteasome inhibitor to be tested in humans. It is approved in the U.S. for treating relapsed multiple myeloma and mantle cell lymphoma. In multiple myeloma, complete clinical responses have been obtained in patients with otherwise refractory or rapidly advancing disease." ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00188" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00188.html" ;
 	<http://schema.org/administrationRoute> "intravenous" , "intravenous; subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:baf026882a2362f27236c2ba46d6b46c> , <http://bio2rdf.org/drugbank_resource:12b6b82eeeaccf3de050b16dc827c1dd> ;
 	<http://schema.org/clinicalPharmacology> "Bortezomib is a drug that inhibits the mammalian 26S proteasome. The ubiquitin-proteasome pathway plays an essential role in regulating the intracellular concentration of specific proteins, thereby maintaining homeostasis within cells. Inhibition of the 26S proteasome prevents this targeted proteolysis, which can affect multiple signaling cascades within the cell. This disruption of normal homeostatic mechanisms can lead to cell death. Experiments have demonstrated that bortezomib is cytotoxic to a variety of cancer cell types in vitro. Bortezomib causes a delay in tumor growth in vivo in nonclinical tumor models, including multiple myeloma. Tumor cells, that is, rapidly dividing cells, appear to be more sensitive to proteasome inhibition." ;

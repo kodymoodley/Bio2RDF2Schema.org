@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Agalsidase beta" ;
 	<http://schema.org/description> "Recombinant human alpha-galactosidase A. The mature protein is composed of 2 subunits of 398 residues. Protein is glycosylated and produced by CHO cells" ;
 	<http://schema.org/drugClass> "Enzyme Replacement Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00103" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00103.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:1c7495e7ba342d224b5028d72d73010d> , <http://bio2rdf.org/drugbank_resource:a39e93df12255155561f3d4acd297da8> , <http://bio2rdf.org/drugbank_resource:24189bc5fb16bfce4551ecdfb0196def> ;
 	<http://schema.org/clinicalPharmacology> "Used in the treatment of Fabry disease, an X-linked genetic disorder of glycosphingolipid metabolism. The disease is characterized by a deficiency of the lysosomal enzyme alpha-galactosidase A, which leads to progressive accumulation of glycosphingolipids, predominantly GL-3, in many body tissues. Clinical manifestations of Fabry disease include renal failure, cardiomyopathy, and cerebrovascular accidents. Fabrazyme is intended to provide an exogenous source of alpha-galactosidase A and to limit the accumulation of these glycolipids in the tissues. Studies show unconclusive evidence for the clinical efficacy of either agalasidase alfa or agalasidase beta in preventing morbidity." ;

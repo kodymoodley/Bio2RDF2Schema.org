@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Serum albumin" ;
 	<http://schema.org/description> "A sterile non-pyrogenic suspension of microspheres of human serum albumin with perflutren (a highly fluorinated small molecule) for contrast enhancement during indicated ultrasound imaging procedures." ;
 	<http://schema.org/drugClass> "Serum substitutes" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00096" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00096.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:5b47883807d5fa7a5b0b5ce2dc6e7939> ;
 	<http://schema.org/clinicalPharmacology> "Serum albumin is a soluble, monomeric protein necessary for maintaining and regulating the colloidal osmotic pressure of blood. It is used to increase the circulating plasma volume, thereby reducing hemoconcentration and blood viscosity. Also used as a transport protein that binds naturally occurring, therapeutic and toxic materials in circulation." ;

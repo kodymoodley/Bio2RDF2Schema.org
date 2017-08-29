@@ -1,33 +1,33 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00032",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00032",
+  "@type" : "Drug",
   "administrationRoute" : [ "intramuscular", "subcutaneous" ],
   "availableStrength" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:e29f68cbe2470f0d06d877d8d6350afd",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:e29f68cbe2470f0d06d877d8d6350afd",
+    "@type" : "DrugStrength",
     "description" : "75 unit Powder for solution form with intramuscular route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:0f22c200f1b0c2d7eba71208ac38fb8c",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:0f22c200f1b0c2d7eba71208ac38fb8c",
+    "@type" : "DrugStrength",
     "description" : "75 unit Powder for solution form with subcutaneous route"
   } ],
   "clinicalPharmacology" : "Used to treat female infertility, Menotropins stimulates late follicular maturation and resumption of oocyte meiosis, and initiates rupture of the pre-ovulatory ovarian follicle. Menotropins bind to the LH/hCG/FSH receptor of the granulosa and theca cells of the ovary to effect these changes in the absence of an endogenous LH surge.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:dc3b4b004bcdf3546676e2660d429d28",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:dc3b4b004bcdf3546676e2660d429d28",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "93.84999847412109375",
     "drugUnit" : "Menopur 75 unit vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:689f1e8c55e0bb02dc8a6835d2269fbe",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:689f1e8c55e0bb02dc8a6835d2269fbe",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "488.040008544921875",
     "drugUnit" : "Repronex 5 75 unit Solution 1 Box Contains Five 1ml Vials"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:8e97de51f77e243261e30dd63e7ff7f1",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8e97de51f77e243261e30dd63e7ff7f1",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "93.84999847412109375",
     "drugUnit" : "Repronex 75 unit vial"
@@ -35,10 +35,10 @@
   "description" : "Menotropins contains follicle stimulating hormone (FSH) and luteinizing hormone (LH) purified from the urine of postmenopausal women.  It is used as a fertility medication that is injected either subcutaneously or intramuscularly. It is composed of LH with 2 subunits, alpha = 92 residues, beta = 121 residues and FSH with 2 subunits, alpha = 92 residues, beta=111 residues.",
   "dosageForm" : "Powder for solution",
   "drugClass" : [ "Fertility Agents", "Fertility Agents, Female" ],
-  "schema:identifier" : "drugbank:DB00032",
+  "identifier" : "drugbank:DB00032",
   "legalStatus" : "Approved",
   "mechanismOfAction" : "Being a combination drug, Menotropins bind to the Follicle stimulating hormone receptor (which results in ovulation in the absence of sufficient endogenous Luteinizing hormone)and It also binds to the LH receptor, thereby stimulating proper hormone release. The drug contains both FSH and LH,therefore, it induces ovarian follicular growth and development as well as gonadal steroid production in women who do not have ovarian failure.FSH is the primary driver of follicular recruitment and growth in early folliculogenesis, while LH is important for ovarian steroidogenesis and is involved in the physiological events leading to development of a competent pre-ovulatory follicle",
   "name" : "Menotropins",
   "sameAs" : [ "http://www.drugs.com/cdi/menotropins.html", "http://www.rxlist.com/cgi/generic/menotropins.htm", "http://www.drugbank.ca/drugs/DB00032" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00032"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00032.html"
 }

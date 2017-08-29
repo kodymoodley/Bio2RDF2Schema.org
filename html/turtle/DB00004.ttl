@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Denileukin diftitox" ;
 	<http://schema.org/description> "A recombinant DNA-derived cytotoxic protein composed of the amino acid sequences for diphtheria toxin fragments A and B (Met 1-Thr 387)-His followed by the sequences for interleukin-2 (IL-2; Ala 1-Thr 133). It is produced in an E. coli expression system." ;
 	<http://schema.org/drugClass> "Antineoplastic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00004" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00004.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:e6ee87686487d1fe9353429afe2e696e> ;
 	<http://schema.org/clinicalPharmacology> "Denileukin diftitox (Ontak) directs the cytocidal action of diphtheria toxin to cells which express the IL-2 receptor. The human IL-2 receptor exists in three forms, low (CD25), intermediate (CD122/CD132) and high (CD25/CD122/CD132) affinity. Malignant cells expressing one or more of the subunits of the IL-2 receptor are found in certain leukemias and lymphomas including cutaneous T-cell lymphoma (CTCL). Ontak interacts with the high affinity IL-2 receptor on the cell surface and inhibits cellular protein synthesis, resulting in cell death within hours." ;

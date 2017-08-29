@@ -6,7 +6,7 @@
 	<http://schema.org/name> "Guanadrel" ;
 	<http://schema.org/description> "Guanadrel is a postganglionic adrenergic blocking agent. Uptake of guanadrel and storage in sympathetic neurons occurs via the norepinephrine pump or transporter." ;
 	<http://schema.org/drugClass> "Antihypertensive Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00226" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00226.html" ;
 	<http://schema.org/clinicalPharmacology> "High blood pressure adds to the work load of the heart and arteries. If it continues for a long time, the heart and arteries may not function properly. This can damage the blood vessels of the brain, heart, and kidneys resulting in a stroke, heart failure, or kidney failure. High blood pressure may also increase the risk of heart attacks. These problems may be less likely to occur if blood pressure is controlled. Guanadrel works by controlling nerve impulses along certain nerve pathways. As a result, it relaxes the blood vessels so that blood passes through them more easily. This helps to lower blood pressure." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:b3c50fa14d63741838efb05e090cacf6> ;

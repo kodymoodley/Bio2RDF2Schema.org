@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "@id" : "http://bio2rdf.org/drugbank:DB00151",
+  "@type" : "Drug",
+  "clinicalPharmacology" : "Due to this ability to undergo redox reactions, cysteine has antioxidant properties. Cysteine is an important source of sulfur in human metabolism, and although it is classified as a non-essential amino acid, cysteine may be essential for infants, the elderly, and individuals with certain metabolic disease or who suffer from malabsorption syndromes. Cysteine may at some point be recognized as an essential or conditionally essential amino acid.",
+  "cost" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:4875c9cc0badfed63ba1822e778cbd3a",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.6499999761581420898",
+    "drugUnit" : "L-cysteine powder"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:8267664087f3be3844b119cd6879a8e6",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.30000001192092895508",
+    "drugUnit" : "L-cysteine hcl powder"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:2037cf23ad12558d6115fcd3b98d0f31",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "0.40000000596046447754",
+    "drugUnit" : "L-cysteine 50 mg/ml vial"
+  } ],
+  "description" : "A thiol-containing non-essential amino acid that is oxidized to form cystine. [PubChem]",
+  "drugClass" : [ "Supplements", "Dietary Supplements", "Nutritional Support" ],
+  "identifier" : "drugbank:DB00151",
+  "legalStatus" : [ "Approved", "Nutraceutical" ],
+  "manufacturer" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:487f967dd07eb35ab852d7055ed5b09b",
+    "@type" : "Organization",
+    "name" : "Hospira inc"
+  },
+  "mechanismOfAction" : "Although classified as a non-essential amino acid cysteine may be essential for infants, the elderly, and individuals with certain metabolic disease or who suffer from malabsorption syndromes. Cysteine can usually be synthesized by the human body under normal physiological conditions if a sufficient quantity of methionine is available. Due to the ability of thiols to undergo redox reactions, cysteine has antioxidant properties. Cysteine's antioxidant properties are typically expressed in the tripeptide glutathione, which occurs in humans as well as other organisms. The systemic availability of oral glutathione (GSH) is negligible; so it must be biosynthesized from its constituent amino acids, cysteine, glycine, and glutamic acid. Glutamic acid and glycine are readily available in the diets of most industrialized countries, but the availability of cysteine can be the limiting substrate. Cysteine is also an important source of sulfide in human metabolism. The sulfide in iron-sulfur clusters and in nitrogenase is extracted from cysteine, which is converted to alanine in the process. In a 1994 report released by five top cigarette companies, cysteine is one of the 599 additives to cigarettes. Its use or purpose, however, is unknown, like most cigarette additives. Its inclusion in cigarettes could offer two benefits: Acting as an expectorant, since smoking increases mucus production in the lungs; and increasing the beneficial antioxidant glutathione (which is diminished in smokers).",
+  "name" : "L-Cysteine",
+  "nonProprietaryName" : [ "(2R)-2-amino-3-sulfanylpropanoic acid", "L-Cys", "(R)-2-Amino-3-mercaptopropanoic acid", "(2R)-2-amino-3-mercaptopropanoic acid", "Cys", "L-2-Amino-3-mercaptopropionic acid" ],
+  "sameAs" : "http://www.drugbank.ca/drugs/DB00151",
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00151.html"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00151.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

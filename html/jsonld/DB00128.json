@@ -1,22 +1,22 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00128",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00128",
+  "@type" : "Drug",
   "clinicalPharmacology" : "L-aspartate is considered a non-essential amino acid, meaning that, under normal physiological conditions, sufficient amounts of the amino acid are synthesized in the body to meet the body's requirements. L-aspartate is formed by the transamination of the Krebs cycle intermediate oxaloacetate. The amino acid serves as a precursor for synthesis of proteins, oligopeptides, purines, pyrimidines, nucleic acids and L-arginine. L-aspartate is a glycogenic amino acid, and it can also promote energy production via its metabolism in the Krebs cycle. These latter activities were the rationale for the claim that supplemental aspartate has an anti-fatigue effect on skeletal muscle, a claim that was never confirmed.",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:189253f439d94a79cc737bb819c15326",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:189253f439d94a79cc737bb819c15326",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "2.4600000381469726562",
     "drugUnit" : "L-aspartic acid powder"
   },
   "description" : "One of the non-essential amino acids commonly occurring in the L-form. It is found in animals and plants, especially in sugar cane and sugar beets. It may be a neurotransmitter. [PubChem]",
   "drugClass" : [ "Micronutrients", "Supplements", "Dietary Supplements", "Non-Essential Amino Acids" ],
-  "schema:identifier" : "drugbank:DB00128",
+  "identifier" : "drugbank:DB00128",
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "mechanismOfAction" : "There are also claims that L-aspartate has ergogenic effects, that it enhances performance in both prolonged exercise and short intensive exercise. It is hypothesized that L-aspartate, especially the potassium magnesium aspartate salt, spares stores of muscle glycogen and/or promotes a faster rate of glycogen resynthesis during exercise. It has also been hypothesized that L-aspartate can enhance short intensive exercise by serving as a substrate for energy production in the Krebs cycle and for stimulating the purine nucleotide cycle.",
   "name" : "L-Aspartic Acid",
   "nonProprietaryName" : [ "L-Aspartate", "L-Asparaginsäure", "D", "Aspartic acid", "L-Aspartic acid", "Asp", "2-Aminosuccinic acid", "(S)-2-aminosuccinic acid", "(S)-2-aminobutanedioic acid", "L-Asp", "L-Asparaginsaeure" ],
   "sameAs" : [ "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/las_0028.shtml", "http://www.drugbank.ca/drugs/DB00128" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00128"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00128.html"
 }

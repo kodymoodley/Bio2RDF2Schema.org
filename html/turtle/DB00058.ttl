@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Alpha-1-proteinase inhibitor" ;
 	<http://schema.org/description> "Human alpha-1 proteinase inhibitor or alpha-1-antitrypsin, prepared from human plasma via Cohn alcohol fractionation followed by PEG and zinc chloride fractionation." ;
 	<http://schema.org/drugClass> "Enzyme Replacement Agents" , "Trypsin Inhibitors" , "Serine Proteinase Inhibitors" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00058" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00058.html" ;
 	<http://schema.org/clinicalPharmacology> "Prevents excessive accumulation of active neutrophil elastase and consequent proteolysis of elastin tissues in alveolar lung structures. This prevents the development of emphysema." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:e6f84aa14d289aec127707942a991c06> , <http://bio2rdf.org/drugbank_resource:e76985f7506c9e55c27842b7f75159d0> , <http://bio2rdf.org/drugbank_resource:df4dfe79f5feb42a6e7147e7c4993bd1> , <http://bio2rdf.org/drugbank_resource:471294302d288c75e3aa74c5c4873ae2> , <http://bio2rdf.org/drugbank_resource:80e037569fbee2d9435225282e79b892> , <http://bio2rdf.org/drugbank_resource:23ae44ec8031d95cc96e961fa19ee64c> , <http://bio2rdf.org/drugbank_resource:d8d3e8dee1c68d515daabe11aaf10a7f> , <http://bio2rdf.org/drugbank_resource:623da725448807f22aededcc4697581a> ;
 	<http://schema.org/legalStatus> "Approved" ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Alpha-Linolenic Acid" ;
 	<http://schema.org/description> "Alpha-linolenic acid (ALA) is a polyunsaturated omega-3 fatty acid. It is a component of many common vegetable oils and is important to human nutrition. [Wikipedia]" ;
 	<http://schema.org/drugClass> "Micronutrients" , "Supplements" , "Dietary Supplements" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00132" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00132.html" ;
 	<http://schema.org/clinicalPharmacology> "Alpha Linolenic Acid (ALA) is an 18-carbon polyunsaturated fatty acid with three double bonds. It is also called an omega-3 fatty acid, and is essential for all mammals. Alpha-linolenic acid (or omega 3 fatty acid) intake can decrease the risk of cardiovascular diseases by 1) preventing arrhythmias that can lead to sudden cardiac death, 2) decreasing the risk of thrombosis (blood clot formation) that can lead to heart attack or stroke, 3) decreasing serum triglyceride levels, 4) slowing the growth of atherosclerotic plaque, 5) improving vascular endothelial function, 6) lowering blood pressure slightly, and 7) decreasing inflammation. ALA deficiencies can lead to visual problems and sensory neuropathy. Scaly and hemorrhagic skin or scalp inflammations may also develop." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:9c2daed585bfeef63170a1ed177867b0> , <http://bio2rdf.org/drugbank_resource:92c924807327ea18d9340f31d434a659> ;
 	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;

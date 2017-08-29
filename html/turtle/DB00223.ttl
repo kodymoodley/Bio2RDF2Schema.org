@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Diflorasone" ;
 	<http://schema.org/description> "Diflorasone is a topical corticosteroid used to treat itching and inflammation of the skin." ;
 	<http://schema.org/drugClass> "Glucocorticoids" , "Anti-Inflammatory Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00223" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00223.html" ;
 	<http://schema.org/administrationRoute> "topical" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:36e306636b8ea665111f714d3342229d> , <http://bio2rdf.org/drugbank_resource:c0247ffb3bdd581f9cf95e2220371d0a> , <http://bio2rdf.org/drugbank_resource:d37d6ddedb47e53bb198204b3fc9bb2c> ;
 	<http://schema.org/clinicalPharmacology> "Like other topical corticosteroids, diflorasone has anti-inflammatory, antipruritic, and vasoconstrictive properties. Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systemically administered corticosteroids. Diflorasone is a potent topical corticosteroid that should not be used with occlusive dressings. It is recommended that treatment should be limited to 2 consecutive weeks and therapy should be discontinued when adequate results have been achieved." ;

@@ -1,85 +1,85 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00066",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00066",
+  "@type" : "Drug",
   "administrationRoute" : [ "intramuscular", "subcutaneous" ],
   "availableStrength" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:609b5a1edb7afbf4999cb0e4237c1574",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:609b5a1edb7afbf4999cb0e4237c1574",
+    "@type" : "DrugStrength",
     "description" : "833 unit Solution form with subcutaneous route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:fe8e4c4c72305d093e041b960026e8c6",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:fe8e4c4c72305d093e041b960026e8c6",
+    "@type" : "DrugStrength",
     "description" : "50 unit Solution form with intramuscular route"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:2431df05bea59909dff605ab5ceb1506",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:2431df05bea59909dff605ab5ceb1506",
+    "@type" : "DrugStrength",
     "description" : "100 unit Solution form with intramuscular route"
   } ],
   "clinicalPharmacology" : "Used for the treatment of female infertility, Follitropin beta or follicle stimulating hormone (FSH) stimulates ovarian follicular growth in women who do not have primary ovarian failure. FSH, the active component of Follitropin beta is the primary hormone responsible for follicular recruitment and development.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:8f4974dbe7900c5a3006e07bc8a64440",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8f4974dbe7900c5a3006e07bc8a64440",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "438.04998779296875",
     "drugUnit" : "Follistim aq 300 unit cartridge"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:7055318e25d075f9c849903055e91330",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:7055318e25d075f9c849903055e91330",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "704.80999755859375",
     "drugUnit" : "Gonal-f rff 450 unit pen"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:ab739c78682d6cd2b1023f83e5c747a5",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:ab739c78682d6cd2b1023f83e5c747a5",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "733.0",
     "drugUnit" : "Gonal-f 450 unit Solution Vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:5f07eda3748f4f7b38309c86bdfb2ad1",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:5f07eda3748f4f7b38309c86bdfb2ad1",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "109.51000213623046875",
     "drugUnit" : "Follistim aq 75 unit vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:bbc91f5b21af1bfbc3439d2cebb34e9f",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:bbc91f5b21af1bfbc3439d2cebb34e9f",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "455.57000732421875",
     "drugUnit" : "Follistim AQ 300unt/0.36ml Solution 0.42ml Cartridge"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:fcba0481d70787f89bfca95fb5a96638",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:fcba0481d70787f89bfca95fb5a96638",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "911.1400146484375",
     "drugUnit" : "Follistim AQ 600unt/0.72ml Solution 0.78ml Cartridge"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:3a3701d901ce673c2f1c0f3d6c8d527c",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:3a3701d901ce673c2f1c0f3d6c8d527c",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "117.470001220703125",
     "drugUnit" : "Gonal-f rff 75 unit vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:c1d52eea69f2c756fa4bbec339e68723",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:c1d52eea69f2c756fa4bbec339e68723",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1409.6199951171875",
     "drugUnit" : "Gonal-f rff 900 unit pen"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:6ac4cb32dfba579d19ccc9a27237d927",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:6ac4cb32dfba579d19ccc9a27237d927",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "219.0200042724609375",
     "drugUnit" : "Follistim aq 150 unit vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:8a5597c18dc13aef91ad82e7c569975a",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8a5597c18dc13aef91ad82e7c569975a",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "469.8699951171875",
     "drugUnit" : "Gonal-f rff 300 unit pen"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:089c2f2f81ba4016b8f1c7d31c759b8c",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:089c2f2f81ba4016b8f1c7d31c759b8c",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1366.7099609375",
     "drugUnit" : "Follistim AQ 900unt/1.08ml Solution 1 Cartridge = 1.17ml"
@@ -87,11 +87,11 @@
   "description" : "Follitropin beta is a human follicle stimulating hormone (FSH) preparation of recombinant DNA origin, which consists of two non-covalently linked, non-identical glycoproteins designated as the alpha- and beta- subunits. The alpha- and beta- subunits have 92 and 111 amino acids. The alpha subunit is glycosylated at Asn 51 and Asn 78 while the beta subunit is glycosylated at Asn 7 and Asn 24. Follitropin beta is produced in genetically engineered Chinese hamster cell lines (CHO). The nomenclature “beta” differentiates it from another recombinant human FSH product that was marketed earlier as follitropin alpha. Follitropin is important in the development of follicles produced by the ovaries. Given by subcutaneous injection, it is used in combination with human chorionic gonadotropin (hCG) to assist in ovulation and fertility. Follitropin may also be used to cause the ovary to produce several follicles, which can then be harvested for use in gamete intrafallopian transfer (GIFT) or in vitro fertilization (IVF).  Numerous physio-chemical tests and bioassays indicate that follitropin beta and follitropin alpha are indistinguishable. However, a more recent study showed there is may be a slight clinical difference, with the alpha form tending towards a higher pregnancy rate and the beta form tending towards a lower pregnancy rate, but with significantly higher estradiol (E2) levels.  Structural analysis shows that the amino acid sequence of follitropin beta is identical to that of natural human follicle stimulating hormone (FSH). Further, the ogliosaccharide side chains are very similar, but not completely identical to that of natural FSH. However, these small differences do not affect the bioactivity compared to natural FSH.",
   "dosageForm" : "Solution",
   "drugClass" : "Fertility Agents",
-  "schema:identifier" : "drugbank:DB00066",
+  "identifier" : "drugbank:DB00066",
   "legalStatus" : "Approved",
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:02e8695a3201a764f140c2eb3ae2df15",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:02e8695a3201a764f140c2eb3ae2df15",
+    "@type" : "Organization",
     "name" : "Organon usa inc"
   },
   "mechanismOfAction" : "Follitropin alpha is a recombinant form of endogenous follicle stimulating hormone (FSH). FSH binds to the follicle stimulating hormone receptor which is a G-coupled transmembrane receptor. Binding of the FSH to its receptor seems to induce phosphorylation and activation of the PI3K (Phosphatidylinositol-3-kinase) and Akt signaling pathway, which is known to regulate many other metabolic and related survival/maturation functions in cells.",
@@ -99,5 +99,5 @@
   "nonProprietaryName" : [ "Follicle-stimulating hormone beta subunit", "FSH-B", "Follitropin beta", "Follitrophin beta", "FSH-beta", "Follicle stimulating hormone beta", "FSH-b", "Follitropin beta chain precursor" ],
   "proprietaryName" : "Follistim",
   "sameAs" : [ "http://www.drugs.com/cdi/follitropin-alfa-powder.html", "http://www.rxlist.com/cgi/generic3/follitrop.htm", "http://www.drugbank.ca/drugs/DB00066" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00066"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00066.html"
 }

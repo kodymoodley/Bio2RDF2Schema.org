@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00243> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Ranolazine" ;
 	<http://schema.org/description> "Ranolazine is an antianginal medication. On January 31, 2006, ranolazine was approved for use in the United States by the FDA for the treatment of chronic angina. [Wikipedia]" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00243" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00243.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:c0d99b4b4249a3d6029d9b16731bbe6e> , <http://bio2rdf.org/drugbank_resource:ea689cbfb798611ccb9ad683deb68184> ;
 	<http://schema.org/clinicalPharmacology> "Ranolazine has antianginal and anti-ischemic effects that do not depend upon reductions in heart rate or blood pressure. It is the first new anti-anginal developed in over 20 years." ;

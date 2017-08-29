@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Enfuvirtide" ;
 	<http://schema.org/description> "36 residue synthetic peptide that inhibits HIV-1 fusion with CD4 cells. N-terminal acetylated, C-terminal amide." ;
 	<http://schema.org/drugClass> "HIV Fusion Inhibitors" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00109" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00109.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:6621165671a52f286c0f04fbfcf81106> ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:5498f54d17a6baf5516e6d5701a46782> ;

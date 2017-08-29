@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Carbidopa" ;
 	<http://schema.org/description> "An inhibitor of DOPA decarboxylase, preventing conversion of levodopa to dopamine. It is used in parkinson disease to reduce peripheral adverse effects of levodopa. It has no antiparkinson actions by itself. [PubChem]" ;
 	<http://schema.org/drugClass> "Dopamine Agents" , "Enzyme Inhibitors" , "Antiparkinson Agents" , "Antidyskinetics" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00190" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00190.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:8ceb47939fa8538e2459110add6d3c07> ;
 	<http://schema.org/clinicalPharmacology> "Carbidopa, a noncompetitive decarboxylase inhibitor, is used in combination with levodopa for the treatment of Parkinson's disease." ;

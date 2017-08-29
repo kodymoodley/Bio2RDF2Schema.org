@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Asparaginase" ;
 	<http://schema.org/description> "L-asparagine amidohydrolase from E. coli" ;
 	<http://schema.org/drugClass> "Antineoplastic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00023" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00023.html" ;
 	<http://schema.org/administrationRoute> "intramuscular" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:c71f8c04be117d91ee84e06c5a8d9634> ;
 	<http://schema.org/clinicalPharmacology> "In a significant number of patients with acute leukemia, the malignant cells are dependent on an exogenous source of asparagine for survival. Normal cells, however, are able to synthesize asparagine and thus are affected less by the rapid depletion produced by treatment with the enzyme asparaginase. Elspar exploits a metabolic defect in asparagine synthesis of some malignant cells." ;

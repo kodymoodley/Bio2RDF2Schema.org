@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Imiglucerase" ;
 	<http://schema.org/description> "Human Beta-glucocerebrosidase or Beta-D-glucosyl-N-acylsphingosine glucohydrolase E.C. 3.2.1.45. 497 residue protein with N-linked carbohydrates, MW=59.3 kD. Alglucerase is prepared by modification of the oligosaccharide chains of human Beta-glucocerebrosidase. The modification alters the sugar residues at the non-reducing ends of the oligosaccharide chains of the glycoprotein so that they are predominantly terminated with mannose residues" ;
 	<http://schema.org/drugClass> "Enzyme Replacement Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00053" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00053.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:75dd94443024ae73bb177432660edf39> ;
 	<http://schema.org/clinicalPharmacology> "Gaucher disease is characterized by a functional deficiency in Beta-glucocerebrosidase enzymatic activity and the resultant accumulation of lipid glucocerebroside in tissue macrophages which become engorged and are termed Gaucher cells. Gaucher cells are typically found in liver, spleen and bone marrow. This can lead to an enlarged spleen and liver (hepatosplenomegaly). Secondary hematologic sequelae include severe anemia and thrombocytopenia. Injections of imiglucerase into Gaucher disease patients leads to elevated serum levels of the enzyme and reduction in the accumulation of glucocerebroside leading to reduced anemia and thrombocytopenia, reduced spleen and liver size, and decreased cachexia" ;

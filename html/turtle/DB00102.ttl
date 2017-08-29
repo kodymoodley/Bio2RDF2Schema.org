@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Becaplermin" ;
 	<http://schema.org/description> "Becaplermin is produced by recombinant DNA technology by insertion of the gene for the B chain of platelet derived growth factor (PDGF) into the yeast, Saccharomyces cerevisiae. Becaplermin has a molecular weight of approximately 25 KD and is a homodimer composed of two identical polypeptide chains that are bound together by disulfide bonds" ;
 	<http://schema.org/drugClass> "Angiogenesis Inducing Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00102" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00102.html" ;
 	<http://schema.org/administrationRoute> "topical" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:76cc7a41e93863bcbab0bba32bc52311> ;
 	<http://schema.org/clinicalPharmacology> "Used for the topical treatment of skin ulcers, Regranex has a biological activity similar to that of endogenous platelet-derived growth factor, which includes promoting the chemotactic recruitment and proliferation of cells involved in wound repair and enhancing the formation of granulation tissue." ;

@@ -1,0 +1,15 @@
+
+<http://bio2rdf.org/drugbank:DB00301> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Flucloxacillin" ;
+	<http://schema.org/description> "Antibiotic analog of cloxacillin. [PubChem]" ;
+	<http://schema.org/drugClass> "Anti-Bacterial Agents" , "Penicillins" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00301.html" ;
+	<http://schema.org/clinicalPharmacology> "Flucloxacillin is a penicillin beta-lactam antibiotic used in the treatment of bacterial infections caused by susceptible, usually gram-positive, organisms. The name \"penicillin\" can either refer to several variants of penicillin available, or to the group of antibiotics derived from the penicillins. Flucloxacillin has <i>in vitro</i> activity against gram-positive and gram-negative aerobic and anaerobic bacteria. The bactericidal activity of Flucloxacillin results from the inhibition of cell wall synthesis and is mediated through flucloxacillin binding to penicillin binding proteins (PBPs). Flucloxacillin is stable against hydrolysis by a variety of beta-lactamases, including penicillinases, and cephalosporinases and extended spectrum beta-lactamases." ;
+	<http://schema.org/foodWarning> "Take on an empty stomach." ;
+	<http://schema.org/interactingDrug> <http://bio2rdf.org/drugbank_resource:DB00301_DB01418> , <http://bio2rdf.org/drugbank_resource:DB00301_DB01082> , <http://bio2rdf.org/drugbank_resource:DB00301_DB01172> , <http://bio2rdf.org/drugbank_resource:DB00301_DB01024> , <http://bio2rdf.org/drugbank_resource:DB00301_DB01032> , <http://bio2rdf.org/drugbank_resource:DB00301_DB00994> , <http://bio2rdf.org/drugbank_resource:DB00301_DB01017> , <http://bio2rdf.org/drugbank_resource:DB00121_DB00301> , <http://bio2rdf.org/drugbank_resource:DB00254_DB00301> , <http://bio2rdf.org/drugbank_resource:DB00301_DB00688> , <http://bio2rdf.org/drugbank_resource:DB00301_DB00759> , <http://bio2rdf.org/drugbank_resource:DB00301_DB00479> , <http://bio2rdf.org/drugbank_resource:DB00301_DB00563> ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/mechanismOfAction> "By binding to specific penicillin-binding proteins (PBPs) located inside the bacterial cell wall, flucloxacillin inhibits the third and last stage of bacterial cell wall synthesis. Cell lysis is then mediated by bacterial cell wall autolytic enzymes such as autolysins; it is possible that flucloxacillin interferes with an autolysin inhibitor." ;
+	<http://schema.org/nonProprietaryName> "(2S,5R,6R)-6-({[3-(2-chloro-6-fluorophenyl)-5-methyl-1,2-oxazol-4-yl]carbonyl}amino)-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid" , "Floxacillin" , "3-(2-Chloro-6-fluorophenyl)-5-methyl-4-isoxazolylpenicillin" , "Floxapen" , "Flucloxacilina" , "Flucloxacillinum" , "Flucloxacilline" , "Flucloxacillin" ;
+	<http://schema.org/proprietaryName> "Flopen" ;
+	<http://schema.org/identifier> "drugbank:DB00301" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00301> .

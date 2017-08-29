@@ -1,16 +1,16 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00173",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00173",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Adenine (sometimes known as vitamin B4) combines with the sugar ribose to form adenosine, which in turn can be bonded with from one to three phosphoric acid units, yielding AMP, ADP and ATP . These adenine derivatives perform important functions in cellular metabolism. Adenine is one of four nitrogenous bases utilized in the synthesis of nucleic acids. A modified form of adenosine monophosphate (cyclic AMP) is an imporant secondary messenger in the propagation of many hormonal stimuli. Adenine is an integral part of the structure of many coenzymes. Adenosine (adenine with a ribose group) causes transient heart block in the AV node of the heart. In individuals suspected of suffering from a supraventricular tachycardia (SVT), adenosine is used to help identify the rhythm. Certain SVTs can be successfully terminated with adenosine.",
   "description" : "A purine base and a fundamental unit of adenine nucleotides. [PubChem]",
   "drugClass" : [ "Dietary Supplements", "Micronutrients", "Supplements" ],
-  "schema:identifier" : "drugbank:DB00173",
+  "identifier" : "drugbank:DB00173",
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "mechanismOfAction" : "Adenine forms adenosine, a nucleoside, when attached to ribose, and deoxyadenosine when attached to deoxyribose, and it forms adenosine triphosphate (ATP), a nucleotide, when three phosphate groups are added to adenosine. Adenosine triphosphate is used in cellular metabolism as one of the basic methods of transferring chemical energy between reactions. In older literature, adenine was sometimes called Vitamin B4Not Available",
   "name" : "Adenine",
   "nonProprietaryName" : [ "A", "Vitamin B4", "Ade", "6-Aminopurine", "Adenin", "ADENINE" ],
   "proprietaryName" : "Leuco-4",
   "sameAs" : "http://www.drugbank.ca/drugs/DB00173",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00173"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00173.html"
 }

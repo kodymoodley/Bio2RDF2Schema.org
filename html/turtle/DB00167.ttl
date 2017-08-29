@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Isoleucine" ;
 	<http://schema.org/description> "An essential branched-chain aliphatic amino acid found in many proteins. It is an isomer of leucine. It is important in hemoglobin synthesis and regulation of blood sugar and energy levels. [PubChem]" ;
 	<http://schema.org/drugClass> "Supplements" , "Dietary Supplements" , "Micronutrients" , "Amino Acids, Essential" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00167" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00167.html" ;
 	<http://schema.org/clinicalPharmacology> "They provide ingredients for the manufacturing of other essential biochemical components in the body, some of which are utilized for the production of energy, stimulants to the upper brain and helping you to be more alert." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:9ed530238b97d17a756f8dc927ca0cc1> ;
 	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;

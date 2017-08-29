@@ -1,41 +1,41 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00130",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00130",
+  "@type" : "Drug",
   "administrationRoute" : "oral",
   "availableStrength" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:157f4e44b6e61125207b1a83e229ab87",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:157f4e44b6e61125207b1a83e229ab87",
+    "@type" : "DrugStrength",
     "description" : "5 g Powder, for solution form with oral route"
   },
   "clinicalPharmacology" : "Like other amino acids, glutamine is biochemically important as a constituent of proteins. Glutamine is also crucial in nitrogen metabolism. Ammonia (formed by nitrogen fixation) is assimilated into organic compounds by converting glutamic acid to glutamine. The enzyme which accomplishes this is called glutamine synthetase. Glutamine can then be used as a nitrogen donor in the biosynthesis of many compounds, including other amino acids, purines, and pyrimidines.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:bd5edc097c4dde9d4441469941b74e03",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:bd5edc097c4dde9d4441469941b74e03",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "3.7599999904632568359",
     "drugUnit" : "L-glutamine crystals"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:ddbbc92c8acab352e2619b226d3d3cc3",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:ddbbc92c8acab352e2619b226d3d3cc3",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "2.4300000667572021484",
     "drugUnit" : "Argiment packets"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:a902c78ebfbae5debef92f45a3351b82",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a902c78ebfbae5debef92f45a3351b82",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.11999999731779098511",
     "drugUnit" : "L-glutamine 500 mg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:36440f4ece84967c64879292b471dce2",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:36440f4ece84967c64879292b471dce2",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.050000000745058059692",
     "drugUnit" : "Impact glutamine liquid"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:872f960d550c8b4149922129b78d0921",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:872f960d550c8b4149922129b78d0921",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.050000000745058059692",
     "drugUnit" : "Glutamic-500 tablet"
@@ -43,11 +43,11 @@
   "description" : "A non-essential amino acid present abundantly throughout the body and is involved in many metabolic processes. It is synthesized from glutamic acid and ammonia. It is the principal carrier of nitrogen in the body and is an important energy source for many cells. [PubChem]",
   "dosageForm" : "Powder, for solution",
   "drugClass" : [ "Micronutrients", "Supplements", "Non-Essential Amino Acids", "Dietary Supplements" ],
-  "schema:identifier" : "drugbank:DB00130",
+  "identifier" : "drugbank:DB00130",
   "legalStatus" : [ "Approved", "Nutraceutical", "Investigational" ],
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:8866581e8ce5eff5a15875f692948447",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8866581e8ce5eff5a15875f692948447",
+    "@type" : "Organization",
     "name" : "Nutritional restart pharmaceutical lp"
   },
   "mechanismOfAction" : "Supplemental L-glutamine's possible immunomodulatory role may be accounted for in a number of ways. L-glutamine appears to play a major role in protecting the integrity of the gastrointestinal tract and, in particular, the large intestine. During catabolic states, the integrity of the intestinal mucosa may be compromised with consequent increased intestinal permeability and translocation of Gram-negative bacteria from the large intestine into the body. The demand for L-glutamine by the intestine, as well as by cells such as lymphocytes, appears to be much greater than that supplied by skeletal muscle, the major storage tissue for L-glutamine. L-glutamine is the preferred respiratory fuel for enterocytes, colonocytes and lymphocytes. Therefore, supplying supplemental L-glutamine under these conditions may do a number of things. For one, it may reverse the catabolic state by sparing skeletal muscle L-glutamine. It also may inhibit translocation of Gram-negative bacteria from the large intestine. L-glutamine helps maintain secretory IgA, which functions primarily by preventing the attachment of bacteria to mucosal cells. L-glutamine appears to be required to support the proliferation of mitogen-stimulated lymphocytes, as well as the production of interleukin-2 (IL-2) and interferon-gamma (IFN-gamma). It is also required for the maintenance of lymphokine-activated killer cells (LAK). L-glutamine can enhance phagocytosis by neutrophils and monocytes. It can lead to an increased synthesis of glutathione in the intestine, which may also play a role in maintaining the integrity of the intestinal mucosa by ameliorating oxidative stress. The exact mechanism of the possible immunomodulatory action of supplemental L-glutamine, however, remains unclear. It is conceivable that the major effect of L-glutamine occurs at the level of the intestine. Perhaps enteral L-glutamine acts directly on intestine-associated lymphoid tissue and stimulates overall immune function by that mechanism, without passing beyond the splanchnic bed.",
@@ -55,5 +55,5 @@
   "nonProprietaryName" : [ "L-Glutaminsaeure-5-amid", "L-Glutamine", "L-2-aminoglutaramic acid", "(2S)-2,5-Diamino-5-oxopentanoic acid", "L-Glutaminsäure-5-amid", "L-(+)-glutamine", "GLUTAMINE", "L-Glutamic acid gamma-amide", "Levoglutamide", "(2S)-2-amino-4-carbamoylbutanoic acid", "Q", "Glutamic acid 5-amide", "L-Glutamin", "L-glutamic acid ?-amide", "(S)-2,5-diamino-5-oxopentanoic acid", "Glutamic acid amide" ],
   "proprietaryName" : "Earthlink Science Glutamine Chews Chocolate",
   "sameAs" : [ "http://www.drugbank.ca/drugs/DB00130", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lgl_0125.shtml" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00130"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00130.html"
 }

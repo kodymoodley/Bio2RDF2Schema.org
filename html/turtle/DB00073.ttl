@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Rituximab" ;
 	<http://schema.org/description> "Rituxan is a genetically engineered chimeric murine/human monoclonal antibody directed against the CD20 antigen found on the surface of normal and malignant B lymphocytes. The antibody is an IgG1 kappa immunoglobulin containing murine light- and heavy-chain variable region sequences and human constant region sequences. Rituximab is composed of two heavy chains of 451 amino acids and two light chains of 213 amino acids" ;
 	<http://schema.org/drugClass> "Immunologic Factors" , "Antirheumatic Agents" , "Antineoplastic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00073" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00073.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:014d458a873db212e10eb822c1fe339a> , <http://bio2rdf.org/drugbank_resource:cafefd00cc918378a6d54b1dcc507fd1> ;
 	<http://schema.org/clinicalPharmacology> """Rituximab binds to the CD20 antigen, which is predominantly expressed on mature B cells and on >90% of B-cell

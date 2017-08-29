@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Adenosine monophosphate" ;
 	<http://schema.org/description> "Adenylic acid. Adenine nucleotide containing one phosphate group esterified to the sugar moiety in the 2&#39;-, 3&#39;-, or 5&#39;-position. [PubChem]" ;
 	<http://schema.org/drugClass> "Micronutrients" , "Supplements" , "Dietary Supplements" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00131" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00131.html" ;
 	<http://schema.org/clinicalPharmacology> "Adenosine monophosphate, also known as 5'-adenylic acid and abbreviated AMP, is a nucleotide that is found in RNA. It is an ester of phosphoric acid with the nucleoside adenosine. AMP consists of the phosphate group, the pentose sugar ribose, and the nucleobase adenine. AMP is used as a dietary supplement to boost immune activity, and is also used as a substitute sweetener to aid in the maintenance of a low-calorie diet." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:9b694e4e229ef644cc666541a8150594> ;
 	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;

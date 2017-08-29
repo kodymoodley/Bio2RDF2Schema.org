@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Dofetilide" ;
 	<http://schema.org/description> "Dofetilide is a class III antiarrhythmic agent that is approved by the Food and Drug Administration (FDA) for the maintenance of sinus rhythm in individuals prone to the formation of atrial fibrillation and flutter, and for the chemical cardioversion to sinus rhythm from atrial fibrillation and flutter. [Wikipedia]" ;
 	<http://schema.org/drugClass> "Potassium Channel Blockers" , "Anti-Arrhythmia Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00204" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00204.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:6abf4af8db3f97966d2b463ccbc70e5f> , <http://bio2rdf.org/drugbank_resource:af5c67afa3554f41e95ebc4512cc0d4a> , <http://bio2rdf.org/drugbank_resource:7dc1c2b3ba5544fdc82c7a4caf850800> ;
 	<http://schema.org/clinicalPharmacology> "Dofetilide is an antiarrhythmic drug with Class III (cardiac action potential duration prolonging) properties and is indicated for the maintenance of normal sinus rhythm. Dofetilide increases the monophasic action potential duration in a predictable, concentration-dependent manner, primarily due to delayed repolarization. At concentrations covering several orders of magnitude, Dofetilide blocks only IKr with no relevant block of the other repolarizing potassium currents (e.g., IKs, IK1). At clinically relevant concentrations, Dofetilide has no effect on sodium channels (associated with Class I effect), adrenergic alpha-receptors, or adrenergic beta-receptors." ;

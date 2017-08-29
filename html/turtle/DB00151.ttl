@@ -1,0 +1,32 @@
+
+<http://bio2rdf.org/drugbank:DB00151> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "L-Cysteine" ;
+	<http://schema.org/description> "A thiol-containing non-essential amino acid that is oxidized to form cystine. [PubChem]" ;
+	<http://schema.org/drugClass> "Supplements" , "Dietary Supplements" , "Nutritional Support" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00151.html" ;
+	<http://schema.org/clinicalPharmacology> "Due to this ability to undergo redox reactions, cysteine has antioxidant properties. Cysteine is an important source of sulfur in human metabolism, and although it is classified as a non-essential amino acid, cysteine may be essential for infants, the elderly, and individuals with certain metabolic disease or who suffer from malabsorption syndromes. Cysteine may at some point be recognized as an essential or conditionally essential amino acid." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:4875c9cc0badfed63ba1822e778cbd3a> , <http://bio2rdf.org/drugbank_resource:8267664087f3be3844b119cd6879a8e6> , <http://bio2rdf.org/drugbank_resource:2037cf23ad12558d6115fcd3b98d0f31> ;
+	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:487f967dd07eb35ab852d7055ed5b09b> ;
+	<http://schema.org/mechanismOfAction> "Although classified as a non-essential amino acid cysteine may be essential for infants, the elderly, and individuals with certain metabolic disease or who suffer from malabsorption syndromes. Cysteine can usually be synthesized by the human body under normal physiological conditions if a sufficient quantity of methionine is available. Due to the ability of thiols to undergo redox reactions, cysteine has antioxidant properties. Cysteine's antioxidant properties are typically expressed in the tripeptide glutathione, which occurs in humans as well as other organisms. The systemic availability of oral glutathione (GSH) is negligible; so it must be biosynthesized from its constituent amino acids, cysteine, glycine, and glutamic acid. Glutamic acid and glycine are readily available in the diets of most industrialized countries, but the availability of cysteine can be the limiting substrate. Cysteine is also an important source of sulfide in human metabolism. The sulfide in iron-sulfur clusters and in nitrogenase is extracted from cysteine, which is converted to alanine in the process. In a 1994 report released by five top cigarette companies, cysteine is one of the 599 additives to cigarettes. Its use or purpose, however, is unknown, like most cigarette additives. Its inclusion in cigarettes could offer two benefits: Acting as an expectorant, since smoking increases mucus production in the lungs; and increasing the beneficial antioxidant glutathione (which is diminished in smokers)." ;
+	<http://schema.org/nonProprietaryName> "(2R)-2-amino-3-sulfanylpropanoic acid" , "L-Cys" , "(R)-2-Amino-3-mercaptopropanoic acid" , "(2R)-2-amino-3-mercaptopropanoic acid" , "Cys" , "L-2-Amino-3-mercaptopropionic acid" ;
+	<http://schema.org/identifier> "drugbank:DB00151" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00151> .
+
+<http://bio2rdf.org/drugbank_resource:2037cf23ad12558d6115fcd3b98d0f31> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.40000000596046447754" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-cysteine 50 mg/ml vial" .
+
+<http://bio2rdf.org/drugbank_resource:4875c9cc0badfed63ba1822e778cbd3a> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.6499999761581420898" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-cysteine powder" .
+
+<http://bio2rdf.org/drugbank_resource:487f967dd07eb35ab852d7055ed5b09b> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Hospira inc" .
+
+<http://bio2rdf.org/drugbank_resource:8267664087f3be3844b119cd6879a8e6> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "0.30000001192092895508" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "L-cysteine hcl powder" .

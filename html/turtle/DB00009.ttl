@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Alteplase" ;
 	<http://schema.org/description> "Human tissue plasminogen activator, purified, glycosylated, 527 residues purified from CHO cells" ;
 	<http://schema.org/drugClass> "Thrombolytic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00009" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00009.html" ;
 	<http://schema.org/administrationRoute> "intravenous" , "instillation" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:6a02c57a5615ca412d4169f15b065d4d> , <http://bio2rdf.org/drugbank_resource:10f6ef630071b0e3676126c42e8d1cb8> ;
 	<http://schema.org/clinicalPharmacology> "Alteplase binds to fibrin in a thrombus and converts the entrapped plasminogen to plasmin. It also produces limited conversion of plasminogen in the absence of fibrin." ;

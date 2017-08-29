@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00209> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Trospium" ;
 	<http://schema.org/description> "Trospium is a urinary antispasmodic. It is sold under the brand name Sanctura in the US, and as Trosec in Canada. [Wikipedia]" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00209" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00209.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:b517913496d106ef027f35a68dd10b8e> , <http://bio2rdf.org/drugbank_resource:42ad7e105b5051721f13d841e8b76c87> , <http://bio2rdf.org/drugbank_resource:df27a2bcc7bb9c277bc3f7050c4ff217> ;
 	<http://schema.org/clinicalPharmacology> "Trospium is an antispasmodic, antimuscarinic agent indicated for the treatment of overactive bladder with symptoms of urge urinary incontinence, urgency, and urinary frequency. Receptor assays showed that trospium has negligible affinity for nicotinic receptors as compared to muscarinic receptors at concentrations obtained from therapeutic doses." ;

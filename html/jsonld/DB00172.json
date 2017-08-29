@@ -1,22 +1,22 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00172",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00172",
+  "@type" : "Drug",
   "clinicalPharmacology" : "L-Proline is a major amino acid found in cartilage and is important for maintaining youthful skin as well as repair of muscle, connective tissue and skin damage. It is also essential for the immune system, and for necessary balance of this formula. It is an essential component of collagen and is important for proper functioning of joints and tendons. L-Proline is extremely important for the proper functioning of joints and tendons. Helps maintain and strengthen heart muscles.",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:ce5f31d2e8714c23c85bf2ad81df066e",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:ce5f31d2e8714c23c85bf2ad81df066e",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "3.5999999046325683594",
     "drugUnit" : "L-proline crystal"
   },
   "description" : "A non-essential amino acid that is synthesized from glutamic acid. It is an essential component of collagen and is important for proper functioning of joints and tendons. [PubChem]",
   "drugClass" : [ "Supplements", "Dietary Supplements", "Micronutrients", "Non-Essential Amino Acids" ],
-  "schema:identifier" : "drugbank:DB00172",
+  "identifier" : "drugbank:DB00172",
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "mechanismOfAction" : "Glycogenic, by L-Proline oxidase in the kidney, it is ring-opened and is oxidized to form L-Glutamic acid. L-Ornithine and L-Glutamic acid are converted to L-Proline via L-Glutamic acid-gamma-semialdehyde. It is contained abundantly in collagen, and is intimately involved in the function of arthrosis and chordae.",
   "name" : "L-Proline",
   "nonProprietaryName" : [ "(-)-2-Pyrrolidinecarboxylic acid", "(-)-(S)-Proline", "PROLINE", "(S)-2-Carboxypyrrolidine", "L-alpha-pyrrolidinecarboxylic acid", "(?)-proline", "L-pyrrolidine-2-carboxylic acid", "L-Prolin", "L-?-pyrrolidinecarboxylic acid", "(S)-Pyrrolidine-2-carboxylic acid", "(-)-Proline", "P", "(S)-2-Pyrrolidinecarboxylic acid", "Prolina", "L-(-)-Proline", "Prolinum", "(?)-(S)-proline", "L-Proline", "(2S)-Pyrrolidine-2-carboxylic acid", "(?)-2-pyrrolidinecarboxylic acid", "2-Pyrrolidinecarboxylic acid" ],
   "sameAs" : "http://www.drugbank.ca/drugs/DB00172",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00172"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00172.html"
 }

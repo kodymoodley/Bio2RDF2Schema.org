@@ -5,7 +5,7 @@
 <http://bio2rdf.org/drugbank:DB00219> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Oxyphenonium" ;
 	<http://schema.org/description> "A quaternary ammonium anticholinergic agent with peripheral side effects similar to those of atropine. It is used as an adjunct in the treatment of gastric and duodenal ulcer, and to relieve visceral spasms. The drug has also been used in the form of eye drops for mydriatic effect. [PubChem]" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00219" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00219.html" ;
 	<http://schema.org/clinicalPharmacology> "Oxyphenonium is an anticholinergic drug, a medication that reduces the effect of acetylcholine, a chemical released from nerves that stimulates muscles, by blocking the receptors for acetylcholine on smooth muscle (a type of muscle). It also has a direct relaxing effect on smooth muscle. Oxyphenonium is used to treat or prevent spasm in the muscles of the gastrointestinal tract in the irritable bowel syndrome. In addition, Oxyphenonium inhibits gastrointestinal propulsive motility and decreases gastric acid secretion and controls excessive pharyngeal, tracheal and bronchial secretions." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:a57533055c136af9a471684ba442d058> ;

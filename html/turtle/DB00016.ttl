@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Epoetin alfa" ;
 	<http://schema.org/description> "Human erythropoietin (recombinant), produced by CHO cells." ;
 	<http://schema.org/drugClass> "Hematinics" , "Anti-anemic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00016" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00016.html" ;
 	<http://schema.org/administrationRoute> "intravenous; subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:af2c18507c80398b461cd9b9d8a66f13> , <http://bio2rdf.org/drugbank_resource:fd4cc6c89154c69f97b35dfdcbcb5b81> , <http://bio2rdf.org/drugbank_resource:3a580c9b1e8ed33ea726d8bbc43a7ad3> , <http://bio2rdf.org/drugbank_resource:24abc38da87ab747f3e283231ba7b201> , <http://bio2rdf.org/drugbank_resource:285d08e8e3db366361a28906980cb6fd> , <http://bio2rdf.org/drugbank_resource:5af4be438316594fbcf34b9ba58f7331> , <http://bio2rdf.org/drugbank_resource:753dab6b0aa995f0fe3b99b85b33c244> , <http://bio2rdf.org/drugbank_resource:615bb6a8d39413f13b98b94c86df7a73> , <http://bio2rdf.org/drugbank_resource:f526281af659ec9d8c21aa951bc9b6d0> , <http://bio2rdf.org/drugbank_resource:0bce426f8eab80bc4f6a6e01fca1f634> , <http://bio2rdf.org/drugbank_resource:0fc7504ac02075d829b62fefcad4026e> ;
 	<http://schema.org/clinicalPharmacology> "Used in the treatment of anemia. Involved in the regulation of erythrocyte differentiation and the maintenance of a physiological level of circulating erythrocyte mass." ;

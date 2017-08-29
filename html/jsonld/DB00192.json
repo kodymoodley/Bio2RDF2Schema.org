@@ -1,15 +1,15 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00192",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00192",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Indecainide is a rarely used antidysrhythmic. Indecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics.",
   "description" : "Indecainide is a rarely used antidysrhythmic. Indecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics.",
   "drugClass" : [ "Anti-Arrhythmia Agents", "Sodium Channel Blockers" ],
-  "schema:identifier" : "drugbank:DB00192",
+  "identifier" : "drugbank:DB00192",
   "legalStatus" : "Approved",
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087",
+    "@type" : "Organization",
     "name" : "Eli lilly and co"
   },
   "mechanismOfAction" : "Indecainide acts on sodium channels on the neuronal cell membrane, limiting the spread of seizure activity and reducing seizure propagation. The antiarrhythmic actions are mediated through effects on sodium channels in Purkinje fibers.",
@@ -17,5 +17,5 @@
   "nonProprietaryName" : [ "Indecainidum", "Indecainida", "Indecainide" ],
   "proprietaryName" : "Decabid",
   "sameAs" : "http://www.drugbank.ca/drugs/DB00192",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00192"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00192.html"
 }

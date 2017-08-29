@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Palifermin" ;
 	<http://schema.org/description> "Palifermin is a recombinant human keratinocyte growth factor (KGF). It is 140 residues long, and is produced using E. coli." ;
 	<http://schema.org/drugClass> "Anti-Mucositis Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00039" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00039.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:7ff6f0a5e1af06a6a5b2d188464b97a9> , <http://bio2rdf.org/drugbank_resource:4dd9bca870aedb3ff6992ac3a61b4921> ;
 	<http://schema.org/clinicalPharmacology> "Used in the prevention or treatment of oral mucoscitis (mouth ulcers arising from chemotherapy), Kepivance binds to the human keratinocyte growth factor (KGF) receptor on buccal cell surfaces. Kepivance acts as both a cell growth and survival factor by stimulating epithelial cell proliferation, differentiation, and migration around the tongue and mouth. The KGF receptor is found on many tissues particularly around the tongue, esophagus, salivary gland and other gastro-intestinal tract organs." ;

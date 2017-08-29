@@ -1,0 +1,286 @@
+{
+ "@context" : "http://schema.org",
+  "@id" : "http://bio2rdf.org/drugbank:DB00304",
+  "@type" : "Drug",
+  "clinicalPharmacology" : "Desogestrel is used as a female contraceptive. Desogestrel is a progestin or a synthetic form of the naturally occurring female sex hormone, progesterone. In a woman's normal menstrual cycle, an egg matures and is released from the ovaries (ovulation). The ovary then produces progesterone, preventing the release of further eggs and priming the lining of the womb for a possible pregnancy. If pregnancy occurs, progesterone levels in the body remain high, maintaining the womb lining. If pregnancy does not occur, progesterone levels in the body fall, resulting in a menstrual period. Desogestrel tricks the body processes into thinking that ovulation has already occurred, by maintaining high levels of the synthetic progesterone. This prevents the release of eggs from the ovaries.",
+  "cost" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:d4125e639f01024155ff7c6689f2e6de",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "79.98999786376953125",
+    "drugUnit" : "Mircette 28 0.15-0.02/0.01 mg (21/5) tablet Disp Pack"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:1aeacc56ba67895859e2ac5558db48dc",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "62.380001068115234375",
+    "drugUnit" : "Kariva 28 0.15-0.02/0.01 mg (21/5) tablet Disp Pack"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:04e4880bb27fda293595ba2ea4e4c9ff",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.8600000143051147461",
+    "drugUnit" : "Desogen 28 day tablet"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:9a8d8ceabf061c6cddb1f9667e5c14f9",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.8200000524520874023",
+    "drugUnit" : "Cyclessa 28 day tablet"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:0c60bfaddb97206701b2a717c8a61790",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "56.3899993896484375",
+    "drugUnit" : "Cyclessa 28  tablet Disp Pack"
+  } ],
+  "description" : "A synthetic progestational hormone used often as the progestogenic component of combined oral contraceptive agents. [PubChem]",
+  "drugClass" : [ "Contraceptives, Oral, Synthetic", "Progestins" ],
+  "identifier" : "drugbank:DB00304",
+  "interactingDrug" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01320"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01307"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01309"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01355"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01418"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01353"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01354"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01708"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB03880"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01601"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01609"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00357"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00374"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00331"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00349"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00418"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00459"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00400"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00414"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00237_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00498"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00030_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00252_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00273_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00555"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00474"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00480"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00569"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00582"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00559"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00564"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00648"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00672"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00607"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00625"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00682"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00697"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00673"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00677"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00794"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00834"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00278_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00745"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00776"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00932"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00946"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00912"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00930"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB09036"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB09046"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08912"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08914"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00222_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00070_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB04938"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB04951"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB04272"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB04876"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06203"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06206"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB05521"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06201"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06273"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06290"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06228"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00204_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06271"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06413"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00046_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06480"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06335"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06404"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00006_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06695"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06697"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06594"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06605"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06779"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00047_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06822"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06717"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB06754"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00312"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08827"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08867"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08794"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08813"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00266_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08883"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08907"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08873"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00268_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB08882"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00974"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00990"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00949"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB00956"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01041"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01072"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01016"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01037"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00054_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00220_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01120"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01124"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01100"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01109"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00126_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01232"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01238"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01217"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01225"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01276"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01306"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01251"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00238_DB00304"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01264"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00304_DB01319"
+  } ],
+  "legalStatus" : "Approved",
+  "mechanismOfAction" : "Binds to the progesterone and estrogen receptors. Target cells include the female reproductive tract, the mammary gland, the hypothalamus, and the pituitary. Once bound to the receptor, progestins like desogestrel will slow the frequency of release of gonadotropin releasing hormone (GnRH) from the hypothalamus and blunt the pre-ovulatory LH (luteinizing hormone) surge.",
+  "name" : "Desogestrel",
+  "nonProprietaryName" : [ "Desogestrelum", "13-Ethyl-11-methylene-18,19-dinor-17alpha-pregn-4-en-20-yn-17-ol", "Cerazette" ],
+  "proprietaryName" : "Cerazette",
+  "sameAs" : [ "http://www.rxlist.com/cgi/generic/desest.htm", "http://www.drugbank.ca/drugs/DB00304" ],
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00304.html"
+}

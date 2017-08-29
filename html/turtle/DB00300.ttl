@@ -1,0 +1,45 @@
+
+<http://bio2rdf.org/drugbank:DB00300> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Tenofovir" ;
+	<http://schema.org/description> "Tenofovir disoproxil fumarate (a prodrug of tenofovir), marketed by Gilead Sciences under the trade name Viread&reg;, belongs to a class of antiretroviral drugs known as nucleotide analogue reverse transcriptase inhibitors (nRTIs), which block reverse transcriptase, an enzyme crucial to viral production in HIV-infected people. [Wikipedia] In vivo tenofovir disoproxil fumarate is converted to tenofovir, an acyclic nucleoside phosphonate (nucleotide) analog of adenosine 5'-monophosphate." ;
+	<http://schema.org/drugClass> "Anti-HIV Agents" , "Reverse Transcriptase Inhibitors" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00300.html" ;
+	<http://schema.org/administrationRoute> "oral" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:20cbf8749871360c3dd35e7ca7ec210f> , <http://bio2rdf.org/drugbank_resource:ef48b5810b5999c963cf796216ebb820> , <http://bio2rdf.org/drugbank_resource:da2470021917bcad4fda98a2bb31cb2a> , <http://bio2rdf.org/drugbank_resource:ecbd1b5f93971bb4e338758b719e30ae> , <http://bio2rdf.org/drugbank_resource:41f6e527dff42a7d712eaae39cabd2aa> , <http://bio2rdf.org/drugbank_resource:41a07a5c9f2f6f378eadbe151f9e0b36> ;
+	<http://schema.org/clinicalPharmacology> "Tenofovir belongs to a class of antiretroviral drugs known as nucleotide analogue reverse transcriptase inhibitors (NtRTIs), which block reverse transcriptase, an enzyme crucial to viral production in HIV-infected people. Tenofovir is currently in late-stage clinical trials for the treatment of hepatitis B. Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate. Tenofovir diphosphate is a weak inhibitor of mammalian DNA polymerases &alpha;, &beta;, and mitochondrial DNA polymerase &gamma;." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:b86130a189aece002c0fa577102e7aad> ;
+	<http://schema.org/dosageForm> "Powder" , "Tablet" , "Tablet, coated" ;
+	<http://schema.org/foodWarning> "When given with a high-fat meal, the oral bioavailability, AUC, and Cmax increased." ;
+	<http://schema.org/interactingDrug> <http://bio2rdf.org/drugbank_resource:DB00300_DB00482> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00461> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00465> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00994> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01009> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00955> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00991> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01082> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01172> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01050> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01072> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00798> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00814> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00787> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00788> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00919> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00932> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00861> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00900> , <http://bio2rdf.org/drugbank_resource:DB00300_DB08976> , <http://bio2rdf.org/drugbank_resource:DB00300_DB09027> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01601> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01610> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01264> , <http://bio2rdf.org/drugbank_resource:DB00300_DB01600> , <http://bio2rdf.org/drugbank_resource:DB00300_DB06290> , <http://bio2rdf.org/drugbank_resource:DB00300_DB06696> , <http://bio2rdf.org/drugbank_resource:DB00300_DB03615> , <http://bio2rdf.org/drugbank_resource:DB00300_DB05521> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00573> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00605> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00500> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00554> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00749> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00784> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00684> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00718> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00369> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00452> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00328> , <http://bio2rdf.org/drugbank_resource:DB00300_DB00479> ;
+	<http://schema.org/legalStatus> "Investigational" , "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:75cfbba29b6af16f3d50e9b7844fead8> ;
+	<http://schema.org/mechanismOfAction> "Tenofovir inhibits the activity of HIV reverse transcriptase by competing with the natural substrate deoxyadenosine 5&rsquo;-triphosphate and, after incorporation into DNA, by DNA chain termination. Specifically, the drugs are analogues of the naturally occurring deoxynucleotides  needed to synthesize the viral DNA and they compete with the natural deoxynucleotides for incorporation into the growing viral DNA chain. However, unlike the natural deoxynucleotides substrates, NRTIs and NTRTIs (nucleoside/tide reverse transcriptase inhibitors) lack a 3'-hydroxyl group on the deoxyribose moiety. As a result, following incorporation of an NRTI or an NtRTI, the next incoming deoxynucleotide cannot form the next 5'-3' phosphodiester  bond needed to extend the DNA chain. Thus, when an NRTI or NtRTI is incorporated, viral DNA synthesis is halted, a process known as chain termination. All NRTIs and NtRTIs are classified as competitive substrate inhibitors." ;
+	<http://schema.org/nonProprietaryName> "Tenofovir" , "Tenofovir (anh.)" , "(R)-PMPA" , "Anhydrous tenofovir" , "Anh. tenofovir" ;
+	<http://schema.org/identifier> "drugbank:DB00300" ;
+	<http://schema.org/sameAs> <http://www.drugs.com/cdi/tenofovir.html> , <http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/vir1605.shtml> , <http://www.drugbank.ca/drugs/DB00300> , <http://www.rxlist.com/cgi/generic/viread.htm> .
+
+<http://bio2rdf.org/drugbank_resource:20cbf8749871360c3dd35e7ca7ec210f> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "300 mg Tablet, coated form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:41a07a5c9f2f6f378eadbe151f9e0b36> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "40 mg/g Powder form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:41f6e527dff42a7d712eaae39cabd2aa> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "150 mg Tablet, coated form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:b86130a189aece002c0fa577102e7aad> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "33.950000762939453125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Viread 300 mg tablet" .
+
+<http://bio2rdf.org/drugbank_resource:da2470021917bcad4fda98a2bb31cb2a> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "200 mg Tablet, coated form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:ecbd1b5f93971bb4e338758b719e30ae> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "300 mg Tablet form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:ef48b5810b5999c963cf796216ebb820> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "250 mg Tablet, coated form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:75cfbba29b6af16f3d50e9b7844fead8> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Gilead sciences inc" .

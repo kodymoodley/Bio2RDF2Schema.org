@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Alclometasone" ;
 	<http://schema.org/description> "Alclometasone is synthetic glucocorticoid steroid for topical use in dermatology as anti-inflammatory, antipruritic, antiallergic, antiproliferative and vasoconstrictive agent. [Wikipedia]" ;
 	<http://schema.org/drugClass> "Antipruritics" , "Corticosteroids" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00240" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00240.html" ;
 	<http://schema.org/administrationRoute> "topical" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:36e306636b8ea665111f714d3342229d> , <http://bio2rdf.org/drugbank_resource:c0247ffb3bdd581f9cf95e2220371d0a> ;
 	<http://schema.org/clinicalPharmacology> "Alclometasone is a synthetic corticosteroid for topical dermatologic use. The corticosteroids constitute a class of primarily synthetic steroids used topically as anti-inflammatory and antipruritic agents. Alclometasone is a selective glucocorticoid receptor agonist." ;

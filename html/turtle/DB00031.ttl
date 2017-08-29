@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Tenecteplase" ;
 	<http://schema.org/description> "Tissue plasminogen activator (tPA). Tenecteplase is a 527 amino acid glycoprotein developed by introducing the following modifications to the complementary DNA (cDNA) for natural human tPA: a substitution of threonine 103 with asparagine, and a substitution of asparagine 117 with glutamine, both within the kringle 1 domain, and a tetra-alanine substitution at amino acids 296-299 in the protease domain." ;
 	<http://schema.org/drugClass> "Thrombolytic Agents" , "Fibrinolytic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00031" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00031.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:22c29e17b554c3579f072e57155dd8fd> ;
 	<http://schema.org/clinicalPharmacology> "Tenecteplase is a fibrin-specific tissue-plasminogen activator. It binds to fibrin rich clots and cleaves the Arg/Val bond in plasminogen to form plasmin. Plasmin in turn degrades the fibrin matrix of the thrombus, thereby exerting its thrombolytic action. This helps eliminate blood clots or arterial blockages that cause myocardial infarction." ;

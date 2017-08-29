@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Valine" ;
 	<http://schema.org/description> "A branched-chain essential amino acid that has stimulant activity. It promotes muscle growth and tissue repair. It is a precursor in the penicillin biosynthetic pathway. [PubChem]" ;
 	<http://schema.org/drugClass> "Amino Acids, Essential" , "Dietary Supplements" , "Micronutrients" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00161" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00161.html" ;
 	<http://schema.org/clinicalPharmacology> "L-valine is a branched-chain essential amino acid (BCAA) that has stimulant activity. It promotes muscle growth and tissue repair. It is a precursor in the penicillin biosynthetic pathway. Valine is one of three branched-chain amino acids (the others are leucine and isoleucine) that enhance energy, increase endurance, and aid in muscle tissue recovery and repair. This group also lowers elevated blood sugar levels and increases growth hormone production. Supplemental valine should always be combined with isoleucine and leucine at a respective milligram ratio of 2:1:2. It is an essential amino acid found in proteins; important for optimal growth in infants and for growth in children and nitrogen balance in adults. The lack of L-valine may influence the growth of body, cause neuropathic obstacle, anaemia. It has wide applications in the field of pharmaceutical and food industry." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:8bfdeb3452a8ccd6f8adc942d5edcf66> ;
 	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;

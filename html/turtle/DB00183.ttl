@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Pentagastrin" ;
 	<http://schema.org/description> "A synthetic pentapeptide that has effects like gastrin when given parenterally. It stimulates the secretion of gastric acid, pepsin, and intrinsic factor, and has been used as a diagnostic aid. [PubChem]" ;
 	<http://schema.org/drugClass> "Diagnostic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00183" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00183.html" ;
 	<http://schema.org/clinicalPharmacology> "Pentagastrin is indicated as a diagnostic aid for evaluation of gastric acid secretory function. It is effective in testing for anacidity (achlorhydria) in patients with suspected pernicious anemia, atrophic gastritis, or gastric carcinoma. It is also effective in determining the reduction in acid output after operations for peptic ulcer, such as vagotomy or gastric resection." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:7d92342ad09e4985ff4ff28997e775ab> ;

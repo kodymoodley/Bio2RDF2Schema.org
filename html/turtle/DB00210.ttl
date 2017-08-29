@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Adapalene" ;
 	<http://schema.org/description> "Adapalene is a topical retinoid primarily used in the treatment of acne and is also used (off-label) to treat keratosis pilaris as well as other skin conditions. It is currently marketed by Galderma under the trade names Differin in some countries, and Adaferin in India. [Wikipedia]" ;
 	<http://schema.org/drugClass> "Anti-Inflammatory Agents, Non-Steroidal" , "Dermatologic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00210" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00210.html" ;
 	<http://schema.org/administrationRoute> "topical" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:b4e269c17e771f41c2525c3c7956fd07> , <http://bio2rdf.org/drugbank_resource:8745c71079e3222553e1eb353ea4296f> , <http://bio2rdf.org/drugbank_resource:8a085551c92e4403d2d62a87a8325853> , <http://bio2rdf.org/drugbank_resource:ba2ba94a2e8b1485a956da1565c18029> , <http://bio2rdf.org/drugbank_resource:589542a3b108950f10d2459aae3c9460> , <http://bio2rdf.org/drugbank_resource:08765eb589f88d30c71229e15a1de3c6> ;
 	<http://schema.org/clinicalPharmacology> "Adapalene is a chemically stable retinoid-like compound. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes all of which represent important features in the pathology of acne vulgaris." ;

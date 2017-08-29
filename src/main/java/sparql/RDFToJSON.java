@@ -42,7 +42,7 @@ public class RDFToJSON {
         String result = getPrettyJsonLdString(
                 readRdfToString(in, format, RDFFormat.JSONLD, ""));
         StringBuilder sb = new StringBuilder(result);
-    	sb.insert(1, "\n \"@context\" : \"http://schema.org\",");//=[http://schema.org], ");    	
+    	sb.insert(1, "\n \"@context\" : \"http://schema.org\",");
     	return sb.toString();
     }
 
@@ -115,7 +115,7 @@ public class RDFToJSON {
     }
 
     public static String readRdfToString(InputStream in, RDFFormat inf,
-            RDFFormat outf, String baseUrl) {
+        RDFFormat outf, String baseUrl) {
         Collection<Statement> myGraph = null;
         myGraph = readRdfToGraph(in, inf, baseUrl);
         return graphToString(myGraph, outf);

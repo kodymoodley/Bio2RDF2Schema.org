@@ -7,7 +7,7 @@ The primary hematopoietic activity of Neumega® is stimulation of megakaryocytop
 
 In animal studies Oprelvekin also has non-hematopoetic activities. This includes the regulation of intestinal epithelium growth (enhanced healing of gastrointestinal lesions), the inhibition of adipogenesis, the induction of acute phase protein synthesis (e.g., fibrinogen), and inhibition of macrophageal released pro-inflammatory cytokines.""" ;
 	<http://schema.org/drugClass> "Coagulants" , "Antineoplastic Agents" , "Thrombotic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00038" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00038.html" ;
 	<http://schema.org/clinicalPharmacology> "Oprelvekin is indicated for the prevention of severe thrombocytopenia and the reduction of the need for platelet transfusions following myelosuppressive chemotherapy in adult patients with nonmyeloid malignancies who are at high risk of severe thrombocytopenia. The primary hematopoietic activity of Oprelvekin is stimulation of megakaryocytopoiesis and thrombopoiesis. Oprelvekin has shown potent thrombopoietic activity in individuals with compromised hematopoiesis" ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:a73505449fbaa9b66536bac73b8ec651> ;
 	<http://schema.org/legalStatus> "Approved" , "Investigational" ;

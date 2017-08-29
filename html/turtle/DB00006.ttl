@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Bivalirudin" ;
 	<http://schema.org/description> "Bivalirudin is a synthetic 20 residue peptide (thrombin inhibitor) which reversibly inhibits thrombin. Once bound to the active site, thrombin cannot activate fibrinogen into fibrin, the crucial step in the formation of thrombus. It is administered intravenously. Because it can cause blood stagnation, it is important to monitor changes in hematocrit, activated partial thromboplastin time, international normalized ratio and blood pressure." ;
 	<http://schema.org/drugClass> "Antithrombins" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00006" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00006.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:00d72b7daffef4a0c37b774cac88d476> , <http://bio2rdf.org/drugbank_resource:63ad271fe94a6def30375a5931b7f9ec> , <http://bio2rdf.org/drugbank_resource:cedadfdafeea4c596f2252dd2fd97ddb> ;
 	<http://schema.org/clinicalPharmacology> "Bivalirudin directly and reversibly inhibits thrombin by specifically binding both to the catalytic site and to the anion-binding exosite of circulating and clot-bound thrombin.  The action of bivalirudin is reversible because thrombin will slowly cleave the thrombin-bivalirudin bond which recovers the active site of thrombin." ;

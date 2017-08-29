@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Coagulation Factor IX" ;
 	<http://schema.org/description> "Human Factor IX protein, produced by recombinant DNA technology for use in therapy of factor IX deficiency, known as hemophilia B or Christmas disease. Coagulation Factor IX (Recombinant) is a glycoprotein with an approximate molecular mass of 55,000 Da consisting of 415 amino acids in a single chain. It has a primary amino acid sequence that is identical to the Ala 148 allelic form of plasma-derived factor IX." ;
 	<http://schema.org/drugClass> "Coagulants" , "Thrombotic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00100" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00100.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:4186c304ff0d868a9d713428d227a3ac> ;
 	<http://schema.org/clinicalPharmacology> "Binds vitamin K and factor VIIIa. Cleaves the Arg-Ile bond in factor X to form active factor Xa. Plays a key role in blood coagulation and clotting. Injections of factor IX are used to treat hemophilia B, which is sometimes called Christmas disease. AlphaNine is injected to increase plasma levels of Factor IX and can temporarily correct this coagulation defect." ;

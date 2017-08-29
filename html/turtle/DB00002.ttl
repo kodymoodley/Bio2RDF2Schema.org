@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Cetuximab" ;
 	<http://schema.org/description> "Epidermal growth factor receptor binding FAB. Cetuximab is composed of the Fv (variable; antigen-binding) regions of the 225 murine EGFr monoclonal antibody specific for the N-terminal portion of human EGFr with human IgG1 heavy and kappa light chain constant (framework) regions." ;
 	<http://schema.org/drugClass> "Antineoplastic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00002" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00002.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:b624d8e3e20d2f4d741378e7638c4819> , <http://bio2rdf.org/drugbank_resource:b9f61619a00a6c02f73eb60c5107544e> ;
 	<http://schema.org/clinicalPharmacology> "Used in the treatment of colorectal cancer, cetuximab binds specifically to the epidermal growth factor receptor (EGFr, HER1, c-ErbB-1) on both normal and tumor cells. EGFr is over-expressed in many colorectal cancers. Cetuximab competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor–alpha. Binding of cetuximab to the EGFr blocks phosphorylation and activation of receptor-associated kinases, resulting in inhibition of cell growth, induction of apoptosis, decreased matrix metalloproteinase secretion and reduced vascular endothelial growth factor production." ;

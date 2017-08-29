@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00197> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Troglitazone" ;
 	<http://schema.org/description> "Troglitazone was withdrawn in 2000 due to risk of hepatotoxicity. It was superseded by pioglitazone and rosiglitazone." ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00197" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00197.html" ;
 	<http://schema.org/clinicalPharmacology> "Troglitazone is an oral antihyperglycemic agent which acts primarily by decreasing insulin resistance. Troglitazone is used in the management of type II diabetes (noninsulin-dependent diabetes mellitus (NIDDM) also known as adult-onset diabetes). It improves sensitivity to insulin in muscle and adipose tissue and inhibits hepatic gluconeogenesis. Troglitazone is not chemically or functionally related to either the sulfonylureas, the biguanides, or the g-glucosidase inhibitors. Troglitazone may be used concomitantly with a sulfonylurea or insulin to improve glycemic control." ;
 	<http://schema.org/legalStatus> "Withdrawn" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:92a5a74dfccbf7f3653050e0ff04c6ed> ;

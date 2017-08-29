@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Vitamin A" ;
 	<http://schema.org/description> "Retinol and derivatives of retinol that play an essential role in metabolic functioning of the retina, the growth of and differentiation of epithelial tissue, the growth of bone, reproduction, and the immune response. Dietary vitamin A is derived from a variety of carotenoids found in plants. It is enriched in the liver, egg yolks, and the fat component of dairy products. [PubChem]" ;
 	<http://schema.org/drugClass> "Vitamin A" , "Vitamins" , "Anti-Acne Preparations" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00162" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00162.html" ;
 	<http://schema.org/administrationRoute> "intramuscular" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:1674f143866df6a6b31f6a710de015e6> ;
 	<http://schema.org/clinicalPharmacology> "Vitamin A is effective for the treatment of Vitamin A deficiency. Vitamin A refers to a group of fat-soluble substances that are structurally related to and possess the biological activity of the parent substance of the group called all-<i>trans</i> retinol or retinol. Vitamin A plays vital roles in vision, epithelial differentiation, growth, reproduction, pattern formation during embryogenesis, bone development, hematopoiesis and brain development. It is also important for the maintenance of the proper functioning of the immune system." ;

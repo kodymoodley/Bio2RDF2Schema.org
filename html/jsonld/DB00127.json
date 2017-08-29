@@ -1,15 +1,15 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00127",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00127",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Spermine is a polyamine. It is an organic molecule that is involved in cellular metabolism.",
   "description" : "A biogenic polyamine formed from spermidine. It is found in a wide variety of organisms and tissues and is an essential growth factor in some bacteria. It is found as a polycation at all pH values. Spermine is associated with nucleic acids, particularly in viruses, and is thought to stabilize the helical structure. [PubChem]",
   "drugClass" : [ "Supplements", "Micronutrients", "Dietary Supplements" ],
-  "schema:identifier" : "drugbank:DB00127",
+  "identifier" : "drugbank:DB00127",
   "legalStatus" : [ "Approved", "Nutraceutical" ],
   "mechanismOfAction" : "Spermine is derived from spermidine by spermine synthase. Spermine is a polyamine, a small organic cations that is absolutely required for eukaryotic cell growth. Spermine, is normally found in millimolar concentrations in the nucleus. Spermine functions directly as a free radical scavenger, and forms a variety of adducts that prevent oxidative damage to DNA. Oxidative damage to DNA by reactive oxygen species is a continual problem that cells must guard against to survive. Hence, spermine is a major natural intracellular compound capable of protecting DNA from free radical attack. Spermine is also implicated in the regulation of gene expression, the stabilization of chromatin, and the prevention of endonuclease-mediated DNA fragmentation.",
   "name" : "Spermine",
   "nonProprietaryName" : [ "N,N'-Bis(3-aminopropyl)-1,4-butanediamine", "Spermine", "4,9-Diazadodecane-1,12-diamine", "4,9-Diaza-1,12-dodecanediamine" ],
   "sameAs" : "http://www.drugbank.ca/drugs/DB00127",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00127"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00127.html"
 }

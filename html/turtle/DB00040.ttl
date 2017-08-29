@@ -1,0 +1,59 @@
+
+<http://bio2rdf.org/drugbank:DB00040> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Glucagon recombinant" ;
+	<http://schema.org/description> "29 residue peptide hormone. Glucagon is synthesized in a special non- pathogenic laboratory strain of Escherichia coli bacteria that has been genetically altered by the addition of the gene for glucagons" ;
+	<http://schema.org/drugClass> "Hypoglycemic Agents" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00040.html" ;
+	<http://schema.org/administrationRoute> "intramuscular; intravenous; subcutaneous" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:b13f90c2326cb4bf6bfa3bc062d4a866> ;
+	<http://schema.org/clinicalPharmacology> "Used in the treatment of hypoglycemia and in gastric imaging, glucagon increases blood glucose concentration and is used in the treatment of hypoglycemia. Glucagon acts only on liver glycogen, converting it to glucose through the release of insulin. It also relaxes the smooth muscles of the gastrointestinal tract." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:a06b4e35c6449168bf3eefa2e5067dbd> , <http://bio2rdf.org/drugbank_resource:3fffcd53e26f1e6b79e30b953e41f404> , <http://bio2rdf.org/drugbank_resource:d6118aa16b34d1948d8311ed707c5485> , <http://bio2rdf.org/drugbank_resource:22d6454891d2f3eb374e0bdad3c5a6a1> , <http://bio2rdf.org/drugbank_resource:1dfce0a579f170fc21bbec3f8aa7ac3f> , <http://bio2rdf.org/drugbank_resource:4c68b91b3ab4e9a582387dd0f07dc26e> , <http://bio2rdf.org/drugbank_resource:76039fedfd26f9e2bf777e875e911f57> ;
+	<http://schema.org/dosageForm> "Injection, powder, for solution" ;
+	<http://schema.org/interactingDrug> "DDI between Glucagon recombinant and Sunitinib - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Dulaglutide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Acarbose - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Insulin Regular and Glucagon recombinant - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Insulin Glargine - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Empagliflozin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Tolazamide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Saxagliptin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Pentamidine - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Insulin Glulisine - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Insulin Lispro - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Rosiglitazone - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Pioglitazone - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Quinine - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Sulfamethoxazole - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Pasireotide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Insulin Aspart - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Octreotide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and inhaled insulin - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Liraglutide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Mifepristone - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Sulfisoxazole - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Gliclazide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Chlorpropamide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Sulfadiazine - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Metformin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Glipizide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Disopyramide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Glyburide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Dapagliflozin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Sitagliptin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Exenatide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Lanreotide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Repaglinide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Miglitol - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Mecasermin - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Tolbutamide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Insulin Detemir - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Alogliptin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Linagliptin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Albiglutide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Nateglinide - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Glimepiride - May enhance the hypoglycemic effect of other Hypoglycemic Agents." , "DDI between Glucagon recombinant and Pramlintide - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Canagliflozin - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." , "DDI between Glucagon recombinant and Bromocriptine - Antidiabetic Agents may enhance the hypoglycemic effect of Hypoglycemic Agents." ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087> ;
+	<http://schema.org/mechanismOfAction> "Glucagon binds the glucagon receptor, a G protein-coupled receptor located in the plasma membrane, which then initiates a dual signaling pathway using both adenylate cyclase activation and increased intracellular calcium. Adenylate cyclase manufactures cAMP (cyclic AMP), which activates protein kinase A (cAMP-dependent protein kinase). This enzyme, in turn, activates phosphorylase kinase, which, in turn, phosphorylates glycogen phosphorylase, converting into the active form called phosphorylase A. Phosphorylase A is the enzyme responsible for the release of glucose-1-phosphate from glycogen polymers. This yields glucose molecules to be released into the blood. Glucagon receptors are found in the liver, kidney, brain and pancreatic islet cells. The glucagon mediated signals lead to an increase in insulin excretion" ;
+	<http://schema.org/nonProprietaryName> "Glucagon" , "His-ser-gln-gly-thr-phe-thr-ser-asp-tyr-ser-lys-tyr-leu-asp-ser-arg-arg-ala-gln-asp-phe-val-gln-trp-leu-met-asn-thr" , "Glucagonum" , "His-ser-glu(NH2)-gly-thr-phe-thr-ser-asp-tyr-ser-lys-tyr-leu-asp-ser-arg-arg-ala-glu(NH2)-asp-phe-val-glu(NH2)-trp-leu-met-asp(NH2)-thr" , "HSQGTFTSDYSKYLDSRRAQDFVQWLMNT" , "Glucagone" ;
+	<http://schema.org/identifier> "drugbank:DB00040" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00040> , <http://www.drugs.com/cdi/glucagon.html> , <http://www.rxlist.com/cgi/generic2/gluca.htm> .
+
+<http://bio2rdf.org/drugbank_resource:1dfce0a579f170fc21bbec3f8aa7ac3f> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "94.98000335693359375" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glucagon 1 mg/vial" .
+
+<http://bio2rdf.org/drugbank_resource:22d6454891d2f3eb374e0bdad3c5a6a1> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "124.0500030517578125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glucagon Emergency 1 mg Kit Box" .
+
+<http://bio2rdf.org/drugbank_resource:2b9c5a1bc44676b2eee861d39aacf087> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Eli lilly and co" .
+
+<http://bio2rdf.org/drugbank_resource:3fffcd53e26f1e6b79e30b953e41f404> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "84.0" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glucagen 1 mg vial" .
+
+<http://bio2rdf.org/drugbank_resource:4c68b91b3ab4e9a582387dd0f07dc26e> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "120.3600006103515625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glucagen 1 mg hypokit" .
+
+<http://bio2rdf.org/drugbank_resource:76039fedfd26f9e2bf777e875e911f57> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "119.279998779296875" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glucagon 1 mg emergency kit" .
+
+<http://bio2rdf.org/drugbank_resource:a06b4e35c6449168bf3eefa2e5067dbd> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "128.339996337890625" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Glucagon 1 mg kit" .
+
+<http://bio2rdf.org/drugbank_resource:b13f90c2326cb4bf6bfa3bc062d4a866> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1 mg/mL Injection, powder, for solution form with intramuscular; intravenous; subcutaneous route" .
+
+<http://bio2rdf.org/drugbank_resource:d6118aa16b34d1948d8311ed707c5485> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "123.720001220703125" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "GlucaGen HypoKit 1 mg Solution Box" .

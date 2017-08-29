@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "@id" : "http://bio2rdf.org/drugbank:DB00303",
+  "@type" : "Drug",
+  "administrationRoute" : [ "intramuscular; intravenous", "intravenous", "intramuscular" ],
+  "availableStrength" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:2135afba308acb820c6591b33bae1e2d",
+    "@type" : "DrugStrength",
+    "description" : "1 g Injection, powder, lyophilized, for solution form with intravenous route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:3cbc5360b6546e605167c1ee465bd73a",
+    "@type" : "DrugStrength",
+    "description" : "1 g Powder for solution form with intramuscular route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:e3effadc235577edaa76dc369303eae0",
+    "@type" : "DrugStrength",
+    "description" : "1 g Injection, powder, lyophilized, for solution form with intramuscular; intravenous route"
+  } ],
+  "clinicalPharmacology" : "Ertapenem has in vitro activity against gram-positive and gram-negative aerobic and anaerobic bacteria.",
+  "cost" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:128d9277bae4c57e0083d586f18d6af7",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "72.84999847412109375",
+    "drugUnit" : "Invanz 1 gm add-vantage vial"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:c204d58f3946bf3ac8d7e81bf0fddf96",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "69.40000152587890625",
+    "drugUnit" : "Invanz 1 gm vial"
+  } ],
+  "description" : "Ertapenem is a carbapenem antibiotic marketed by Merck as Invanz&reg;. It is structurally very similar to meropenem in that it possess a 1-beta-methyl group. [Wikipedia]",
+  "dosageForm" : [ "Powder for solution", "Injection, powder, lyophilized, for solution" ],
+  "drugClass" : "Anti-Bacterial Agents",
+  "identifier" : "drugbank:DB00303",
+  "interactingDrug" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00303_DB01032"
+  },
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "manufacturer" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:5eadc46c0e7bb9330e936402088accf3",
+    "@type" : "Organization",
+    "name" : "Merck and co inc"
+  },
+  "mechanismOfAction" : "The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs). In <i>Escherichia coli</i>, it has strong affinity toward PBPs 1a, 1b, 2, 3, 4 and 5 with preference for PBPs 2 and 3. Ertapenem is stable against hydrolysis by a variety of beta-lactamases, including penicillinases, and cephalosporinases and extended spectrum beta-lactamases. Ertapenem is hydrolyzed by metallo-beta-lactamases.",
+  "name" : "Ertapenem",
+  "nonProprietaryName" : [ "ERTAPENEM", "(1R,5S,6S,8R,2'S,4's)-2-(2-(3-carboxyphenylcarbamoyl)pyrrolidin-4-ylthio)-6-(1-hydroxyethyl)-1-methylcarbapenem-3-carboxylic acid", "(4R,5S,6S)-3-((3S,5S)-5-((3-Carboxyphenyl)carbamoyl)pyrrolidin-3-ylthio)-6-((R)-1-hydroxyethyl)-4-methyl-7-oxo-1-aza-bicyclo[3.2.0]hept-2-ene-2-carboxylic acid" ],
+  "sameAs" : [ "http://www.drugs.com/cdi/ertapenem.html", "http://www.drugbank.ca/drugs/DB00303", "http://www.rxlist.com/cgi/generic3/invanz.htm" ],
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00303.html"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00303.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

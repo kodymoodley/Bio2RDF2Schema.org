@@ -6,7 +6,7 @@
 	<http://schema.org/name> "Reserpine" ;
 	<http://schema.org/description> "An alkaloid found in the roots of Rauwolfia serpentina and R. vomitoria. Reserpine inhibits the uptake of norepinephrine into storage vesicles resulting in depletion of catecholamines and serotonin from central and peripheral axon terminals. It has been used as an antihypertensive and an antipsychotic as well as a research tool, but its adverse effects limit its clinical use. [PubChem]" ;
 	<http://schema.org/drugClass> "Antihypertensive Agents" , "Adrenergic Antagonists" , "Adrenergic Uptake Inhibitors" , "Antipsychotic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00206" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00206.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:0b62ca19764dd580eb381bfe12bdff7f> , <http://bio2rdf.org/drugbank_resource:7f5afbd946cf3a1ea7a02ee0e26abb52> ;
 	<http://schema.org/clinicalPharmacology> "Reserpine is an adrenergic blocking agent used to treat mild to moderate hypertension via the disruption of norepinephrine vesicular storage. The antihypertensive actions of Reserpine are a result of its ability to deplete catecholamines from peripheral sympathetic nerve endings. These substances are normally involved in controlling heart rate, force of cardiac contraction and peripheral resistance." ;

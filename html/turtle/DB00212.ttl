@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00212> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Remikiren" ;
 	<http://schema.org/description> "Remikiren is an orally active, high specificity renin inhibitor." ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00212" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00212.html" ;
 	<http://schema.org/clinicalPharmacology> "Remikiren is an orally available renin inhibitor with an established blood pressure-lowering effect in patients with essential hypertension. No data are available on the renal effects of remikiren in humans. In patients with essential hypertension, a single oral dose of remikiren can induce a renal vasodilation, without affecting the GFR and despite a significant decrease in blood pressure. This systemic and renal hemodynamic response is more pronounced in case of a more activated renin-angiotensin system." ;
 	<http://schema.org/legalStatus> "Approved" ;
 	<http://schema.org/mechanismOfAction> "Several in vivo experiments have shown that remikiren is specific for renin and does not decrease arterial pressure by an unrelated mechanism." ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Omalizumab" ;
 	<http://schema.org/description> "A recombinant DNA-derived humanized IgG1k monoclonal antibody that selectively binds to human immunoglobulin E (IgE). Xolair is produced by a Chinese hamster ovary cell suspension culture in a nutrient medium containing the antibiotic gentamicin." ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" , "Anti-Allergic Agents" , "Anti-Asthmatic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00043" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00043.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:0fcaf4f0483004d12409b1ad95c0e879> , <http://bio2rdf.org/drugbank_resource:fe40d51468a18c08bc4fff82c5a509d0> ;
 	<http://schema.org/clinicalPharmacology> "Xolair inhibits the binding of IgE to the high-affinity IgE receptor (FceRI) on the surface of mast cells and basophils. Reduction in surface-bound IgE on FceRI-bearing cells limits the degree of release of mediators of the allergic response. Xolair is used to treat severe, persisten asthma." ;

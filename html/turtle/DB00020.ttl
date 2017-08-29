@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Sargramostim" ;
 	<http://schema.org/description> "Sargramostim is a human recombinant granulocyte macrophage colony-stimulating factor (GM-CSF) expressed in yeast. It is a glycoprotein that is 127 residues. Substitution of Leu23 leads to a difference from native protein." ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00020" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00020.html" ;
 	<http://schema.org/administrationRoute> "intravenous; subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:160e9b045b741d536d7268b25c5c0a17> , <http://bio2rdf.org/drugbank_resource:7e1dc2152a5d0a4aecccec7ca96179dc> ;
 	<http://schema.org/clinicalPharmacology> "Sargramostim is used in the treatment of bone marrow transplant recipients or those exposed to chemotherapy an recovering from acut myelogenous leukemia, Leukine or GM-CSF is a hematopoietic growth factor which stimulates the survival, clonal expansion (proliferation) and differentiation of hematopoietic progenitor cells. GM-CSF is also capable of activating mature granulocytes and macrophages. After a bone marrow transplant or chemotherapy, patients have a reduced capacity to produce red and white blood cells. Supplementing them with external sources of GM-CSF helps bring the level of neutrophils back to normal so that they can better fight infections." ;

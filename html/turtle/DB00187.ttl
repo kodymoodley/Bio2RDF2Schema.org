@@ -4,7 +4,7 @@
 	<http://schema.org/description> """Esmolol (trade name Brevibloc) is a cardioselective beta1 receptor blocker with rapid onset, a very short duration of action, and no significant intrinsic sympathomimetic or membrane stabilizing activity at therapeutic dosages.
 
 Esmolol decreases the force and rate of heart contractions by blocking beta-adrenergic receptors of the sympathetic nervous system, which are found in the heart and other organs of the body. Esmolol prevents the action of two naturally occurring substances: epinephrine and norepinephrine.""" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00187" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00187.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:97eaae010cc670914ce7ace1f28a2a99> , <http://bio2rdf.org/drugbank_resource:cafefd00cc918378a6d54b1dcc507fd1> , <http://bio2rdf.org/drugbank_resource:7c34039be71b18f949145d984739b858> ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:c46dbcfd5c523f60dd479216eda55eb9> , <http://bio2rdf.org/drugbank_resource:fe7340110f1d545139b10c9c96ee5c67> , <http://bio2rdf.org/drugbank_resource:c207727c40fa5807e4e36d0a8439c40f> , <http://bio2rdf.org/drugbank_resource:7976bf62102e93d01807cefcd53c843a> ;

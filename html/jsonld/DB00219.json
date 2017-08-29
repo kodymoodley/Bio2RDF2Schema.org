@@ -1,14 +1,14 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00219",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00219",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Oxyphenonium is an anticholinergic drug, a medication that reduces the effect of acetylcholine, a chemical released from nerves that stimulates muscles, by blocking the receptors for acetylcholine on smooth muscle (a type of muscle). It also has a direct relaxing effect on smooth muscle. Oxyphenonium is used to treat or prevent spasm in the muscles of the gastrointestinal tract in the irritable bowel syndrome. In addition, Oxyphenonium inhibits gastrointestinal propulsive motility and decreases gastric acid secretion and controls excessive pharyngeal, tracheal and bronchial secretions.",
   "description" : "A quaternary ammonium anticholinergic agent with peripheral side effects similar to those of atropine. It is used as an adjunct in the treatment of gastric and duodenal ulcer, and to relieve visceral spasms. The drug has also been used in the form of eye drops for mydriatic effect. [PubChem]",
-  "schema:identifier" : "drugbank:DB00219",
+  "identifier" : "drugbank:DB00219",
   "legalStatus" : "Approved",
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:a57533055c136af9a471684ba442d058",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a57533055c136af9a471684ba442d058",
+    "@type" : "Organization",
     "name" : "Novartis pharmaceuticals corp"
   },
   "mechanismOfAction" : "Action is achieved via a dual mechanism: (1) a specific anticholinergic effect (antimuscarinic) at the acetylcholine-receptor sites and (2) a direct effect upon smooth muscle (musculotropic).",
@@ -16,5 +16,5 @@
   "nonProprietaryName" : "Oxyphenonium",
   "proprietaryName" : "A-Spasm",
   "sameAs" : "http://www.drugbank.ca/drugs/DB00219",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00219"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00219.html"
 }

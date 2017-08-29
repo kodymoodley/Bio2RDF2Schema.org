@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  		<meta charset="UTF-8">
+  		<title>Bio2RDF - Drugbank</title>
+		<link href="images/bio2rdf.png" rel="shortcut icon" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  		<script src="handlebars-v4.0.10.js"></script>
+  		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>-->
+	
+		<script type="application/ld+json">{
+ "@context" : "http://schema.org",
+  "@id" : "http://bio2rdf.org/drugbank:DB00300",
+  "@type" : "Drug",
+  "administrationRoute" : "oral",
+  "availableStrength" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:20cbf8749871360c3dd35e7ca7ec210f",
+    "@type" : "DrugStrength",
+    "description" : "300 mg Tablet, coated form with oral route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:ef48b5810b5999c963cf796216ebb820",
+    "@type" : "DrugStrength",
+    "description" : "250 mg Tablet, coated form with oral route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:da2470021917bcad4fda98a2bb31cb2a",
+    "@type" : "DrugStrength",
+    "description" : "200 mg Tablet, coated form with oral route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:ecbd1b5f93971bb4e338758b719e30ae",
+    "@type" : "DrugStrength",
+    "description" : "300 mg Tablet form with oral route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:41f6e527dff42a7d712eaae39cabd2aa",
+    "@type" : "DrugStrength",
+    "description" : "150 mg Tablet, coated form with oral route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:41a07a5c9f2f6f378eadbe151f9e0b36",
+    "@type" : "DrugStrength",
+    "description" : "40 mg/g Powder form with oral route"
+  } ],
+  "clinicalPharmacology" : "Tenofovir belongs to a class of antiretroviral drugs known as nucleotide analogue reverse transcriptase inhibitors (NtRTIs), which block reverse transcriptase, an enzyme crucial to viral production in HIV-infected people. Tenofovir is currently in late-stage clinical trials for the treatment of hepatitis B. Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate. Tenofovir diphosphate is a weak inhibitor of mammalian DNA polymerases &alpha;, &beta;, and mitochondrial DNA polymerase &gamma;.",
+  "cost" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:b86130a189aece002c0fa577102e7aad",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "33.950000762939453125",
+    "drugUnit" : "Viread 300 mg tablet"
+  },
+  "description" : "Tenofovir disoproxil fumarate (a prodrug of tenofovir), marketed by Gilead Sciences under the trade name Viread&reg;, belongs to a class of antiretroviral drugs known as nucleotide analogue reverse transcriptase inhibitors (nRTIs), which block reverse transcriptase, an enzyme crucial to viral production in HIV-infected people. [Wikipedia] In vivo tenofovir disoproxil fumarate is converted to tenofovir, an acyclic nucleoside phosphonate (nucleotide) analog of adenosine 5'-monophosphate.",
+  "dosageForm" : [ "Powder", "Tablet", "Tablet, coated" ],
+  "drugClass" : [ "Anti-HIV Agents", "Reverse Transcriptase Inhibitors" ],
+  "foodWarning" : "When given with a high-fat meal, the oral bioavailability, AUC, and Cmax increased.",
+  "identifier" : "drugbank:DB00300",
+  "interactingDrug" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00482"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00461"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00465"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00994"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01009"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00955"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00991"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01082"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01172"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01050"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01072"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00798"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00814"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00787"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00788"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00919"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00932"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00861"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00900"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB08976"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB09027"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01601"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01610"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01264"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB01600"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB06290"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB06696"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB03615"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB05521"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00573"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00605"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00500"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00554"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00749"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00784"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00684"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00718"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00369"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00452"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00328"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00300_DB00479"
+  } ],
+  "legalStatus" : [ "Investigational", "Approved" ],
+  "manufacturer" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:75cfbba29b6af16f3d50e9b7844fead8",
+    "@type" : "Organization",
+    "name" : "Gilead sciences inc"
+  },
+  "mechanismOfAction" : "Tenofovir inhibits the activity of HIV reverse transcriptase by competing with the natural substrate deoxyadenosine 5&rsquo;-triphosphate and, after incorporation into DNA, by DNA chain termination. Specifically, the drugs are analogues of the naturally occurring deoxynucleotides  needed to synthesize the viral DNA and they compete with the natural deoxynucleotides for incorporation into the growing viral DNA chain. However, unlike the natural deoxynucleotides substrates, NRTIs and NTRTIs (nucleoside/tide reverse transcriptase inhibitors) lack a 3'-hydroxyl group on the deoxyribose moiety. As a result, following incorporation of an NRTI or an NtRTI, the next incoming deoxynucleotide cannot form the next 5'-3' phosphodiester  bond needed to extend the DNA chain. Thus, when an NRTI or NtRTI is incorporated, viral DNA synthesis is halted, a process known as chain termination. All NRTIs and NtRTIs are classified as competitive substrate inhibitors.",
+  "name" : "Tenofovir",
+  "nonProprietaryName" : [ "Tenofovir", "Tenofovir (anh.)", "(R)-PMPA", "Anhydrous tenofovir", "Anh. tenofovir" ],
+  "sameAs" : [ "http://www.drugs.com/cdi/tenofovir.html", "http://www.pdrhealth.com/drug_info/rxdrugprofiles/drugs/vir1605.shtml", "http://www.drugbank.ca/drugs/DB00300", "http://www.rxlist.com/cgi/generic/viread.htm" ],
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00300.html"
+}</script>
+	</head>
+
+	<body>
+		<br/><br/>
+		
+		<div id="all">
+	 		<div id="main" style="text-align: center;">
+	 			<div style="height: 20%;">&nbsp;</div>
+	 			<img alt="Drugbank" src="images/drugbank.png" />
+	 			<div id="main" style="text-align: center;">
+	 				<em>Bio2RDF Drugbank Data</em>
+				</div>
+
+				<br/><br/>
+
+			</div>
+
+			<div id="contents">
+				<script type="text/javascript">
+
+				var templateCode = "<table><tbody><tr><td class='dataframeKey'>Drug Name</td><td>{{name}}</td></tr><tr><td class='dataframeKey'>Description</td><td>{{description}}</td></tr><tr><td class='dataframeKey'>Identifier</td><td>{{schema:identifier}}</td></tr><tr><td class='dataframeKey'>Non-Proprietary Names</td><td><ul>{{#each nonProprietaryName}}<li>{{this}}</li>{{else}}{{nonProprietaryName}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Proprietary Name</td><td>{{proprietaryName}}</td></tr><tr><td class='dataframeKey'>Drug Classes</td><td><ul>{{#each drugClass}}<li>{{this}}</li>{{else}}{{drugClass}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Clinical Pharmacology</td><td>{{clinicalPharmacology}}</td></tr><tr><td class='dataframeKey'>Manufacturer</td><td>{{#with manufacturer}}{{name}}{{/with}}</td></tr><tr><td class='dataframeKey'>Mechanism of Action</td><td>{{mechanismOfAction}}</td></tr><tr><td class='dataframeKey'>Food Warning</td><td>{{foodWarning}}</td></tr><tr><td class='dataframeKey'>URL</td><td><a href='{{schema:url}}'>{{schema:url}}</a></td></tr><tr><td class='dataframeKey'>Costs</td><td>{{#if cost.length}}<ul>{{#each cost}}<li>{{#with this}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}</li>{{/each}}</ul>{{else}}{{#with cost}}{{drugUnit}} - {{costPerUnit}}{{costCurrency}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Available Strength</td><td>{{#if availableStrength.length}}<ul>{{#each availableStrength}}<li>{{this.description}}</li>{{/each}}</ul>{{else}}{{#with availableStrength}}{{description}}{{/with}}{{/if}}</td></tr><tr><td class='dataframeKey'>Dosage Forms</td><td><ul>{{#each dosageForm}}<li>{{this}}</li>{{else}}{{dosageForm}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Administration Route</td><td><ul>{{#each administrationRoute}}<li>{{this}}</li>{{else}}{{administrationRoute}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Interacting Drugs</td><td><ul>{{#each interactingDrug}}<li>{{this}}</li>{{else}}{{interactingDrug}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Legal Statuses</td><td><ul>{{#each legalStatus}}<li>{{this}}</li>{{else}}{{legalStatus}}{{/each}}</ul></td></tr><tr><td class='dataframeKey'>Same As</td><td><ul>{{#each sameAs}}<li><a href='{{this}}'>{{this}}</a></li>{{else}}<a href='{{sameAs}}'>{{sameAs}}</a>{{/each}}</ul></td></tr></tbody></table>";
+				var template = Handlebars.compile(templateCode);
+
+				$.getJSON("jsonld/DB00300.json", function(data) {
+			    	document.getElementById("contents").innerHTML += template(data);
+				});
+		
+				</script>
+			</div>
+		</div>
+	</body>
+</html>

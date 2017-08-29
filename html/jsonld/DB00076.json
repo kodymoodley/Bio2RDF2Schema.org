@@ -1,23 +1,23 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00076",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00076",
+  "@type" : "Drug",
   "administrationRoute" : "intravenous",
   "availableStrength" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:08b88a72c9a03fd7c4f055bfd65c4435",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:08b88a72c9a03fd7c4f055bfd65c4435",
+    "@type" : "DrugStrength",
     "description" : "38 mg Injection, powder, lyophilized, for solution form with intravenous route"
   },
   "clinicalPharmacology" : "DigiFab binds molecules of digoxin, making them unavailable for binding at their site of action on cells in the body. The Fab fragment-digoxin complex accumulates in the blood, from which it is excreted by the kidney. The net effect is to shift the equilibrium away from binding of digoxin to its receptors in the body, thereby reversing its effects.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:22e0352df8fbacd20bef577120196668",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:22e0352df8fbacd20bef577120196668",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "727.90997314453125",
     "drugUnit" : "Digibind 38 mg vial"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:4d3d84f4f9fe57e24c21db1ff229425f",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:4d3d84f4f9fe57e24c21db1ff229425f",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "615.5999755859375",
     "drugUnit" : "Digifab 40 mg vial"
@@ -25,11 +25,11 @@
   "description" : "Digoxin Immune Fab is a sheep antibody (26-10) FAB fragment from sheep immunized with the digoxin derivative Digoxindicarboxymethylamine. It is used as an antidote for overdose of digoxin.",
   "dosageForm" : "Injection, powder, lyophilized, for solution",
   "drugClass" : "Antidotes",
-  "schema:identifier" : "drugbank:DB00076",
+  "identifier" : "drugbank:DB00076",
   "legalStatus" : "Approved",
   "mechanismOfAction" : "Binds excess digoxin or digitoxin molecules circulating in the blood.",
   "name" : "Digoxin Immune Fab (Ovine)",
   "proprietaryName" : "Digibind",
   "sameAs" : [ "http://www.drugbank.ca/drugs/DB00076", "http://www.rxlist.com/cgi/generic3/digoxinfab.htm", "http://www.drugs.com/cdi/digoxin-immune-fab.html" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00076"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00076.html"
 }

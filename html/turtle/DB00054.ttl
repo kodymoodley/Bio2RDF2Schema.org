@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Abciximab" ;
 	<http://schema.org/description> "Abciximab is a Fab fragment of the chimeric human-murine monoclonal antibody 7E3. Abciximab binds to the glycoprotein (GP) IIb/IIIa receptor of human platelets and inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive molecules. It also binds to vitronectin (αvβ3) receptor found on platelets and vessel wall endothelial and smooth muscle cells." ;
 	<http://schema.org/drugClass> "Anticoagulants" , "Platelet Aggregation Inhibitors" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00054" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00054.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:b9f61619a00a6c02f73eb60c5107544e> , <http://bio2rdf.org/drugbank_resource:61ecd29eb2276a23da72a14dd028a1ec> ;
 	<http://schema.org/clinicalPharmacology> "Abciximab inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive molecules to GPIIb/IIIa receptor sites on activated platelets. A single intravenous bolus dose from 0.15 mg/kg to 0.30 mg/kg produced rapid dose-dependent inhibition of platelet function. After two hours post-injection with a dose of 0.25 - 0.30 mg/kg, 80% of the GPIIb/IIIa receptors were blocked and platelet aggregation was prevented. GPIIb/IIIa is the major surface receptor involved in the final pathway of platelet aggregation. Bleeding time increases to over 30 minutes at the aforementioned doses. To compare, baseline values were five minutes." ;

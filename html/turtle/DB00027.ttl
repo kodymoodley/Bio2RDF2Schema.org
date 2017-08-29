@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Gramicidin D" ;
 	<http://schema.org/description> "Gramcidin D is a heterogeneous mixture of three antibiotic compounds, gramicidins A, B and C, making up 80%, 6%, and 14% respectively all of which are obtained from the soil bacterial species Bacillus brevis and called collectively gramicidin D.  Gramcidins are 15 residue peptides with alternating D and L amino acids.  The peptides assemble inside of the hydrophobic interior of the cellular lipid bilayer to form a β-helix. The helix itself is not long enough to span the membrane but it dimerizes to form the elongated channel needed to span the whole membrane. Gramicidin D is used primarily as a topical antibiotic and is one of the three constituents of consumer antibiotic polysporin ophthalmic solution." ;
 	<http://schema.org/drugClass> "Anti-Bacterial Agents" , "Antibiotics, Topical" , "Anti-Infective Agents" , "Antibiotics" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00027" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00027.html" ;
 	<http://schema.org/administrationRoute> "ophthalmic" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:d4473351af08fd8d225f023494e4b125> ;
 	<http://schema.org/clinicalPharmacology> "Gramicidin is particularly effective against gram-positive bacteria. Because the drug is highly hemolytic, it cannot be administered internally and so is used only on the skin as a lotion or ointment. It is used primarily in the treatment of infected surface wounds, and in eye, nose, and throat infections. It is normally given with two other antibiotics (neomycin and polymixin B) as an ophthalmic solution" ;

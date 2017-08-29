@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Aspartic Acid" ;
 	<http://schema.org/description> "One of the non-essential amino acids commonly occurring in the L-form. It is found in animals and plants, especially in sugar cane and sugar beets. It may be a neurotransmitter. [PubChem]" ;
 	<http://schema.org/drugClass> "Micronutrients" , "Supplements" , "Dietary Supplements" , "Non-Essential Amino Acids" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00128" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00128.html" ;
 	<http://schema.org/clinicalPharmacology> "L-aspartate is considered a non-essential amino acid, meaning that, under normal physiological conditions, sufficient amounts of the amino acid are synthesized in the body to meet the body's requirements. L-aspartate is formed by the transamination of the Krebs cycle intermediate oxaloacetate. The amino acid serves as a precursor for synthesis of proteins, oligopeptides, purines, pyrimidines, nucleic acids and L-arginine. L-aspartate is a glycogenic amino acid, and it can also promote energy production via its metabolism in the Krebs cycle. These latter activities were the rationale for the claim that supplemental aspartate has an anti-fatigue effect on skeletal muscle, a claim that was never confirmed." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:189253f439d94a79cc737bb819c15326> ;
 	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;

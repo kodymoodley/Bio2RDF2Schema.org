@@ -1,16 +1,16 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00034",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00034",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Upregulates the expression of MHC I proteins, allowing for increased presentation of peptides derived from viral antigens. This enhances the activation of CD8+ T cells that are the precursors for cytotoxic T lymphocytes (CTLs) and makes the macrophage a better target for CTL-mediated killing. Interferon alpha also induce the synthesis of several key antiviral mediators, including 2'-5' oligoadenylate synthetase (2'-5' A synthetase) and protein kinase R.",
   "description" : "Interferon a (human leukocyte protein moiety reduced). A type I interferon consisting of 165 amino acid residues with lysine in position 23. This protein is produced by recombinant DNA technology and resembles interferon secreted by leukocytes. It is used extensively as an antiviral or antineoplastic agent. An oral form is being developed by Amarillo Biosciences.",
   "foodWarning" : "Avoid alcohol.",
-  "schema:identifier" : "drugbank:DB00034",
+  "identifier" : "drugbank:DB00034",
   "legalStatus" : "Approved",
   "mechanismOfAction" : "Interferon alpha binds to type I interferon receptors (IFNAR1 and IFNAR2c) which, upon dimerization, activate two Jak (Janus kinase) tyrosine kinases (Jak1 and Tyk2). These transphosphorylate themselves and phosphorylate the receptors. The phosphorylated INFAR receptors then bind to Stat1 and Stat2 (signal transducers and activators of transcription)which dimerize and activate multiple (~100) immunomodulatory and antiviral proteins. Interferon alpha binds less stably to type I interferon receptors than interferon beta.",
   "name" : "Interferon Alfa-2a, Recombinant",
   "nonProprietaryName" : [ "Oral interferon alfa", "Interferon alfa-2a", "rIFN-alpha-2a" ],
   "proprietaryName" : "Roferon A",
   "sameAs" : [ "http://www.drugs.com/cdi/interferon-alfa-2a-solution.html", "http://www.drugbank.ca/drugs/DB00034", "http://www.rxlist.com/cgi/generic3/roferon.htm" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00034"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00034.html"
 }

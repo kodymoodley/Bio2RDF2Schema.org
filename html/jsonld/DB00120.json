@@ -1,23 +1,23 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00120",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00120",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Used by the brain to produce Norepinephrine, a chemical that transmits signals between nerve cells and the brain; keeps you awake and alert; reduces hunger pains; functions as an antidepressant and helps improve memory.",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:10196284f1761e85ab5e65b6f6838d38",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:10196284f1761e85ab5e65b6f6838d38",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.10999999940395355225",
     "drugUnit" : "L-phenylalanine 500 mg tablet"
   },
   "description" : "An essential aromatic amino acid that is a precursor of melanin; dopamine; noradrenalin (norepinephrine), and thyroxine. [PubChem]",
   "drugClass" : [ "Dietary Supplements", "Micronutrients", "Supplements", "Amino Acids, Essential" ],
-  "schema:identifier" : "drugbank:DB00120",
+  "identifier" : "drugbank:DB00120",
   "interactingDrug" : [ "DDI between L-Phenylalanine and Carmustine - Melphalan may enhance the adverse/toxic effect of Carmustine. Specifically, melphalan may sensitize patients to carmustine lung toxicity.", "DDI between L-Phenylalanine and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between L-Phenylalanine and Clozapine - Myelosuppressive Agents may enhance the adverse/toxic effect of CloZAPine. Specifically, the risk for agranulocytosis may be increased.", "DDI between L-Phenylalanine and Nalidixic Acid - May enhance the adverse/toxic effect of Melphalan. Necrotic enterocolitis has been reported in pediatric patients.", "DDI between L-Phenylalanine and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased.", "DDI between L-Phenylalanine and Tofacitinib - Immunosuppressants may enhance the immunosuppressive effect of Tofacitinib.", "DDI between L-Phenylalanine and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Natalizumab and L-Phenylalanine - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between L-Phenylalanine and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased.", "DDI between Trastuzumab and L-Phenylalanine - May enhance the neutropenic effect of Immunosuppressants.", "DDI between L-Phenylalanine and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T." ],
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "mechanismOfAction" : "The mechanism of L-phenylalanine's putative antidepressant activity may be accounted for by its precursor role in the synthesis of the neurotransmitters norepinephrine and dopamine. Elevated brain norepinephrine and dopamine levels are thought to be associated with antidepressant effects. <br/>The mechanism of L-phenylalanine's possible antivitiligo activity is not well understood. It is thought that L-phenylalanine may stimulate the production of melanin in the affected skin",
   "name" : "L-Phenylalanine",
   "nonProprietaryName" : [ "L-Phenylalanine", "PHENYLALANINE", "(S)-alpha-Amino-beta-phenylpropionic acid", "(S)-2-Amino-3-phenylpropionic acid", "?-phenyl-L-alanine", "beta-Phenyl-L-alanine", "3-phenyl-L-alanine", "Phe", "F" ],
   "sameAs" : [ "http://www.drugbank.ca/drugs/DB00120", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lph_0201.shtml" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00120"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00120.html"
 }

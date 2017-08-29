@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Oxiconazole" ;
 	<http://schema.org/description> "Oxiconazole nitrate (U.S.: Oxistat, Canada: Oxizole) is an antifungal medication typically administered in a cream or lotion to treat skin infections such as athlete's foot, jock itch and ringworm. [Wikipedia]" ;
 	<http://schema.org/drugClass> "Antifungal Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00239" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00239.html" ;
 	<http://schema.org/administrationRoute> "topical" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:8bf239f5f67e5949c9e5cecee8924c76> , <http://bio2rdf.org/drugbank_resource:efbdbb7f2947a608c966d9e84154e539> , <http://bio2rdf.org/drugbank_resource:c7b4afdf1865a0f4ad695720ed65c88d> , <http://bio2rdf.org/drugbank_resource:2bed3265cc1030af35ad051739ca034a> ;
 	<http://schema.org/clinicalPharmacology> "Oxiconazole is a broad-spectrum imidazole derivative whose antifungal activity is derived primarily from the inhibition of ergosterol biosynthesis, which is critical for cellular membrane integrity. It has fungicidal or fungistatic activity in vitro against a number of pathogenic fungi including the following dermatophytes, and yeasts: <i>T. rubrum</i>, <i>T. mentagrophytes</i>, <i>T. tonsurans</i>, <i>T. violaceum</i>, <i>E. floccosum</i>, <i>M. canis</i>, <i>M. audouini</i>, <i>M. gypseum</i>, <i>C. albicans</i>, and <i>M. furfur</i>." ;

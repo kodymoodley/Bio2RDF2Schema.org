@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Proline" ;
 	<http://schema.org/description> "A non-essential amino acid that is synthesized from glutamic acid. It is an essential component of collagen and is important for proper functioning of joints and tendons. [PubChem]" ;
 	<http://schema.org/drugClass> "Supplements" , "Dietary Supplements" , "Micronutrients" , "Non-Essential Amino Acids" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00172" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00172.html" ;
 	<http://schema.org/clinicalPharmacology> "L-Proline is a major amino acid found in cartilage and is important for maintaining youthful skin as well as repair of muscle, connective tissue and skin damage. It is also essential for the immune system, and for necessary balance of this formula. It is an essential component of collagen and is important for proper functioning of joints and tendons. L-Proline is extremely important for the proper functioning of joints and tendons. Helps maintain and strengthen heart muscles." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:ce5f31d2e8714c23c85bf2ad81df066e> ;
 	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;

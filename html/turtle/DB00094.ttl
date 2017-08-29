@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Urofollitropin" ;
 	<http://schema.org/description> "Urofollitropin is a purified form of follicle-stimulating hormone (FSH) that is manufactured by extraction from human urine and then purified. It consists of two non-covalently linked, non-identical glycoproteins designated as the alpha- and beta- subunits. The alpha- and beta- subunits have 92 and 111 amino acids. The alpha subunit is glycosylated at Asn 51 and Asn 78 while the beta subunit is glycosylated at Asn 7 and Asn 24. Urofollitropin is important in the development of follicles produced by the ovaries. Given by subcutaneous injection, it is used in combination with human chorionic gonadotropin (hCG) to assist in ovulation and fertility. Urofollitropin may also be used to cause the ovary to produce several follicles, which can then be harvested for use in gamete intrafallopian transfer (GIFT) or in vitro fertilization (IVF)." ;
 	<http://schema.org/drugClass> "Fertility Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00094" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00094.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" , "intramuscular" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:4f06398b408027f4b417cf069e9f43ea> , <http://bio2rdf.org/drugbank_resource:e29f68cbe2470f0d06d877d8d6350afd> ;
 	<http://schema.org/clinicalPharmacology> "Used for the treatment of female infertility, urofollitropin or follicle stimulating hormone (FSH) stimulates ovarian follicular growth in women who do not have primary ovarian failure. FSH, the active component of urofollitropin is the primary hormone responsible for follicular recruitment and development." ;

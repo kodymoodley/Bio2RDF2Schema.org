@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Pegfilgrastim" ;
 	<http://schema.org/description> "PEGylated (at N terminus) form of human G-CSF (Granulocyte colony stimulating factor), 175 residues, produced from E. coli via bacterial fermentation." ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" , "Antineutropenic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00019" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00019.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:bb8157904a842d737d256a179a236798> , <http://bio2rdf.org/drugbank_resource:25db42c740390640b1b57b9b06bdcdba> ;
 	<http://schema.org/clinicalPharmacology> "Used in the treatment of chemotherapy-induced neutropenia by enhancing the production of neutrophils. Pegfilgrastim acts on hematopoietic cells by binding to specific cell surface receptors thereby stimulating proliferation, differentiation, commitment, and end cell functional activation. Pegfilgrastim has reduced renal clearance and prolonged persistence in vivo as compared to Filgrastim." ;

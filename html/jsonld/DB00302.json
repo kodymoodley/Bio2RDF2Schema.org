@@ -1,0 +1,88 @@
+{
+ "@context" : "http://schema.org",
+  "@id" : "http://bio2rdf.org/drugbank:DB00302",
+  "@type" : "Drug",
+  "administrationRoute" : [ "intravenous", "oral" ],
+  "availableStrength" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:9e72d48c8e4826b9a0c5294717f681c1",
+    "@type" : "DrugStrength",
+    "description" : "100 mg/mL Injection, solution form with intravenous route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:37fdac2978e76445b66be5ea9410cc7d",
+    "@type" : "DrugStrength",
+    "description" : "650 1 Tablet form with oral route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:f6c390c24b874be946ce87e22413f542",
+    "@type" : "DrugStrength",
+    "description" : "650 mg Tablet form with oral route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:26776e0bd49c3f7ed9267edee1da102c",
+    "@type" : "DrugStrength",
+    "description" : "1 g/10mL Injection, solution form with intravenous route"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:53b2dacaf06dced4813c92408b14b032",
+    "@type" : "DrugStrength",
+    "description" : "650 mg Tablet, film coated form with oral route"
+  } ],
+  "clinicalPharmacology" : "Tranexamic acid is an antifibrinolytic that competitively inhibits the activation of plasminogen to plasmin. Tranexamic acid is a competitive inhibitor of plasminogen activation, and at much higher concentrations, a noncompetitive inhibitor of plasmin, i.e., actions similar to aminocaproic acid. Tranexamic acid is about 10 times more potent in vitro than aminocaproic acid. Tranexamic acid binds more strongly than aminocaproic acid to both the strong and weak receptor sites of the plasminogen molecule in a ratio corresponding to the difference in potency between the compounds. Tranexamic acid in a concentration of 1 mg per mL does not aggregate platelets in vitro. In patients with hereditary angioedema, inhibition of the formation and activity of plasmin by tranexamic acid may prevent attacks of angioedema by decreasing plasmin-induced activation of the first complement protein (C1).",
+  "cost" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:bc49a2dc520acf68b09d601f897c1b10",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "8.8000001907348632812",
+    "drugUnit" : "Cyklokapron 100 mg/ml ampul"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:d97c0ed22e22af63bad40106eed3868c",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.2999999523162841797",
+    "drugUnit" : "Cyklokapron 500 mg Tablet"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:6c91129640daa72bafc115ab014c588c",
+    "@type" : "DrugCost",
+    "costCurrency" : "USD",
+    "costPerUnit" : "1.9700000286102294922",
+    "drugUnit" : "Tranexamic acid powder"
+  } ],
+  "description" : "Antifibrinolytic hemostatic used in severe hemorrhage. [PubChem]",
+  "dosageForm" : [ "Injection, solution", "Tablet", "Tablet, film coated" ],
+  "drugClass" : "Antifibrinolytic Agents",
+  "identifier" : "drugbank:DB00302",
+  "interactingDrug" : [ {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB01395"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB06713"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00977"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB01357"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00294_DB00302"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00823"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00957"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00717"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00755"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00367"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00603"
+  }, {
+    "@id" : "http://bio2rdf.org/drugbank_resource:DB00302_DB00304"
+  } ],
+  "legalStatus" : "Approved",
+  "manufacturer" : {
+    "@id" : "http://bio2rdf.org/drugbank_resource:b3c50fa14d63741838efb05e090cacf6",
+    "@type" : "Organization",
+    "name" : "Pharmacia and upjohn co"
+  },
+  "mechanismOfAction" : "Tranexamic acid competitively inhibits activation of plasminogen (via binding to the kringle domain), thereby reducing conversion of plasminogen to plasmin (fibrinolysin), an enzyme that degrades fibrin clots, fibrinogen, and other plasma proteins, including the procoagulant factors V and VIII. Tranexamic acid also directly inhibits plasmin activity, but higher doses are required than are needed to reduce plasmin formation.",
+  "name" : "Tranexamic Acid",
+  "nonProprietaryName" : [ "Acidum tranexamicum", "trans-4-(Aminomethyl)cyclohexanecarboxylic acid", "trans-4-aminomethylcyclohexane-1-carboxylic acid", "trans-Tranexamic acid", "Tranexamsaeure", "trans-Amcha", "Cyklokapron", "Acide tranexamique", "Acido tranexamico", "Tranhexamic acid", "Tranexmic acid", "Trans AMCHA" ],
+  "proprietaryName" : "Cyclo-F",
+  "sameAs" : [ "http://www.drugbank.ca/drugs/DB00302", "http://www.drugs.com/cdi/tranexamic-acid.html", "http://www.rxlist.com/cgi/generic3/cyclapron.htm" ],
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00302.html"
+}

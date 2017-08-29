@@ -1,22 +1,22 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00147",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00147",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Pyridoxal principally in the form of the coenzyme pyridoxal 5'-phosphate, is involved in a wide range of biochemical reactions, including the metabolism of amino acids and glycogen, the synthesis of nucleic acids, hemogloblin, sphingomyelin and other sphingolipids, and the synthesis of the neurotransmitters serotonin, dopamine, norepinephrine and gamma-aminobutyric acid (GABA).",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:3f4c8bb18db67936815ce0927b3b7d5c",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:3f4c8bb18db67936815ce0927b3b7d5c",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "18.239999771118164062",
     "drugUnit" : "Pyridoxal-5-phosphate powder"
   },
   "description" : "The 4-carboxyaldehyde form of vitamin B 6 which is converted to pyridoxal phosphate which is a coenzyme for synthesis of amino acids, neurotransmitters (serotonin, norepinephrine), sphingolipids, aminolevulinic acid. [PubChem]",
   "drugClass" : [ "Dietary Supplements", "Micronutrients", "Vitamin B Complex", "Supplements" ],
-  "schema:identifier" : "drugbank:DB00147",
+  "identifier" : "drugbank:DB00147",
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "mechanismOfAction" : "Pyridoxal is the precursor to pyridoxal phosphate. Pyridoxal 5'-phosphate is involved in a wide range of biochemical reactions, including the metabolism of amino acids and glycogen, the synthesis of nucleic acids, hemogloblin, sphingomyelin and other sphingolipids, and the synthesis of the neurotransmitters serotonin, dopamine, norepinephrine and gamma-aminobutyric acid (GABA).",
   "name" : "Pyridoxal",
   "nonProprietaryName" : [ "Pyridoxaldehyde", "3-HYDROXY-5-(hydroxymethyl)-2-methylisonicotinaldehyde", "Pyridoxal" ],
   "sameAs" : "http://www.drugbank.ca/drugs/DB00147",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00147"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00147.html"
 }

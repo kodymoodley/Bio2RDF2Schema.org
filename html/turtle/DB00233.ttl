@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Aminosalicylic Acid" ;
 	<http://schema.org/description> "An antitubercular agent often administered in association with isoniazid. The sodium salt of the drug is better tolerated than the free acid. [PubChem]" ;
 	<http://schema.org/drugClass> "Antitubercular Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00233" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00233.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:51846c42646499e9bc8765b310d59caf> ;
 	<http://schema.org/clinicalPharmacology> "Aminosalicylic acid is an anti-mycobacterial agent used with other anti-tuberculosis drugs (most often isoniazid) for the treatment of all forms of active tuberculosis due to susceptible strains of tubercle bacilli. The two major considerations in the clinical pharmacology of aminosalicylic acid are the prompt production of a toxic inactive metabolite under acid conditions and the short serum half life of one hour for the free drug. Aminosalicylic acid is bacteriostatic against <i>Mycobacterium tuberculosis</i> (prevents the multiplying of bacteria without destroying them). It also inhibits the onset of bacterial resistance to streptomycin and isoniazid." ;

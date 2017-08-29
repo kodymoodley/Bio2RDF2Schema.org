@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Salmon Calcitonin" ;
 	<http://schema.org/description> "Synthetic peptide, 32 residues long formulated as a nasal spray." ;
 	<http://schema.org/drugClass> "Anti-Osteporotic Agents" , "Antihypercalcemic Agents" , "Bone Density Conservation Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00017" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00017.html" ;
 	<http://schema.org/administrationRoute> "intramuscular; subcutaneous" , "nasal" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:37945278973a14109c92032f610a880d> , <http://bio2rdf.org/drugbank_resource:ef05d40b04492972a2b3eb7e0dc6f5b6> , <http://bio2rdf.org/drugbank_resource:4dc67eef46739b8cb4820b74a49d85f8> ;
 	<http://schema.org/clinicalPharmacology> "Calcitonin inhibits bone resorption by osteoclasts (bone remodeling cells) and promotes bone formation by osteoblasts. This leads to a net increase in bone mass and a reduction in plasma calcium levels. It also promotes the renal excretion of ions such as calcium, phosphate, sodium, magnesium, and potassium by decreasing tubular reabsorption. In consequence, there is an increase in the jejunal secretion of water, sodium, potassium, and chloride." ;

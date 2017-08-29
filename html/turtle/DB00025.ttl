@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Antihemophilic Factor" ;
 	<http://schema.org/description> "Human recombinant antihemophilic factor (AHF) or Factor VIII, 2332 residues, glycosylated, produced by CHO cells" ;
 	<http://schema.org/drugClass> "Thrombotic Agents" , "Coagulants" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00025" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00025.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:4186c304ff0d868a9d713428d227a3ac> ;
 	<http://schema.org/clinicalPharmacology> "Antihemophilic Factor binds factor IXa along with calcium and phospholipid, This complex converts factor X to factor Xa to facilitate clotting cascade." ;

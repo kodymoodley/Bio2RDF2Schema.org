@@ -1,17 +1,17 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00134",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00134",
+  "@type" : "Drug",
   "clinicalPharmacology" : "L-Methionine is a principle supplier of sulfur which prevents disorders of the hair, skin and nails; helps lower cholesterol levels by increasing the liver's production of lecithin; reduces liver fat and protects the kidneys; a natural chelating agent for heavy metals; regulates the formation of ammonia and creates ammonia-free urine which reduces bladder irritation; influences hair follicles and promotes hair growth. L-methionine may protect against the toxic effects of hepatotoxins, such as acetaminophen. Methionine may have antioxidant activity.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:65e2044f82b9ae4941324c76d80ebb62",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:65e2044f82b9ae4941324c76d80ebb62",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.029999999329447746277",
     "drugUnit" : "Methionine powder"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:d26832a77cc407cb68dffd3bd3d56b17",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:d26832a77cc407cb68dffd3bd3d56b17",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.25999999046325683594",
     "drugUnit" : "Dl-methionine powder"
@@ -19,12 +19,12 @@
   "description" : "A sulfur containing essential amino acid that is important in many body functions. It is a chelating agent for heavy metals. [PubChem]",
   "drugClass" : [ "Supplements", "Dietary Supplements", "Amino Acids, Essential", "Micronutrients" ],
   "foodWarning" : "Take with food.",
-  "schema:identifier" : "drugbank:DB00134",
+  "identifier" : "drugbank:DB00134",
   "legalStatus" : [ "Approved", "Nutraceutical" ],
   "mechanismOfAction" : "The mechanism of the possible anti-hepatotoxic activity of L-methionine is not entirely clear. It is thought that metabolism of high doses of acetaminophen in the liver lead to decreased levels of hepatic glutathione and increased oxidative stress. L-methionine is a precursor to L-cysteine. L-cysteine itself may have antioxidant activity. L-cysteine is also a precursor to the antioxidant glutathione. Antioxidant activity of L-methionine and metabolites of L-methionine appear to account for its possible anti-hepatotoxic activity. Recent research suggests that methionine itself has free-radical scavenging activity by virtue of its sulfur, as well as its chelating ability.",
   "name" : "L-Methionine",
   "nonProprietaryName" : [ "L-?-amino-?-methylmercaptobutyric acid", "(S)-2-amino-4-(methylthio)butanoic acid", "L-a-Amino-g-methylthiobutyric acid", "L-Methionine", "(S)-2-amino-4-(methylthio)butyric acid", "(S)-methionine", "L-(-)-Methionine", "(2S)-2-amino-4-(Methylsulfanyl)butanoic acid", "Met", "M", "L-alpha-amino-gamma-Methylmercaptobutyric acid", "L-Methionin", "Methionine" ],
   "proprietaryName" : "Acimethin",
   "sameAs" : [ "http://www.drugbank.ca/drugs/DB00134", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lme_0173.shtml" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00134"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00134.html"
 }

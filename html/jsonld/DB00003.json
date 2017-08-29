@@ -1,59 +1,59 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00003",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00003",
+  "@type" : "Drug",
   "administrationRoute" : "respiratory (inhalation)",
   "availableStrength" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:078593769bf2ff371ea6f374127135c3",
-    "type" : "DrugStrength",
+    "@id" : "http://bio2rdf.org/drugbank_resource:078593769bf2ff371ea6f374127135c3",
+    "@type" : "DrugStrength",
     "description" : "1 mg/mL Solution form with respiratory (inhalation) route"
   },
   "clinicalPharmacology" : "Cystic fibrosis (CF) is a disease characterized by the retention of viscous purulent secretions in the airways. These thick secretions contribute both to reduced pulmonary function and to frequent pulmonary infection. Purulent pulmonary secretions of individuals with cystic fibrosis contain very high concentrations of extracellular DNA released by degenerating leukocytes that accumulate in response to these infections. Dornase alfa hydrolyzes the DNA in sputum of CF patients and reduces sputum viscosity and viscoelasticity. The enzyme does not appear to affect sputum in the absence of an inflammatory response to infection, nor does it affect the sputum of healthy individuals.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:72169dea2c563a7c1f1af15e746d8d05",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:72169dea2c563a7c1f1af15e746d8d05",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.60000002384185791016",
     "drugUnit" : "Lufyllin-GG 100-100 mg/15ml Elixir"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:f8dfce9ef1103841e052b071e25299e4",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:f8dfce9ef1103841e052b071e25299e4",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : [ "3.2100000381469726562", "3.1500000953674316406" ],
     "drugUnit" : "Lufyllin 200 mg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:584b2ae378c76b279a67f74060e022d7",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:584b2ae378c76b279a67f74060e022d7",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "37.049999237060546875",
     "drugUnit" : "Pulmozyme 1 mg/ml ampul"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:6c5626f3f27b69b8c17eb8ffa73b91b0",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:6c5626f3f27b69b8c17eb8ffa73b91b0",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "3.8399999141693115234",
     "drugUnit" : "Lufyllin-gg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:062c64e7cdc2435ce743297119614312",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:062c64e7cdc2435ce743297119614312",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "77.05999755859375",
     "drugUnit" : "Pulmozyme 1 mg/ml Solution 2.5ml Plastic Container"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:6f4666fd1a1decdcd942d35ca37e9e07",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:6f4666fd1a1decdcd942d35ca37e9e07",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "4.8099999427795410156",
     "drugUnit" : "Lufyllin 400 mg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:3b316e3524ae739666b2c595ece5d0f8",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:3b316e3524ae739666b2c595ece5d0f8",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "3.9900000095367431641",
     "drugUnit" : "Lufyllin-GG 200-200 mg tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:66adb0ccfffc446f8df342b7ced0cd3f",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:66adb0ccfffc446f8df342b7ced0cd3f",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "4.6199998855590820312",
     "drugUnit" : "Lufyllin-400 tablet"
@@ -61,11 +61,11 @@
   "description" : "Dornase alfa is a biosynthetic form of human deoxyribunuclease I (DNase I) enzyme. It is produced in genetically modified Chinese hamster ovary (CHO) cells using recombinant DNA technology. The 260-amino acid sequence of dornase alfa is identical to the endogenous human enzyme. Dornase alfa cleaves extracellular DNA to 5´-phosphodinucleotide and 5´-phosphooligonucleotide end products without affecting intracellular DNA. In individuals with cystic fibrosis, extracellular DNA, which is an extremely viscous anion, is released by degenerating leukocytes that accumulate during inflammatory responses to infections. Enzymatic breakdown of this extracellular DNA appears to reduce sputum viscosity and viscoelasticity.",
   "dosageForm" : "Solution",
   "drugClass" : "Enzymes",
-  "schema:identifier" : "drugbank:DB00003",
+  "identifier" : "drugbank:DB00003",
   "legalStatus" : "Approved",
   "manufacturer" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:5de8c1a0804404c48d043d5e1f7dedf3",
-    "type" : "Organization",
+    "@id" : "http://bio2rdf.org/drugbank_resource:5de8c1a0804404c48d043d5e1f7dedf3",
+    "@type" : "Organization",
     "name" : "Genentech, Inc"
   },
   "mechanismOfAction" : "Dornase alfa is a biosynthetic form of human DNase I. The enzyme is involved in endonucleolytic cleavage of extracellular DNA to 5´-phosphodinucleotide and 5´-phosphooligonucleotide end products. It has no effect on intracellular DNA. Optimal activity is dependent on the presence of divalent cations such as calcium and magnesium. Extracellular DNA is a viscous anionic polymer and its breakdown appears to improve the viscosity and viscoelasticity of purulent sputum of individuals with CF, thus reducing airflow obstruction. Dornase alfa does not seem to have any effect on non-purulent sputum.",
@@ -73,5 +73,5 @@
   "nonProprietaryName" : [ "Deoxyribonuclease I", "DNase I", "Deoxyribonuclease-1 precursor", "DNase", "rhDNase" ],
   "proprietaryName" : "Viscozyme",
   "sameAs" : [ "http://www.drugbank.ca/drugs/DB00003", "http://www.rxlist.com/cgi/generic/pulmozyme.htm", "http://www.drugs.com/cdi/dornase-alfa.html" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00003"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00003.html"
 }

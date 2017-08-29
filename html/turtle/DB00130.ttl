@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Glutamine" ;
 	<http://schema.org/description> "A non-essential amino acid present abundantly throughout the body and is involved in many metabolic processes. It is synthesized from glutamic acid and ammonia. It is the principal carrier of nitrogen in the body and is an important energy source for many cells. [PubChem]" ;
 	<http://schema.org/drugClass> "Micronutrients" , "Supplements" , "Non-Essential Amino Acids" , "Dietary Supplements" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00130" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00130.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:157f4e44b6e61125207b1a83e229ab87> ;
 	<http://schema.org/clinicalPharmacology> "Like other amino acids, glutamine is biochemically important as a constituent of proteins. Glutamine is also crucial in nitrogen metabolism. Ammonia (formed by nitrogen fixation) is assimilated into organic compounds by converting glutamic acid to glutamine. The enzyme which accomplishes this is called glutamine synthetase. Glutamine can then be used as a nitrogen donor in the biosynthesis of many compounds, including other amino acids, purines, and pyrimidines." ;

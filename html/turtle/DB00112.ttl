@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Bevacizumab" ;
 	<http://schema.org/description> "A recombinant humanized monoclonal IgG1 antibody that binds to and inhibits the biologic activity of human vascular endothelial growth factor (VEGF). Bevacizumab contains human framework regions and the complementarity-determining regions of a murine antibody that binds to VEGF. Bevacizumab is produced in a Chinese Hamster Ovary mammalian cell expression system in a nutrient medium containing the antibiotic gentamicin and has a molecular weight of approximately 149 kilodaltons." ;
 	<http://schema.org/drugClass> "Angiogenesis Inhibitors" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00112" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00112.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:285048a510ce36e96744886cc83cc631> , <http://bio2rdf.org/drugbank_resource:2ddeeca2fe9449969ab1519d768237c6> , <http://bio2rdf.org/drugbank_resource:fdb0a3b06aac9bbd85eeda7b1daf8545> ;
 	<http://schema.org/clinicalPharmacology> "Bevacizumab is an antineoplastic agent and prevents or reduces the formation of blood vessels (angiogenesis) thereby preventing or reducing metatstatic disease progressing. Bevacizumab binds VEGF and prevents vascular endothelial growth and endothelial cell proliferation." ;

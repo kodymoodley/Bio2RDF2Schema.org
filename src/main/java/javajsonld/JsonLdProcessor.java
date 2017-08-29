@@ -304,22 +304,30 @@ public class JsonLdProcessor {
             frame = JsonLdUtils.clone(frame);
         }
         // TODO string/IO input
-        final Object expandedInput = expand(input, opts);             
+        final Object expandedInput = expand(input, opts);   
+        //System.out.println("expandedInput: " + expandedInput);
         final List<Object> expandedFrame = expand(frame, opts);
+        //System.out.println("expandedFrame: " + expandedFrame);
 
         final JsonLdApi api = new JsonLdApi(expandedInput, opts);
         List<Object> framed = api.frame(expandedInput, expandedFrame);
+        //System.out.println("framed: " + framed);
         
         final Context activeCtx = api.context.parse(((Map<String, Object>) frame).get(JsonLdConsts.CONTEXT));
+        //System.out.println("activeCtx: " + activeCtx);
         Object compacted = api.compact(activeCtx, null, framed, opts.getCompactArrays());
+        //System.out.println("compacted: " + compacted);
         if (!(compacted instanceof List)) {
             final List<Object> tmp = new ArrayList<Object>();
             tmp.add(compacted);
             compacted = tmp;
         }
         final String alias = activeCtx.compactIri(JsonLdConsts.GRAPH);
+        //System.out.println("alias: " + alias);
         final Map<String, Object> rval = activeCtx.serialize();
+        //System.out.println("rval1: " + rval);
         rval.put(alias, compacted);     
+        //System.out.println("rval2: " + rval);
         //JsonLdUtils.removePreserve(activeCtx, rval, opts);
         return rval;
     }

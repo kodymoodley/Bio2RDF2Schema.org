@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Botulinum Toxin Type B" ;
 	<http://schema.org/description> "Neurotoxin produced by fermentation of clostridium botulinum type B. The protein exists in noncovalent association with hemagglutinin and nonhemagglutinin proteins as a neurotoxin complex. The neurotoxin complex is recovered from the fermentation process and purified through a series of precipitation and chromatography steps." ;
 	<http://schema.org/drugClass> "Antidystonic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00042" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00042.html" ;
 	<http://schema.org/administrationRoute> "intramuscular" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:e2d6aae776a03a3ab78927e4ad2251be> , <http://bio2rdf.org/drugbank_resource:357a661836295a5b943fe26bbf0a0316> , <http://bio2rdf.org/drugbank_resource:9186ee85d3045335e833cd1faab2131d> ;
 	<http://schema.org/clinicalPharmacology> "Botulinum Toxin Type B inhibits acetylcholine release at the neuromuscular junction via a three stage process: 1) Heavy Chain mediated neurospecific binding of the toxin, 2) internalization of the toxin by receptor-mediated endocytosis, and 3) ATP and pH dependent translocation of the Light Chain to the neuronal cytosol where it acts as a zinc-dependent endoprotease cleaving polypeptides essential for neurotransmitter release." ;

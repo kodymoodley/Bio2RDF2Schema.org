@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Histidine" ;
 	<http://schema.org/description> "An essential amino acid that is required for the production of histamine. [PubChem]" ;
 	<http://schema.org/drugClass> "Conditionally Essential Amino Acids" , "Supplements" , "Micronutrients" , "Dietary Supplements" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00117" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00117.html" ;
 	<http://schema.org/clinicalPharmacology> "Is found abundantly in hemoglobin; has been used in the treatment of rheumatoid arthritis, allergic diseases, ulcers and anemia. A deficiency can cause poor hearing." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:e29c37844edd421ef8a95d8d089ab436> ;
 	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;

@@ -5,7 +5,7 @@
 <http://bio2rdf.org/drugbank:DB00225> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Gadodiamide" ;
 	<http://schema.org/description> "Gadodiamide is a gadolinium based contrast agent used in MR imaging procedures to assist in the visualization of blood vessels. It is commonly marketed under the trade name Omniscan. [Wikipedia]" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00225" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00225.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:428e2f7e5ac1b46d45155837b50391f4> ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:610de131129c75068db15c0bd9ff1d94> , <http://bio2rdf.org/drugbank_resource:70adbd2fd5769dc044fb2243eb330ed1> , <http://bio2rdf.org/drugbank_resource:c5e1b4b50b4a56abddbad98276354d2e> ;

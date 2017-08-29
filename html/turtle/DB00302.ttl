@@ -1,0 +1,52 @@
+
+<http://bio2rdf.org/drugbank_resource:b3c50fa14d63741838efb05e090cacf6> a <http://schema.org/Organization> ;
+	<http://schema.org/name> "Pharmacia and upjohn co" .
+
+<http://bio2rdf.org/drugbank:DB00302> a <http://schema.org/Drug> ;
+	<http://schema.org/name> "Tranexamic Acid" ;
+	<http://schema.org/description> "Antifibrinolytic hemostatic used in severe hemorrhage. [PubChem]" ;
+	<http://schema.org/drugClass> "Antifibrinolytic Agents" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00302.html" ;
+	<http://schema.org/administrationRoute> "intravenous" , "oral" ;
+	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:9e72d48c8e4826b9a0c5294717f681c1> , <http://bio2rdf.org/drugbank_resource:37fdac2978e76445b66be5ea9410cc7d> , <http://bio2rdf.org/drugbank_resource:f6c390c24b874be946ce87e22413f542> , <http://bio2rdf.org/drugbank_resource:26776e0bd49c3f7ed9267edee1da102c> , <http://bio2rdf.org/drugbank_resource:53b2dacaf06dced4813c92408b14b032> ;
+	<http://schema.org/clinicalPharmacology> "Tranexamic acid is an antifibrinolytic that competitively inhibits the activation of plasminogen to plasmin. Tranexamic acid is a competitive inhibitor of plasminogen activation, and at much higher concentrations, a noncompetitive inhibitor of plasmin, i.e., actions similar to aminocaproic acid. Tranexamic acid is about 10 times more potent in vitro than aminocaproic acid. Tranexamic acid binds more strongly than aminocaproic acid to both the strong and weak receptor sites of the plasminogen molecule in a ratio corresponding to the difference in potency between the compounds. Tranexamic acid in a concentration of 1 mg per mL does not aggregate platelets in vitro. In patients with hereditary angioedema, inhibition of the formation and activity of plasmin by tranexamic acid may prevent attacks of angioedema by decreasing plasmin-induced activation of the first complement protein (C1)." ;
+	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:bc49a2dc520acf68b09d601f897c1b10> , <http://bio2rdf.org/drugbank_resource:d97c0ed22e22af63bad40106eed3868c> , <http://bio2rdf.org/drugbank_resource:6c91129640daa72bafc115ab014c588c> ;
+	<http://schema.org/dosageForm> "Injection, solution" , "Tablet" , "Tablet, film coated" ;
+	<http://schema.org/interactingDrug> <http://bio2rdf.org/drugbank_resource:DB00302_DB01395> , <http://bio2rdf.org/drugbank_resource:DB00302_DB06713> , <http://bio2rdf.org/drugbank_resource:DB00302_DB00977> , <http://bio2rdf.org/drugbank_resource:DB00302_DB01357> , <http://bio2rdf.org/drugbank_resource:DB00294_DB00302> , <http://bio2rdf.org/drugbank_resource:DB00302_DB00823> , <http://bio2rdf.org/drugbank_resource:DB00302_DB00957> , <http://bio2rdf.org/drugbank_resource:DB00302_DB00717> , <http://bio2rdf.org/drugbank_resource:DB00302_DB00755> , <http://bio2rdf.org/drugbank_resource:DB00302_DB00367> , <http://bio2rdf.org/drugbank_resource:DB00302_DB00603> , <http://bio2rdf.org/drugbank_resource:DB00302_DB00304> ;
+	<http://schema.org/legalStatus> "Approved" ;
+	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:b3c50fa14d63741838efb05e090cacf6> ;
+	<http://schema.org/mechanismOfAction> "Tranexamic acid competitively inhibits activation of plasminogen (via binding to the kringle domain), thereby reducing conversion of plasminogen to plasmin (fibrinolysin), an enzyme that degrades fibrin clots, fibrinogen, and other plasma proteins, including the procoagulant factors V and VIII. Tranexamic acid also directly inhibits plasmin activity, but higher doses are required than are needed to reduce plasmin formation." ;
+	<http://schema.org/nonProprietaryName> "Acidum tranexamicum" , "trans-4-(Aminomethyl)cyclohexanecarboxylic acid" , "trans-4-aminomethylcyclohexane-1-carboxylic acid" , "trans-Tranexamic acid" , "Tranexamsaeure" , "trans-Amcha" , "Cyklokapron" , "Acide tranexamique" , "Acido tranexamico" , "Tranhexamic acid" , "Tranexmic acid" , "Trans AMCHA" ;
+	<http://schema.org/proprietaryName> "Cyclo-F" ;
+	<http://schema.org/identifier> "drugbank:DB00302" ;
+	<http://schema.org/sameAs> <http://www.drugbank.ca/drugs/DB00302> , <http://www.drugs.com/cdi/tranexamic-acid.html> , <http://www.rxlist.com/cgi/generic3/cyclapron.htm> .
+
+<http://bio2rdf.org/drugbank_resource:26776e0bd49c3f7ed9267edee1da102c> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "1 g/10mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:37fdac2978e76445b66be5ea9410cc7d> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "650 1 Tablet form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:53b2dacaf06dced4813c92408b14b032> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "650 mg Tablet, film coated form with oral route" .
+
+<http://bio2rdf.org/drugbank_resource:6c91129640daa72bafc115ab014c588c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.9700000286102294922" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Tranexamic acid powder" .
+
+<http://bio2rdf.org/drugbank_resource:9e72d48c8e4826b9a0c5294717f681c1> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "100 mg/mL Injection, solution form with intravenous route" .
+
+<http://bio2rdf.org/drugbank_resource:bc49a2dc520acf68b09d601f897c1b10> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "8.8000001907348632812" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyklokapron 100 mg/ml ampul" .
+
+<http://bio2rdf.org/drugbank_resource:d97c0ed22e22af63bad40106eed3868c> a <http://schema.org/DrugCost> ;
+	<http://schema.org/costPerUnit> "1.2999999523162841797" ;
+	<http://schema.org/costCurrency> "USD" ;
+	<http://schema.org/drugUnit> "Cyklokapron 500 mg Tablet" .
+
+<http://bio2rdf.org/drugbank_resource:f6c390c24b874be946ce87e22413f542> a <http://schema.org/DrugStrength> ;
+	<http://schema.org/description> "650 mg Tablet form with oral route" .

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "S-Adenosylmethionine" ;
 	<http://schema.org/description> "Physiologic methyl radical donor involved in enzymatic transmethylation reactions and present in all living organisms. It possesses anti-inflammatory activity and has been used in treatment of chronic liver disease. (From Merck, 11th ed)" ;
 	<http://schema.org/drugClass> "Dietary Supplements" , "Supplements" , "Micronutrients" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00118" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00118.html" ;
 	<http://schema.org/clinicalPharmacology> "S-adenosylmethionine is an intermediate metabolite of methionine. Its involvement in methylation assists in cellular growth and repair, maintains the phospho-bilipid layer in cell membranes. It also helps in the maintenance of the action of several hormones and neurotransmitters that affect mood. Highest concentration are found in the brain and the liver." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:c28535ece8e815c57c23c1eb571ec4b7> , <http://bio2rdf.org/drugbank_resource:a366f80f270626e41146a36d68702541> , <http://bio2rdf.org/drugbank_resource:ebac0fca7e2b8c4bb6129d4cae89ecff> ;
 	<http://schema.org/legalStatus> "Nutraceutical" , "Approved" ;

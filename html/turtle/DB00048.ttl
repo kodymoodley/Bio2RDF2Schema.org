@@ -2,7 +2,7 @@
 <http://bio2rdf.org/drugbank:DB00048> a <http://schema.org/Drug> ;
 	<http://schema.org/name> "Collagenase" ;
 	<http://schema.org/description> "The enzyme collagenase is derived from fermentation of Clostridium histolyticum" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00048" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00048.html" ;
 	<http://schema.org/clinicalPharmacology> "Used in the treatment of skin ulcers and sever burns, collagenase is able to digest collagen in necrotic tissue at physiological pH by hydrolyzing the peptide bonds of undenatured and denatured collagen. Collagenase thus contributes towards the formation of granulation tissue and subsequent epithelization of dermal ulcers and severely burned areas. The action of collagenase may remove substrates necessary for bacterial proliferation or may permit antibodies, leukocytes, and antibiotics better access to the infected area." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:f0a1651d9d0160fc6c744b4febcfb459> , <http://bio2rdf.org/drugbank_resource:ca4522960d059c09dd9c6b74985ed041> , <http://bio2rdf.org/drugbank_resource:e33a86226f8d3e427ea05d3cee52e694> , <http://bio2rdf.org/drugbank_resource:86e1dc0499b0e662f0dca6c795e909e1> ;
 	<http://schema.org/legalStatus> "Approved" , "Investigational" ;

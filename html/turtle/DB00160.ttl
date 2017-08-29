@@ -3,7 +3,7 @@
 	<http://schema.org/name> "L-Alanine" ;
 	<http://schema.org/description> "A non-essential amino acid that occurs in high levels in its free state in plasma. It is produced from pyruvate by transamination. It is involved in sugar and acid metabolism, increases immunity, and provides energy for muscle tissue, brain, and the central nervous system. [PubChem]" ;
 	<http://schema.org/drugClass> "Supplements" , "Non-Essential Amino Acids" , "Dietary Supplements" , "Micronutrients" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00160" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00160.html" ;
 	<http://schema.org/clinicalPharmacology> "Is an important source of energy for muscle tissue, the brain and central nervous system; strengthens the immune system by producing antibodies; helps in the metabolism of sugars and organic acids." ;
 	<http://schema.org/cost> <http://bio2rdf.org/drugbank_resource:73e297e4aa0cfd8486a4ecb16e003168> ;
 	<http://schema.org/legalStatus> "Approved" , "Nutraceutical" ;

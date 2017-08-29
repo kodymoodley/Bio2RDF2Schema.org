@@ -6,7 +6,7 @@
 	<http://schema.org/name> "Oseltamivir" ;
 	<http://schema.org/description> "An acetamido cyclohexene that is a structural homolog of sialic acid and inhibits neuraminidase. [PubChem]" ;
 	<http://schema.org/drugClass> "Enzyme Inhibitors" , "Antiviral Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00198" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00198.html" ;
 	<http://schema.org/administrationRoute> "oral" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:6385ba5810d6dc1c8162d40bf66461b1> , <http://bio2rdf.org/drugbank_resource:2c25b3396758a4e693a444ae8e2f2818> , <http://bio2rdf.org/drugbank_resource:8bbc848cd3407aaa814b95f1bf26246f> , <http://bio2rdf.org/drugbank_resource:b22485821d38036ed1413cb8f5b92697> , <http://bio2rdf.org/drugbank_resource:6904a017d1540b138d3bd8a21ee614ae> , <http://bio2rdf.org/drugbank_resource:e5d35df9740379d8467cb4c97a2c42ef> ;
 	<http://schema.org/clinicalPharmacology> "Oseltamivir is an antiviral drug, a neuraminidase inhibitor used in the treatment and prophylaxis of both influenza A and influenza B. Oseltamivir is a prodrug (usually administered as phosphate), it is hydrolysed hepatically to the active metabolite, the free carboxylate of oseltamivir (GS4071). Like zanamivir, oseltamivir acts as a transition-state analogue inhibitor of influenza neuraminidase." ;

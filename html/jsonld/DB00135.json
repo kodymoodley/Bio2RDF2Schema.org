@@ -1,29 +1,29 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00135",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00135",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Tyrosine is a nonessential amino acid synthesized in the body from phenylalanine. Tyrosine is critical for the production of the body's proteins, enzymes and muscle tissue. Tyrosine is a precursor to the neurotransmitters norepinephrine and dopamine. It can act as a mood elevator and an anti-depressant. It may improve memory and increase mental alertness. Tyrosine aids in the production of melanin and plays a critical role in the production of thyroxin (thyroid hormones). Tyrosine deficiencies are manifested by hypothyroidism, low blood pressure and low body temperature. Supplemental tyrosine has been used to reduce stress and combat narcolepsy and chronic fatigue.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:b7832f85e36d0ac604f27c59eb1b08ca",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:b7832f85e36d0ac604f27c59eb1b08ca",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1.1599999666213989258",
     "drugUnit" : "Tyrosine powder"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:08ee40761e23e0435c476ffa2540d57a",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:08ee40761e23e0435c476ffa2540d57a",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.93999999761581420898",
     "drugUnit" : "L-tyrosine powder"
   } ],
   "description" : "A non-essential amino acid. In animals it is synthesized from phenylalanine. It is also the precursor of epinephrine; thyroid hormones; and melanin. [PubChem]",
   "drugClass" : [ "Dietary Supplements", "Micronutrients", "Non-Essential Amino Acids", "Supplements" ],
-  "schema:identifier" : "drugbank:DB00135",
+  "identifier" : "drugbank:DB00135",
   "legalStatus" : [ "Approved", "Nutraceutical" ],
   "mechanismOfAction" : "Tyrosine is produced in cells by hydroxylating the essential amino acid phenylalanine. This relationship is much like that between cysteine and methionine. Half of the phenylalanine required goes into the production of tyrosine; if the diet is rich in tyrosine itself, the requirements for phenylalanine are reduced by about 50%. The mechanism of L-tyrosine's antidepressant activity can be accounted for by the precursor role of L-tyrosine in the synthesis of the neurotransmitters norepinephrine and dopamine. Elevated brain norepinephrine and dopamine levels are thought to be associated with antidepressant effects.",
   "name" : "L-Tyrosine",
   "nonProprietaryName" : [ "(S)-alpha-amino-4-Hydroxybenzenepropanoic acid", "L-Tyrosine", "(S)-Tyrosine", "4-hydroxy-L-phenylalanine", "TYROSINE", "(S)-?-amino-4-hydroxybenzenepropanoic acid", "Tyr", "(S)-2-Amino-3-(p-hydroxyphenyl)propionic acid", "(-)-alpha-amino-P-Hydroxyhydrocinnamic acid", "(S)-(-)-Tyrosine", "(S)-3-(p-Hydroxyphenyl)alanine", "(?)-?-amino-p-hydroxyhydrocinnamic acid", "L-Tyrosin", "Y", "(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid" ],
   "proprietaryName" : "Rxosine",
   "sameAs" : [ "http://www.drugbank.ca/drugs/DB00135", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/lty_0256.shtml" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00135"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00135.html"
 }

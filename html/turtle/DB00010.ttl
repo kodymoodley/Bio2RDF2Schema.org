@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Sermorelin" ;
 	<http://schema.org/description> "Sermorelin acetate is the acetate salt of an amidated synthetic 29-amino acid peptide (GRF 1-29 NH 2 ) that corresponds to the amino-terminal segment of the naturally occurring human growth hormone-releasing hormone (GHRH or GRF) consisting of 44 amino acid residues" ;
 	<http://schema.org/drugClass> "Hormone Replacement Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00010" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00010.html" ;
 	<http://schema.org/clinicalPharmacology> "Sermorelin is used in the treatment of children with growth hormone deficiency or growth failure. Geref increases plasma growth hormone (GH) concentration by stimulating the pituitary gland to release GH. Geref is similar to the full-length native hormone (44 residues) in its ability to stimulate GH secretion in humans." ;
 	<http://schema.org/legalStatus> "Approved" , "Withdrawn" ;
 	<http://schema.org/manufacturer> <http://bio2rdf.org/drugbank_resource:f3087679bd8c5d851ab3cf77469b58b9> ;

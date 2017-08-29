@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Trastuzumab" ;
 	<http://schema.org/description> "A recombinant IgG1 kappa, humanized monoclonal antibody that selectively binds with high affinity in a cell-based assay (Kd = 5 nM) to the extracellular domain of the human epidermal growth factor receptor protein. Produced in CHO cell culture.*" ;
 	<http://schema.org/drugClass> "Antineoplastic Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00072" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00072.html" ;
 	<http://schema.org/administrationRoute> "intravenous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:4c1c86080f3c08775a1f8f4cef6e66e3> ;
 	<http://schema.org/clinicalPharmacology> "Used in the treatment of HER2-positive breast cancer. HER2 protein overexpression is observed in 25%-30% of primary breast cancers.Trastuzumab has been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumorcells that overexpress HER2. It is a mediator of antibody dependent cellular cytotoxicity, in that the binding of the antibody to HER2 overexpressing cells leads to preferential cell death." ;

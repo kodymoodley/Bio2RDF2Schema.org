@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Menotropins" ;
 	<http://schema.org/description> "Menotropins contains follicle stimulating hormone (FSH) and luteinizing hormone (LH) purified from the urine of postmenopausal women.  It is used as a fertility medication that is injected either subcutaneously or intramuscularly. It is composed of LH with 2 subunits, alpha = 92 residues, beta = 121 residues and FSH with 2 subunits, alpha = 92 residues, beta=111 residues." ;
 	<http://schema.org/drugClass> "Fertility Agents" , "Fertility Agents, Female" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00032" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00032.html" ;
 	<http://schema.org/administrationRoute> "intramuscular" , "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:e29f68cbe2470f0d06d877d8d6350afd> , <http://bio2rdf.org/drugbank_resource:0f22c200f1b0c2d7eba71208ac38fb8c> ;
 	<http://schema.org/clinicalPharmacology> "Used to treat female infertility, Menotropins stimulates late follicular maturation and resumption of oocyte meiosis, and initiates rupture of the pre-ovulatory ovarian follicle. Menotropins bind to the LH/hCG/FSH receptor of the granulosa and theca cells of the ovary to effect these changes in the absence of an endogenous LH surge." ;

@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Cefotiam" ;
 	<http://schema.org/description> "One of the cephalosporins that has a broad spectrum of activity against both gram-positive and gram-negative microorganisms. [PubChem]" ;
 	<http://schema.org/drugClass> "Anti-Bacterial Agents" , "Cephalosporins" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00229" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00229.html" ;
 	<http://schema.org/clinicalPharmacology> "Cefotiam is a third generation beta-lactam cephalosporin antibiotic. It has broad spectrum activity against Gram positive and Gram negative bacteria. It does not have activity against <i>Pseudomonas aeruginosa</i>. Cefotiam works by inhibiting bacterial cell wall biosynthesis." ;
 	<http://schema.org/interactingDrug> "DDI between Cefotiam and Probenecid - Probenecid may increase the serum concentration of Cephalosporins." , "DDI between Cefotiam and Acenocoumarol - May enhance the anticoagulant effect of Vitamin K Antagonists." ;
 	<http://schema.org/legalStatus> "Approved" ;

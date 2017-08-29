@@ -1,78 +1,78 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00169",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00169",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Cholecalciferol (vitamin D3) is a steroid hormone that has long been known for its important role in regulating body levels of calcium and phosphorus, in mineralization of bone, and for the assimilation of Vitamin A. The classical manifestations of vitamin D deficiency is rickets, which is seen in children and results in bony deformaties including bowed long bones. Deficiency in adults leads to the disease osteomalacia. Both rickets and osteomalacia reflect impaired mineralization of newly synthesized bone matrix, and usually result from a combination of inadequate exposure to sunlight and decreased dietary intake of vitamin D. Common causes of vitamin D deficiency include genetic defects in the vitamin D receptor, severe liver or kidney disease, and insufficient exposure to sunlight. Vitamin D plays an important role in maintaining calcium balance and in the regulation of parathyroid hormone (PTH). It promotes renal reabsorption of calcium, increases intestinal absorption of calcium and phosphorus, and increases calcium and phosphorus mobilization from bone to plasma.",
   "cost" : [ {
-    "id" : "http://bio2rdf.org/drugbank_resource:8a0587c1e20cc5e9b47201b4a29756d7",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:8a0587c1e20cc5e9b47201b4a29756d7",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.10999999940395355225",
     "drugUnit" : "Vitamin d3 3000 unit tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:244b4b8b363d25a8198f8879b5beb1b6",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:244b4b8b363d25a8198f8879b5beb1b6",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "104.3000030517578125",
     "drugUnit" : "Cholecalciferol crystals"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:80c558adaeb9f6f3df05dfdd5863545b",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:80c558adaeb9f6f3df05dfdd5863545b",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.039999999105930328369",
     "drugUnit" : "CVS Pharmacy vitamin d 1000 unit tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:81a87d691472e987568f3b2189972944",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:81a87d691472e987568f3b2189972944",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.070000000298023223877",
     "drugUnit" : "Vitamin d-3 2000 unit tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:705b14fe5969345c844c1b4f4cd66c89",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:705b14fe5969345c844c1b4f4cd66c89",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.019999999552965164185",
     "drugUnit" : "Pv vitamin d 5000 unit tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:dd768978a7a8165f215d50df277f04ce",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:dd768978a7a8165f215d50df277f04ce",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.43999999761581420898",
     "drugUnit" : "Vitamin d3 2000 unit spray"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:d1437befc41d276d65407a2e1c7aa932",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:d1437befc41d276d65407a2e1c7aa932",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.019999999552965164185",
     "drugUnit" : "Vitamin d 400 unit tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:4ace60423c0b83d91bab60609234653f",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:4ace60423c0b83d91bab60609234653f",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.039999999105930328369",
     "drugUnit" : "Delta d3 400 unit tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:4cc58cc6cae10c13b5972434ebf1651f",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:4cc58cc6cae10c13b5972434ebf1651f",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.029999999329447746277",
     "drugUnit" : "Vitamin d 1000 unit tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:ccaa5fd43a9e13c61ff203ff3ac75911",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:ccaa5fd43a9e13c61ff203ff3ac75911",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.019999999552965164185",
     "drugUnit" : "Pv vitamin d 2000 unit tablet"
   }, {
-    "id" : "http://bio2rdf.org/drugbank_resource:4689a3f3dfcaca2955ff745c30f88d1e",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:4689a3f3dfcaca2955ff745c30f88d1e",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "0.80000001192092895508",
     "drugUnit" : "Vitamin d3 2400 unit/ml liquid"
   } ],
   "description" : "Derivative of 7-dehydroxycholesterol formed by ultraviolet rays breaking of the C9-C10 bond. It differs from ergocalciferol in having a single bond between C22 and C23 and lacking a methyl group at C24. [PubChem]",
   "drugClass" : [ "Antithyroid Agents", "Vitamin D", "Vitamins", "Bone Density Conservation Agents", "Antihypocalcemic Agents" ],
-  "schema:identifier" : "drugbank:DB00169",
+  "identifier" : "drugbank:DB00169",
   "interactingDrug" : [ "DDI between Cholecalciferol and Aluminum hydroxide - Vitamin D Analogs may increase the serum concentration of Aluminum Hydroxide. Specifically, the absorption of aluminum may be increased, leading to increased serum aluminum concentrations.", "DDI between Cholecalciferol and Colesevelam - May decrease the serum concentration of Vitamin D Analogs. More specifically, bile acid sequestrants may impair absorption of Vitamin D Analogs.", "DDI between Cholecalciferol and Theophylline - May increase the serum concentration of Theophylline Derivatives.", "DDI between Cholecalciferol and Orlistat - May decrease the serum concentration of Vitamin D Analogs. More specifically, orlistat may impair absorption of Vitamin D Analogs.", "DDI between Cholecalciferol and Sucralfate - Vitamin D Analogs may increase the serum concentration of Sucralfate. Specifically, the absorption of aluminum from sucralfate may be increased, leading to an increase in the serum aluminum concentration.", "DDI between Cholecalciferol and Digoxin - May increase the serum concentration of Cardiac Glycosides.", "DDI between Cholecalciferol and Aminophylline - May increase the serum concentration of Theophylline Derivatives.", "DDI between Cholecalciferol and Acenocoumarol - May diminish the anticoagulant effect of Vitamin K Antagonists.", "DDI between Cholecalciferol and Aripiprazole - CYP2D6 Inhibitors (Weak) may increase the serum concentration of ARIPiprazole.", "DDI between Cholecalciferol and Danazol - May enhance the hypercalcemic effect of Vitamin D Analogs." ],
   "legalStatus" : [ "Nutraceutical", "Approved" ],
   "mechanismOfAction" : "The first step involved in the activation of vitamin D3 is a 25-hydroxylation which is catalysed by the 25-hydroxylase in the liver and then by other enzymes. The mitochondrial sterol 27-hydroxylase catalyses the first reaction in the oxidation of the side chain of sterol intermediates. The active form of vitamin D3 (calcitriol) binds to intracellular receptors that then function as transcription factors to modulate gene expression. Like the receptors for other steroid hormones and thyroid hormones, the vitamin D receptor has hormone-binding and DNA-binding domains. The vitamin D receptor forms a complex with another intracellular receptor, the retinoid-X receptor, and that heterodimer is what binds to DNA. In most cases studied, the effect is to activate transcription, but situations are also known in which vitamin D suppresses transcription. Calcitriol increases the serum calcium concentrations by: increasing GI absorption of phosphorus and calcium, increasing osteoclastic resorption, and increasing distal renal tubular reabsorption of calcium. Calcitriol appears to promote intestinal absorption of calcium through binding to the vitamin D receptor in the mucosal cytoplasm of the intestine. Subsequently, calcium is absorbed through formation of a calcium-binding protein.",
@@ -80,5 +80,5 @@
   "nonProprietaryName" : [ "(+)-vitamin D3", "CC", "Vitamin D3", "(1S,3Z)-3-[(2e)-2-[(1R,3AR,7as)-7a-methyl-1-[(2R)-6-methylheptan-2-yl]-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylidene-cyclohexan-1-ol", "Activated 7-dehydrocholesterol", "(3beta,5Z,7e)-9,10-Secocholesta-5,7,10(19)-trien-3-ol", "calciol", "(5Z,7e)-(3S)-9,10-Secocholesta-5,7,10(19)-trien-3-ol", "Oleovitamin D3", "Cholecalciferol", "Colecalciferol", "delta-D" ],
   "proprietaryName" : "Micro-D",
   "sameAs" : [ "http://www.drugs.com/mtm/cholecalciferol.html", "http://www.drugbank.ca/drugs/DB00169", "http://www.pdrhealth.com/drug_info/nmdrugprofiles/nutsupdrugs/vit_0265.shtml" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00169"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00169.html"
 }

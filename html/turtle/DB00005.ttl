@@ -3,7 +3,7 @@
 	<http://schema.org/name> "Etanercept" ;
 	<http://schema.org/description> "Dimeric fusion protein consisting of the extracellular ligand-binding portion of the human 75 kilodalton (p75) tumor necrosis factor receptor (TNFR) linked to the Fc portion of human IgG1. The Fc component of etanercept contains the CH2 domain, the CH3 domain and hinge region, but not the CH1 domain of IgG1. Etanercept is produced by recombinant DNA technology in a Chinese hamster ovary (CHO) mammalian cell expression system. It consists of 934 amino acids" ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00005" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00005.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:acfe6c16cc26ac4ef2a485ec701f2aa6> , <http://bio2rdf.org/drugbank_resource:188749c4b5a764d8393cf48bcc1fd45b> , <http://bio2rdf.org/drugbank_resource:54334de7445f7445046f6a374334d1d8> ;
 	<http://schema.org/clinicalPharmacology> "Tumor necrosis factor TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. Elevated levels of TNF are found in tissues and fluids of patients with rheumatoid arthritis, psoriatic arthritis, ankylosing spondylitis (AS), and plaque psoriasis. Etanercept binds specifically to tumor necrosis factor (TNF) and blocks its interaction with cell surface TNF receptors." ;

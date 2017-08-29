@@ -1,18 +1,18 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00098",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00098",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Antithymocyte Globulin (ATG)is a concentrated anti-human T-lymphocyte immunoglobulin preparation derived from rabbits after immunization with a T-lympoblast cell line. ATG is an immunosuppressive product for the prevention and treatment of acute rejection following organ transplantation. ATG reduces the host immune response against tissue transplants or organ allografts.",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:a6cb99a06b30f4f1a9fac0dbdbc29dcd",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:a6cb99a06b30f4f1a9fac0dbdbc29dcd",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "636.47998046875",
     "drugUnit" : "Thymoglobulin 25 mg vial"
   },
   "description" : "Rabbit anti-thymocyte globulin. Thymoglobulin is a polyclonal antibody that suppresses certain types of immune cells responsible for acute organ rejection in transplant patients. Thymoglobulin is a mixture of antibodies intended to bind to various cell surface antigens. The most common mode of action of Thymoglobulin is via selective depletion of T-cells.",
   "drugClass" : [ "Immunosuppressive Agents", "Immunologic Factors" ],
-  "schema:identifier" : "drugbank:DB00098",
+  "identifier" : "drugbank:DB00098",
   "interactingDrug" : [ "DDI between Antithymocyte globulin and Leflunomide - Immunosuppressants may enhance the adverse/toxic effect of Leflunomide. Specifically, the risk for hematologic toxicity such as pancytopenia, agranulocytosis, and/or thrombocytopenia may be increased.", "DDI between Antithymocyte globulin and Tofacitinib - Immunosuppressants may enhance the immunosuppressive effect of Tofacitinib.", "DDI between Antithymocyte globulin and Roflumilast - May enhance the immunosuppressive effect of Immunosuppressants.", "DDI between Antithymocyte globulin and Pimecrolimus - May enhance the adverse/toxic effect of Immunosuppressants.", "DDI between Antithymocyte globulin and Natalizumab - Immunosuppressants may enhance the adverse/toxic effect of Natalizumab. Specifically, the risk of concurrent infection may be increased.", "DDI between Trastuzumab and Antithymocyte globulin - May enhance the neutropenic effect of Immunosuppressants.", "DDI between Antithymocyte globulin and Sipuleucel-T - Immunosuppressants may diminish the therapeutic effect of Sipuleucel-T.", "DDI between Antithymocyte globulin and Denosumab - May enhance the adverse/toxic effect of Immunosuppressants. Specifically, the risk for serious infections may be increased." ],
   "legalStatus" : "Approved",
   "mechanismOfAction" : "Binds to multiple, T-cell specific antigens leading to T-lymphocyte cell death via complement mediated cytotoxicity or apoptosis.",
@@ -20,5 +20,5 @@
   "nonProprietaryName" : [ "rATG", "rabbit ATG", "Thymoglobulin" ],
   "proprietaryName" : "ATG-Fresenius",
   "sameAs" : "http://www.drugbank.ca/drugs/DB00098",
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00098"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00098.html"
 }

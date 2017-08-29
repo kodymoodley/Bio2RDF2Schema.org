@@ -4,7 +4,7 @@
 	<http://schema.org/description> """Human Interferon gamma-1b (140 residues), produced from E. coli. Production of Actimmune is achieved by fermentation of a genetically engineered Escherichia coli bacterium containing the DNA which encodes for the human protein. Purification of the product is achieved by conventional column chromatography. 
 The sequence displayed is a cDNA sequence which codes for human interferon gamma, as described by Gray et. al. and not specifically interferon gamma 1b.""" ;
 	<http://schema.org/drugClass> "Immunosuppressive Agents" ;
-	<http://schema.org/url> "http://bio2rdf.org/drugbank:DB00033" ;
+	<http://schema.org/url> "https://schemaorg.metadatacenter.org/drugbank/DB00033.html" ;
 	<http://schema.org/administrationRoute> "subcutaneous" ;
 	<http://schema.org/availableStrength> <http://bio2rdf.org/drugbank_resource:26e994922f837572b6a9d4355e725f73> ;
 	<http://schema.org/clinicalPharmacology> "IFN gamma stimulates expression of the immunoglobulin heavy chain C gamma 3 and C gamma 2a germline transcripts in B cells. Many components of the antigen presentation pathways are also up-regulated by interferon gamma. It is also a potent activator of macrophages, it has antiproliferative effects on transformed cells and it can potentiate the antiviral and antitumor effects of type I interferons. Interferon gamma may also help the body regulate the activity of fibroblasts. By directly blocking the multiplication of fibroblasts and inhibiting the production and action of TGF-b, a potent scar-inducing molecule, Interferon gamma-1b may prevent excessive scarring." ;

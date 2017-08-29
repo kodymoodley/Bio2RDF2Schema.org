@@ -1,23 +1,23 @@
 {
  "@context" : "http://schema.org",
-  "id" : "http://bio2rdf.org/drugbank:DB00092",
-  "type" : "Drug",
+  "@id" : "http://bio2rdf.org/drugbank:DB00092",
+  "@type" : "Drug",
   "clinicalPharmacology" : "Interferes with lymphocyte activation by specifically binding to the lymphocyte antigen, CD2, and inhibiting LFA-3/CD2 interaction. Activation of T lymphocytes involving the interaction between LFA-3 on antigen-presenting cells and CD2 on T lymphocytes plays a role in the pathophysiology of chronic plaque psoriasis. Also causes a reduction in subsets of CD2+ T lymphocytes as well as CD4+ and CD8+ T lymphocytes.",
   "cost" : {
-    "id" : "http://bio2rdf.org/drugbank_resource:7afa1800e5c1c46512e6ca6d36734f9b",
-    "type" : "DrugCost",
+    "@id" : "http://bio2rdf.org/drugbank_resource:7afa1800e5c1c46512e6ca6d36734f9b",
+    "@type" : "DrugCost",
     "costCurrency" : "USD",
     "costPerUnit" : "1190.4000244140625",
     "drugUnit" : "Amevive 15 mg vial"
   },
   "description" : "Immunosuppressive dimeric fusion protein that consists of the extracellular CD2-binding portion of the human leukocyte function antigen-3 (LFA-3) linked to the Fc (hinge, CH2 and CH3 domains) portion of human IgG1. Produced by CHO cells, mW is 91.4 kD.",
   "drugClass" : [ "Dermatologic Agents", "Immunosuppressive Agents" ],
-  "schema:identifier" : "drugbank:DB00092",
+  "identifier" : "drugbank:DB00092",
   "legalStatus" : [ "Withdrawn", "Approved" ],
   "mechanismOfAction" : "Inhibits T-lymphocyte activation and production by binding to the CD2 lymphocyte antigen.",
   "name" : "Alefacept",
   "nonProprietaryName" : "ASP0485",
   "proprietaryName" : "Amevive",
   "sameAs" : [ "http://www.rxlist.com/cgi/generic3/amevive.htm", "http://www.drugbank.ca/drugs/DB00092", "http://www.drugs.com/cdi/alefacept.html" ],
-  "schema:url" : "http://bio2rdf.org/drugbank:DB00092"
+  "url" : "https://schemaorg.metadatacenter.org/drugbank/DB00092.html"
 }
